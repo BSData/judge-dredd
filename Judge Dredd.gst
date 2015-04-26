@@ -364,11 +364,13 @@
       <characteristics>
         <characteristic id="c472-a0d5-0d4c-ec0d" name="LV"/>
         <characteristic id="f7f5-dbe1-264f-b9f4" name="XP"/>
-        <characteristic id="1d1e-df50-9fca-4fc1" name="Agility (+)"/>
-        <characteristic id="0e1e-12e8-bca7-732d" name="Shoot (+)"/>
-        <characteristic id="8285-c324-c5fa-c25c" name="Melee (+)"/>
-        <characteristic id="33ba-9453-24ea-e8e4" name="Melee Dice (+)"/>
-        <characteristic id="10cd-9bdc-8dff-0966" name="Will (+)"/>
+        <characteristic id="1d1e-df50-9fca-4fc1" name="Move (+)"/>
+        <characteristic id="0e1e-12e8-bca7-732d" name="Agility (+)"/>
+        <characteristic id="8285-c324-c5fa-c25c" name="Shoot (+)"/>
+        <characteristic id="33ba-9453-24ea-e8e4" name="Melee (+)"/>
+        <characteristic id="10cd-9bdc-8dff-0966" name="Melee Dice (+)"/>
+        <characteristic id="0090-c4c1-a332-6820" name="Will (+)"/>
+        <characteristic id="b87c-b1a3-7d83-8f9b" name="Hits (+)"/>
       </characteristics>
     </profileType>
     <profileType id="b3f6-8d33-56fa-5c16" name="Infanry Minion">
@@ -404,16 +406,35 @@
         <characteristic id="4ced-1087-7e62-7705" name="Descr."/>
       </characteristics>
     </profileType>
-    <profileType id="be8b-c93e-5f74-fd81" name="Psi Infantry Hero">
+    <profileType id="bd41-c933-2ddf-4ee8" name="Insanity Table">
       <characteristics>
-        <characteristic id="a15e-570b-2df2-1a23" name="LV"/>
-        <characteristic id="d6f9-d877-455c-2781" name="XP"/>
-        <characteristic id="1a70-5872-776c-00bb" name="Agility (+)"/>
-        <characteristic id="8ad8-0e5b-cb2f-6a0c" name="Shoot (+)"/>
-        <characteristic id="c6e9-69be-deee-eae8" name="Melee (+)"/>
-        <characteristic id="1cff-cb13-e742-f5d7" name="Melee Dice (+)"/>
-        <characteristic id="461b-73ca-491a-3458" name="Will (+)"/>
-        <characteristic id="956c-8254-57ac-b77d" name="Psi (+)"/>
+        <characteristic id="1321-aa98-92a6-c618" name="1"/>
+        <characteristic id="7d58-d30b-2dda-b1cd" name="2-6"/>
+        <characteristic id="e282-b352-8624-1ddc" name="7-9"/>
+        <characteristic id="0a63-2df3-2982-d9e7" name="10"/>
+      </characteristics>
+    </profileType>
+    <profileType id="db27-3399-b763-3161" name="Judge Fire&apos;s Trident">
+      <characteristics>
+        <characteristic id="838b-86f9-c42d-5f6e" name="Range"/>
+        <characteristic id="1232-2b96-853b-8f87" name="Shooting Dice"/>
+        <characteristic id="b40c-3e55-d511-c61b" name="Damage"/>
+        <characteristic id="af24-d798-2231-d242" name="AP"/>
+        <characteristic id="2320-bae6-a7fa-d396" name="Special Rules"/>
+      </characteristics>
+    </profileType>
+    <profileType id="4fc7-ee15-7195-7c7d" name="Psi Infanrty Hero">
+      <characteristics>
+        <characteristic id="8a32-b78e-9ce3-b80f" name="LV"/>
+        <characteristic id="df2f-c3b2-28f9-0904" name="XP"/>
+        <characteristic id="7af2-1f4e-585b-ae4e" name="Move (+)"/>
+        <characteristic id="148f-d08b-cc35-e22e" name="Agility (+)"/>
+        <characteristic id="8fe7-9117-1555-da75" name="Shoot (+)"/>
+        <characteristic id="c5fa-732b-5dd1-4042" name="Melee (+)"/>
+        <characteristic id="f2ea-89e6-bbb3-8584" name="Melee Dice (+)"/>
+        <characteristic id="91e3-c87b-f55a-f7f0" name="Will (+)"/>
+        <characteristic id="b0b4-9c4a-1b98-4695" name="Hits (+)"/>
+        <characteristic id="655f-5610-ccc5-abce" name="Psi (+)"/>
       </characteristics>
     </profileType>
   </profileTypes>
