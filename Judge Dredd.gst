@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b905ede6-72f2-1d60-b125-4fbacfd9efb1" revision="3" battleScribeVersion="1.15" name="Judge Dredd Miniatures Game " books="" authorName="Euan ( Ves )" authorContact="Euanmace@hotmail.co.uk / @Vescarea" authorUrl="https://github.com/BSData/judge-dredd" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b905ede6-72f2-1d60-b125-4fbacfd9efb1" revision="4" battleScribeVersion="1.15" name="Judge_Dredd_Miniatures_Game " books="" authorName="Euan ( Ves )" authorContact="Euanmace@hotmail.co.uk / @Vescarea" authorUrl="https://github.com/BSData/judge-dredd" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="1551-3416-3e14-fe07" name="The Justice Department" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
