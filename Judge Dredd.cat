@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="19cb-2bca-1dae-07f1" revision="13" gameSystemId="b905ede6-72f2-1d60-b125-4fbacfd9efb1" gameSystemRevision="1" battleScribeVersion="1.15" name=" Judge Dredd Miniatures Game" books="" authorName="Euan" authorContact="Euanmace@hotmail.co.uk / @Vescarea" authorUrl="https://github.com/BSData/judge-dredd" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="19cb-2bca-1dae-07f1" revision="15" gameSystemId="b905ede6-72f2-1d60-b125-4fbacfd9efb1" gameSystemRevision="1" battleScribeVersion="1.15" name=" Judge Dredd Miniatures Game" books="" authorName="Euan" authorContact="Euanmace@hotmail.co.uk / @Vescarea" authorUrl="https://github.com/BSData/judge-dredd" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="d558-32ca-96b0-751c" name="Assassin" points="60.0" categoryId="8e11-4c77-0a45-6a58" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -10718,76 +10718,75 @@ To ground perform a special action.</description>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="8230-da05-e1cb-dc68" profileTypeId="cf38-c83c-baec-c8e1" name="Desperado" hidden="false">
+        <profile id="8230-da05-e1cb-dc68" profileTypeId="fc65b47e-52cf-b81b-6476-97d287488c2a" name="Desperado" hidden="false">
           <characteristics>
-            <characteristic characteristicId="90ca-b0f9-49c0-f33a" name="Move" value="5&quot;"/>
-            <characteristic characteristicId="af55-1406-8f92-483c" name="Agility" value="+0"/>
-            <characteristic characteristicId="3a5a-d6d4-b63f-baf0" name="Shoot" value="+1"/>
-            <characteristic characteristicId="8c2c-035f-a70c-eac7" name="Melee" value="+1"/>
-            <characteristic characteristicId="ced1-e645-56fc-653e" name="Melee Dice" value="2D"/>
-            <characteristic characteristicId="61fb-6b0f-d315-bcdd" name="Will" value="+1"/>
-            <characteristic characteristicId="c09a-b88a-cfa4-521e" name="Armour" value="+0"/>
-            <characteristic characteristicId="2a37-0e24-4afb-7cee" name="Hits" value="1"/>
-            <characteristic characteristicId="5dbe-0e17-8e49-e583" name="Psi" value="0"/>
+            <characteristic characteristicId="6679b88f-23c0-1b42-a101-0fb94d9d1dea" name="Move" value="5&quot;"/>
+            <characteristic characteristicId="562cc756-b158-3b7b-ea0a-8bdf3b7f434e" name="Agility" value="+0"/>
+            <characteristic characteristicId="e84dc40e-5693-e1d8-67a2-ef508097e574" name="Shoot" value="+1"/>
+            <characteristic characteristicId="b7877157-b123-b213-be7a-f24c5c20f746" name="Melee" value="+1"/>
+            <characteristic characteristicId="c572de4b-64fc-8a24-2616-270c5e5af108" name="Melee Dice" value="2D"/>
+            <characteristic characteristicId="7749e7f5-2c1c-83a8-0512-69c15b8f143d" name="Will" value="+1"/>
+            <characteristic characteristicId="381ccc0b-9096-33b7-106e-4c5b99f4a83b" name="Armour" value="+0"/>
+            <characteristic characteristicId="fe15bb8b-1a37-9a5a-31ce-33ab35db52ca" name="Hits" value="1"/>
           </characteristics>
           <modifiers>
-            <modifier type="set" field="c09a-b88a-cfa4-521e" value="+3" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="381ccc0b-9096-33b7-106e-4c5b99f4a83b" value="+3" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="ced5-1609-64fb-0606" childId="564e-49d3-7a55-cd4e" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="ced5-1609-64fb-0606" childId="5bc1-3f7a-94b5-bc7a" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="set" field="c09a-b88a-cfa4-521e" value="+5" repeat="false" numRepeats="1" incrementParentId="direct parent" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="381ccc0b-9096-33b7-106e-4c5b99f4a83b" value="+5" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition parentId="ced5-1609-64fb-0606" childId="bc3b-3583-c50a-cdc0" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="ced5-1609-64fb-0606" childId="e379-133c-1825-5f06" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="ced5-1609-64fb-0606" childId="efdf-6bfe-ac39-9db4" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="ced5-1609-64fb-0606" childId="7bbd-db89-e20c-79b9" field="selections" type="equal to" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="c09a-b88a-cfa4-521e" value="+4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="381ccc0b-9096-33b7-106e-4c5b99f4a83b" value="+4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition parentId="ced5-1609-64fb-0606" childId="5393-6c9d-8532-d89d" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="ced5-1609-64fb-0606" childId="f43b-7db4-d750-4dd2" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="ced5-1609-64fb-0606" childId="db65-0a04-7814-a84a" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="ced5-1609-64fb-0606" childId="3e14-0e19-e015-4d1a" field="selections" type="equal to" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="c09a-b88a-cfa4-521e" value="+6" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="381ccc0b-9096-33b7-106e-4c5b99f4a83b" value="+6" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="ced5-1609-64fb-0606" childId="f168-4415-18ae-6fdd" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="ced5-1609-64fb-0606" childId="57a5-bec4-ec7c-074d" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="append" field="c09a-b88a-cfa4-521e" value="(+8)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="fe15bb8b-1a37-9a5a-31ce-33ab35db52ca" value="10" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="ced5-1609-64fb-0606" childId="9681-1969-f681-e15f" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="ced5-1609-64fb-0606" childId="d4e0-6d49-9781-b21c" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="2a37-0e24-4afb-7cee" value="10" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="append" field="381ccc0b-9096-33b7-106e-4c5b99f4a83b" value="/+8" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="ced5-1609-64fb-0606" childId="9681-1969-f681-e15f" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="ced5-1609-64fb-0606" childId="d4e0-6d49-9781-b21c" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="append" field="ced1-e645-56fc-653e" value="+1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="append" field="b7877157-b123-b213-be7a-f24c5c20f746" value="(+1)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="ced5-1609-64fb-0606" childId="0b6e-691f-61c7-70c3" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="ced5-1609-64fb-0606" childId="db65-0a04-7814-a84a" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="append" field="8c2c-035f-a70c-eac7" value="(+1)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="append" field="c572de4b-64fc-8a24-2616-270c5e5af108" value="+1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="ced5-1609-64fb-0606" childId="0b6e-691f-61c7-70c3" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="ced5-1609-64fb-0606" childId="db65-0a04-7814-a84a" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -21454,6 +21453,9 @@ To ground perform a special action.</description>
         <link id="f3c9-deec-560e-7b9b" targetId="bac3-85ef-c652-106d" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="65bf-eb90-72dd-752c" targetId="7521-0aef-d712-9726" linkType="entry group">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="3ddd-1d92-7105-d075" name="Nero Narcos" points="195.0" categoryId="8e11-4c77-0a45-6a58" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -30853,6 +30855,54 @@ If  Zombie master/Mistress is not present in battle, roll a dice for each zombie
       <profiles/>
       <links/>
     </entry>
+    <entry id="d08a-04bc-d264-386a" name="Mutate Agility (+1)" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="6358-0bfe-8860-383d" name="Mutate Agility (+2)" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="c3a8-ad7b-f289-a590" name="Mutate Agility (-)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="b5c9-fc6b-496c-f868" name="Mutate Armour (+1)" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="069c-1941-3a13-8c09" name="Mutate Armour (+2)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="5d0b-404a-5188-2f2b" name="Mutate Armour (+3)" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="8d1d-ea15-8b38-b281" name="Mutate Hits (+1)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -30870,6 +30920,126 @@ If  Zombie master/Mistress is not present in battle, roll a dice for each zombie
       <links/>
     </entry>
     <entry id="5b61-bcdd-dce7-44cc" name="Mutate Hits (-)" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="d249-5aac-ea84-cfed" name="Mutate Melee (+1)" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="76cc-14df-d2cb-2370" name="Mutate Melee (+2)" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="11c1-2c67-1e87-33db" name="Mutate Melee (-)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="bb73-cffd-0e6c-a494" name="Mutate Melee Dice (+1D)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="f4ac-a816-a8d0-79b6" name="Mutate Melee Dice (+2D)" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="d7ce-110e-2f4c-9bb9" name="Mutate Melee Dice (-)" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="2c36-0fe0-1692-ecc5" name="Mutate Move (+1&quot;)" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="8b40-5f3f-f1a7-73d1" name="Mutate Move (+2&quot;)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="647a-4544-e960-03ee" name="Mutate Move (+3&quot;)" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="5e5f-f99f-a528-c298" name="Mutate Shoot (+1)" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="999e-90b2-3287-6e3b" name="Mutate Shoot (+2)" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="0e7f-97df-9b99-ee90" name="Mutate Shoot (-)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="240a-70fa-47a5-c9a7" name="Mutate Will (+1)" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="62db-6bf2-973e-039f" name="Mutate Will (+2)" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="ad4c-0eab-6267-1594" name="Mutate Will (-)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -45959,7 +46129,7 @@ If  Zombie master/Mistress is not present in battle, roll a dice for each zombie
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="7521-0aef-d712-9726" name="Mutations" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="7521-0aef-d712-9726" name="Mutations" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="7ea0-48f5-b22c-5845" name="+5" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -45968,6 +46138,89 @@ If  Zombie master/Mistress is not present in battle, roll a dice for each zombie
           <modifiers/>
           <links>
             <link id="dfc9-fb39-a516-4053" targetId="5b61-bcdd-dce7-44cc" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="6248-6a2b-cbee-5e24" targetId="2c36-0fe0-1692-ecc5" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="bd7c-f406-a85a-1e9f" targetId="d249-5aac-ea84-cfed" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="9c13-81a1-3f13-c891" targetId="d7ce-110e-2f4c-9bb9" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="2ace-70ce-3f6f-98fd" targetId="5e5f-f99f-a528-c298" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="7022-03e7-9917-9d0c" targetId="d08a-04bc-d264-386a" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="67ed-01ff-64c7-c219" targetId="240a-70fa-47a5-c9a7" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="7abc-c60e-36d5-6414" targetId="b5c9-fc6b-496c-f868" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="26d0-d8ca-5f9f-fd27" name="+10" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="699b-1e31-5e01-f7ca" targetId="8d1d-ea15-8b38-b281" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="0106-0cc7-ee4d-76d4" targetId="8b40-5f3f-f1a7-73d1" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="2827-e07c-ddaf-ae7c" targetId="11c1-2c67-1e87-33db" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="e76f-74aa-ac74-f36e" targetId="bb73-cffd-0e6c-a494" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="82d7-aa0c-3906-26fa" targetId="0e7f-97df-9b99-ee90" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="ceb7-1fcd-0567-2b15" targetId="c3a8-ad7b-f289-a590" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="37ed-c436-f6e5-0895" targetId="ad4c-0eab-6267-1594" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="9015-5504-c45d-7574" targetId="069c-1941-3a13-8c09" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="174d-085b-a5f0-114c" name="+20" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="b513-8224-d51a-9b3c" targetId="4e04-3165-92c4-9273" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="2706-c072-9e4c-e8f8" targetId="647a-4544-e960-03ee" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="1182-70e4-0997-ca77" targetId="76cc-14df-d2cb-2370" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="28cf-e283-d6d8-c360" targetId="f4ac-a816-a8d0-79b6" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="14b4-9097-d7ab-8aaf" targetId="999e-90b2-3287-6e3b" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="99b9-b42d-bdef-34ea" targetId="6358-0bfe-8860-383d" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="fd5c-d97c-adde-6539" targetId="62db-6bf2-973e-039f" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="6b8b-ac97-3608-a8c0" targetId="5d0b-404a-5188-2f2b" linkType="entry">
               <modifiers/>
             </link>
           </links>
