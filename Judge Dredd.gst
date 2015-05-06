@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b905ede6-72f2-1d60-b125-4fbacfd9efb1" revision="7" battleScribeVersion="1.15" name="Judge Dredd" books="" authorName="Euan ( Ves )" authorContact="Euanmace@hotmail.co.uk / @Vescarea" authorUrl="https://github.com/BSData/judge-dredd" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b905ede6-72f2-1d60-b125-4fbacfd9efb1" revision="9" battleScribeVersion="1.15" name="Judge Dredd" books="" authorName="Euan ( Ves )" authorContact="Euanmace@hotmail.co.uk / @Vescarea" authorUrl="https://github.com/BSData/judge-dredd" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="1551-3416-3e14-fe07" name="The Justice Department" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -151,10 +151,22 @@
     </forceType>
     <forceType id="c859-a0eb-f0d5-4445" name="The Angel Gang" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
-        <category id="70ab-b5af-b999-56ce" name="The Angel Gang - Infantry Hero" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="70ab-b5af-b999-56ce" name="The Angel Gang - Level 5 Infantry Hero" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
         <category id="0cd6-35ac-e961-cd69" name="The Angel Gang Mercs" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="3141-d2b7-c35c-7519" name="The Angel Gang - Level 3 Infantry Hero" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="c65c-f28c-a78e-a3a4" name="The Angel Gang - Level 2 Infantry Hero" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="f4e6-de4c-cc65-5a6d" name="The Angel Gang - Level 8 Infantry Hero" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="67a1-78a0-17a3-d4c9" name="The Angel Gang - Level 6 Infantry Hero" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
       </categories>
@@ -513,6 +525,28 @@
         <characteristic id="91e3-c87b-f55a-f7f0" name="Will (+)"/>
         <characteristic id="b0b4-9c4a-1b98-4695" name="Hits (+)"/>
         <characteristic id="655f-5610-ccc5-abce" name="Psi (+)"/>
+      </characteristics>
+    </profileType>
+    <profileType id="3ca2-37b3-1140-c255" name="Mood Dial">
+      <characteristics>
+        <characteristic id="85ab-0b8d-1ae3-c0f8" name="Dial"/>
+        <characteristic id="6915-e9cf-d9d9-3de3" name="Move"/>
+        <characteristic id="1434-f28c-d6ff-2b65" name="Shoot"/>
+        <characteristic id="3aac-9a63-7bae-1de2" name="Melee"/>
+        <characteristic id="836d-a4e8-28b7-3a68" name="Melee Dice"/>
+        <characteristic id="0c34-9194-68fb-0cbb" name="Claw Damage"/>
+        <characteristic id="c29d-89c5-1a0d-d865" name="Hits"/>
+        <characteristic id="d0ee-45ed-7cfd-1b2c" name="Permisiable Actions"/>
+      </characteristics>
+    </profileType>
+    <profileType id="15cf-deba-391b-4cfa" name="Leveling Table">
+      <characteristics>
+        <characteristic id="da51-c554-fd35-3c2c" name="Level"/>
+        <characteristic id="55eb-9faf-9967-e36a" name="XP "/>
+        <characteristic id="3e3a-fc28-d64b-122b" name="Characteristics"/>
+        <characteristic id="a513-75c1-9e8f-709f" name="Hits"/>
+        <characteristic id="dc65-3946-1ff3-25d6" name="Psi (Auto Add)"/>
+        <characteristic id="69a5-e719-a86f-f121" name="Talents"/>
       </characteristics>
     </profileType>
   </profileTypes>
