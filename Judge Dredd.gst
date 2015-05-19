@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b905ede6-72f2-1d60-b125-4fbacfd9efb1" revision="9" battleScribeVersion="1.15" name="Judge Dredd" books="" authorName="Euan ( Ves )" authorContact="Euanmace@hotmail.co.uk / @Vescarea" authorUrl="https://github.com/BSData/judge-dredd" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b905ede6-72f2-1d60-b125-4fbacfd9efb1" revision="10" battleScribeVersion="1.15" name="Judge Dredd" books="" authorName="Euan ( Ves )" authorContact="Euanmace@hotmail.co.uk / @Vescarea" authorUrl="https://github.com/BSData/judge-dredd" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="1551-3416-3e14-fe07" name="The Justice Department" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -10,6 +10,9 @@
           <modifiers/>
         </category>
         <category id="726e-0405-59f1-60c0" name="Justice Department - Infanrty Minion" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="65d3-f54c-f281-bb0e" name="Justice Department Force Rules" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
       </categories>
@@ -65,6 +68,9 @@
         <category id="8f98-b017-501c-34a1" name="Ape Gang Mercs" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
+        <category id="aad9-58b1-5293-1ece" name="Ape Gang Force Rules" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
       </categories>
       <forceTypes/>
     </forceType>
@@ -91,6 +97,9 @@
           <modifiers/>
         </category>
         <category id="d2ee-0f86-3d27-9eaf" name="Brit-Cit Justice Department - Infantry Robot Minion" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="99bb-65ea-d0c3-0aaf" name="Brit-Cit Justice Department Force Rules" minSelections="1" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
       </categories>
@@ -121,6 +130,9 @@
         <category id="b29d-4a7c-7718-8d18" name="Apoc. War Resistant Unit - Infantry Hero" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
+        <category id="518d-d02e-14cd-22cf" name="Apoc. War Resistance Force Rules" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
       </categories>
       <forceTypes/>
     </forceType>
@@ -138,12 +150,18 @@
         <category id="abf0-2ef5-7541-562e" name="East Meg Invasion Force - Illegal Infantry Robot Minion" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
+        <category id="2370-7f92-bc3c-df05" name="East Meg Invasion Force Rules" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
       </categories>
       <forceTypes/>
     </forceType>
     <forceType id="d575-68d9-9f79-18dc" name="The Dark Judges" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
         <category id="f322-b304-635b-4369" name="The Dark Judges" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="4fb9-cc55-6b50-a1b6" name="The Dark Judges Force Rules" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
       </categories>
@@ -169,6 +187,9 @@
         <category id="67a1-78a0-17a3-d4c9" name="The Angel Gang - Level 6 Infantry Hero" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
+        <category id="4711-1cf2-0e70-9e53" name="The Angel Gang Force Rules" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
       </categories>
       <forceTypes/>
     </forceType>
@@ -178,6 +199,9 @@
           <modifiers/>
         </category>
         <category id="33cb-117f-9d6a-1f8b" name="Lone Vigilante Mercs" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="964e-ed56-e4a7-2b26" name="Lone Vigilante Force Rules" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
       </categories>
@@ -211,6 +235,9 @@
         <category id="548f-3c94-e04a-5540" name="Cheif Judge Cal&apos;s Personal Retinue - Level 1 Infantry Hero" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
+        <category id="3866-d5df-692e-5c5a" name="Cheif Judge Cal&apos;s Personal Retinue Force Rules" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
       </categories>
       <forceTypes/>
     </forceType>
@@ -242,6 +269,9 @@
         <category id="82de-daf4-4937-f0ee" name="Demonic Cabal - Illegal Infantry Minion" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
+        <category id="a25a-1446-be5e-4958" name="Demonic Cabal Force Rules" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
       </categories>
       <forceTypes/>
     </forceType>
@@ -251,6 +281,9 @@
           <modifiers/>
         </category>
         <category id="ce1d-9fa4-2dba-e907" name="Renegade Robots Mercs" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="c1e2-c725-c610-e0b5" name="Renegade Robots Force Rules" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
       </categories>
@@ -463,9 +496,6 @@
         <characteristic id="b87c-b1a3-7d83-8f9b" name="Hits (+)"/>
       </characteristics>
     </profileType>
-    <profileType id="b3f6-8d33-56fa-5c16" name="Infanry Minion">
-      <characteristics/>
-    </profileType>
     <profileType id="9e2e-38f1-e9a8-3300" name="Weapon Talent">
       <characteristics>
         <characteristic id="80ba-ae59-d4aa-e0c1" name="Skill Tree"/>
@@ -543,10 +573,26 @@
       <characteristics>
         <characteristic id="da51-c554-fd35-3c2c" name="Level"/>
         <characteristic id="55eb-9faf-9967-e36a" name="XP "/>
-        <characteristic id="3e3a-fc28-d64b-122b" name="Characteristics"/>
-        <characteristic id="a513-75c1-9e8f-709f" name="Hits"/>
-        <characteristic id="dc65-3946-1ff3-25d6" name="Psi (Auto Add)"/>
-        <characteristic id="69a5-e719-a86f-f121" name="Talents"/>
+        <characteristic id="3e3a-fc28-d64b-122b" name="Total Characteristics"/>
+        <characteristic id="a513-75c1-9e8f-709f" name="Total Hits"/>
+        <characteristic id="dc65-3946-1ff3-25d6" name="Total Psi"/>
+        <characteristic id="69a5-e719-a86f-f121" name="Total Talents"/>
+      </characteristics>
+    </profileType>
+    <profileType id="b408-6ab6-3480-0cab" name="Demonic Attack">
+      <characteristics>
+        <characteristic id="d8ec-c76e-3cf5-ded5" name="Range"/>
+        <characteristic id="052f-9649-b70f-f7eb" name="Shooting Dice"/>
+        <characteristic id="77e7-69cb-4863-fd04" name="Damage"/>
+        <characteristic id="05ac-f2d6-9367-61af" name="AP"/>
+        <characteristic id="ee71-e0e6-319c-4e27" name="Special Rules"/>
+      </characteristics>
+    </profileType>
+    <profileType id="d963-c87a-14a3-bf5f" name="Summoning Table">
+      <characteristics>
+        <characteristic id="9a4f-bd27-5d25-6347" name="Roll"/>
+        <characteristic id="b50a-d0f5-d6ef-9150" name="Result"/>
+        <characteristic id="37ac-ecd7-ec32-f570" name="Effect"/>
       </characteristics>
     </profileType>
   </profileTypes>
