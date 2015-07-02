@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b905ede6-72f2-1d60-b125-4fbacfd9efb1" revision="10" battleScribeVersion="1.15" name="Judge Dredd" books="" authorName="Euan ( Ves )" authorContact="Euanmace@hotmail.co.uk / @Vescarea" authorUrl="https://github.com/BSData/judge-dredd" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b905ede6-72f2-1d60-b125-4fbacfd9efb1" revision="11" battleScribeVersion="1.15" name="Judge Dredd" books="" authorName="Euan ( Ves )" authorContact="Euanmace@hotmail.co.uk / @Vescarea" authorUrl="https://github.com/BSData/judge-dredd" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="1551-3416-3e14-fe07" name="The Justice Department" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -40,7 +40,7 @@
         <category id="6571-7ecf-90cb-fddb" name="Mobsters - Infantry Hero" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-        <category id="93d0-4ac7-2387-f4d6" name="Mobsters - Infanrty Robot Minion" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="93d0-4ac7-2387-f4d6" name="Mobsters - Infanty Robot Minion" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
         <category id="772b-94a3-97da-684a" name="Mobsters - Level 3 Infantry Hero" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
@@ -291,10 +291,73 @@
     </forceType>
     <forceType id="e048-ace8-5805-8ee4" name="Heroes &amp; Villains" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
-        <category id="2f23-b5ba-4f95-0928" name="Heroes" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="2f23-b5ba-4f95-0928" name="Heroes &amp; Villians - Inf. Hero LV 1" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-        <category id="f807-2734-9602-5a58" name="Villians" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="a50c-f2e4-8e59-f253" name="Heroes &amp; Villians - Inf. Hero LV 2" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="ae66-df06-8c32-fa80" name="Heroes &amp; Villians - Inf. Hero LV 3" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="7fb9-cbc0-c762-c5a1" name="Heroes &amp; Villians - Inf. Hero LV 4" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="422a-51f2-2371-70bb" name="Heroes &amp; Villians - Inf. Hero LV 5" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="393d-036b-8c38-8556" name="Heroes &amp; Villians - Inf. Hero LV 6" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="1a23-d0c6-ac8a-8aae" name="Heroes &amp; Villians - Inf. Hero LV 7" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="53f5-69fa-7658-c492" name="Heroes &amp; Villians - Inf. Hero LV 8" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="61c9-ebca-25f4-bd63" name="Heroes &amp; Villians - Inf. Hero LV 9" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="ab4a-c588-7e36-5c5b" name="Heroes &amp; Villians - Ill. Hero LV 6" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="1d2e-d5e0-3402-f9ee" name="Heroes &amp; Villians - Inf. Hero LV 10" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="5172-7600-c7a8-5f3e" name="Heroes &amp; Villians - Inf. Hero LV 11" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="6b44-2722-b010-b410" name="Heroes &amp; Villians - Inf. Hero LV 12" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="4cc6-2b68-b076-b656" name="Heroes &amp; Villians - Inf. Hero LV 13" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="6128-c654-4c9f-e7d2" name="Heroes &amp; Villians - Inf. Hero LV 14" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="3ca0-af18-8a36-b722" name="Heroes &amp; Villians - Inf. Hero LV 15" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="f16a-562b-e7a9-ab30" name="Heroes &amp; Villians - Inf. Hero LV 16" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="55b9-a383-aacd-b6f4" name="Heroes &amp; Villians - Inf. Hero LV 17" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="fe80-5ab8-4a97-a227" name="Heroes &amp; Villians - Inf. Hero LV 18" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="566f-2983-c940-bde7" name="Heroes &amp; Villians - Inf. Hero LV 19" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="abd9-ca7d-c5c1-5cc4" name="Heroes &amp; Villians - Inf. Hero LV 20" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="0b6c-8d55-eeab-00a2" name="Heroes &amp; Villians - Inf. Hero LV 21" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="3d3a-e5ff-4b52-4015" name="Heroes &amp; Villians - Inf. Hero LV 22" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
       </categories>
@@ -330,9 +393,61 @@
       </categories>
       <forceTypes/>
     </forceType>
+    <forceType id="9d2e-10be-5670-f36b" name="Mercenaries" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+      <categories>
+        <category id="e8fd-45ee-6ebc-8e17" name="Mercs - Inf. Minion" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="8068-ca06-2064-43fb" name="Mercs - Inf. Hero LV 1" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="0df9-0caf-b86d-2eee" name="Mercs - Inf. Hero LV 2" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="b76b-52a3-be3a-7a24" name="Mercs - Inf. Hero LV 3" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="569e-58a4-4da2-8a0e" name="Mercs - Inf. Hero LV 4" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="f76f-b47f-f492-fc10" name="Mercs - Inf. Hero LV 5" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="caed-3a5e-6273-e58b" name="Mercs - Inf. Hero LV 6" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="0ac8-0579-6f26-6309" name="Mercs - Inf. Hero LV 7" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="c352-f7b9-df95-bbaa" name="Mercs - Inf. Hero LV 8" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="eeb4-56d0-7851-b078" name="Mercs - Ill.Hero LV 8" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="c58d-566b-ea97-abb3" name="Mercs - Ill. Infantry" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="3864-c953-9e8b-6700" name="Mercs - Robot Inf. Minion" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+      </categories>
+      <forceTypes/>
+    </forceType>
+    <forceType id="d53a-a9af-a836-517e" name="Mechanismo Strike Force" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+      <categories>
+        <category id="a401-7350-f06f-eb5f" name="Mechanismo Strike Force - Inf. Hero" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="583d-3fb7-9f36-9088" name="Mechanismo Strike Force - Robot Inf. Minion" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+      </categories>
+      <forceTypes/>
+    </forceType>
   </forceTypes>
   <profileTypes>
-    <profileType id="fc65b47e-52cf-b81b-6476-97d287488c2a" name="Infantry">
+    <profileType id="fc65b47e-52cf-b81b-6476-97d287488c2a" name="&lt; 0 Infantry">
       <characteristics>
         <characteristic id="6679b88f-23c0-1b42-a101-0fb94d9d1dea" name="Move"/>
         <characteristic id="562cc756-b158-3b7b-ea0a-8bdf3b7f434e" name="Agility"/>
@@ -344,7 +459,7 @@
         <characteristic id="fe15bb8b-1a37-9a5a-31ce-33ab35db52ca" name="Hits"/>
       </characteristics>
     </profileType>
-    <profileType id="52efac4e-bf35-eba1-4afd-36af1f2d6431" name="Ranged Weapon">
+    <profileType id="52efac4e-bf35-eba1-4afd-36af1f2d6431" name="&lt; 3 Ranged Weapon">
       <characteristics>
         <characteristic id="1ed4f55d-6359-863a-ea8b-b11acc22a128" name="Range"/>
         <characteristic id="bf5cfd6a-57cf-5069-d8ac-8e9bfcd58c96" name="Shooting Dice"/>
@@ -353,7 +468,7 @@
         <characteristic id="f1649977-7453-41a6-1d04-ea90724a78a9" name="Special Rules"/>
       </characteristics>
     </profileType>
-    <profileType id="53a0aba7-dde3-5a1d-152d-54177512a85c" name="Close Combat Weapon">
+    <profileType id="53a0aba7-dde3-5a1d-152d-54177512a85c" name="&lt; 2 Close Combat Weapon">
       <characteristics>
         <characteristic id="3d817e67-8ac0-1e67-e063-0dd1fffbde70" name="Damage"/>
         <characteristic id="457b05a4-2a82-ccb1-8669-da059ca20c85" name="AP"/>
@@ -375,7 +490,7 @@
         <characteristic id="48bb-1459-7e62-c5c6" name="Descr."/>
       </characteristics>
     </profileType>
-    <profileType id="f0bb-0e04-19c8-8ddb" name="Skill Talent">
+    <profileType id="f0bb-0e04-19c8-8ddb" name="&lt; 7 Skill Talent">
       <characteristics>
         <characteristic id="c502-8329-123d-5447" name="Skill Tree"/>
         <characteristic id="743d-12fd-8408-a0ba" name="Branch No."/>
@@ -385,7 +500,7 @@
         <characteristic id="d297-956c-b014-272b" name="Descr."/>
       </characteristics>
     </profileType>
-    <profileType id="cf38-c83c-baec-c8e1" name="Psi Infantry">
+    <profileType id="cf38-c83c-baec-c8e1" name="&lt; 1 Psi Infantry">
       <characteristics>
         <characteristic id="90ca-b0f9-49c0-f33a" name="Move"/>
         <characteristic id="af55-1406-8f92-483c" name="Agility"/>
@@ -398,7 +513,7 @@
         <characteristic id="5dbe-0e17-8e49-e583" name="Psi"/>
       </characteristics>
     </profileType>
-    <profileType id="1f95-9efe-2c8a-8ddd" name="Lawgiver MK II">
+    <profileType id="1f95-9efe-2c8a-8ddd" name="&lt; 4 Lawgiver MK II">
       <characteristics>
         <characteristic id="654f-18c4-c844-1e26" name="Range"/>
         <characteristic id="22a4-54bc-a1dd-44b2" name="Shooting Dice"/>
@@ -407,7 +522,7 @@
         <characteristic id="0f2e-9c93-4a92-2f9c" name="Special Rules"/>
       </characteristics>
     </profileType>
-    <profileType id="12aa-9340-5e1c-b49d" name="Missle Launcher">
+    <profileType id="12aa-9340-5e1c-b49d" name="&lt;4  Missle Launcher">
       <characteristics>
         <characteristic id="94ce-c708-ea05-d0df" name="Range"/>
         <characteristic id="ed55-0f15-9012-5ba4" name="Shooting Dice"/>
@@ -416,7 +531,7 @@
         <characteristic id="98b2-2382-8dcb-eb01" name="Special Rules"/>
       </characteristics>
     </profileType>
-    <profileType id="3fc9-2550-ad68-b5fe" name="Widowmaker">
+    <profileType id="3fc9-2550-ad68-b5fe" name="&lt; 4 Widowmaker">
       <characteristics>
         <characteristic id="140a-f68d-42af-d186" name="Range"/>
         <characteristic id="8508-e8ef-ecbc-8e91" name="Shooting Dice"/>
@@ -425,7 +540,7 @@
         <characteristic id="4383-0b2c-bfb3-d606" name="Special Rules"/>
       </characteristics>
     </profileType>
-    <profileType id="d99a-2a9a-c863-f50d" name="Lawrod">
+    <profileType id="d99a-2a9a-c863-f50d" name="&lt; 4 Lawrod">
       <characteristics>
         <characteristic id="f790-de6d-9e23-3aad" name="Range"/>
         <characteristic id="bd5a-8f29-371e-bae9" name="Shooting Dice"/>
@@ -434,7 +549,7 @@
         <characteristic id="4382-8231-131f-e527" name="Special Rules"/>
       </characteristics>
     </profileType>
-    <profileType id="b081-1b12-01f6-7dd6" name="PC 101 Handgun">
+    <profileType id="b081-1b12-01f6-7dd6" name="&lt; 4 PC 101 Handgun">
       <characteristics>
         <characteristic id="b4bd-b8a1-88fa-fc69" name="Range"/>
         <characteristic id="8543-9289-9964-066f" name="Shooting Dice"/>
@@ -443,7 +558,7 @@
         <characteristic id="1261-e213-4cb5-64d7" name="Speacial Rules"/>
       </characteristics>
     </profileType>
-    <profileType id="a5c3-d2d6-b139-74a6" name="Skean-dDhuu Blaster">
+    <profileType id="a5c3-d2d6-b139-74a6" name="&lt; 4 Skean-dDhuu Blaster">
       <characteristics>
         <characteristic id="e3a9-55d8-8fd8-c399" name="Range"/>
         <characteristic id="264a-8110-05ac-0e49" name="Shooting Dice"/>
@@ -452,7 +567,7 @@
         <characteristic id="e1c7-f77c-e5ee-84b0" name="Specisl Rules"/>
       </characteristics>
     </profileType>
-    <profileType id="1cb9-2a74-e09b-43f0" name="Krashnikov 97 Carbine">
+    <profileType id="1cb9-2a74-e09b-43f0" name="&lt; 4 Krashnikov 97 Carbine">
       <characteristics>
         <characteristic id="9886-60cf-1770-507a" name="Range"/>
         <characteristic id="c074-4d75-0077-d130" name="Shooting Dice"/>
@@ -461,7 +576,7 @@
         <characteristic id="a16a-0a54-6ce5-783f" name="Special Rules"/>
       </characteristics>
     </profileType>
-    <profileType id="8de1-adfc-1b0b-91d3" name="Krashnikov 99 Sidearm">
+    <profileType id="8de1-adfc-1b0b-91d3" name="&lt; 4 Krashnikov 99 Sidearm">
       <characteristics>
         <characteristic id="c82e-efed-6b17-d470" name="Range"/>
         <characteristic id="5b0b-4e0b-7400-656b" name="Shooting Dice"/>
@@ -483,7 +598,7 @@
         <characteristic id="70c8-f1f3-897d-e405" name="Hits"/>
       </characteristics>
     </profileType>
-    <profileType id="16a4-01da-285b-a277" name="Infantry Hero">
+    <profileType id="16a4-01da-285b-a277" name="&lt; 1 Infantry Hero">
       <characteristics>
         <characteristic id="c472-a0d5-0d4c-ec0d" name="LV"/>
         <characteristic id="f7f5-dbe1-264f-b9f4" name="XP"/>
@@ -496,7 +611,7 @@
         <characteristic id="b87c-b1a3-7d83-8f9b" name="Hits (+)"/>
       </characteristics>
     </profileType>
-    <profileType id="9e2e-38f1-e9a8-3300" name="Weapon Talent">
+    <profileType id="9e2e-38f1-e9a8-3300" name="&lt; 6 Weapon Talent">
       <characteristics>
         <characteristic id="80ba-ae59-d4aa-e0c1" name="Skill Tree"/>
         <characteristic id="d89f-903b-ad9c-045c" name="Branch No."/>
@@ -506,7 +621,7 @@
         <characteristic id="b288-26b1-cc78-bcbe" name="Descr."/>
       </characteristics>
     </profileType>
-    <profileType id="ac5a-c831-6258-69f5" name="Judge Talent">
+    <profileType id="ac5a-c831-6258-69f5" name="&lt; 5 Judge Talent">
       <characteristics>
         <characteristic id="304b-a813-41f1-513b" name="Skill Tree"/>
         <characteristic id="1859-da4d-376d-45a6" name="Branch No."/>
@@ -516,7 +631,7 @@
         <characteristic id="d7d6-ec2b-981e-a6e9" name="Descr."/>
       </characteristics>
     </profileType>
-    <profileType id="89e5-6dc6-4ca5-9d72" name="Psi Talent">
+    <profileType id="89e5-6dc6-4ca5-9d72" name="&lt; 8 Psi Talent">
       <characteristics>
         <characteristic id="1d30-2a8d-3a7c-f0d4" name="Skill Tree"/>
         <characteristic id="d530-021b-49eb-e954" name="Branch No."/>
@@ -534,7 +649,7 @@
         <characteristic id="0a63-2df3-2982-d9e7" name="10"/>
       </characteristics>
     </profileType>
-    <profileType id="db27-3399-b763-3161" name="Judge Fire&apos;s Trident">
+    <profileType id="db27-3399-b763-3161" name="&lt; 2 Judge Fire&apos;s Trident">
       <characteristics>
         <characteristic id="838b-86f9-c42d-5f6e" name="Range"/>
         <characteristic id="1232-2b96-853b-8f87" name="Shooting Dice"/>
@@ -543,7 +658,7 @@
         <characteristic id="2320-bae6-a7fa-d396" name="Special Rules"/>
       </characteristics>
     </profileType>
-    <profileType id="4fc7-ee15-7195-7c7d" name="Psi Infanrty Hero">
+    <profileType id="4fc7-ee15-7195-7c7d" name="&lt; 0 Psi Infanrty Hero">
       <characteristics>
         <characteristic id="8a32-b78e-9ce3-b80f" name="LV"/>
         <characteristic id="df2f-c3b2-28f9-0904" name="XP"/>
@@ -579,7 +694,7 @@
         <characteristic id="69a5-e719-a86f-f121" name="Total Talents"/>
       </characteristics>
     </profileType>
-    <profileType id="b408-6ab6-3480-0cab" name="Demonic Attack">
+    <profileType id="b408-6ab6-3480-0cab" name="&lt; 4 Demonic Attack">
       <characteristics>
         <characteristic id="d8ec-c76e-3cf5-ded5" name="Range"/>
         <characteristic id="052f-9649-b70f-f7eb" name="Shooting Dice"/>
@@ -593,6 +708,15 @@
         <characteristic id="9a4f-bd27-5d25-6347" name="Roll"/>
         <characteristic id="b50a-d0f5-d6ef-9150" name="Result"/>
         <characteristic id="37ac-ecd7-ec32-f570" name="Effect"/>
+      </characteristics>
+    </profileType>
+    <profileType id="e294-b2ce-7e9d-1c0e" name="&lt; 4 Judgementbringer Cannon">
+      <characteristics>
+        <characteristic id="6a1c-a470-63b6-cf24" name="Range"/>
+        <characteristic id="8793-937c-7921-a2f6" name="Shooting Dice"/>
+        <characteristic id="a9db-2a64-cec7-d9ea" name="Damage"/>
+        <characteristic id="160f-6c14-a3d6-f529" name="AP"/>
+        <characteristic id="78f4-6dc8-c122-3987" name="Special Rules"/>
       </characteristics>
     </profileType>
   </profileTypes>
