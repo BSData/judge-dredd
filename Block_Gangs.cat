@@ -77,23 +77,11 @@
         </infoLink>
       </infoLinks>
       <entryLinks>
-        <entryLink id="9700-3bdf-1604-95f1" name="Combat Skill" hidden="false" collective="false" import="true" targetId="72ca-8221-0a8d-6a93" type="selectionEntry"/>
+        <entryLink id="9700-3bdf-1604-95f1" name="Gunfighter or Brawler" hidden="false" collective="false" import="true" targetId="e1d5-2790-5343-8f92" type="selectionEntryGroup"/>
         <entryLink id="c7ef-f37b-52de-9334" name="Weapons New" hidden="false" collective="false" import="true" targetId="3ab6-a43b-6bbe-760a" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="13.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="72ca-8221-0a8d-6a93" name="Combat Skill" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db61-004e-f4ec-19d7" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f960-3ff0-f55e-6e87" type="min"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="2fda-66ee-1357-52c9" name="Gunfighter or Brawler" hidden="false" collective="false" import="true" targetId="e1d5-2790-5343-8f92" type="selectionEntryGroup"/>
-      </entryLinks>
-      <costs>
-        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f1fc-0101-0f69-6334" name="Chain" publicationId="23e2-8cf2-260a-a7be" page="95" hidden="false" collective="false" import="true" type="upgrade">
@@ -410,7 +398,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="e1d5-2790-5343-8f92" name="Gunfighter or Brawler" hidden="false" collective="false" import="true" defaultSelectionEntryId="b554-6bae-e61e-4e82">
+    <selectionEntryGroup id="e1d5-2790-5343-8f92" name="&gt;Combat Skill" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c65d-3f2c-705f-56b9" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5a6-1235-349c-c4de" type="min"/>
@@ -432,14 +420,9 @@
             <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b554-6bae-e61e-4e82" name="[Choose]" hidden="false" collective="false" import="true" type="upgrade">
-          <costs>
-            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="3ab6-a43b-6bbe-760a" name="Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="3ab6-a43b-6bbe-760a" name="&gt;Weapons" hidden="false" collective="false" import="true">
       <selectionEntryGroups>
         <selectionEntryGroup id="c1f9-1385-74e1-d089" name="One-Handed" hidden="false" collective="false" import="true">
           <modifiers>
