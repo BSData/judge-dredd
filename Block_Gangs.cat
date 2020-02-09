@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="02a6-70b4-f4a1-c63d" name="Block Gang" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="02a6-70b4-f4a1-c63d" name="Block Gangs" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="a6d4-9516-6dc3-d758" name="Gang Juve/s" hidden="false" collective="false" import="true" targetId="78e3-617a-ccf6-d0d5" type="selectionEntry">
       <categoryLinks>

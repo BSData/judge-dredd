@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="e02f-48ed-79b7-c069" name="Citi-Def" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="2832-4750-b416-c0dd" name="Citi-Def Sniper" hidden="false" collective="false" import="true" targetId="3a4d-7b29-909d-f229" type="selectionEntry"/>
+    <entryLink id="b3f3-21d0-de94-b11c" name="Citi-Def Auxiliary" hidden="false" collective="false" import="true" targetId="84ba-e5c6-d15a-d9c6" type="selectionEntry"/>
+    <entryLink id="5f99-b5c7-8375-b7f3" name="Citi-Def Trooper" hidden="false" collective="false" import="true" targetId="c368-4f60-c279-072b" type="selectionEntry"/>
+    <entryLink id="1df9-4a83-0244-a698" name="Citi-Def Squad Leader" hidden="false" collective="false" import="true" targetId="9e88-fdcb-353c-f5b8" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="9e88-fdcb-353c-f5b8" name="Citi-Def Squad Leader" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="9571-cf00-0511-2d09" name="Access to the Armoury" hidden="false">
+          <description>If a Citi-Def Squald Leader is the leader of your faction, you may draw one extra Amoury card and keep one more card than normal.</description>
+        </rule>
+        <rule id="89bf-6ef8-b8e2-bf4a" name="Leading from the Front" hidden="false">
+          <description>Use a single action to return a chip to the bag of another Citi-Def model within 8&quot; and line of sight from the Squad Leader. Can be used on a second model for another single action.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7756-621d-867f-dc66" name="Citi-Def Squad Leader" hidden="false" targetId="0cd6-618d-947d-6e23" type="profile">
+          <modifiers>
+            <modifier type="set" field="a488-1615-8c9e-2b73" value="Access to the Armoury, Leading from the Front, Body Armour">
+              <conditions>
+                <condition field="selections" scope="9e88-fdcb-353c-f5b8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fa9-704c-28bc-a54f" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="1ba5-0dfe-80d2-af1a" value="(+1)">
+              <conditions>
+                <condition field="selections" scope="9e88-fdcb-353c-f5b8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fa9-704c-28bc-a54f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="dee4-f6fe-68a7-1200" name="New CategoryLink" hidden="false" targetId="9cfd-c39e-c906-9440" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6bd5-f749-2f1d-8525" name="&gt;Body Armour" hidden="false" collective="false" import="true" targetId="6fa9-704c-28bc-a54f" type="selectionEntry"/>
+        <entryLink id="fb8d-7a71-37f9-2f28" name="&gt;Weapons" hidden="false" collective="false" import="true" targetId="41d7-4d7e-ddb7-0c2b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="13.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3a4d-7b29-909d-f229" name="Citi-Def Sniper" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="bcf9-cce7-ff82-5ba3" name="Sniper" hidden="false">
+          <description>Any attempt to dodge a hit from the Sniper&apos;s attack will be at -1 Evade.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ee48-92de-1de9-aca4" name="Citi-Def Sniper" hidden="false" targetId="bc74-4f09-d9e2-d3d4" type="profile">
+          <modifiers>
+            <modifier type="append" field="1ba5-0dfe-80d2-af1a" value="(+1)">
+              <conditions>
+                <condition field="selections" scope="3a4d-7b29-909d-f229" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fa9-704c-28bc-a54f" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="a488-1615-8c9e-2b73" value="Sniper, Body Armour">
+              <conditions>
+                <condition field="selections" scope="3a4d-7b29-909d-f229" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fa9-704c-28bc-a54f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="310d-6d8f-6f20-5e07" name="New CategoryLink" hidden="false" targetId="9cfd-c39e-c906-9440" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5222-8713-f0de-cc98" name="&gt;Body Armour" hidden="false" collective="false" import="true" targetId="6fa9-704c-28bc-a54f" type="selectionEntry"/>
+        <entryLink id="9207-0399-6741-ca2e" name="&gt;Weapons" hidden="false" collective="false" import="true" targetId="41d7-4d7e-ddb7-0c2b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c368-4f60-c279-072b" name="Citi-Def Trooper" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="2943-c96d-547e-7f98" name="Citi-Def Trooper" hidden="false" targetId="7f96-3d7c-dd24-333d" type="profile">
+          <modifiers>
+            <modifier type="set" field="a488-1615-8c9e-2b73" value="Body Armour">
+              <conditions>
+                <condition field="selections" scope="c368-4f60-c279-072b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fa9-704c-28bc-a54f" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="1ba5-0dfe-80d2-af1a" value="(+1)">
+              <conditions>
+                <condition field="selections" scope="c368-4f60-c279-072b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fa9-704c-28bc-a54f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="394f-ba9f-7458-d034" name="New CategoryLink" hidden="false" targetId="9cfd-c39e-c906-9440" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="cd33-0da9-64e1-67d7" name="&gt;Body Armour" hidden="false" collective="false" import="true" targetId="6fa9-704c-28bc-a54f" type="selectionEntry"/>
+        <entryLink id="75e1-5f99-1cbd-257e" name="&gt;Weapons" hidden="false" collective="false" import="true" targetId="41d7-4d7e-ddb7-0c2b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="84ba-e5c6-d15a-d9c6" name="Citi-Def Auxiliary" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="a759-663a-4f0a-2404" name="Citi-Def Auxiliary" hidden="false" targetId="fdbf-ddd7-4f46-d6ba" type="profile">
+          <modifiers>
+            <modifier type="set" field="a488-1615-8c9e-2b73" value="Body Armour">
+              <conditions>
+                <condition field="selections" scope="84ba-e5c6-d15a-d9c6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fa9-704c-28bc-a54f" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="1ba5-0dfe-80d2-af1a" value="(+1)">
+              <conditions>
+                <condition field="selections" scope="84ba-e5c6-d15a-d9c6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fa9-704c-28bc-a54f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e2e1-1758-fcbe-a83f" name="New CategoryLink" hidden="false" targetId="9cfd-c39e-c906-9440" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3cff-dc26-9e2c-c0d0" name="&gt;Body Armour" hidden="false" collective="false" import="true" targetId="6fa9-704c-28bc-a54f" type="selectionEntry"/>
+        <entryLink id="4bcf-d12d-62f5-3f25" name="&gt;Weapons" hidden="false" collective="false" import="true" targetId="41d7-4d7e-ddb7-0c2b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6fa9-704c-28bc-a54f" name="&gt;Body Armour" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7e2f-35ac-66f3-8c17" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1725-eee6-4767-b551" name="&gt;Body Armour" hidden="false" targetId="4807-dd8d-49b4-1f71" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="36e6-86ad-7c6f-7132" name="Knife" publicationId="23e2-8cf2-260a-a7be" page="95" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2980-5c06-fa49-5cef" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="c97b-856d-1707-45c7" name="Throw" hidden="false" targetId="5255-df17-8c9a-15cd" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="64e0-426d-7cef-3368" name="Pistol" publicationId="23e2-8cf2-260a-a7be" page="95" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6c51-fe9e-efdc-4cda" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ddf8-606e-2a6f-bbff" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9c23-cdcb-2db0-d939" name="Pistol" hidden="false" targetId="d722-e49d-ddf7-4804" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5034-aa06-87c4-7715" name="Hand cannon" publicationId="23e2-8cf2-260a-a7be" page="95" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5b5d-6b1d-9865-70ed" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="33db-1bff-302f-dbfd" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4851-50ec-0c66-7106" name="Hand Cannon" hidden="false" targetId="5d27-70b0-c958-1e9b" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="07f2-f885-acfb-c7df" name="Spit Pistol" publicationId="23e2-8cf2-260a-a7be" page="95" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b9c1-5a46-d586-4fa0" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e38-0038-4625-7c18" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="66f2-353e-4e31-cb03" name="Spit Pistol" hidden="false" targetId="e76f-59b1-c621-9438" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6c51-fe9e-efdc-4cda" name="Dual Pistol" publicationId="23e2-8cf2-260a-a7be" page="95" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="64e0-426d-7cef-3368" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="3aa3-1ad5-2153-f344" name="Dual Pistol" hidden="false" targetId="1825-0cbf-929a-37a0" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5b5d-6b1d-9865-70ed" name="Dual Hand cannon" publicationId="23e2-8cf2-260a-a7be" page="95" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5034-aa06-87c4-7715" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="e70f-6e5f-fa28-1430" name="Dual Hand Cannon" hidden="false" targetId="ad86-d0b7-59d3-9bbf" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b9c1-5a46-d586-4fa0" name="Dual Spit Pistol" publicationId="23e2-8cf2-260a-a7be" page="95" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="07f2-f885-acfb-c7df" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="9ee4-5f7f-15bc-0f6a" name="Dual Spit Pistol" hidden="false" targetId="224b-3f18-96d5-4bdb" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f3fc-d983-597b-3d86" name="Combat rifle" publicationId="23e2-8cf2-260a-a7be" page="95" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0395-1895-c5d1-a9b2" name="Combat Rifle" hidden="false" targetId="0058-6db7-9954-9298" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cf2a-67ea-9f15-e077" name="Spit carbine" publicationId="23e2-8cf2-260a-a7be" page="95" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a6af-989e-de63-4f2f" name="Spit Carbine" hidden="false" targetId="ec7d-97a5-47d6-3938" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f9c5-06a2-a5bc-9db7" name="Heavy Spit Gun" publicationId="23e2-8cf2-260a-a7be" page="95" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6939-f4f0-781d-29cb" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a203-9cd7-63b9-902b" name="Heavy Spit Gun" hidden="false" targetId="465f-b739-bdc5-1680" type="profile"/>
+        <infoLink id="c523-1eee-5bcb-b4ad" name="Heavy Weapon" hidden="false" targetId="c107-0557-c264-e217" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="948b-0db6-2a8c-90d0" name="Rocket Launcher" publicationId="23e2-8cf2-260a-a7be" page="95" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c412-d04f-1431-8830" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5158-090e-3644-2ff1" name="General Aerodynamix HAWK 2 Rocket Launcher" hidden="false" targetId="fc53-2cbe-e092-5117" type="profile"/>
+        <infoLink id="c60b-4eb3-34d9-71d9" name="Blast(X&quot;)" hidden="false" targetId="0a79-b0ce-a34b-0548" type="rule"/>
+        <infoLink id="9803-5174-061e-19b6" name="Heavy Weapon" hidden="false" targetId="c107-0557-c264-e217" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="010c-cdf5-0530-18cc" name="Sniper Rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="74b5-83c3-944c-158a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8977-27c5-9d3a-9e24" name="Sniper Rifle" hidden="false" targetId="8446-3989-3ef2-7cd0" type="profile"/>
+        <infoLink id="8fc8-5d89-0c7e-dc48" name="Long Barrel" hidden="false" targetId="f22c-2612-d386-22ec" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="41d7-4d7e-ddb7-0c2b" name="&gt;Weapons" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="27db-ed0f-e9d2-451f" name="One-Handed" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="decrement" field="5817-534b-e4b4-f265" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="faa0-3581-3c1c-d372" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5817-534b-e4b4-f265" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="d36e-786d-6457-787d" name="Close Combat" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="ded0-325f-396f-67f0" name="Knife" hidden="false" collective="false" import="true" targetId="36e6-86ad-7c6f-7132" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="f047-7f52-45b5-468d" name="Ranged" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="fc34-adba-79a1-9219" name="Hand cannon" hidden="false" collective="false" import="true" targetId="5034-aa06-87c4-7715" type="selectionEntry"/>
+                <entryLink id="1043-d272-3c22-333b" name="Spit Pistol" hidden="false" collective="false" import="true" targetId="07f2-f885-acfb-c7df" type="selectionEntry"/>
+                <entryLink id="84d7-2217-1d51-1e46" name="Pistol" hidden="false" collective="false" import="true" targetId="64e0-426d-7cef-3368" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="faa0-3581-3c1c-d372" name="Two-Handed/ Dual" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8d3c-07b2-09fe-9a9b" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="60aa-c71e-b5c0-04fd" name="Ranged" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5654-f7c6-46f8-592a" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="b1d9-6e0b-4530-49f9" name="Spit carbine" hidden="false" collective="false" import="true" targetId="cf2a-67ea-9f15-e077" type="selectionEntry"/>
+                <entryLink id="f6c9-b73c-9905-9e5c" name="Dual Spit Pistol" hidden="false" collective="false" import="true" targetId="b9c1-5a46-d586-4fa0" type="selectionEntry"/>
+                <entryLink id="6b87-ae34-9fa5-a439" name="Dual Pistol" hidden="false" collective="false" import="true" targetId="6c51-fe9e-efdc-4cda" type="selectionEntry"/>
+                <entryLink id="7d3e-4357-a58d-ddd3" name="Sniper Rifle" hidden="false" collective="false" import="true" targetId="010c-cdf5-0530-18cc" type="selectionEntry"/>
+                <entryLink id="3981-1ced-9a4c-f659" name="Heavy Spit Gun" hidden="false" collective="false" import="true" targetId="f9c5-06a2-a5bc-9db7" type="selectionEntry"/>
+                <entryLink id="5949-087e-8651-d181" name="Rocket Launcher" hidden="false" collective="false" import="true" targetId="948b-0db6-2a8c-90d0" type="selectionEntry"/>
+                <entryLink id="910b-c505-3276-fad2" name="Dual Hand cannon" hidden="false" collective="false" import="true" targetId="5b5d-6b1d-9865-70ed" type="selectionEntry"/>
+                <entryLink id="2843-cade-7172-b5e9" name="Combat rifle" hidden="false" collective="false" import="true" targetId="f3fc-d983-597b-3d86" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="4807-dd8d-49b4-1f71" name="Body Armour" hidden="false">
+      <description>+1 Resist</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="bc74-4f09-d9e2-d3d4" name="Citi-Def Sniper" publicationId="23e2-8cf2-260a-a7be" page="102" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+      <characteristics>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">5&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">3</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">2</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">1</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">3</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">3</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Sniper</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0cd6-618d-947d-6e23" name="Citi-Def Squad Leader" publicationId="23e2-8cf2-260a-a7be" page="102" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+      <characteristics>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">5&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">3</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">3</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">2</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">4</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">4</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Access to the Armoury, Leading from the Front</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fdbf-ddd7-4f46-d6ba" name="Citi-Def Auxiliary" publicationId="23e2-8cf2-260a-a7be" page="102" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+      <characteristics>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">5&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">2</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">2</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">1</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">2</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">2</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7f96-3d7c-dd24-333d" name="Citi-Def Trooper" publicationId="23e2-8cf2-260a-a7be" page="102" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+      <characteristics>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">5&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">3</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">2</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">1</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">3</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">3</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8446-3989-3ef2-7cd0" name="Sniper Rifle" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+      <characteristics>
+        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">12&quot;</characteristic>
+        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">0</characteristic>
+        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">36&quot;</characteristic>
+        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">+1</characteristic>
+        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">3</characteristic>
+        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Long Barrel</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0058-6db7-9954-9298" name="Combat Rifle" publicationId="23e2-8cf2-260a-a7be" page="42" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+      <characteristics>
+        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">12&quot;</characteristic>
+        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">24&quot;</characteristic>
+        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">3</characteristic>
+        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ad86-d0b7-59d3-9bbf" name="Dual Hand Cannon" publicationId="23e2-8cf2-260a-a7be" page="41" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+      <characteristics>
+        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">4</characteristic>
+        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1825-0cbf-929a-37a0" name="Dual Pistol" publicationId="23e2-8cf2-260a-a7be" page="41" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+      <characteristics>
+        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">3</characteristic>
+        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fc53-2cbe-e092-5117" name="General Aerodynamix HAWK 2 Rocket Launcher" publicationId="23e2-8cf2-260a-a7be" page="44" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+      <characteristics>
+        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">20&quot;</characteristic>
+        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">40&quot;</characteristic>
+        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">5</characteristic>
+        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Heavy Weapon, Balst (2&quot;), May use Armoury card special rounds.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="224b-3f18-96d5-4bdb" name="Dual Spit Pistol" publicationId="23e2-8cf2-260a-a7be" page="41" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+      <characteristics>
+        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+2</characteristic>
+        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">2</characteristic>
+        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5d27-70b0-c958-1e9b" name="Hand Cannon" publicationId="23e2-8cf2-260a-a7be" page="41" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+      <characteristics>
+        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">4</characteristic>
+        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="465f-b739-bdc5-1680" name="Heavy Spit Gun" publicationId="23e2-8cf2-260a-a7be" page="44" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+      <characteristics>
+        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">16&quot;</characteristic>
+        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+3</characteristic>
+        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">48&quot;</characteristic>
+        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">+2</characteristic>
+        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">3</characteristic>
+        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Heavy Weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d722-e49d-ddf7-4804" name="Pistol" publicationId="23e2-8cf2-260a-a7be" page="41" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+      <characteristics>
+        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">3</characteristic>
+        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ec7d-97a5-47d6-3938" name="Spit Carbine" publicationId="23e2-8cf2-260a-a7be" page="42" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+      <characteristics>
+        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">12&quot;</characteristic>
+        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+3</characteristic>
+        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">24&quot;</characteristic>
+        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">2</characteristic>
+        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e76f-59b1-c621-9438" name="Spit Pistol" publicationId="23e2-8cf2-260a-a7be" page="41" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+      <characteristics>
+        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+2</characteristic>
+        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">2</characteristic>
+        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="89f0-886b-428f-c90f" name="Knife" publicationId="23e2-8cf2-260a-a7be" page="46" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+      <characteristics>
+        <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
+        <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+1</characteristic>
+        <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">Throw</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

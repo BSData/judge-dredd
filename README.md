@@ -8,6 +8,8 @@ Judge Dredd
 
 
 [Overview]: #overview
+Judge Dredd Miniatures Game by WarlordGames(2019)
+
 [Links]: #links
 
 
