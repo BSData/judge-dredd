@@ -30,6 +30,7 @@
       </infoLinks>
       <entryLinks>
         <entryLink id="4e02-38fa-ea28-23fb" name="Weapons New" hidden="false" collective="false" import="true" targetId="3ab6-a43b-6bbe-760a" type="selectionEntryGroup"/>
+        <entryLink id="86e2-496f-b347-d3b7" name="&gt;Mount" hidden="false" collective="false" import="true" targetId="964f-3350-d284-e2bc" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="6.0"/>
@@ -41,6 +42,7 @@
       </infoLinks>
       <entryLinks>
         <entryLink id="bd6f-f6d7-30f0-f484" name="Weapons New" hidden="false" collective="false" import="true" targetId="3ab6-a43b-6bbe-760a" type="selectionEntryGroup"/>
+        <entryLink id="309c-9a21-59b9-f531" name="&gt;Mount" hidden="false" collective="false" import="true" targetId="964f-3350-d284-e2bc" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
@@ -52,6 +54,7 @@
       </infoLinks>
       <entryLinks>
         <entryLink id="908d-9c0d-6847-3465" name="Weapons New" hidden="false" collective="false" import="true" targetId="3ab6-a43b-6bbe-760a" type="selectionEntryGroup"/>
+        <entryLink id="f681-c5cd-5b96-4fca" name="&gt;Mount" hidden="false" collective="false" import="true" targetId="964f-3350-d284-e2bc" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="5.0"/>
@@ -79,6 +82,7 @@
       <entryLinks>
         <entryLink id="9700-3bdf-1604-95f1" name="Gunfighter or Brawler" hidden="false" collective="false" import="true" targetId="e1d5-2790-5343-8f92" type="selectionEntryGroup"/>
         <entryLink id="c7ef-f37b-52de-9334" name="Weapons New" hidden="false" collective="false" import="true" targetId="3ab6-a43b-6bbe-760a" type="selectionEntryGroup"/>
+        <entryLink id="84a8-70a7-9b4d-93ac" name="&gt;Mount" hidden="false" collective="false" import="true" targetId="964f-3350-d284-e2bc" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="13.0"/>
@@ -396,6 +400,58 @@
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ef75-a461-527e-a019" name="Gang Bike" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="cb2e-7fba-a891-0b06" name="Gang Bike" hidden="false" targetId="5750-2267-a3e5-17ac" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6a2e-6871-243f-9aa8" name="Bat Glider" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8af6-3b76-8990-6389" name="Bat Glider" hidden="false" targetId="cc56-a827-af31-9253" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8f58-8ae2-d2e1-ca12" name="Power Board" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1d7c-7e3c-e4d8-a933" name="Power Board" hidden="false" targetId="bd18-6402-a29f-77e0" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="944a-2437-278c-1d40" name="Sky Bike" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7f8c-09fa-e233-1bc0" name="Sky Bike" hidden="false" targetId="5f39-cdb8-b274-509a" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a3bd-fad9-cb6e-6c9e" name="Sportster" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="52a1-77f5-4027-11a0" name="Grav pod/ Sky cycle" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="09ee-9f20-1dad-0536" name="Ground pod/ Block Buddy" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d007-c694-fb8e-efc0" name="Hover Van" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="19.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="e1d5-2790-5343-8f92" name="&gt;Combat Skill" hidden="false" collective="false" import="true">
@@ -491,6 +547,25 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
+    <selectionEntryGroup id="964f-3350-d284-e2bc" name="&gt;Mount" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0ac9-3ec4-a764-6c1c" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="b441-605e-0d03-8b32" name="Bat Glider" hidden="false" collective="false" import="true" targetId="6a2e-6871-243f-9aa8" type="selectionEntry"/>
+        <entryLink id="b202-2201-8575-f5e3" name="Gang Bike" hidden="false" collective="false" import="true" targetId="ef75-a461-527e-a019" type="selectionEntry"/>
+        <entryLink id="32d3-1832-58d5-e799" name="Power Board" hidden="false" collective="false" import="true" targetId="8f58-8ae2-d2e1-ca12" type="selectionEntry"/>
+        <entryLink id="a353-9c58-3918-3e2e" name="Sky Bike" hidden="false" collective="false" import="true" targetId="944a-2437-278c-1d40" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="09b5-95f3-d011-18b0" name="&gt;Vehicle" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="bb18-2833-76ce-4d6c" name="Sportster" hidden="false" collective="false" import="true" targetId="a3bd-fad9-cb6e-6c9e" type="selectionEntry"/>
+        <entryLink id="b424-aef9-d876-dc3c" name="Grav pod/ Sky cycle" hidden="false" collective="false" import="true" targetId="52a1-77f5-4027-11a0" type="selectionEntry"/>
+        <entryLink id="e0a8-0db1-a283-54d4" name="Ground pod/ Block Buddy" hidden="false" collective="false" import="true" targetId="09ee-9f20-1dad-0536" type="selectionEntry"/>
+        <entryLink id="fc1c-b6fb-1568-9eb6" name="Hover Van" hidden="false" collective="false" import="true" targetId="d007-c694-fb8e-efc0" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="ff44-85c0-1374-dd81" name="&quot;C&apos;mon, You Lily-livered Scumsuckers&quot;" publicationId="23e2-8cf2-260a-a7be" page="94" hidden="false">
@@ -504,7 +579,7 @@
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="2aae-2fe2-7e49-b0a3" name="Gang Juve/s" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[1] Model">
+    <profile id="2aae-2fe2-7e49-b0a3" name="Gang Juve/s" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
       <characteristics>
         <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">6&quot;</characteristic>
         <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">1</characteristic>
@@ -515,7 +590,7 @@
         <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Pack (3)</characteristic>
       </characteristics>
     </profile>
-    <profile id="4309-fcd8-4877-091b" name="Gang Punk" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[1] Model">
+    <profile id="4309-fcd8-4877-091b" name="Gang Punk" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
       <characteristics>
         <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">6&quot;</characteristic>
         <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">2</characteristic>
@@ -526,7 +601,7 @@
         <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="e7d3-621c-05ab-aea7" name="Gang Lieutenant" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[1] Model">
+    <profile id="e7d3-621c-05ab-aea7" name="Gang Lieutenant" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
       <characteristics>
         <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">6&quot;</characteristic>
         <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">4</characteristic>
@@ -537,7 +612,7 @@
         <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Brawler or Gunfighter, &quot;C&apos;mon, You Lily-livered Scumsuckers&quot;, &quot;Drokk the Stinking Jays!&quot;</characteristic>
       </characteristics>
     </profile>
-    <profile id="2563-406d-595a-08be" name="Gang Heavy" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[1] Model">
+    <profile id="2563-406d-595a-08be" name="Gang Heavy" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
       <characteristics>
         <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">6&quot;</characteristic>
         <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">3</characteristic>
@@ -786,6 +861,50 @@
         <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
         <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+1</characteristic>
         <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cc56-a827-af31-9253" name="Bat Glider" publicationId="23e2-8cf2-260a-a7be" page="29" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+      <characteristics>
+        <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">+D6&quot;</characteristic>
+        <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">-1</characteristic>
+        <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">0</characteristic>
+        <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">+1</characteristic>
+        <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">-2</characteristic>
+        <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">-1</characteristic>
+        <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Grav, One-handed weapon only</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5750-2267-a3e5-17ac" name="Gang Bike" publicationId="23e2-8cf2-260a-a7be" page="29" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+      <characteristics>
+        <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">+4&quot;</characteristic>
+        <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">-1</characteristic>
+        <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">-1</characteristic>
+        <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">0</characteristic>
+        <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">+1</characteristic>
+        <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">0</characteristic>
+        <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bd18-6402-a29f-77e0" name="Power Board" publicationId="23e2-8cf2-260a-a7be" page="29" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+      <characteristics>
+        <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">+8&quot;</characteristic>
+        <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">-1</characteristic>
+        <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">-1</characteristic>
+        <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">+1</characteristic>
+        <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">0</characteristic>
+        <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">0</characteristic>
+        <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Grav</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5f39-cdb8-b274-509a" name="Sky Bike" publicationId="23e2-8cf2-260a-a7be" page="29" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+      <characteristics>
+        <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">+6&quot;</characteristic>
+        <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">-1</characteristic>
+        <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">-1</characteristic>
+        <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">+1</characteristic>
+        <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">+1</characteristic>
+        <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">0</characteristic>
+        <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Grav</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -29,7 +29,7 @@
         <characteristicType id="6afe-ea34-1baf-6940" name="Description"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="1ad0-6f7a-89c2-56c0" name="[1] Model">
+    <profileType id="1ad0-6f7a-89c2-56c0" name="[4] Mount">
       <characteristicTypes>
         <characteristicType id="f8e7-0c5a-630a-6072" name="Move"/>
         <characteristicType id="cf37-0e8c-2b04-e94e" name="Shoot"/>
@@ -38,6 +38,28 @@
         <characteristicType id="5895-12a6-bdef-a0b4" name="Resist"/>
         <characteristicType id="e971-e0b1-c42c-0f04" name="Cool"/>
         <characteristicType id="c7e1-0b5d-d4d9-8634" name="Special Rules"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="a6e3-cdc0-1b71-2e5d" name="[1] Model">
+      <characteristicTypes>
+        <characteristicType id="0a83-d3be-bc14-c04b" name="Move"/>
+        <characteristicType id="8de2-68d3-f0ee-02f0" name="Shoot"/>
+        <characteristicType id="c0e3-f4e1-8744-e805" name="Fight"/>
+        <characteristicType id="2dde-74b6-a414-836d" name="Evade"/>
+        <characteristicType id="1ba5-0dfe-80d2-af1a" name="Resist"/>
+        <characteristicType id="4a73-c022-6ea7-27ce" name="Cool"/>
+        <characteristicType id="a488-1615-8c9e-2b73" name="Special Rules"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="f7b1-182a-afdb-bd17" name="[5] Vehicle">
+      <characteristicTypes>
+        <characteristicType id="6e52-ee02-6094-1730" name="Move"/>
+        <characteristicType id="35f7-92f9-2d23-7f84" name="Shoot"/>
+        <characteristicType id="e213-1206-fcdb-3283" name="Fight"/>
+        <characteristicType id="fca7-0483-2fd0-dafa" name="Evade"/>
+        <characteristicType id="77a2-9099-ce97-807b" name="Resist"/>
+        <characteristicType id="7184-1b95-8eb1-cf44" name="Cool"/>
+        <characteristicType id="e23f-0180-1c94-79c6" name="Special Rules"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
