@@ -7,16 +7,7 @@
     <entryLink id="5dd0-c84d-6418-6dd7" name="Senior Street Judge" hidden="false" collective="false" import="true" targetId="9aa8-98b6-07d9-2418" type="selectionEntry"/>
     <entryLink id="3eb3-355e-9630-4e18" name="Rookie Judge" hidden="false" collective="false" import="true" targetId="2f09-ea49-8443-26dd" type="selectionEntry"/>
     <entryLink id="340e-30d9-32da-264a" name="Cadet Judge " hidden="false" collective="false" import="true" targetId="b3c7-16d9-dfa0-2578" type="selectionEntry"/>
-<<<<<<< HEAD
-    <entryLink id="12d6-1d51-48f1-fd73" name="Dredd" hidden="false" collective="false" import="true" targetId="a80c-04f7-8179-bfad" type="selectionEntry"/>
-    <entryLink id="45c9-aff7-a880-4329" name="Mechanismo Mk1 Auxiliary Judge" hidden="false" collective="false" import="true" targetId="c8a4-41c5-df9f-14b5" type="selectionEntry"/>
   </entryLinks>
-  <infoLinks>
-    <infoLink id="1d78-f74b-b183-48b8" name="Dual Weapon Fighting" hidden="false" targetId="03bc-162c-1edd-dde4" type="rule"/>
-  </infoLinks>
-=======
-  </entryLinks>
->>>>>>> 84864ada9d7aa1c1b1d6b3b8ad1123dd31699798
   <sharedSelectionEntries>
     <selectionEntry id="cfca-f781-7059-c67d" name="Boot Knife" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -150,16 +141,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3929-bafa-0ea9-ab09" name="Stub Gun" hidden="false" collective="false" import="true" type="upgrade">
-<<<<<<< HEAD
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a80c-04f7-8179-bfad" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-=======
->>>>>>> 84864ada9d7aa1c1b1d6b3b8ad1123dd31699798
       <profiles>
         <profile id="a557-1778-f4d6-d328" name="Stub Gun" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
           <characteristics>
@@ -221,8 +202,6 @@
       <categoryLinks>
         <categoryLink id="7b27-2897-aedb-f790" name="New CategoryLink" hidden="false" targetId="679d-38be-0ed3-5a13" primary="true"/>
       </categoryLinks>
-<<<<<<< HEAD
-=======
       <selectionEntries>
         <selectionEntry id="585d-5c2a-44d4-930d" name="Specialist Skills" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -253,16 +232,11 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
->>>>>>> 84864ada9d7aa1c1b1d6b3b8ad1123dd31699798
       <entryLinks>
         <entryLink id="5f2c-5643-7bfd-be9d" name="Boot Knife" hidden="false" collective="false" import="true" targetId="cfca-f781-7059-c67d" type="selectionEntry"/>
         <entryLink id="4588-2590-2800-f507" name="Day Stick" hidden="false" collective="false" import="true" targetId="f982-918a-3f55-d5a5" type="selectionEntry"/>
         <entryLink id="be19-b8de-01da-c897" name="Lawmaster" hidden="false" collective="false" import="true" targetId="5d01-7580-b26f-02e7" type="selectionEntry"/>
         <entryLink id="e9b7-1829-8e65-21d2" name="Judges Weapon" hidden="false" collective="false" import="true" targetId="7b8c-b7f7-1f9a-096d" type="selectionEntryGroup"/>
-<<<<<<< HEAD
-        <entryLink id="55e2-07ef-1508-ef9b" name="Specialist Skills" hidden="false" collective="false" import="true" targetId="50fe-7128-b6f4-3ad7" type="selectionEntryGroup"/>
-=======
->>>>>>> 84864ada9d7aa1c1b1d6b3b8ad1123dd31699798
       </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="13.0"/>
@@ -275,8 +249,6 @@
       <categoryLinks>
         <categoryLink id="91b4-8fbd-0cd9-fc97" name="New CategoryLink" hidden="false" targetId="679d-38be-0ed3-5a13" primary="true"/>
       </categoryLinks>
-<<<<<<< HEAD
-=======
       <selectionEntries>
         <selectionEntry id="2855-b756-60e4-a561" name="Specialist Skills" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -307,16 +279,11 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
->>>>>>> 84864ada9d7aa1c1b1d6b3b8ad1123dd31699798
       <entryLinks>
         <entryLink id="fe2b-4225-9594-0275" name="Boot Knife" hidden="false" collective="false" import="true" targetId="cfca-f781-7059-c67d" type="selectionEntry"/>
         <entryLink id="3083-d790-fcd6-af4f" name="Day Stick" hidden="false" collective="false" import="true" targetId="f982-918a-3f55-d5a5" type="selectionEntry"/>
         <entryLink id="fca8-f36c-2f9f-4a78" name="Lawmaster" hidden="false" collective="false" import="true" targetId="5d01-7580-b26f-02e7" type="selectionEntry"/>
         <entryLink id="c4b7-9302-49d6-c82c" name="Judges Weapon" hidden="false" collective="false" import="true" targetId="7b8c-b7f7-1f9a-096d" type="selectionEntryGroup"/>
-<<<<<<< HEAD
-        <entryLink id="6ff7-ac5c-40a2-7072" name="Specialist Skills" hidden="false" collective="false" import="true" targetId="50fe-7128-b6f4-3ad7" type="selectionEntryGroup"/>
-=======
->>>>>>> 84864ada9d7aa1c1b1d6b3b8ad1123dd31699798
       </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="11.0"/>
@@ -359,9 +326,6 @@
       <categoryLinks>
         <categoryLink id="79bb-7b7d-4c82-0966" name="New CategoryLink" hidden="false" targetId="679d-38be-0ed3-5a13" primary="true"/>
       </categoryLinks>
-<<<<<<< HEAD
-      <entryLinks>
-=======
       <selectionEntries>
         <selectionEntry id="f306-8cad-a9b4-c6b4" name="Specialist Skills" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -394,16 +358,10 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="9966-a70a-9bfc-0644" name="Gunfighter of Brawler" hidden="false" collective="false" import="true" targetId="948d-71f2-e675-48bb" type="selectionEntry"/>
->>>>>>> 84864ada9d7aa1c1b1d6b3b8ad1123dd31699798
         <entryLink id="a350-b185-0bfa-473c" name="Lawmaster" hidden="false" collective="false" import="true" targetId="5d01-7580-b26f-02e7" type="selectionEntry"/>
         <entryLink id="7d61-c230-6749-cc0c" name="Boot Knife" hidden="false" collective="false" import="true" targetId="cfca-f781-7059-c67d" type="selectionEntry"/>
         <entryLink id="0fdd-5014-63ce-30c3" name="Day Stick" hidden="false" collective="false" import="true" targetId="f982-918a-3f55-d5a5" type="selectionEntry"/>
         <entryLink id="91c7-6cc5-1fc0-5629" name="Judges Weapon" hidden="false" collective="false" import="true" targetId="7b8c-b7f7-1f9a-096d" type="selectionEntryGroup"/>
-<<<<<<< HEAD
-        <entryLink id="058c-3594-0067-8995" name="Specialist Skills" hidden="false" collective="false" import="true" targetId="50fe-7128-b6f4-3ad7" type="selectionEntryGroup"/>
-        <entryLink id="c39f-a98a-1a63-274e" name="Gunfighter or Brawler" hidden="false" collective="false" import="true" targetId="0cd9-a3f1-0aa1-432b" type="selectionEntryGroup"/>
-=======
->>>>>>> 84864ada9d7aa1c1b1d6b3b8ad1123dd31699798
       </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="18.0"/>
@@ -511,11 +469,7 @@
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="12.0"/>
       </costs>
     </selectionEntry>
-<<<<<<< HEAD
-    <selectionEntry id="948d-71f2-e675-48bb" name="&gt;Combat Skill" hidden="false" collective="false" import="true" type="upgrade">
-=======
     <selectionEntry id="948d-71f2-e675-48bb" name="Combat Skill" hidden="false" collective="false" import="true" type="upgrade">
->>>>>>> 84864ada9d7aa1c1b1d6b3b8ad1123dd31699798
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="373d-b28c-48fe-9b9d" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28ec-33d8-0e0a-3d6c" type="min"/>
@@ -527,16 +481,6 @@
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
       </costs>
     </selectionEntry>
-<<<<<<< HEAD
-    <selectionEntry id="2d09-c11b-6c04-418c" name="Med Judge" publicationId="23e2-8cf2-260a-a7be" page="71" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6696-824a-92d8-0c09" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-=======
     <selectionEntry id="a862-b1fe-2b67-1d8d" name="Specialist Skills" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e39-fcf8-fa0b-1ea8" type="max"/>
@@ -547,22 +491,11 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2d09-c11b-6c04-418c" name="Med Judge" publicationId="23e2-8cf2-260a-a7be" page="71" hidden="false" collective="false" import="true" type="upgrade">
->>>>>>> 84864ada9d7aa1c1b1d6b3b8ad1123dd31699798
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="46e1-c26e-5a18-888d" name="Tek Judge" publicationId="23e2-8cf2-260a-a7be" page="71" hidden="false" collective="false" import="true" type="upgrade">
-<<<<<<< HEAD
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6696-824a-92d8-0c09" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-=======
->>>>>>> 84864ada9d7aa1c1b1d6b3b8ad1123dd31699798
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="4.0"/>
       </costs>
@@ -603,90 +536,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="73f5-a344-d900-4c28" name="SJS Judge" publicationId="23e2-8cf2-260a-a7be" page="71" hidden="false" collective="false" import="true" type="upgrade">
-<<<<<<< HEAD
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2f09-ea49-8443-26dd" type="instanceOf"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e281-7b36-5e5e-4b76" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <costs>
-        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="a80c-04f7-8179-bfad" name="Judge Dredd" hidden="false" collective="false" import="true" type="model">
-      <infoGroups>
-        <infoGroup id="5215-6bcd-f32e-1013" name="Judge Dredd Rules" hidden="false">
-          <infoLinks>
-            <infoLink id="cfb0-df1b-d873-a406" name="Let&apos;s Ride!" hidden="false" targetId="e2e3-8613-b985-2a16" type="rule"/>
-            <infoLink id="1411-8a0c-40b1-ab78" name="Gunfighter" hidden="false" targetId="cf10-e6f2-897d-aaad" type="rule"/>
-          </infoLinks>
-        </infoGroup>
-      </infoGroups>
-      <infoLinks>
-        <infoLink id="fbad-e48e-1151-37a8" name="Judge Dredd" hidden="false" targetId="48d9-ccb0-6c19-45e9" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="7b5c-6a78-d3ad-3b21" name="Named Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="true"/>
-        <categoryLink id="8984-37ee-c8c5-649d" name="The Justice Department" hidden="false" targetId="679d-38be-0ed3-5a13" primary="false"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="68cf-ddcd-70a2-a094" name="Boot Knife" hidden="false" collective="false" import="true" targetId="cfca-f781-7059-c67d" type="selectionEntry"/>
-        <entryLink id="2e2d-8d8d-fbf7-9fbf" name="Day Stick" hidden="false" collective="false" import="true" targetId="f982-918a-3f55-d5a5" type="selectionEntry"/>
-        <entryLink id="f12a-1c70-99d4-5e2d" name="Judges Weapon" hidden="false" collective="false" import="true" targetId="7b8c-b7f7-1f9a-096d" type="selectionEntryGroup"/>
-      </entryLinks>
-      <costs>
-        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="35.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c8a4-41c5-df9f-14b5" name="Mechanismo Mk1 Auxiliary Judge" hidden="false" collective="false" import="true" type="model">
-      <infoLinks>
-        <infoLink id="48f6-1d15-da42-6984" name="Mechanismo Mk1 Auxiliary Judge" hidden="false" targetId="e5e6-e350-06fc-5cf8" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="7075-148e-8dc4-cca5" name="Robots" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="true"/>
-        <categoryLink id="1e32-1dc9-eddc-51db" name="The Justice Department" hidden="false" targetId="679d-38be-0ed3-5a13" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="15.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3fd1-3608-87bd-b402" name="&gt;Specialist Skills" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="447a-726e-3b39-1963" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98af-8af6-f90a-d1f8" type="min"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="e91d-ac0c-436c-2adf" name="Med Judge" hidden="false" collective="false" import="true" targetId="2d09-c11b-6c04-418c" type="selectionEntry"/>
-        <entryLink id="5afb-104f-fe3d-7de1" name="Psi-Judge" hidden="false" collective="false" import="true" targetId="3745-a135-b3eb-569a" type="selectionEntry"/>
-        <entryLink id="a518-be7f-5ecb-05af" name="SJS Judge" hidden="false" collective="false" import="true" targetId="73f5-a344-d900-4c28" type="selectionEntry"/>
-        <entryLink id="dbca-374f-e926-dde3" name="Tek Judge" hidden="false" collective="false" import="true" targetId="46e1-c26e-5a18-888d" type="selectionEntry"/>
-      </entryLinks>
-=======
->>>>>>> 84864ada9d7aa1c1b1d6b3b8ad1123dd31699798
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-<<<<<<< HEAD
-    <selectionEntryGroup id="7b8c-b7f7-1f9a-096d" name="&gt;Judges Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6bd9-31d1-41c0-742f">
-=======
     <selectionEntryGroup id="7b8c-b7f7-1f9a-096d" name="Judges Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6bd9-31d1-41c0-742f">
->>>>>>> 84864ada9d7aa1c1b1d6b3b8ad1123dd31699798
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="246e-1982-20f4-cded" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9eac-e77c-e952-0031" type="min"/>
@@ -698,11 +554,7 @@
         <entryLink id="6bd9-31d1-41c0-742f" name="Lawgiver Mk2 Pistol" hidden="false" collective="false" import="true" targetId="d5dc-d46f-c40a-ab6a" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-<<<<<<< HEAD
-    <selectionEntryGroup id="0cd9-a3f1-0aa1-432b" name="&gt;Combat Skill" hidden="false" collective="false" import="true">
-=======
     <selectionEntryGroup id="0cd9-a3f1-0aa1-432b" name="Gunfighter or Brawler" hidden="false" collective="false" import="true" defaultSelectionEntryId="dc64-43a4-ef84-9965">
->>>>>>> 84864ada9d7aa1c1b1d6b3b8ad1123dd31699798
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b856-4190-da54-babf" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7e5-fe27-6b61-8e46" type="min"/>
@@ -724,21 +576,6 @@
             <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
           </costs>
         </selectionEntry>
-<<<<<<< HEAD
-      </selectionEntries>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="50fe-7128-b6f4-3ad7" name="&gt;Specialist Skills" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c374-9ec0-f3bd-7e15" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="c749-46bb-13fe-cf45" name="Med Judge" hidden="false" collective="false" import="true" targetId="2d09-c11b-6c04-418c" type="selectionEntry"/>
-        <entryLink id="af69-fb4e-1663-7b02" name="Psi-Judge" hidden="false" collective="false" import="true" targetId="3745-a135-b3eb-569a" type="selectionEntry"/>
-        <entryLink id="9671-f795-8799-a758" name="SJS Judge" hidden="false" collective="false" import="true" targetId="73f5-a344-d900-4c28" type="selectionEntry"/>
-        <entryLink id="251a-1699-6cde-2937" name="Tek Judge" hidden="false" collective="false" import="true" targetId="46e1-c26e-5a18-888d" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-=======
         <selectionEntry id="dc64-43a4-ef84-9965" name="[Choose]" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
@@ -746,7 +583,6 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
->>>>>>> 84864ada9d7aa1c1b1d6b3b8ad1123dd31699798
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="ff5a-3ad3-722b-380c" name="A.I." publicationId="23e2-8cf2-260a-a7be" page="64" hidden="false">
@@ -831,30 +667,5 @@ Requires a Judge to be taken.</description>
         <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Gunfighter, Brawler, Fortitude, Respect the Law, Let&apos;s Ride!</characteristic>
       </characteristics>
     </profile>
-<<<<<<< HEAD
-    <profile id="48d9-ccb0-6c19-45e9" name="Judge Dredd" publicationId="23e2-8cf2-260a-a7be" page="75" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[1] Model">
-      <characteristics>
-        <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">6&quot;</characteristic>
-        <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">5</characteristic>
-        <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">5</characteristic>
-        <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">4</characteristic>
-        <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">5</characteristic>
-        <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">5</characteristic>
-        <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">&quot;Drokk Me, it&apos;s Dredd!!!&quot;, Gaze in to the fist of Dredd!, Gunfighter, Incredible Shot, Let&apos;s Ride!</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="e5e6-e350-06fc-5cf8" name="Mechanismo Mk1 Auxiliary Judge" publicationId="23e2-8cf2-260a-a7be" page="80" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[1] Model">
-      <characteristics>
-        <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">5&quot;</characteristic>
-        <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">3</characteristic>
-        <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">5</characteristic>
-        <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">0</characteristic>
-        <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">6</characteristic>
-        <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">4</characteristic>
-        <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Robot, Respect the Machine Law, Self-Repair Sub-Routines, Shut Down Number 5!</characteristic>
-      </characteristics>
-    </profile>
-=======
->>>>>>> 84864ada9d7aa1c1b1d6b3b8ad1123dd31699798
   </sharedProfiles>
 </catalogue>

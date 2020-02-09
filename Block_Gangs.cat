@@ -65,39 +65,25 @@
           <modifiers>
             <modifier type="set" field="c7e1-0b5d-d4d9-8634" value="Gunfighter, &quot;C&apos;mon, You Lily-livered Scumsuckers&quot;, &quot;Drokk the Stinking Jays!&quot;">
               <conditions>
-<<<<<<< HEAD
-                <condition field="selections" scope="0ed8-f93d-de36-98a7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7c48-acb1-373b-b12b" type="equalTo"/>
-=======
                 <condition field="selections" scope="0ed8-f93d-de36-98a7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="07fe-033c-df6d-4d06" type="equalTo"/>
->>>>>>> 84864ada9d7aa1c1b1d6b3b8ad1123dd31699798
               </conditions>
             </modifier>
             <modifier type="set" field="c7e1-0b5d-d4d9-8634" value="Brawler, &quot;C&apos;mon, You Lily-livered Scumsuckers&quot;, &quot;Drokk the Stinking Jays!&quot;">
               <conditions>
-<<<<<<< HEAD
-                <condition field="selections" scope="0ed8-f93d-de36-98a7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d250-a95c-68c4-a433" type="equalTo"/>
-=======
                 <condition field="selections" scope="0ed8-f93d-de36-98a7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4fc8-e66b-954c-aedb" type="equalTo"/>
->>>>>>> 84864ada9d7aa1c1b1d6b3b8ad1123dd31699798
               </conditions>
             </modifier>
           </modifiers>
         </infoLink>
       </infoLinks>
       <entryLinks>
-<<<<<<< HEAD
-        <entryLink id="9700-3bdf-1604-95f1" name="&gt;Combat Skill" hidden="false" collective="false" import="true" targetId="9f28-625e-18ff-6ebe" type="selectionEntryGroup"/>
-=======
         <entryLink id="9700-3bdf-1604-95f1" name="Combat Skill" hidden="false" collective="false" import="true" targetId="72ca-8221-0a8d-6a93" type="selectionEntry"/>
->>>>>>> 84864ada9d7aa1c1b1d6b3b8ad1123dd31699798
         <entryLink id="c7ef-f37b-52de-9334" name="Weapons New" hidden="false" collective="false" import="true" targetId="3ab6-a43b-6bbe-760a" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="13.0"/>
       </costs>
     </selectionEntry>
-<<<<<<< HEAD
-=======
     <selectionEntry id="72ca-8221-0a8d-6a93" name="Combat Skill" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db61-004e-f4ec-19d7" type="max"/>
@@ -110,7 +96,6 @@
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
       </costs>
     </selectionEntry>
->>>>>>> 84864ada9d7aa1c1b1d6b3b8ad1123dd31699798
     <selectionEntry id="f1fc-0101-0f69-6334" name="Chain" publicationId="23e2-8cf2-260a-a7be" page="95" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -425,8 +410,6 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-<<<<<<< HEAD
-=======
     <selectionEntryGroup id="e1d5-2790-5343-8f92" name="Gunfighter or Brawler" hidden="false" collective="false" import="true" defaultSelectionEntryId="b554-6bae-e61e-4e82">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c65d-3f2c-705f-56b9" type="max"/>
@@ -456,7 +439,6 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
->>>>>>> 84864ada9d7aa1c1b1d6b3b8ad1123dd31699798
     <selectionEntryGroup id="3ab6-a43b-6bbe-760a" name="Weapons" hidden="false" collective="false" import="true">
       <selectionEntryGroups>
         <selectionEntryGroup id="c1f9-1385-74e1-d089" name="One-Handed" hidden="false" collective="false" import="true">
@@ -526,33 +508,6 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-<<<<<<< HEAD
-    <selectionEntryGroup id="9f28-625e-18ff-6ebe" name="&gt;Combat Skill" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec6b-4076-0f34-c30c" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae62-775c-9891-23c1" type="min"/>
-      </constraints>
-      <selectionEntries>
-        <selectionEntry id="7c48-acb1-373b-b12b" name="Gunfighter" hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="2c39-0725-d2c8-d861" name="Gunfighter" hidden="false" targetId="cf10-e6f2-897d-aaad" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d250-a95c-68c4-a433" name="Brawler" hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="3f67-049e-6280-b0a9" name="Brawler" hidden="false" targetId="cff2-8dcb-5e21-c8c4" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-=======
->>>>>>> 84864ada9d7aa1c1b1d6b3b8ad1123dd31699798
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="ff44-85c0-1374-dd81" name="&quot;C&apos;mon, You Lily-livered Scumsuckers&quot;" publicationId="23e2-8cf2-260a-a7be" page="94" hidden="false">

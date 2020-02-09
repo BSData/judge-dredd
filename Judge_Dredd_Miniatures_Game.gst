@@ -53,7 +53,6 @@
     <categoryEntry id="a8cb-f452-19f8-d44c" name="Citizens" hidden="false"/>
     <categoryEntry id="99ee-b34f-b01c-ed36" name="The Cursed Earth" hidden="false"/>
     <categoryEntry id="0150-98ab-6640-0b05" name="Fourth Faction Agents" hidden="false"/>
-    <categoryEntry id="0f90-0176-3565-990e" name="Rules" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="1a15-0379-f38f-fc7f" name="Large Force 50+" publicationId="23e2-8cf2-260a-a7be" hidden="false">
@@ -115,7 +114,7 @@
         <categoryLink id="09ef-e003-894b-6e92" name="The Cursed Earth" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="false"/>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="c1df-5bb0-e7ef-2cef" name="Open Force" publicationId="23e2-8cf2-260a-a7be" hidden="false">
+    <forceEntry id="c1df-5bb0-e7ef-2cef" name=" Open Force" publicationId="23e2-8cf2-260a-a7be" hidden="false">
       <constraints>
         <constraint field="c427-d435-2985-7283" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf7a-0c93-b410-3e1b" type="max"/>
         <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31fe-0495-d8d8-24e4" type="max"/>
@@ -135,6 +134,28 @@
       </categoryLinks>
     </forceEntry>
   </forceEntries>
+  <rules>
+    <rule id="c593-32aa-cdd7-402f" name="Dual Weapon Fighting" publicationId="23e2-8cf2-260a-a7be" page="27/40" hidden="false">
+      <description>Ranged:
+Only one-handed or Sawn-off Stump guns may be used.
+Model&apos;s fire arc becomes Focused Front (FF) for Snapshot.
++1 Shoot Per additional weapon, pick Range Modifier, use lowest Power.
+Target Gains +1 Resist.
+
+Close Combat:
+May use a close combat weapon in each hand.
+Hits are scored on both [Hit]+[Special] results.
+Target Gains +1 Resist.
+
+Close combat weapon and pistol, use either:
+Close combat weapon&apos;s Power 
+or
+Pisto&apos;sl Power (Can only target one opponent)
+
+
+</description>
+    </rule>
+  </rules>
   <sharedRules>
     <rule id="5255-df17-8c9a-15cd" name="Throw" hidden="false">
       <description>Throw is up to 6&quot; and uses the Fight stat.</description>
