@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="ae68-bf10-140a-0058" name="Judge Dredd Miniatures Game" revision="2" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="ae68-bf10-140a-0058" name="Judge Dredd Miniatures Game" revision="3" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="23e2-8cf2-260a-a7be" name="JDMG (2019)"/>
   </publications>
@@ -64,17 +64,76 @@
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="8cfd-42d4-756a-862b" name="The Dark Judges" hidden="false"/>
-    <categoryEntry id="679d-38be-0ed3-5a13" name="The Justice Department" hidden="false"/>
-    <categoryEntry id="8f61-3865-f1e7-f762" name="Block Gangs" hidden="false"/>
-    <categoryEntry id="c9e2-544d-e589-a911" name="Vehicles" hidden="false"/>
-    <categoryEntry id="9cfd-c39e-c906-9440" name="Citi-Def" hidden="false"/>
-    <categoryEntry id="073f-0aee-8d5c-0765" name="Fatties" hidden="false"/>
-    <categoryEntry id="7072-7f05-1d2c-1263" name="Named Characters" hidden="false"/>
-    <categoryEntry id="a68a-3ba3-3053-a25b" name="Robots" hidden="false"/>
-    <categoryEntry id="a8cb-f452-19f8-d44c" name="Citizens" hidden="false"/>
-    <categoryEntry id="99ee-b34f-b01c-ed36" name="The Cursed Earth" hidden="false"/>
-    <categoryEntry id="0150-98ab-6640-0b05" name="Fourth Faction Agents" hidden="false"/>
+    <categoryEntry id="8cfd-42d4-756a-862b" name="&lt;The Dark Judges" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4e3-874d-d8e7-b69b" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="679d-38be-0ed3-5a13" name="&lt;The Justice Department" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fd8-cc6d-6477-75c0" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="8f61-3865-f1e7-f762" name="&lt;Block Gangs" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efd3-ca93-4766-3762" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="c9e2-544d-e589-a911" name="&lt;Vehicles" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="685c-9944-42bb-956b" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="9cfd-c39e-c906-9440" name="&lt;Citi-Def" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f26e-7089-cd88-3322" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="073f-0aee-8d5c-0765" name="&lt;Fatties" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d3d-9385-ffa2-e95e" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="7072-7f05-1d2c-1263" name="&lt;Characters" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd1e-2818-36d3-1a7d" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="a68a-3ba3-3053-a25b" name="&lt;Robots" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8405-2019-ecd1-e9f3" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="a8cb-f452-19f8-d44c" name="&lt;Citizens" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4e0-681d-2aea-1d14" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="99ee-b34f-b01c-ed36" name="&lt;Mutie Sky Raiders" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff71-585f-62ca-c2fa" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="0150-98ab-6640-0b05" name="&lt;Fourth Faction Agents" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff93-d797-acb6-6089" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="7c47-63fd-b4bd-4951" name="&gt;Rules" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d016-aa8a-7216-859b" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="146a-0b0a-94f9-e02c" name="&lt;Inmate Judges" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b24e-f971-00f4-83e0" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="2d27-82b5-e828-bd48" name="&lt;Mounts" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f550-02f9-3dc2-4bdc" type="max"/>
+      </constraints>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="1a15-0379-f38f-fc7f" name="Large Force 50+" publicationId="23e2-8cf2-260a-a7be" hidden="false">
@@ -94,6 +153,9 @@
         <categoryLink id="e6f7-e486-1f25-1ab5" name="Fourth Faction Agents" hidden="false" targetId="0150-98ab-6640-0b05" primary="false"/>
         <categoryLink id="a371-7449-76c6-ba29" name="Robots" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="false"/>
         <categoryLink id="590f-f353-dc37-e9d2" name="The Cursed Earth" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="false"/>
+        <categoryLink id="c680-374d-b0d5-e3ce" name="Rules" hidden="false" targetId="7c47-63fd-b4bd-4951" primary="false"/>
+        <categoryLink id="9d17-c758-f037-b51a" name="&lt;Inmate Judges" hidden="false" targetId="146a-0b0a-94f9-e02c" primary="false"/>
+        <categoryLink id="c275-53d9-db75-cfd7" name="&lt;Mounts" hidden="false" targetId="2d27-82b5-e828-bd48" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="c859-1019-c3b1-e6af" name="Small Game Force 10-25" publicationId="23e2-8cf2-260a-a7be" hidden="false">
@@ -114,6 +176,9 @@
         <categoryLink id="6ac8-aed9-75bd-1dcb" name="Fourth Faction Agents" hidden="false" targetId="0150-98ab-6640-0b05" primary="false"/>
         <categoryLink id="b256-54d5-c95a-58db" name="Robots" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="false"/>
         <categoryLink id="74d5-9acc-c404-3966" name="The Cursed Earth" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="false"/>
+        <categoryLink id="73ec-96eb-82c0-f012" name="Rules" hidden="false" targetId="7c47-63fd-b4bd-4951" primary="false"/>
+        <categoryLink id="d8d0-f85f-7c66-22c5" name="&lt;Inmate Judges" hidden="false" targetId="146a-0b0a-94f9-e02c" primary="false"/>
+        <categoryLink id="efbb-7e94-03d1-186f" name="&lt;Mounts" hidden="false" targetId="2d27-82b5-e828-bd48" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="af73-aa3e-3857-fbab" name="Medium Force 26-50" publicationId="23e2-8cf2-260a-a7be" hidden="false">
@@ -134,6 +199,9 @@
         <categoryLink id="c441-55e8-6b9e-b801" name="Fourth Faction Agents" hidden="false" targetId="0150-98ab-6640-0b05" primary="false"/>
         <categoryLink id="7a84-5739-c019-94b1" name="Robots" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="false"/>
         <categoryLink id="09ef-e003-894b-6e92" name="The Cursed Earth" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="false"/>
+        <categoryLink id="90a8-a75f-bdf2-8f66" name="Rules" hidden="false" targetId="7c47-63fd-b4bd-4951" primary="false"/>
+        <categoryLink id="4d8c-9379-1c96-656a" name="&lt;Inmate Judges" hidden="false" targetId="146a-0b0a-94f9-e02c" primary="false"/>
+        <categoryLink id="c640-691d-7c71-7b48" name="&lt;Mounts" hidden="false" targetId="2d27-82b5-e828-bd48" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="c1df-5bb0-e7ef-2cef" name=" Open Force" publicationId="23e2-8cf2-260a-a7be" hidden="false">
@@ -153,31 +221,1524 @@
         <categoryLink id="a434-f9e2-714c-4cd6" name="Fourth Faction Agents" hidden="false" targetId="0150-98ab-6640-0b05" primary="false"/>
         <categoryLink id="db57-506c-b8f9-6201" name="Robots" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="false"/>
         <categoryLink id="26f6-b238-eebe-fd20" name="The Cursed Earth" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="false"/>
+        <categoryLink id="a682-f3e0-0f5b-9d4e" name="Rules" hidden="false" targetId="7c47-63fd-b4bd-4951" primary="false"/>
+        <categoryLink id="0096-a3a3-6883-0d4f" name="&lt;Inmate Judges" hidden="false" targetId="146a-0b0a-94f9-e02c" primary="false"/>
+        <categoryLink id="f395-f8ad-e83c-b508" name="&lt;Mounts" hidden="false" targetId="2d27-82b5-e828-bd48" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
-  <rules>
-    <rule id="c593-32aa-cdd7-402f" name="Dual Weapon Fighting" publicationId="23e2-8cf2-260a-a7be" page="27/40" hidden="false">
-      <description>Ranged:
-Only one-handed or Sawn-off Stump guns may be used.
-Model&apos;s fire arc becomes Focused Front (FF) for Snapshot.
-+1 Shoot Per additional weapon, pick Range Modifier, use lowest Power.
-Target Gains +1 Resist.
-
-Close Combat:
-May use a close combat weapon in each hand.
-Hits are scored on both [Hit]+[Special] results.
-Target Gains +1 Resist.
-
-Close combat weapon and pistol, use either:
-Close combat weapon&apos;s Power 
-or
-Pisto&apos;sl Power (Can only target one opponent)
-
-
-</description>
-    </rule>
-  </rules>
+  <entryLinks>
+    <entryLink id="9642-28e9-3c43-699b" name="Rules" hidden="false" collective="false" import="true" targetId="ee1b-113b-fa65-828c" type="selectionEntry"/>
+    <entryLink id="b6c4-ef42-aeb8-e14c" name="Vehicles" hidden="false" collective="false" import="true" targetId="9b81-b750-548d-9341" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f8c1-ed6d-77ab-eac5" name="New CategoryLink" hidden="false" targetId="c9e2-544d-e589-a911" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="ee1b-113b-fa65-828c" name="&lt;Rules" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="7dbf-7e9f-daeb-a7e1" name="New CategoryLink" hidden="false" targetId="7c47-63fd-b4bd-4951" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="aff6-37dc-aabe-1a20" name="&lt;Show rules&gt;" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="53e3-0fc9-2cff-e20b" name="Dual Weapon Fighting" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="0164-6815-ebad-6f3f" name="Dual Weapon Fighting" hidden="false" targetId="03bc-162c-1edd-dde4" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="7f3c-bbe7-814d-b769" name="Rules" hidden="false" targetId="7c47-63fd-b4bd-4951" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9b81-b750-548d-9341" name="&lt;Vehicles" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="7090-ad88-c4f7-c73f" name="&lt;[Vehicles]" hidden="false" collective="false" import="true" targetId="0f78-393c-9575-767c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="5af3-34a2-637e-bc2f" name="&lt;[Weapons]" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4fc3-df5d-cf02-25a4" name="&lt;Two-Handed/ Dual" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5353-6b41-5981-6150" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e381-f80d-ef05-6925" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="163a-59cd-b95b-6c14" name="&lt;Close Combat" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1613-f100-46a9-ff76" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="ebb3-ce41-76ec-ccd9" name="Dual Close Combat Weapon" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cd1a-4f6c-8843-a31b" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <profiles>
+                    <profile id="c317-f5b5-ac21-910d" name="Dual Close Combat Weapon" publicationId="23e2-8cf2-260a-a7be" page="46" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+                      <characteristics>
+                        <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
+                        <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+1</characteristic>
+                        <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="8f04-7d46-ed44-0665" name="Dual Knife" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3bc3-5526-cadc-276e" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <profiles>
+                    <profile id="9289-0f6f-d11d-2e37" name="Dual Knife" publicationId="23e2-8cf2-260a-a7be" page="46" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+                      <characteristics>
+                        <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
+                        <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+1</characteristic>
+                        <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">Throw</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="8344-c7d1-a5ee-2454" name="Dual Chain" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d51-f75a-c1b6-9093" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <profiles>
+                    <profile id="1292-d6c1-0d69-3176" name="Dual Chain" publicationId="23e2-8cf2-260a-a7be" page="46" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+                      <characteristics>
+                        <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">3&quot;</characteristic>
+                        <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">0</characteristic>
+                        <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="065e-2fce-bab4-5839" name="Baseball Bat" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <profiles>
+                    <profile id="30a7-2efb-a76c-2b0f" name="Baseball Bat" publicationId="23e2-8cf2-260a-a7be" page="47" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+                      <characteristics>
+                        <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
+                        <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+2</characteristic>
+                        <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">Stun</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="9bea-ee2c-3625-c816" name="Stun" hidden="false" targetId="36d1-a245-27da-bc68" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="629b-4971-2e35-6f9f" name="Laz Saw" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <profiles>
+                    <profile id="0949-7ade-525e-9da7" name="Laz Saw" publicationId="23e2-8cf2-260a-a7be" page="46" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+                      <characteristics>
+                        <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
+                        <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+2</characteristic>
+                        <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">Piercing, Rending</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="0f4e-6424-5cae-870a" name="Piercing" hidden="false" targetId="3b97-6a4a-235f-ac9e" type="rule"/>
+                    <infoLink id="61fb-2aeb-f012-6ecf" name="Rending" hidden="false" targetId="6c9a-2c96-b40c-99c6" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="949d-1ab4-1470-2399" name="Dual Culinary Laser" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="885c-db91-9ffa-87d6" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <profiles>
+                    <profile id="8b00-2c3b-dd3c-ed8a" name="Dual Culinary Laser" publicationId="23e2-8cf2-260a-a7be" page="46" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+                      <characteristics>
+                        <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
+                        <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+1</characteristic>
+                        <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">Concealed, Piercing</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="4fd8-d98d-f1ff-4869" name="Katana" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0150-98ab-6640-0b05" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <profiles>
+                    <profile id="f0af-fef5-0f59-f95d" name="Katana" publicationId="23e2-8cf2-260a-a7be" page="47" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+                      <characteristics>
+                        <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
+                        <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+2</characteristic>
+                        <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">Rending</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="f64b-4e36-7133-3176" name="Rending" hidden="false" targetId="6c9a-2c96-b40c-99c6" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="67ff-4315-8333-6f3f" name="&lt;Ranged" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e143-3986-50c1-8948" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="f68e-b5d7-f1ba-885f" name="Dual Pistol" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2fe8-65d9-e69b-9011" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <profiles>
+                    <profile id="dc1b-cfa5-ce3a-7a55" name="Dual Pistol" publicationId="23e2-8cf2-260a-a7be" page="41" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">3</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="86f7-bd37-cad6-06fe" name="Dual Hand Cannon" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="52f0-d393-d907-0f64" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <profiles>
+                    <profile id="1f36-7d3e-ec7b-d8d6" name="Dual Hand Cannon" publicationId="23e2-8cf2-260a-a7be" page="41" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">4</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="4.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="ee4f-1411-e8c2-8edd" name="Dual Spit Pistol" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3586-7f0e-62ce-8078" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <profiles>
+                    <profile id="94ae-88bb-d025-8f2a" name="Dual Spit Pistol" publicationId="23e2-8cf2-260a-a7be" page="41" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+2</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">2</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="63aa-2c8a-4b63-2100" name="Dual Sawn-off Stump Gun" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="63aa-2c8a-4b63-2100" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <profiles>
+                    <profile id="a91b-c3ca-82e5-8bee" name="Dual Sawn-off Stump Gun" publicationId="23e2-8cf2-260a-a7be" page="43" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">10&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+2</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">-</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">4</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">KnockBack, Cannot fire 2 Snapshots in a single activation, May be fired one- or two-handed (-1 Shoot modifier if fired one-handed)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="9a9e-c021-d93c-1e23" name="Combat Rifle" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="146a-0b0a-94f9-e02c" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <profiles>
+                    <profile id="bf88-1685-97d0-4df1" name="Combat Rifle" publicationId="23e2-8cf2-260a-a7be" page="42" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">12&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">24&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">3</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="fcf3-1ee0-67c0-2e36" name="Stump Gun" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <profiles>
+                    <profile id="00ba-c9d8-2b91-ed51" name="Stump Gun" publicationId="23e2-8cf2-260a-a7be" page="43" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">10&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+2</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">18&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">4/2</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">KnockBack, Cannot fire 2 Snapshots in a single activation, Power 4 at short range, Power two at long range.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="b550-d9ad-4d4f-c979" name="Knockback" hidden="false" targetId="09c2-49fa-9b41-5372" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="2303-7a94-9f8f-e7ff" name="Auto Stump" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <profiles>
+                    <profile id="9f0d-ee67-3be9-3caa" name="Auto Stump" publicationId="23e2-8cf2-260a-a7be" page="43" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">10&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+2</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">18&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">4/2</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">KnockBack, May fire 2 Snapshots in a single activation, Power 4 at short range, Power two at long range.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="f3a1-6b23-1817-5bb7" name="Knockback" hidden="false" targetId="09c2-49fa-9b41-5372" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="67cc-9679-b640-7cc3" name="Spit Carbine" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0150-98ab-6640-0b05" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="146a-0b0a-94f9-e02c" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <profiles>
+                    <profile id="7739-d80f-6d87-2779" name="Spit Carbine" publicationId="23e2-8cf2-260a-a7be" page="42" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">12&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+3</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">24&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">2</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="2a21-7539-df09-29f4" name="Heavy Spit Gun" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0514-34ac-24c2-5ad2" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="6631-5449-7e4c-8f77" name="Heavy Spit Gun" publicationId="23e2-8cf2-260a-a7be" page="44" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">16&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+3</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">48&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">+2</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">3</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Heavy Weapon</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="86f6-ae1a-78eb-8b48" name="Heavy Weapon" hidden="false" targetId="c107-0557-c264-e217" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="6.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="6825-4eed-1519-5bb6" name="Rocket Launcher" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cb8f-e81e-1e32-4ba8" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="afe2-385b-1453-e427" name="General Aerodynamix HAWK 2 Rocket Launcher" publicationId="23e2-8cf2-260a-a7be" page="44" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">20&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">40&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">5</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Heavy Weapon, Balst (2&quot;), May use Armoury card special rounds.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="90cf-1140-0ab2-bd34" name="Heavy Weapon" hidden="false" targetId="c107-0557-c264-e217" type="rule"/>
+                    <infoLink id="3f81-b6a8-3090-2375" name="Blast(X&quot;)" hidden="false" targetId="0a79-b0ce-a34b-0548" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="8.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="0784-3148-cfc6-7ce7" name="Sniper rifle" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <profiles>
+                    <profile id="8065-d5fe-0aae-54fe" name="Sniper Rifle" publicationId="23e2-8cf2-260a-a7be" page="42" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">12&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">0</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">36&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">+1</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">3</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Long Barrel</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="a059-dde7-2da9-06ef" name="Long Barrel" hidden="false" targetId="f22c-2612-d386-22ec" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="4.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="8bb1-673d-d7da-4178" name="Sniper rifle" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0150-98ab-6640-0b05" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <profiles>
+                    <profile id="e1c7-fa5d-842e-faff" name="Sniper Rifle" publicationId="23e2-8cf2-260a-a7be" page="42" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">12&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">0</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">36&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">+1</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">3</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Long Barrel</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="9496-47c9-1371-d045" name="Long Barrel" hidden="false" targetId="f22c-2612-d386-22ec" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="c16f-4b80-3798-6b1c" name="Laser Rifle" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0150-98ab-6640-0b05" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <profiles>
+                    <profile id="9e9c-1c17-f6aa-16f4" name="Laser Rifle" publicationId="23e2-8cf2-260a-a7be" page="42" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">12&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">24&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">5</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Laser</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="26f7-1db8-10e5-e67b" name="Laser" hidden="false" targetId="40c1-f0e4-f19b-eb43" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="404f-7376-7117-7a63" name="&lt;One-Handed" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="decrement" field="ac6f-34e5-198a-1cef" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4fc3-df5d-cf02-25a4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="ac6f-34e5-198a-1cef" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5353-6b41-5981-6150" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ac6f-34e5-198a-1cef" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="e2b3-cd92-1590-6441" name="&lt;Close Combat" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="cd1a-4f6c-8843-a31b" name="Close Combat Weapon" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebb3-ce41-76ec-ccd9" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5cb4-0374-392e-2cf1" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="e317-bf94-90ee-621e" name="Close Combat Weapon" publicationId="23e2-8cf2-260a-a7be" page="46" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+                      <characteristics>
+                        <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
+                        <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+1</characteristic>
+                        <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="3bc3-5526-cadc-276e" name="Knife" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f04-7d46-ed44-0665" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="146a-0b0a-94f9-e02c" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0150-98ab-6640-0b05" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4b71-c3e5-186e-13cd" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="09cc-6bce-c4ce-8694" name="Knife" publicationId="23e2-8cf2-260a-a7be" page="46" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+                      <characteristics>
+                        <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
+                        <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+1</characteristic>
+                        <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">Throw</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="447f-7423-854b-0e0f" name="Throw" hidden="false" targetId="5255-df17-8c9a-15cd" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="6d51-f75a-c1b6-9093" name="Chain" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8344-c7d1-a5ee-2454" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6b05-0652-b1fd-7f95" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="74c9-45b9-7054-c997" name="Chain" publicationId="23e2-8cf2-260a-a7be" page="46" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+                      <characteristics>
+                        <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">3&quot;</characteristic>
+                        <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">0</characteristic>
+                        <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="885c-db91-9ffa-87d6" name="Culinary Laser" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="949d-1ab4-1470-2399" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <profiles>
+                    <profile id="ed50-63cf-6d80-f959" name="Culinary Laser" publicationId="23e2-8cf2-260a-a7be" page="46" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+                      <characteristics>
+                        <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
+                        <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+1</characteristic>
+                        <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">Concealed, Piercing</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="cd7d-80e9-c24d-a995" name="Piercing" hidden="false" targetId="3b97-6a4a-235f-ac9e" type="rule"/>
+                    <infoLink id="cf39-04f6-ead6-3622" name="Concealed" hidden="false" targetId="13b0-e8da-848e-a589" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="2997-a983-e176-30ab" name="&lt;Ranged" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="2fe8-65d9-e69b-9011" name="Pistol" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f68e-b5d7-f1ba-885f" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="146a-0b0a-94f9-e02c" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0150-98ab-6640-0b05" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7e17-ceb0-36eb-8288" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="7f83-3c1d-5cf4-e492" name="Pistol" publicationId="23e2-8cf2-260a-a7be" page="41" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">3</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="52f0-d393-d907-0f64" name="Hand Cannon" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="86f7-bd37-cad6-06fe" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f23b-f659-f866-1b44" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="a3ee-69cb-f89e-7ff6" name="Hand Cannon" publicationId="23e2-8cf2-260a-a7be" page="41" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">4</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="3586-7f0e-62ce-8078" name="Spit Pistol" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ee4f-1411-e8c2-8edd" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="146a-0b0a-94f9-e02c" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0150-98ab-6640-0b05" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7691-23c6-c2ba-fb76" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="81a2-e87e-63fa-3980" name="Spit Pistol" publicationId="23e2-8cf2-260a-a7be" page="41" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+2</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">2</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="9af0-5806-2541-37f9" name="Sawn-off Stump Gun" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="63aa-2c8a-4b63-2100" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fd9c-f531-869a-945f" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="5f59-49fd-025b-0bb5" name="Sawn-off Stump Gun" publicationId="23e2-8cf2-260a-a7be" page="43" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">10&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+2</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">-</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">4</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">KnockBack, Cannot fire 2 Snapshots in a single activation, May be fired one- or two-handed (-1 Shoot modifier if fired one-handed)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="4800-6f6d-c840-4afe" name="Knockback" hidden="false" targetId="09c2-49fa-9b41-5372" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="5ed0-0687-9992-310f" name="Laser Pistol" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0150-98ab-6640-0b05" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4bc6-8fbd-8e4f-864e" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="d48d-038a-f468-9e53" name="Laser Pistol" publicationId="23e2-8cf2-260a-a7be" page="41" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">5</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Laser</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="85ea-8dfa-b1b5-a13a" name="Laser" hidden="false" targetId="40c1-f0e4-f19b-eb43" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="4.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="acf4-d154-6dd7-28a4" name="&lt;[Mounts]" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="5353-6b41-5981-6150" name="Bat Glider" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c392-0b4b-d6c2-6bfe" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b3d3-4a5e-4264-404c" name="Bat Glider" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+              <characteristics>
+                <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">+D6&quot;</characteristic>
+                <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">-1</characteristic>
+                <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">0</characteristic>
+                <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">+1</characteristic>
+                <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">-2</characteristic>
+                <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">-1</characteristic>
+                <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Grav, One-handed weapon only</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f160-7569-7015-52ce" name="Grav" hidden="false" targetId="79d0-21e8-b04c-187b" type="rule"/>
+            <infoLink id="85e0-3545-1db6-35b5" name="One-handed Weapon only" hidden="false" targetId="7ce1-e0e2-b69f-3f4d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fc2f-ccd4-fab8-f781" name="Jet Pack" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8c7b-6e4e-7c31-4b86" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="46e4-3d05-61af-30b0" name="Jet Pack" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+              <characteristics>
+                <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">+3&quot;</characteristic>
+                <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">0</characteristic>
+                <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">0</characteristic>
+                <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">+1</characteristic>
+                <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">-1</characteristic>
+                <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">0</characteristic>
+                <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Grav</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="ae8f-81bf-7f1f-2ba0" name="Grav" hidden="false" targetId="79d0-21e8-b04c-187b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6d12-e8ed-5924-cc80" name="Gang Bike" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e6d7-dda3-940f-3f92" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="caf0-22a8-7f2c-d7b0" name="Gang Bike" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+              <characteristics>
+                <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">+4&quot;</characteristic>
+                <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">-1</characteristic>
+                <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">-1</characteristic>
+                <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">0</characteristic>
+                <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">+1</characteristic>
+                <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">0</characteristic>
+                <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f897-8e51-f10d-c68e" name="Power Board" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2d16-446b-45d4-da81" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c0f0-74ce-f186-876e" name="Power Board" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+              <characteristics>
+                <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">+8&quot;</characteristic>
+                <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">-1</characteristic>
+                <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">-1</characteristic>
+                <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">+1</characteristic>
+                <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">0</characteristic>
+                <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">0</characteristic>
+                <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Grav</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3ca2-879e-5773-3259" name="Grav" hidden="false" targetId="79d0-21e8-b04c-187b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="45fe-e5bf-a87f-6f5b" name="Sky Bike" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5a61-56c1-79c8-8339" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7045-e3d6-2df8-f404" name="Sky Bike" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+              <characteristics>
+                <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">+6&quot;</characteristic>
+                <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">-1</characteristic>
+                <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">-1</characteristic>
+                <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">+1</characteristic>
+                <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">+1</characteristic>
+                <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">+</characteristic>
+                <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Grav</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d6a8-df21-ad86-75fe" name="Grav" hidden="false" targetId="79d0-21e8-b04c-187b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5cd7-6a91-bf64-f9d4" name="Riding Beast" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b0a2-acde-7efe-e9aa" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="dc76-b4b5-30ff-ea67" name="Riding Beast" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+              <characteristics>
+                <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">+D6&quot;</characteristic>
+                <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">-1</characteristic>
+                <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">+1</characteristic>
+                <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">+1</characteristic>
+                <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">0</characteristic>
+                <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">0</characteristic>
+                <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0f78-393c-9575-767c" name="&lt;[Vehicles]" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="6069-caf2-1f99-6a45" name="Sportster" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b475-ef4a-e4d7-04eb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8534-5c7a-213b-374a" name="Sportster" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+              <characteristics>
+                <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">14&quot;</characteristic>
+                <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">-</characteristic>
+                <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">2</characteristic>
+                <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">2</characteristic>
+                <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">2</characteristic>
+                <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">2</characteristic>
+                <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">2 Passengers</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7e97-f6b9-82fd-1edf" name="Passengers" hidden="false" targetId="b9b8-76a5-6e04-51f8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="9.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ac90-c84e-3881-e9f3" name="Hover Van" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6ff5-9591-8ed1-c4a8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="372d-db65-7bbe-5f72" name="Hover Van" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+              <characteristics>
+                <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">9&quot;</characteristic>
+                <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">-</characteristic>
+                <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">4</characteristic>
+                <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">-</characteristic>
+                <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">5</characteristic>
+                <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">2</characteristic>
+                <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Grav, 8 Passengers</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="cbcf-0db2-8d6f-f1b5" name="Grav" hidden="false" targetId="79d0-21e8-b04c-187b" type="rule"/>
+            <infoLink id="7d57-1877-7a5b-b016" name="Passengers" hidden="false" targetId="b9b8-76a5-6e04-51f8" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="83dd-5e9b-a4f3-efc7" name="&lt;[Vehicle Weapons]" hidden="false" collective="false" import="true" targetId="2522-f099-45fa-d339" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="19.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="be24-89cf-1e9a-acc2" name="Grav Pod/ Sky Cycle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cefd-95bf-9b37-a9ac" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0c40-bb45-01a4-1150" name="Grav Pod/ Sky Cycle" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+              <characteristics>
+                <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">12&quot;</characteristic>
+                <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">-</characteristic>
+                <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">3</characteristic>
+                <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">2</characteristic>
+                <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">3</characteristic>
+                <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">2</characteristic>
+                <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Grav, 3 Passengers</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="0df0-f049-0efe-7a06" name="Grav" hidden="false" targetId="79d0-21e8-b04c-187b" type="rule"/>
+            <infoLink id="42a0-20b6-b1c5-2a3c" name="Passengers" hidden="false" targetId="b9b8-76a5-6e04-51f8" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="8ad1-42f4-c9b6-7bc7" name="&lt;[Vehicle Weapons]" hidden="false" collective="false" import="true" targetId="2522-f099-45fa-d339" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="11.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b249-4fbf-92c5-efca" name="H-Wagon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e006-0c89-b681-c336" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d182-8ff7-2db8-65ec" name="H-Wagon" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+              <characteristics>
+                <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">12&quot;</characteristic>
+                <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">-</characteristic>
+                <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">6</characteristic>
+                <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">1</characteristic>
+                <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">6</characteristic>
+                <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">4</characteristic>
+                <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Grav, 8 Passengers</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="94c2-ce40-17e3-7186" name="Grav" hidden="false" targetId="79d0-21e8-b04c-187b" type="rule"/>
+            <infoLink id="9b0f-9589-8106-aa21" name="Passengers" hidden="false" targetId="b9b8-76a5-6e04-51f8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="290b-6b94-2539-dd11" name="Ground Pod/ Block Buggy" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4581-e213-4db9-f5e0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d72a-7748-720b-b902" name="Ground Pod/ Block Buggy" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+              <characteristics>
+                <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">12&quot;</characteristic>
+                <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">-</characteristic>
+                <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">3</characteristic>
+                <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">1</characteristic>
+                <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">4</characteristic>
+                <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">2</characteristic>
+                <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">4 Passengers</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="840e-1fb8-4ffb-9410" name="Passengers" hidden="false" targetId="b9b8-76a5-6e04-51f8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="16.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c167-4e57-aff4-c66b" name="Small Mo-Pad" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f81a-f261-6298-a401" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="35ca-5815-e4d8-5e9f" name="Small Mo-Pad" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+              <characteristics>
+                <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">8&quot;</characteristic>
+                <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">-</characteristic>
+                <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">6</characteristic>
+                <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">-</characteristic>
+                <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">5</characteristic>
+                <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">3</characteristic>
+                <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">12+ Passengers</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f6cf-9f51-d38c-e72c" name="Passengers" hidden="false" targetId="b9b8-76a5-6e04-51f8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7bf6-c484-ff61-729f" name="Mo-Pad/ Big Rig" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8fde-37de-5599-41ce" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="91a1-40d4-5710-058e" name="Mo-Pad/ Big Rig" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+              <characteristics>
+                <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">8&quot;</characteristic>
+                <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">-</characteristic>
+                <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">8</characteristic>
+                <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">-</characteristic>
+                <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">8</characteristic>
+                <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">4</characteristic>
+                <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">24+ Passengers</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f830-3fd0-fc8e-d636" name="Passengers" hidden="false" targetId="b9b8-76a5-6e04-51f8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f2fb-20b1-d763-ae4b" name="Pat Wagon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f493-5a5d-2ecc-5cd4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8c88-21f0-dda0-fe12" name="Pat Wagon" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+              <characteristics>
+                <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">8&quot;</characteristic>
+                <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">2</characteristic>
+                <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">6</characteristic>
+                <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">-</characteristic>
+                <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">8</characteristic>
+                <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">4</characteristic>
+                <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">6 Passengers, Pacifier</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c4cc-1f49-06c4-b8c3" name="Passengers" hidden="false" targetId="b9b8-76a5-6e04-51f8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2522-f099-45fa-d339" name="&lt;[Vehicle Weapons]-for sky raider only" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="10cd-f5e0-f747-f80a" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="00e5-8112-c811-9842" name="Heavy Spit Gun" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="2ef7-796e-395d-798a" name="Heavy Spit Gun" publicationId="23e2-8cf2-260a-a7be" page="44" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+              <characteristics>
+                <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">16&quot;</characteristic>
+                <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+3</characteristic>
+                <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">48&quot;</characteristic>
+                <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">+2</characteristic>
+                <characteristic name="Power" typeId="8fc6-55c1-1604-402e">3</characteristic>
+                <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Heavy Weapon</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="400a-80c6-809c-ce7e" name="Heavy Weapon" hidden="false" targetId="c107-0557-c264-e217" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="950d-5917-579b-e2e1" name="Rocket Launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="9019-8815-160a-6740" name="General Aerodynamix HAWK 2 Rocket Launcher" publicationId="23e2-8cf2-260a-a7be" page="44" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+              <characteristics>
+                <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">20&quot;</characteristic>
+                <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">40&quot;</characteristic>
+                <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                <characteristic name="Power" typeId="8fc6-55c1-1604-402e">5</characteristic>
+                <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Heavy Weapon, Balst (2&quot;), May use Armoury card special rounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="21e5-12e6-05a4-b621" name="Heavy Weapon" hidden="false" targetId="c107-0557-c264-e217" type="rule"/>
+            <infoLink id="8d5a-1ed1-ac83-0132" name="Blast(X&quot;)" hidden="false" targetId="0a79-b0ce-a34b-0548" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5daa-268a-3ae2-b4dd" name="Combat Rifle" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="8a75-a64d-e95b-ec1e" name="Combat Rifle" publicationId="23e2-8cf2-260a-a7be" page="42" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+              <characteristics>
+                <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">12&quot;</characteristic>
+                <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">24&quot;</characteristic>
+                <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                <characteristic name="Power" typeId="8fc6-55c1-1604-402e">3</characteristic>
+                <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e27e-4e4e-c64c-cf83" name="Laser Rifle" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="3142-2e81-eeed-ff04" name="Laser Rifle" publicationId="23e2-8cf2-260a-a7be" page="42" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+              <characteristics>
+                <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">12&quot;</characteristic>
+                <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">24&quot;</characteristic>
+                <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                <characteristic name="Power" typeId="8fc6-55c1-1604-402e">5</characteristic>
+                <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Laser</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1220-97c5-98bf-0f7d" name="Laser" hidden="false" targetId="40c1-f0e4-f19b-eb43" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ed5c-0038-64c4-e7ae" name="Spit Carbine" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="5bda-6a0c-ddc8-ae9d" name="Spit Carbine" publicationId="23e2-8cf2-260a-a7be" page="42" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+              <characteristics>
+                <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">12&quot;</characteristic>
+                <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+3</characteristic>
+                <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">24&quot;</characteristic>
+                <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                <characteristic name="Power" typeId="8fc6-55c1-1604-402e">2</characteristic>
+                <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="5255-df17-8c9a-15cd" name="Throw" hidden="false">
       <description>Throw is up to 6&quot; and uses the Fight stat.</description>
@@ -290,6 +1851,16 @@ Pisto&apos;sl Power (Can only target one opponent)
 
 
 </description>
+    </rule>
+    <rule id="7ce1-e0e2-b69f-3f4d" name="One-handed Weapon only" hidden="false">
+      <description>May only use one-handed weapons or weapons with the Throw Special Rule.</description>
+    </rule>
+    <rule id="79d0-21e8-b04c-187b" name="Grav" hidden="false">
+      <description>When moving can ignore any models less than 6&quot; in height or ignore blocking terrain that has a height less than that of its Move stat. The mounted model must end its movement in terrain passable to it.</description>
+    </rule>
+    <rule id="b9b8-76a5-6e04-51f8" name="Passengers" hidden="false">
+      <description>A model may spend a single action to board a vehicle with space.
+A model may spend a single action to disembark a vehicle, the model is placed within 1&quot; of the vehicle.</description>
     </rule>
   </sharedRules>
 </gameSystem>

@@ -29,8 +29,8 @@
         <infoLink id="e5e6-e2d4-a288-5e6f" name="Gang Juve/s" hidden="false" targetId="2aae-2fe2-7e49-b0a3" type="profile"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="4e02-38fa-ea28-23fb" name="Weapons New" hidden="false" collective="false" import="true" targetId="3ab6-a43b-6bbe-760a" type="selectionEntryGroup"/>
-        <entryLink id="86e2-496f-b347-d3b7" name="&gt;Mount" hidden="false" collective="false" import="true" targetId="964f-3350-d284-e2bc" type="selectionEntryGroup"/>
+        <entryLink id="4e02-38fa-ea28-23fb" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
+        <entryLink id="86e2-496f-b347-d3b7" name="&lt;[mounts]" hidden="false" collective="false" import="true" targetId="acf4-d154-6dd7-28a4" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="6.0"/>
@@ -41,8 +41,8 @@
         <infoLink id="707e-0df4-31d2-4ff7" name="Gang Punk" hidden="false" targetId="4309-fcd8-4877-091b" type="profile"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="bd6f-f6d7-30f0-f484" name="Weapons New" hidden="false" collective="false" import="true" targetId="3ab6-a43b-6bbe-760a" type="selectionEntryGroup"/>
-        <entryLink id="309c-9a21-59b9-f531" name="&gt;Mount" hidden="false" collective="false" import="true" targetId="964f-3350-d284-e2bc" type="selectionEntryGroup"/>
+        <entryLink id="bd6f-f6d7-30f0-f484" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
+        <entryLink id="309c-9a21-59b9-f531" name="&lt;[mounts]" hidden="false" collective="false" import="true" targetId="acf4-d154-6dd7-28a4" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
@@ -53,8 +53,8 @@
         <infoLink id="10c8-75f9-0183-2cd7" name="Gang Heavy" hidden="false" targetId="2563-406d-595a-08be" type="profile"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="908d-9c0d-6847-3465" name="Weapons New" hidden="false" collective="false" import="true" targetId="3ab6-a43b-6bbe-760a" type="selectionEntryGroup"/>
-        <entryLink id="f681-c5cd-5b96-4fca" name="&gt;Mount" hidden="false" collective="false" import="true" targetId="964f-3350-d284-e2bc" type="selectionEntryGroup"/>
+        <entryLink id="908d-9c0d-6847-3465" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
+        <entryLink id="f681-c5cd-5b96-4fca" name="&lt;[mounts]" hidden="false" collective="false" import="true" targetId="acf4-d154-6dd7-28a4" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="5.0"/>
@@ -66,12 +66,12 @@
         <infoLink id="e3d9-9ced-d485-cb0b" name="&quot;Drokk the Stinkin Jays!&quot;" hidden="false" targetId="a783-6059-614f-371e" type="rule"/>
         <infoLink id="37d4-8623-085d-656f" name="Gang Lieutenant" hidden="false" targetId="e7d3-621c-05ab-aea7" type="profile">
           <modifiers>
-            <modifier type="set" field="c7e1-0b5d-d4d9-8634" value="Gunfighter, &quot;C&apos;mon, You Lily-livered Scumsuckers&quot;, &quot;Drokk the Stinking Jays!&quot;">
+            <modifier type="set" field="a488-1615-8c9e-2b73" value="Gunfighter, &quot;C&apos;mon, You Lily-livered Scumsuckers&quot;, &quot;Drokk the Stinking Jays!&quot;">
               <conditions>
                 <condition field="selections" scope="0ed8-f93d-de36-98a7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="07fe-033c-df6d-4d06" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="c7e1-0b5d-d4d9-8634" value="Brawler, &quot;C&apos;mon, You Lily-livered Scumsuckers&quot;, &quot;Drokk the Stinking Jays!&quot;">
+            <modifier type="set" field="a488-1615-8c9e-2b73" value="Brawler, &quot;C&apos;mon, You Lily-livered Scumsuckers&quot;, &quot;Drokk the Stinking Jays!&quot;">
               <conditions>
                 <condition field="selections" scope="0ed8-f93d-de36-98a7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4fc8-e66b-954c-aedb" type="equalTo"/>
               </conditions>
@@ -81,8 +81,8 @@
       </infoLinks>
       <entryLinks>
         <entryLink id="9700-3bdf-1604-95f1" name="Gunfighter or Brawler" hidden="false" collective="false" import="true" targetId="e1d5-2790-5343-8f92" type="selectionEntryGroup"/>
-        <entryLink id="c7ef-f37b-52de-9334" name="Weapons New" hidden="false" collective="false" import="true" targetId="3ab6-a43b-6bbe-760a" type="selectionEntryGroup"/>
-        <entryLink id="84a8-70a7-9b4d-93ac" name="&gt;Mount" hidden="false" collective="false" import="true" targetId="964f-3350-d284-e2bc" type="selectionEntryGroup"/>
+        <entryLink id="c7ef-f37b-52de-9334" name="&lt;[mounts]" hidden="false" collective="false" import="true" targetId="acf4-d154-6dd7-28a4" type="selectionEntryGroup"/>
+        <entryLink id="84a8-70a7-9b4d-93ac" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="13.0"/>
@@ -579,48 +579,48 @@
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="2aae-2fe2-7e49-b0a3" name="Gang Juve/s" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+    <profile id="2aae-2fe2-7e49-b0a3" name="Gang Juve/s" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
       <characteristics>
-        <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">6&quot;</characteristic>
-        <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">1</characteristic>
-        <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">1</characteristic>
-        <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">1</characteristic>
-        <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">1</characteristic>
-        <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">1</characteristic>
-        <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Pack (3)</characteristic>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">1</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">1</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">1</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">1</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">1</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Pack (3)</characteristic>
       </characteristics>
     </profile>
-    <profile id="4309-fcd8-4877-091b" name="Gang Punk" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+    <profile id="4309-fcd8-4877-091b" name="Gang Punk" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
       <characteristics>
-        <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">6&quot;</characteristic>
-        <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">2</characteristic>
-        <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">2</characteristic>
-        <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">2</characteristic>
-        <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">2</characteristic>
-        <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">2</characteristic>
-        <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">-</characteristic>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">2</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">2</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">2</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">2</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">2</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="e7d3-621c-05ab-aea7" name="Gang Lieutenant" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+    <profile id="e7d3-621c-05ab-aea7" name="Gang Lieutenant" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
       <characteristics>
-        <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">6&quot;</characteristic>
-        <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">4</characteristic>
-        <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">4</characteristic>
-        <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">2</characteristic>
-        <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">4</characteristic>
-        <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">4</characteristic>
-        <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Brawler or Gunfighter, &quot;C&apos;mon, You Lily-livered Scumsuckers&quot;, &quot;Drokk the Stinking Jays!&quot;</characteristic>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">4</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">4</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">2</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">4</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">4</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Brawler or Gunfighter, &quot;C&apos;mon, You Lily-livered Scumsuckers&quot;, &quot;Drokk the Stinking Jays!&quot;</characteristic>
       </characteristics>
     </profile>
-    <profile id="2563-406d-595a-08be" name="Gang Heavy" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+    <profile id="2563-406d-595a-08be" name="Gang Heavy" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
       <characteristics>
-        <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">6&quot;</characteristic>
-        <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">3</characteristic>
-        <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">3</characteristic>
-        <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">2</characteristic>
-        <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">3</characteristic>
-        <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">3</characteristic>
-        <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">-</characteristic>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">3</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">3</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">2</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">3</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">3</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">-</characteristic>
       </characteristics>
     </profile>
     <profile id="802b-96d6-065b-df86" name="Pistol" publicationId="23e2-8cf2-260a-a7be" page="41" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">

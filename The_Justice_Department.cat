@@ -260,12 +260,12 @@
       <infoLinks>
         <infoLink id="521f-37c2-56ce-2d42" name="Street Judge" hidden="false" targetId="b513-1a8d-8916-b6ab" type="profile">
           <modifiers>
-            <modifier type="set" field="c7e1-0b5d-d4d9-8634" value="Gunfighter, Respect the Law, Let&apos;s Ride!">
+            <modifier type="set" field="a488-1615-8c9e-2b73" value="Gunfighter, Respect the Law, Let&apos;s Ride!">
               <conditions>
                 <condition field="selections" scope="6696-824a-92d8-0c09" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fda0-a439-94a6-61eb" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="c7e1-0b5d-d4d9-8634" value="Brawler, Respect the Law, Let&apos;s Ride!">
+            <modifier type="set" field="a488-1615-8c9e-2b73" value="Brawler, Respect the Law, Let&apos;s Ride!">
               <conditions>
                 <condition field="selections" scope="6696-824a-92d8-0c09" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9b4e-b6fa-7122-139b" type="equalTo"/>
               </conditions>
@@ -290,7 +290,7 @@
     </selectionEntry>
     <selectionEntry id="5d01-7580-b26f-02e7" name="Lawmaster" publicationId="23e2-8cf2-260a-a7be" page="64" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="fd4d-5353-8a14-ed9b" name="Lawmaster" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[1] Model">
+        <profile id="fd4d-5353-8a14-ed9b" name="Lawmaster" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
           <characteristics>
             <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">14&quot;</characteristic>
             <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">3</characteristic>
@@ -568,70 +568,70 @@ Requires a Judge to be taken.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="b513-1a8d-8916-b6ab" name="Street Judge" publicationId="23e2-8cf2-260a-a7be" page="62" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[1] Model">
+    <profile id="b513-1a8d-8916-b6ab" name="Street Judge" publicationId="23e2-8cf2-260a-a7be" page="62" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
       <characteristics>
-        <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">6&quot;</characteristic>
-        <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">4</characteristic>
-        <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">3</characteristic>
-        <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">2</characteristic>
-        <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">3</characteristic>
-        <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">4</characteristic>
-        <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Gunfighter or Brawler, Respect the Law, Let&apos;s Ride!</characteristic>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">4</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">3</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">2</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">3</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">4</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Gunfighter or Brawler, Respect the Law, Let&apos;s Ride!</characteristic>
       </characteristics>
     </profile>
-    <profile id="3552-542e-01f4-9a6c" name="Veteran Street Judge" publicationId="23e2-8cf2-260a-a7be" page="62" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[1] Model">
+    <profile id="3552-542e-01f4-9a6c" name="Veteran Street Judge" publicationId="23e2-8cf2-260a-a7be" page="62" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
       <characteristics>
-        <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">6&quot;</characteristic>
-        <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">4</characteristic>
-        <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">4</characteristic>
-        <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">3</characteristic>
-        <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">4</characteristic>
-        <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">4</characteristic>
-        <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Gunfighter, Brawler, Fortitude, Respect the Law, Let&apos;s Ride!</characteristic>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">4</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">4</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">3</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">4</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">4</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Gunfighter, Brawler, Fortitude, Respect the Law, Let&apos;s Ride!</characteristic>
       </characteristics>
     </profile>
-    <profile id="e82a-a38f-3b4f-6da4" name="Rookie Judge" publicationId="23e2-8cf2-260a-a7be" page="62" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[1] Model">
+    <profile id="e82a-a38f-3b4f-6da4" name="Rookie Judge" publicationId="23e2-8cf2-260a-a7be" page="62" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
       <characteristics>
-        <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">6&quot;</characteristic>
-        <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">3</characteristic>
-        <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">3</characteristic>
-        <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">1</characteristic>
-        <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">3</characteristic>
-        <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">2</characteristic>
-        <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Respect the Law, Let&apos;s Ride!</characteristic>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">3</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">3</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">1</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">3</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">2</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Respect the Law, Let&apos;s Ride!</characteristic>
       </characteristics>
     </profile>
-    <profile id="2ba9-e5de-f917-9259" name="Judge" publicationId="23e2-8cf2-260a-a7be" page="62" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[1] Model">
+    <profile id="2ba9-e5de-f917-9259" name="Judge" publicationId="23e2-8cf2-260a-a7be" page="62" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
       <characteristics>
-        <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">6&quot;</characteristic>
-        <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">3</characteristic>
-        <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">3</characteristic>
-        <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">1</characteristic>
-        <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">3</characteristic>
-        <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">3</characteristic>
-        <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Respect the Law, Let&apos;s Ride!</characteristic>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">3</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">3</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">1</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">3</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">3</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Respect the Law, Let&apos;s Ride!</characteristic>
       </characteristics>
     </profile>
-    <profile id="0ad1-1fae-cdca-e741" name="Cadet Judge" publicationId="23e2-8cf2-260a-a7be" page="62" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[1] Model">
+    <profile id="0ad1-1fae-cdca-e741" name="Cadet Judge" publicationId="23e2-8cf2-260a-a7be" page="62" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
       <characteristics>
-        <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">6&quot;</characteristic>
-        <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">2</characteristic>
-        <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">2</characteristic>
-        <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">1</characteristic>
-        <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">2</characteristic>
-        <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">2</characteristic>
-        <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Let&apos;s Ride!</characteristic>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">2</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">2</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">1</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">2</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">2</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Let&apos;s Ride!</characteristic>
       </characteristics>
     </profile>
-    <profile id="eafc-3e21-c5d4-e6e9" name="Senior Street Judge" publicationId="23e2-8cf2-260a-a7be" page="62" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[1] Model">
+    <profile id="eafc-3e21-c5d4-e6e9" name="Senior Street Judge" publicationId="23e2-8cf2-260a-a7be" page="62" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
       <characteristics>
-        <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">6&quot;</characteristic>
-        <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">4</characteristic>
-        <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">4</characteristic>
-        <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">3</characteristic>
-        <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">4</characteristic>
-        <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">5</characteristic>
-        <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Gunfighter, Brawler, Fortitude, Respect the Law, Let&apos;s Ride!</characteristic>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">4</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">4</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">3</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">4</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">5</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Gunfighter, Brawler, Fortitude, Respect the Law, Let&apos;s Ride!</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

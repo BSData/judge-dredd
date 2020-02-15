@@ -37,7 +37,8 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="6bd5-f749-2f1d-8525" name="&gt;Body Armour" hidden="false" collective="false" import="true" targetId="6fa9-704c-28bc-a54f" type="selectionEntry"/>
-        <entryLink id="fb8d-7a71-37f9-2f28" name="&gt;Weapons" hidden="false" collective="false" import="true" targetId="41d7-4d7e-ddb7-0c2b" type="selectionEntryGroup"/>
+        <entryLink id="fb8d-7a71-37f9-2f28" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
+        <entryLink id="e8dd-84af-904b-92c3" name="&lt;[mounts]" hidden="false" collective="false" import="true" targetId="acf4-d154-6dd7-28a4" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="13.0"/>
@@ -70,7 +71,8 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="5222-8713-f0de-cc98" name="&gt;Body Armour" hidden="false" collective="false" import="true" targetId="6fa9-704c-28bc-a54f" type="selectionEntry"/>
-        <entryLink id="9207-0399-6741-ca2e" name="&gt;Weapons" hidden="false" collective="false" import="true" targetId="41d7-4d7e-ddb7-0c2b" type="selectionEntryGroup"/>
+        <entryLink id="9207-0399-6741-ca2e" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
+        <entryLink id="1a4d-47a7-f155-4b52" name="&lt;[mounts]" hidden="false" collective="false" import="true" targetId="acf4-d154-6dd7-28a4" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="5.0"/>
@@ -98,7 +100,8 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="cd33-0da9-64e1-67d7" name="&gt;Body Armour" hidden="false" collective="false" import="true" targetId="6fa9-704c-28bc-a54f" type="selectionEntry"/>
-        <entryLink id="75e1-5f99-1cbd-257e" name="&gt;Weapons" hidden="false" collective="false" import="true" targetId="41d7-4d7e-ddb7-0c2b" type="selectionEntryGroup"/>
+        <entryLink id="75e1-5f99-1cbd-257e" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
+        <entryLink id="12e4-eeda-973c-cfd5" name="&lt;[mounts]" hidden="false" collective="false" import="true" targetId="acf4-d154-6dd7-28a4" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="4.0"/>
@@ -126,7 +129,8 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="3cff-dc26-9e2c-c0d0" name="&gt;Body Armour" hidden="false" collective="false" import="true" targetId="6fa9-704c-28bc-a54f" type="selectionEntry"/>
-        <entryLink id="4bcf-d12d-62f5-3f25" name="&gt;Weapons" hidden="false" collective="false" import="true" targetId="41d7-4d7e-ddb7-0c2b" type="selectionEntryGroup"/>
+        <entryLink id="4bcf-d12d-62f5-3f25" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
+        <entryLink id="7031-d83f-c64e-1769" name="&lt;[mounts]" hidden="false" collective="false" import="true" targetId="acf4-d154-6dd7-28a4" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
@@ -302,62 +306,11 @@
         <infoLink id="8977-27c5-9d3a-9e24" name="Sniper Rifle" hidden="false" targetId="8446-3989-3ef2-7cd0" type="profile"/>
         <infoLink id="8fc8-5d89-0c7e-dc48" name="Long Barrel" hidden="false" targetId="f22c-2612-d386-22ec" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
-  <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="41d7-4d7e-ddb7-0c2b" name="&gt;Weapons" hidden="false" collective="false" import="true">
-      <selectionEntryGroups>
-        <selectionEntryGroup id="27db-ed0f-e9d2-451f" name="One-Handed" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="decrement" field="5817-534b-e4b4-f265" value="2.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="faa0-3581-3c1c-d372" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5817-534b-e4b4-f265" type="max"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="d36e-786d-6457-787d" name="Close Combat" hidden="false" collective="false" import="true">
-              <entryLinks>
-                <entryLink id="ded0-325f-396f-67f0" name="Knife" hidden="false" collective="false" import="true" targetId="36e6-86ad-7c6f-7132" type="selectionEntry"/>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="f047-7f52-45b5-468d" name="Ranged" hidden="false" collective="false" import="true">
-              <entryLinks>
-                <entryLink id="fc34-adba-79a1-9219" name="Hand cannon" hidden="false" collective="false" import="true" targetId="5034-aa06-87c4-7715" type="selectionEntry"/>
-                <entryLink id="1043-d272-3c22-333b" name="Spit Pistol" hidden="false" collective="false" import="true" targetId="07f2-f885-acfb-c7df" type="selectionEntry"/>
-                <entryLink id="84d7-2217-1d51-1e46" name="Pistol" hidden="false" collective="false" import="true" targetId="64e0-426d-7cef-3368" type="selectionEntry"/>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="faa0-3581-3c1c-d372" name="Two-Handed/ Dual" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8d3c-07b2-09fe-9a9b" type="max"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="60aa-c71e-b5c0-04fd" name="Ranged" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5654-f7c6-46f8-592a" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="b1d9-6e0b-4530-49f9" name="Spit carbine" hidden="false" collective="false" import="true" targetId="cf2a-67ea-9f15-e077" type="selectionEntry"/>
-                <entryLink id="f6c9-b73c-9905-9e5c" name="Dual Spit Pistol" hidden="false" collective="false" import="true" targetId="b9c1-5a46-d586-4fa0" type="selectionEntry"/>
-                <entryLink id="6b87-ae34-9fa5-a439" name="Dual Pistol" hidden="false" collective="false" import="true" targetId="6c51-fe9e-efdc-4cda" type="selectionEntry"/>
-                <entryLink id="7d3e-4357-a58d-ddd3" name="Sniper Rifle" hidden="false" collective="false" import="true" targetId="010c-cdf5-0530-18cc" type="selectionEntry"/>
-                <entryLink id="3981-1ced-9a4c-f659" name="Heavy Spit Gun" hidden="false" collective="false" import="true" targetId="f9c5-06a2-a5bc-9db7" type="selectionEntry"/>
-                <entryLink id="5949-087e-8651-d181" name="Rocket Launcher" hidden="false" collective="false" import="true" targetId="948b-0db6-2a8c-90d0" type="selectionEntry"/>
-                <entryLink id="910b-c505-3276-fad2" name="Dual Hand cannon" hidden="false" collective="false" import="true" targetId="5b5d-6b1d-9865-70ed" type="selectionEntry"/>
-                <entryLink id="2843-cade-7172-b5e9" name="Combat rifle" hidden="false" collective="false" import="true" targetId="f3fc-d983-597b-3d86" type="selectionEntry"/>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-    </selectionEntryGroup>
-  </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="4807-dd8d-49b4-1f71" name="Body Armour" hidden="false">
       <description>+1 Resist</description>
