@@ -1488,7 +1488,7 @@
                     <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-70b4-f4a1-c63d" type="instanceOf"/>
                     <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e02f-48ed-79b7-c069" type="instanceOf"/>
                     <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8da1-29f1-903c-e35e" type="instanceOf"/>
-                    <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                    <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="42e6-96e8-e398-1c2f" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -1528,6 +1528,7 @@
                 <conditionGroup type="or">
                   <conditions>
                     <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-70b4-f4a1-c63d" type="instanceOf"/>
+                    <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="42e6-96e8-e398-1c2f" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -1696,9 +1697,13 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="2522-f099-45fa-d339" name="&lt;[Vehicle Weapons]-for sky raider only" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="2522-f099-45fa-d339" name="&lt;[Vehicle Weapons]" hidden="false" collective="false" import="true">
       <modifiers>
-        <modifier type="set" field="hidden" value="false"/>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="42e6-96e8-e398-1c2f" type="instanceOf"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="10cd-f5e0-f747-f80a" type="max"/>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="42e6-96e8-e398-1c2f" name="Mutie Sky Raiders" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="ac51-75a8-d3a3-ca8b" name="Sky Raider Pack Leader" hidden="false" collective="false" import="true" targetId="9c55-ed1e-d935-8313" type="selectionEntry"/>
+    <entryLink id="4387-6502-7fe1-6de5" name="Sky Raider" hidden="false" collective="false" import="true" targetId="8c5b-1e18-6fd6-8e81" type="selectionEntry"/>
+    <entryLink id="8108-6546-8aa0-f589" name="Sky Raider Alpha" hidden="false" collective="false" import="true" targetId="c202-4239-bdde-8b8b" type="selectionEntry"/>
+    <entryLink id="5c31-e36c-8df2-c8f6" name="Sky Raider Pack Leader [Vehicle seat]" hidden="false" collective="false" import="true" targetId="24ea-96de-e4b9-2579" type="selectionEntry"/>
+    <entryLink id="43da-47bc-003d-2b3b" name="Sky Raider Alpha [Vehicle seat]" hidden="false" collective="false" import="true" targetId="0d42-edf3-4b08-e132" type="selectionEntry"/>
+    <entryLink id="c57d-ab28-400b-0527" name="Sky Raider [Vehicle seat]" hidden="false" collective="false" import="true" targetId="725f-8bc5-6582-9144" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="9c55-ed1e-d935-8313" name="Sky Raider Pack Leader" hidden="false" collective="false" import="true" type="model">
+      <infoGroups>
+        <infoGroup id="7541-fd2b-e18a-a52d" name="Sky Raider Pack Leader Info" hidden="false">
+          <rules>
+            <rule id="7f03-43c4-d6fd-f293" name="Scary Mutant" hidden="false">
+              <description>Models other than Judges suffer -1 on any tests made against their Cool stat when they are within 4&quot; of the Mutie.</description>
+            </rule>
+            <rule id="447d-727a-676c-87b4" name="Mutie Insight" hidden="false">
+              <description>If a Sky Raider Pack Leader is the leader of your faction when Big Meg cards are drawn, you draw one extra Big Meg card and can keep one more card than normal.</description>
+            </rule>
+            <rule id="01d9-3d3d-3bd1-233d" name="Take That, Norms!" hidden="false">
+              <description>When the Sky Raider Pack Leader activates, they can use a single action to remove D3 Action chips from any Sky Raiders within 6&quot; and return those chips to the bag.</description>
+            </rule>
+          </rules>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="71b2-7a1a-6cd7-231f" name="Sky Raider Pack Leader" hidden="false" targetId="f13e-d2f2-9c9d-330a" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2dd8-154d-d230-f539" name="New CategoryLink" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2025-4ef3-98b6-e536" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
+        <entryLink id="1664-255e-42c5-eeec" name="&gt;[Mounts]" hidden="false" collective="false" import="true" targetId="acf4-d154-6dd7-28a4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="157a-d454-0c14-705f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2517-bdfe-42e4-2173" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c202-4239-bdde-8b8b" name="Sky Raider Alpha" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="fa61-11af-d4a6-822b" name="Scary Mutant" hidden="false">
+          <description>Models other than Judges suffer -1 on any tests made against their Cool stat when they are within 4&quot; of the Mutie.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="84e0-80b2-697f-6756" name="Sky Raider Alpha" hidden="false" targetId="e1c3-f47e-30e3-c41e" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c9b8-f25b-04e0-6e4a" name="New CategoryLink" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="cb72-ef3e-9cea-0493" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
+        <entryLink id="98b3-df32-2d6c-875f" name="&gt;[Mounts]" hidden="false" collective="false" import="true" targetId="acf4-d154-6dd7-28a4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9985-7a53-f8cd-fcf6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1829-5903-571d-d0c8" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8c5b-1e18-6fd6-8e81" name="Sky Raider" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="609d-f39f-5247-6550" name="Scary Mutant" hidden="false">
+          <description>Models other than Judges suffer -1 on any tests made against their Cool stat when they are within 4&quot; of the Mutie.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="a537-b361-3aec-04d4" name="Sky Raider" hidden="false" targetId="63e3-bd96-e64c-92cc" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="51bf-404b-eafb-39b4" name="New CategoryLink" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d3a7-4e3e-8989-1940" name="&gt;[Mounts]" hidden="false" collective="false" import="true" targetId="acf4-d154-6dd7-28a4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5996-6f80-9faf-9911" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2b6-8ce2-c964-72f5" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a84a-b535-66e4-8220" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="24ea-96de-e4b9-2579" name="Sky Raider Pack Leader [Vehicle seat]" hidden="false" collective="false" import="true" type="model">
+      <infoGroups>
+        <infoGroup id="4cfe-08e0-387f-3485" name="Sky Raider Pack Leader Info" hidden="false">
+          <rules>
+            <rule id="5a49-9a9d-9660-7941" name="Scary Mutant" hidden="false">
+              <description>Models other than Judges suffer -1 on any tests made against their Cool stat when they are within 4&quot; of the Mutie.</description>
+            </rule>
+            <rule id="f8fb-9754-cca4-ad0d" name="Mutie Insight" hidden="false">
+              <description>If a Sky Raider Pack Leader is the leader of your faction when Big Meg cards are drawn, you draw one extra Big Meg card and can keep one more card than normal.</description>
+            </rule>
+            <rule id="9ae8-639f-cb27-1ce2" name="Take That, Norms!" hidden="false">
+              <description>When the Sky Raider Pack Leader activates, they can use a single action to remove D3 Action chips from any Sky Raiders within 6&quot; and return those chips to the bag.</description>
+            </rule>
+          </rules>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="d342-0f1f-42e4-81d8" name="Sky Raider Pack Leader" hidden="false" targetId="f13e-d2f2-9c9d-330a" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a295-ce28-c001-5bc0" name="New CategoryLink" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c840-c2ae-cdbf-c542" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0d42-edf3-4b08-e132" name="Sky Raider Alpha [Vehicle seat]" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="3f4e-dfcb-920f-1c5d" name="Scary Mutant" hidden="false">
+          <description>Models other than Judges suffer -1 on any tests made against their Cool stat when they are within 4&quot; of the Mutie.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="60e3-2866-f082-5d41" name="Sky Raider Alpha" hidden="false" targetId="e1c3-f47e-30e3-c41e" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8aff-2bf5-79c4-b584" name="New CategoryLink" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="74ef-f503-d47c-dd67" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="725f-8bc5-6582-9144" name="Sky Raider [Vehicle seat]" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="60e6-3905-7749-4c99" name="Scary Mutant" hidden="false">
+          <description>Models other than Judges suffer -1 on any tests made against their Cool stat when they are within 4&quot; of the Mutie.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="83a3-8e77-0931-ed30" name="Sky Raider" hidden="false" targetId="63e3-bd96-e64c-92cc" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fab9-cb39-6559-3aef" name="New CategoryLink" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="72a2-0348-1060-36f4" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="63e3-bd96-e64c-92cc" name="Sky Raider" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+      <characteristics>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">5&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">2</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">3</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">1</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">3</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">2</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Scary Mutant</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e1c3-f47e-30e3-c41e" name="Sky Raider Alpha" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+      <characteristics>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">5&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">3</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">4</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">1</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">4</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">3</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Scary Mutant</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f13e-d2f2-9c9d-330a" name="Sky Raider Pack Leader" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+      <characteristics>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">5&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">4</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">4</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">2</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">4</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">4</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Mutie Insight, Scary Mutant, &quot;Take That, Norms!&quot;</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
