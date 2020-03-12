@@ -5,6 +5,7 @@
     <entryLink id="1d25-9a6c-ba74-333e" name="MediBot" hidden="false" collective="false" import="true" targetId="8317-bada-8574-34eb" type="selectionEntry"/>
     <entryLink id="9083-7b13-a82b-691b" name="UtilBot" hidden="false" collective="false" import="true" targetId="3f6e-19fc-bb83-2112" type="selectionEntry"/>
     <entryLink id="7191-d7e3-73de-13e6" name="WarBot" hidden="false" collective="false" import="true" targetId="a7d1-cf48-275b-0a33" type="selectionEntry"/>
+    <entryLink id="cad8-3b92-33c2-7f5b" name="Mechanismo Mk1 Auxiliary Judge" hidden="false" collective="false" import="true" targetId="3985-b687-fa23-332a" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="3f6e-19fc-bb83-2112" name="UtilBot" hidden="false" collective="false" import="true" type="model">
@@ -35,6 +36,9 @@
           <infoLinks>
             <infoLink id="13c2-ef74-0208-8017" name="Throw" hidden="false" targetId="5255-df17-8c9a-15cd" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9af5-be3c-a9cd-f609" name="Improvised Close Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -50,6 +54,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -88,6 +95,9 @@ This skill can be used to revive incapacitated and subdued models.</description>
           <infoLinks>
             <infoLink id="0f3e-94f9-9f75-3d66" name="Piercing" hidden="false" targetId="3b97-6a4a-235f-ac9e" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -128,6 +138,9 @@ This skill can be used to revive incapacitated and subdued models.</description>
           <infoLinks>
             <infoLink id="8116-54ae-b3fc-0d3c" name="Stun" hidden="false" targetId="36d1-a245-27da-bc68" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="c6fc-4a11-cc43-eaad" name="Stun Prod" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -146,6 +159,9 @@ This skill can be used to revive incapacitated and subdued models.</description>
           <infoLinks>
             <infoLink id="38c0-e241-76b5-0d56" name="Stun" hidden="false" targetId="36d1-a245-27da-bc68" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -194,6 +210,9 @@ This skill can be used to revive incapacitated and subdued models.</description>
             <infoLink id="ec70-8532-66e8-e31e" name="Laser" hidden="false" targetId="40c1-f0e4-f19b-eb43" type="rule"/>
             <infoLink id="2e06-fa41-6962-163c" name="Piercing" hidden="false" targetId="3b97-6a4a-235f-ac9e" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="dcbf-961a-eafc-8e7c" name="Rocket Launcher" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -216,6 +235,9 @@ This skill can be used to revive incapacitated and subdued models.</description>
             <infoLink id="aa7e-b360-b3ae-f1f3" name="Blast(X&quot;)" hidden="false" targetId="0a79-b0ce-a34b-0548" type="rule"/>
             <infoLink id="4680-9df1-a0b7-fc9b" name="Aimed Fire Only" hidden="false" targetId="5e2e-0e83-a900-1de7" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -258,6 +280,9 @@ A Ponderous model is nevermarked with a Moving Fast marker and ignores the movem
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9490-beca-b052-9b13" name="Power Drill" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -277,6 +302,9 @@ A Ponderous model is nevermarked with a Moving Fast marker and ignores the movem
             <infoLink id="e9b2-393e-d9e5-a7fa" name="Piercing" hidden="false" targetId="3b97-6a4a-235f-ac9e" type="rule"/>
             <infoLink id="6fc9-f6d9-219a-6025" name="Rending" hidden="false" targetId="6c9a-2c96-b40c-99c6" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="619b-3221-fb73-3ea3" name="Rivet Gun" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -298,10 +326,202 @@ A Ponderous model is nevermarked with a Moving Fast marker and ignores the movem
           <infoLinks>
             <infoLink id="0fe9-47ea-f589-79e3" name="Aimed Fire Only" hidden="false" targetId="5e2e-0e83-a900-1de7" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3985-b687-fa23-332a" name="Mechanismo Mk1 Auxiliary Judge" hidden="false" collective="false" import="true" type="model">
+      <infoGroups>
+        <infoGroup id="ed90-381c-b4fb-e445" name="Mech.Mk1 " hidden="false">
+          <rules>
+            <rule id="32a2-c166-affd-cc02" name="Self-Repair Sub-Routines" hidden="false">
+              <description>If it is injured and uses the Hunked Down double-action, it can potentially remove all Injury markers if enough successes are rolled.</description>
+            </rule>
+            <rule id="f539-69d9-532e-7258" name="Respect the Machine Law" hidden="false">
+              <description>Whenever a Mechanismo Mk1 activates they can immediatly aattemt to intimidate all opposing models that are within line of sight and within 8&quot; range of the Mechanismo, withouth using an action.
+Make a Cool test:
+[Special]= One model Pinned per result.</description>
+            </rule>
+            <rule id="61c3-f780-6725-9892" name="Shut Down Number 5!" hidden="false">
+              <description>When activated by using a Star chip or making a double-action, make a Cool test at the end of the models activation.
+If the Cool test is failed the opposing player may immediately activate the Mechanismo Mk1 and perform up to:
+One single action or one double-action
+Then may target any model within range and line of sight.
+After the activation is complete, the Mechanismo Mk1 is Stunned and control returns to the origional owner.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="6edf-68ce-0f4c-8021" name="Robot" hidden="false" targetId="77fa-9473-9b8f-9902" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="2dfe-df40-8f1b-56f4" name="Mechanismo Mk1 Auxiliary Judge" hidden="false" targetId="4d1c-5728-c13f-6521" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c128-955c-29a4-db44" name="New CategoryLink" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="false"/>
+        <categoryLink id="6e33-13fa-a1e2-dbea" name="New CategoryLink" hidden="false" targetId="679d-38be-0ed3-5a13" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d922-af68-6b33-adbf" name="Judgement Bringer Hand Cannon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19f1-1713-4c37-db91" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fca9-dc53-1bd8-f0fe" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="8660-0cb1-4b2c-058f" name="Judgement Bringer Hand Cannon" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+              <characteristics>
+                <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">10&quot;</characteristic>
+                <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">20&quot;</characteristic>
+                <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                <characteristic name="Power" typeId="8fc6-55c1-1604-402e">5</characteristic>
+                <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Special Rounds, Stun</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d576-2ad0-e23c-92f0" name="Stun" hidden="false" targetId="36d1-a245-27da-bc68" type="rule"/>
+            <infoLink id="e6ea-4243-a28d-2ef7" name="Special Rounds" hidden="false" targetId="dd58-ed58-d5a9-2fee" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="383f-77b4-4213-3172" name="Mechanismo Rockets" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b01-150c-6934-9620" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75bb-cbec-e032-db99" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="85ba-abc4-0984-a5b1" name="Mechanismo Rockets" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+              <characteristics>
+                <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">6&quot;</characteristic>
+                <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+2</characteristic>
+                <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">12&quot;</characteristic>
+                <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                <characteristic name="Power" typeId="8fc6-55c1-1604-402e">5</characteristic>
+                <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Blast(3&quot;), One Shot</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="b256-73cc-575d-9860" name="One Shot" hidden="false">
+              <description>This weapon may be used once per game. After it has been used, it may not be used again during the same game.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="3d7d-ee8f-abcb-19b1" name="Blast(X&quot;)" hidden="false" targetId="0a79-b0ce-a34b-0548" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7750-b3e7-d9a5-0991" name="Day Stick" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbe3-6192-416a-903a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="007e-2d7d-fd66-c14d" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="24d1-982b-e9c5-fc0b" name="Day Stick" publicationId="23e2-8cf2-260a-a7be" page="68" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+              <characteristics>
+                <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
+                <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+1</characteristic>
+                <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">Stun</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d16f-e27d-0108-72ae" name="Stun" hidden="false" targetId="36d1-a245-27da-bc68" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9999-7722-ee6f-9f23" name="Additional Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d72-a2e8-167d-8564" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4594-fb1c-8857-2700" name="M2000 Widowmaker" page="" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="2c59-e6a1-c91c-0533" name="M2000 Stumm Gas" publicationId="23e2-8cf2-260a-a7be" page="68" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                  <characteristics>
+                    <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">6&quot;</characteristic>
+                    <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">0</characteristic>
+                    <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">18&quot;</characteristic>
+                    <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                    <characteristic name="Power" typeId="8fc6-55c1-1604-402e">3</characteristic>
+                    <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Aimed Fire Only, Blast(4&quot;), Gas, Stun</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="1c66-43ae-d4a8-40c8" name="M2000 Frag" publicationId="23e2-8cf2-260a-a7be" page="68" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                  <characteristics>
+                    <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">6&quot;</characteristic>
+                    <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">0</characteristic>
+                    <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">18&quot;</characteristic>
+                    <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                    <characteristic name="Power" typeId="8fc6-55c1-1604-402e">4</characteristic>
+                    <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Aimed Fire only, Blast(3&quot;)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="9ac5-1b2e-dff8-d43c" name="M2000 Widowmaker" publicationId="23e2-8cf2-260a-a7be" page="68" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                  <characteristics>
+                    <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">12&quot;</characteristic>
+                    <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+3</characteristic>
+                    <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">24&quot;</characteristic>
+                    <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                    <characteristic name="Power" typeId="8fc6-55c1-1604-402e">3</characteristic>
+                    <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Special Rounds</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoGroups>
+                <infoGroup id="4db5-8b38-6d95-dbed" name="M2000 Rules" hidden="false">
+                  <infoLinks>
+                    <infoLink id="ee9d-3acc-57d2-744b" name="Gas" hidden="false" targetId="2c77-fddc-a4a3-d41b" type="rule"/>
+                    <infoLink id="7b6d-87ab-f9d4-3ec9" name="Stun" hidden="false" targetId="36d1-a245-27da-bc68" type="rule"/>
+                    <infoLink id="5dfd-2d14-7215-5174" name="Blast(X&quot;)" hidden="false" targetId="0a79-b0ce-a34b-0548" type="rule"/>
+                    <infoLink id="0f07-b29e-9e1b-3618" name="Aimed Fire Only" hidden="false" targetId="5e2e-0e83-a900-1de7" type="rule"/>
+                  </infoLinks>
+                </infoGroup>
+              </infoGroups>
+              <costs>
+                <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="405a-39b3-ff95-5ddf" name="Lawrod Mk5" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e0f4-1bd9-eb58-4ced" name="Lawrod Mk5" publicationId="23e2-8cf2-260a-a7be" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                  <characteristics>
+                    <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">12&quot;</characteristic>
+                    <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">0</characteristic>
+                    <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">36&quot;</characteristic>
+                    <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                    <characteristic name="Power" typeId="8fc6-55c1-1604-402e">4</characteristic>
+                    <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Long Barrel</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="c432-ad35-eb01-b1c3" name="Long Barrel" hidden="false" targetId="f22c-2612-d386-22ec" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="15.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -364,6 +584,17 @@ A Ponderous model is nevermarked with a Moving Fast marker and ignores the movem
         <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">6</characteristic>
         <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">3</characteristic>
         <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Ponderous, Robot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4d1c-5728-c13f-6521" name="Mechanismo Mk1 Auxiliary Judge" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+      <characteristics>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">5&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">3</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">5</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">0</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">6</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">4*</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Robot, Respect the Machine Law, Self-Repair Sub-Routines, Shut Down Number 5!</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

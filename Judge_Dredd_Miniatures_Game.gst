@@ -1820,7 +1820,8 @@
 If 2x[Special] results are rolled for Power, The Stub Gun explodes. Blast 6&quot; from firing model Power 8. Target takes damage as normal.</description>
     </rule>
     <rule id="dd58-ed58-d5a9-2fee" name="Special Rounds" publicationId="23e2-8cf2-260a-a7be" page="67" hidden="false">
-      <description>The use of Special Rounds requires the expenditure of specific Armoury Cards.</description>
+      <description>The use of Special Rounds requires the expenditure of specific Armoury Cards.
+Special Rounds always require an Aimed Fire double-action and do not get additional Aimed Fire benifits.</description>
     </rule>
     <rule id="024b-70c9-0168-407d" name="Respect the Law" publicationId="23e2-8cf2-260a-a7be" page="62" hidden="false">
       <description>Whenever a Judge activates they may attempt to intimidate all opposing models. Make a Cool test for the Judge, if the test is passed for each [Special] result rolled, one model within 8&quot; is pinned.</description>

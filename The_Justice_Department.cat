@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cffa-ce89-e560-fa98" name="The Justice Department" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cffa-ce89-e560-fa98" name="The Justice Department" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="4cf6-f304-82ae-e9b8" name="Veteran Street Judge" hidden="false" collective="false" import="true" targetId="cd92-40f8-3fc4-ed09" type="selectionEntry"/>
     <entryLink id="2dd7-5690-4b2e-ef08" name="Judge" hidden="false" collective="false" import="true" targetId="e281-7b36-5e5e-4b76" type="selectionEntry"/>
@@ -304,7 +304,6 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="2a1c-8467-6d1a-43ca" name="New CategoryLink" hidden="false" targetId="679d-38be-0ed3-5a13" primary="true"/>
-        <categoryLink id="2dec-8bdc-d75a-2a23" name="Vehicles" hidden="false" targetId="c9e2-544d-e589-a911" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="7ec8-79e2-30a1-f8e1" name="Mk ?" hidden="false" collective="false" import="true">
