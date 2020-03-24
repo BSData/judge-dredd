@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="ac40-b1a9-3883-b042" name="Average Citizen" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="ef02-138a-9f52-4f3a" name="Average Citizen" hidden="false" collective="false" import="true" targetId="d24c-9a2d-6da9-295e" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="d24c-9a2d-6da9-295e" name="Average Citizen" hidden="false" collective="false" import="true" type="unit">
+      <infoGroups>
+        <infoGroup id="56aa-c42b-456f-3523" name="Citizen Rules" hidden="false">
+          <rules>
+            <rule id="fab2-22b4-7e40-f892" name="Apt to Panic" hidden="false">
+              <description>At the end of each turn roll a Combat dice for each Citizen model on the table.
+[Hit]= They make one normal Move action directly away from the closest non-Citizen model.
+[Armour]= They take no action and remain stationary.
+[Special]= They make one Move action towards the closest model regardless of type. Can move around Blocking terrain but no regards for dangers.</description>
+            </rule>
+            <rule id="5def-5e32-975f-658f" name="Collateral Damage" hidden="false">
+              <description>Roll a combat dice for each Citizen in the line of fire.
+[Hit]= Resolve the ranged attack against the citizen model(s) as well as the intended target.
+Judges will only resolve the attack on Citizens on a [Special] Combat dice roll.</description>
+            </rule>
+            <rule id="297f-eaf9-09f1-e335" name="Fear the Law" hidden="false">
+              <description>Any Citizen within 8&quot; of a Judge using the Respect the Law skill can be moved by the Justice Department player up to one normal Move. The Justice Department player also gets to decide whether the Citizens that are within 8&quot; of a Judge have to roll for Apt to Panic at the end of the turn or not.</description>
+            </rule>
+            <rule id="4aa1-bb3f-0058-8296" name="Pack" hidden="false">
+              <description>Citizens normaly do not generate Action chips of thei own. However if someone else uses an Action chip to activate the Citizens they follow the Pack rules.
+Up to six can be activated at once.</description>
+            </rule>
+          </rules>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="57cc-d716-fe3b-c318" name="Average Citizen" hidden="false" targetId="3b59-9e2e-7d80-4f60" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9ea3-03cd-4ca7-d4cf" name="New CategoryLink" hidden="false" targetId="a8cb-f452-19f8-d44c" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="3b59-9e2e-7d80-4f60" name="Average Citizen" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+      <characteristics>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">4&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">1</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">1</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">1</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">1</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">1</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Apt to Panic, Collateral Damage, Fear the Law, Pack (6)</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="e02f-48ed-79b7-c069" name="Citi-Def" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="2832-4750-b416-c0dd" name="Citi-Def Sniper" hidden="false" collective="false" import="true" targetId="3a4d-7b29-909d-f229" type="selectionEntry"/>
+    <entryLink id="b3f3-21d0-de94-b11c" name="Citi-Def Auxiliary" hidden="false" collective="false" import="true" targetId="84ba-e5c6-d15a-d9c6" type="selectionEntry"/>
+    <entryLink id="5f99-b5c7-8375-b7f3" name="Citi-Def Trooper" hidden="false" collective="false" import="true" targetId="c368-4f60-c279-072b" type="selectionEntry"/>
+    <entryLink id="1df9-4a83-0244-a698" name="Citi-Def Squad Leader" hidden="false" collective="false" import="true" targetId="9e88-fdcb-353c-f5b8" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="9e88-fdcb-353c-f5b8" name="Citi-Def Squad Leader" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="9571-cf00-0511-2d09" name="Access to the Armoury" hidden="false">
+          <description>If a Citi-Def Squald Leader is the leader of your faction, you may draw one extra Amoury card and keep one more card than normal.</description>
+        </rule>
+        <rule id="89bf-6ef8-b8e2-bf4a" name="Leading from the Front" hidden="false">
+          <description>Use a single action to return a chip to the bag of another Citi-Def model within 8&quot; and line of sight from the Squad Leader. Can be used on a second model for another single action.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7756-621d-867f-dc66" name="Citi-Def Squad Leader" hidden="false" targetId="0cd6-618d-947d-6e23" type="profile">
+          <modifiers>
+            <modifier type="set" field="a488-1615-8c9e-2b73" value="Access to the Armoury, Leading from the Front, Body Armour">
+              <conditions>
+                <condition field="selections" scope="9e88-fdcb-353c-f5b8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fa9-704c-28bc-a54f" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="1ba5-0dfe-80d2-af1a" value="(+1)">
+              <conditions>
+                <condition field="selections" scope="9e88-fdcb-353c-f5b8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fa9-704c-28bc-a54f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="dee4-f6fe-68a7-1200" name="New CategoryLink" hidden="false" targetId="9cfd-c39e-c906-9440" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6bd5-f749-2f1d-8525" name="&gt;Body Armour" hidden="false" collective="false" import="true" targetId="6fa9-704c-28bc-a54f" type="selectionEntry"/>
+        <entryLink id="fb8d-7a71-37f9-2f28" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
+        <entryLink id="e8dd-84af-904b-92c3" name="&lt;[mounts]" hidden="false" collective="false" import="true" targetId="acf4-d154-6dd7-28a4" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="13.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3a4d-7b29-909d-f229" name="Citi-Def Sniper" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="bcf9-cce7-ff82-5ba3" name="Sniper" hidden="false">
+          <description>Any attempt to dodge a hit from the Sniper&apos;s attack will be at -1 Evade.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ee48-92de-1de9-aca4" name="Citi-Def Sniper" hidden="false" targetId="bc74-4f09-d9e2-d3d4" type="profile">
+          <modifiers>
+            <modifier type="append" field="1ba5-0dfe-80d2-af1a" value="(+1)">
+              <conditions>
+                <condition field="selections" scope="3a4d-7b29-909d-f229" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fa9-704c-28bc-a54f" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="a488-1615-8c9e-2b73" value="Sniper, Body Armour">
+              <conditions>
+                <condition field="selections" scope="3a4d-7b29-909d-f229" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fa9-704c-28bc-a54f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="310d-6d8f-6f20-5e07" name="New CategoryLink" hidden="false" targetId="9cfd-c39e-c906-9440" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5222-8713-f0de-cc98" name="&gt;Body Armour" hidden="false" collective="false" import="true" targetId="6fa9-704c-28bc-a54f" type="selectionEntry"/>
+        <entryLink id="9207-0399-6741-ca2e" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
+        <entryLink id="1a4d-47a7-f155-4b52" name="&lt;[mounts]" hidden="false" collective="false" import="true" targetId="acf4-d154-6dd7-28a4" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c368-4f60-c279-072b" name="Citi-Def Trooper" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="2943-c96d-547e-7f98" name="Citi-Def Trooper" hidden="false" targetId="7f96-3d7c-dd24-333d" type="profile">
+          <modifiers>
+            <modifier type="set" field="a488-1615-8c9e-2b73" value="Body Armour">
+              <conditions>
+                <condition field="selections" scope="c368-4f60-c279-072b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fa9-704c-28bc-a54f" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="1ba5-0dfe-80d2-af1a" value="(+1)">
+              <conditions>
+                <condition field="selections" scope="c368-4f60-c279-072b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fa9-704c-28bc-a54f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="394f-ba9f-7458-d034" name="New CategoryLink" hidden="false" targetId="9cfd-c39e-c906-9440" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="cd33-0da9-64e1-67d7" name="&gt;Body Armour" hidden="false" collective="false" import="true" targetId="6fa9-704c-28bc-a54f" type="selectionEntry"/>
+        <entryLink id="75e1-5f99-1cbd-257e" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
+        <entryLink id="12e4-eeda-973c-cfd5" name="&lt;[mounts]" hidden="false" collective="false" import="true" targetId="acf4-d154-6dd7-28a4" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="84ba-e5c6-d15a-d9c6" name="Citi-Def Auxiliary" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="a759-663a-4f0a-2404" name="Citi-Def Auxiliary" hidden="false" targetId="fdbf-ddd7-4f46-d6ba" type="profile">
+          <modifiers>
+            <modifier type="set" field="a488-1615-8c9e-2b73" value="Body Armour">
+              <conditions>
+                <condition field="selections" scope="84ba-e5c6-d15a-d9c6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fa9-704c-28bc-a54f" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="1ba5-0dfe-80d2-af1a" value="(+1)">
+              <conditions>
+                <condition field="selections" scope="84ba-e5c6-d15a-d9c6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fa9-704c-28bc-a54f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e2e1-1758-fcbe-a83f" name="New CategoryLink" hidden="false" targetId="9cfd-c39e-c906-9440" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3cff-dc26-9e2c-c0d0" name="&gt;Body Armour" hidden="false" collective="false" import="true" targetId="6fa9-704c-28bc-a54f" type="selectionEntry"/>
+        <entryLink id="4bcf-d12d-62f5-3f25" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
+        <entryLink id="7031-d83f-c64e-1769" name="&lt;[mounts]" hidden="false" collective="false" import="true" targetId="acf4-d154-6dd7-28a4" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6fa9-704c-28bc-a54f" name="&gt;Body Armour" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7e2f-35ac-66f3-8c17" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1725-eee6-4767-b551" name="&gt;Body Armour" hidden="false" targetId="4807-dd8d-49b4-1f71" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="4807-dd8d-49b4-1f71" name="Body Armour" hidden="false">
+      <description>+1 Resist</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="bc74-4f09-d9e2-d3d4" name="Citi-Def Sniper" publicationId="23e2-8cf2-260a-a7be" page="102" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+      <characteristics>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">5&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">3</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">2</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">1</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">3</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">3</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Sniper</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0cd6-618d-947d-6e23" name="Citi-Def Squad Leader" publicationId="23e2-8cf2-260a-a7be" page="102" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+      <characteristics>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">5&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">3</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">3</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">2</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">4</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">4</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Access to the Armoury, Leading from the Front</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fdbf-ddd7-4f46-d6ba" name="Citi-Def Auxiliary" publicationId="23e2-8cf2-260a-a7be" page="102" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+      <characteristics>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">5&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">2</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">2</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">1</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">2</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">2</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7f96-3d7c-dd24-333d" name="Citi-Def Trooper" publicationId="23e2-8cf2-260a-a7be" page="102" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+      <characteristics>
+        <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">5&quot;</characteristic>
+        <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">3</characteristic>
+        <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">2</characteristic>
+        <characteristic name="Evade" typeId="2dde-74b6-a414-836d">1</characteristic>
+        <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">3</characteristic>
+        <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">3</characteristic>
+        <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">-</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
