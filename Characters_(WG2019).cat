@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="253b-3365-0b92-fd59" name="Characters (WG2019)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="afe4-eb98-0adf-362c" name="Judge Dredd" hidden="false" collective="false" import="true" targetId="7482-f5d7-e427-e70d" type="selectionEntry"/>
+    <entryLink id="6551-7146-97c8-bd68" name="Psi-Judge Anderson" hidden="false" collective="false" import="true" targetId="25b2-9ebb-01b5-6a36" type="selectionEntry"/>
+    <entryLink id="db11-9e35-d782-1cb8" name="SJS Senior Judghe Gerhart" hidden="false" collective="false" import="true" targetId="680a-98df-6070-6123" type="selectionEntry"/>
+    <entryLink id="7ca9-aaef-21ab-2111" name="Judge Grice" hidden="false" collective="false" import="true" targetId="c371-ce93-271a-a9f6" type="selectionEntry"/>
+    <entryLink id="e69a-c7c0-ec03-7822" name="Karl Raider" hidden="false" collective="false" import="true" targetId="94f5-5f70-743f-3fa4" type="selectionEntry"/>
+    <entryLink id="3309-a1d3-6a87-b4b4" name="Orlok the Assasin" hidden="false" collective="false" import="true" targetId="0149-e3cf-0bbc-5ce9" type="selectionEntry"/>
+    <entryLink id="c63a-5404-0d68-9c4f" name="Mean Machine" hidden="false" collective="false" import="true" targetId="ad26-b8b3-c475-fe78" type="selectionEntry"/>
+    <entryLink id="2e84-7cf8-4c13-6345" name="Oola Blint" hidden="false" collective="false" import="true" targetId="fb9b-4788-4e74-3700" type="selectionEntry"/>
+    <entryLink id="0675-5841-99c3-dc39" name="Homer Blint" hidden="false" collective="false" import="true" targetId="d42f-e853-4088-1fdc" type="selectionEntry"/>
+    <entryLink id="4e42-e7a5-8c1a-da15" name="Dick Porker" hidden="false" collective="false" import="true" targetId="e0e3-0f0d-969d-3030" type="selectionEntry"/>
+    <entryLink id="2330-4b8c-1428-ba63" name="Nero Narcos" hidden="false" collective="false" import="true" targetId="5b68-fd10-c1b8-f6c2" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="7482-f5d7-e427-e70d" name="Judge Dredd" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1415-36cc-bf3e-6eab" name="Judge Dredd" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">5</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">5</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">4</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">5</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">5</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">&quot;Drokk Me, It&apos;s Dredd!!!&quot;, Gaze in to the Fist of DRedd, Gunfighter, Incredible Shot, Indestructable, Let&apos;s Ride!</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="c1a8-38fe-eebc-12e2" name="&lt;The Justice Department" hidden="false" targetId="679d-38be-0ed3-5a13" primary="true"/>
+        <categoryLink id="b40a-c8f8-96dc-759d" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="25b2-9ebb-01b5-6a36" name="Judge Anderson" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="82f2-947d-60a4-f71f" name="Judge Anderson" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">4</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">4</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">3</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">4</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">5</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Fortitude, Gunfighter, Let&apos;s Ride!, Psychic Skills, Respect the Law</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="cfb1-f99f-f09b-256c" name="New CategoryLink" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
+        <categoryLink id="c58a-5293-53bb-a366" name="&lt;The Justice Department" hidden="false" targetId="679d-38be-0ed3-5a13" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="680a-98df-6070-6123" name="SJS Judghe Gerhart" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="3ef2-488b-3666-a954" name="SJS Judghe Gerhart" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">4&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">4</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">5</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">2</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">5</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">4</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Cyborg, Fortitude, Brawler, One-way Trip to Titan, Let&apos;s Ride!</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="db3f-2f6e-7d51-dc67" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
+        <categoryLink id="cc10-e634-659e-2750" name="New CategoryLink" hidden="false" targetId="679d-38be-0ed3-5a13" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="21.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c371-ce93-271a-a9f6" name="Judge Grice" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="4da0-0fbe-c324-1de9" name="Judge Grice" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">4</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">4</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">3</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">4</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">5</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Brawler, Fortitude, Intimidate, Let&apos;s Ride!, Respirator</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="f655-c0ab-6d59-506b" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
+        <categoryLink id="445b-b24a-1898-c7fe" name="&lt;Inmate Judges" hidden="false" targetId="146a-0b0a-94f9-e02c" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="94f5-5f70-743f-3fa4" name="Karl Raider" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="17cc-6ac2-64e3-ae50" name="Karl Raider" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">4</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">4</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">4</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">3</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">4</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Brawler, Gunfighter, Intimidate, No Respect for the Law</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ee97-a42e-7822-4ea0" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
+        <categoryLink id="6fde-2ff5-bcdf-75e1" name="New CategoryLink" hidden="false" targetId="698c-0d31-fd49-0298" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0149-e3cf-0bbc-5ce9" name="Orlok the Assasin" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d0e2-e19c-a6ad-b74d" name="Orlok the Assasin" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">5</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">5</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">4</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">4</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">4</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Gunfighter, Martial Arts Master, Indestructable, Drokk-Satellat! </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8350-ea39-36b8-d3ea" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
+        <categoryLink id="8b20-ac1d-9361-cac4" name="New CategoryLink" hidden="false" targetId="f596-beef-7f3f-812f" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="19.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ad26-b8b3-c475-fe78" name="Mean Machine" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="a05a-d3fd-1bea-e517" name="Mean Machine" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">3*</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">1*</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">2</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">4</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">4</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">I&apos;ll Go Up to 4 on the Chump!!!, Izzat So!, 4 1/2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3882-9e43-d78d-08de" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
+        <categoryLink id="5262-bdac-2551-f476" name="New CategoryLink" hidden="false" targetId="42d3-7118-8492-ccab" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fb9b-4788-4e74-3700" name="Oola Blint" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f102-57e0-8d46-0681" name="Oola Blint" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">2</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">2</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">4</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">3</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">4</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Angel of Mercy, Brawler, Under the Radar</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9f09-6ac4-8f22-37e0" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
+        <categoryLink id="202e-ac3b-c9b1-39c7" name="New CategoryLink" hidden="false" targetId="ce89-c9ae-9fbf-d40c" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="13.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d42f-e853-4088-1fdc" name="Homer Blint" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="fbe2-7f91-82ee-57c7" name="Homer Blint" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">12&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">2</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">2</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">3</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">3</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">4</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Fly Like an Eagle, Homer&apos;s Eggs</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="6871-5314-8544-653f" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
+        <categoryLink id="28bc-a0eb-98a1-a168" name="&lt;The Blints" hidden="false" targetId="ce89-c9ae-9fbf-d40c" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e0e3-0f0d-969d-3030" name="Dick Porker" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ae14-c932-e064-f13a" name="Dick Porker" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">5&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">2</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">4</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">1</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">6</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">4</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">BeliWheel Skills, Jet Barf!, Wall of Flub!</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8c6b-02a2-4f52-073f" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
+        <categoryLink id="5a74-c9db-2731-2d8e" name="New CategoryLink" hidden="false" targetId="073f-0aee-8d5c-0765" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5b68-fd10-c1b8-f6c2" name="Nero Narcos" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e143-9a18-ee92-e129" name="Nero Narcos" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">2</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">4</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">1</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">5</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">4</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Robot Control, Self-Repair Sub-Routines, Who Needs Frendz</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="57b1-1108-bd0f-cd69" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
+        <categoryLink id="2d9c-f9aa-d29a-86b9" name="&lt;Frendz Mob" hidden="false" targetId="2a25-d1c2-c149-ee73" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="19.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

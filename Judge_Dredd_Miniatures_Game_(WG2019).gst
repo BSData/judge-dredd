@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="ae68-bf10-140a-0058" name="Judge Dredd Miniatures Game (WarlordGames)" revision="4" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="ae68-bf10-140a-0058" name="Judge Dredd Miniatures Game (WG2019)" revision="4" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="23e2-8cf2-260a-a7be" name="JDMG (2019)"/>
   </publications>
@@ -74,10 +74,15 @@
     <categoryEntry id="a8cb-f452-19f8-d44c" name="&lt;Citizens" hidden="false"/>
     <categoryEntry id="99ee-b34f-b01c-ed36" name="&lt;Mutie Sky Raiders" hidden="false"/>
     <categoryEntry id="0150-98ab-6640-0b05" name="&lt;Fourth Faction Agents" hidden="false"/>
-    <categoryEntry id="7c47-63fd-b4bd-4951" name="&gt;Rules" hidden="false"/>
     <categoryEntry id="146a-0b0a-94f9-e02c" name="&lt;Inmate Judges" hidden="false"/>
     <categoryEntry id="2d27-82b5-e828-bd48" name="&lt;Mounts" hidden="false"/>
-    <categoryEntry id="070a-9232-c940-3075" name="&gt;Vehicles" hidden="false"/>
+    <categoryEntry id="698c-0d31-fd49-0298" name="&lt;Vigilante" hidden="false"/>
+    <categoryEntry id="f596-beef-7f3f-812f" name="&lt;East-Meg One" hidden="false"/>
+    <categoryEntry id="42d3-7118-8492-ccab" name="&lt;The Angel Gang" hidden="false"/>
+    <categoryEntry id="ce89-c9ae-9fbf-d40c" name="&lt;The Blints" hidden="false"/>
+    <categoryEntry id="2a25-d1c2-c149-ee73" name="&lt;Frendz Mob" hidden="false"/>
+    <categoryEntry id="134c-6f7e-a1a4-f310" name="&gt;Rules" hidden="false"/>
+    <categoryEntry id="36c2-086b-f3d8-3700" name="&gt;Vehicles" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="1a15-0379-f38f-fc7f" name="Large Force 50+" publicationId="23e2-8cf2-260a-a7be" hidden="false">
@@ -96,10 +101,15 @@
         <categoryLink id="e6f7-e486-1f25-1ab5" name="Fourth Faction Agents" hidden="false" targetId="0150-98ab-6640-0b05" primary="false"/>
         <categoryLink id="a371-7449-76c6-ba29" name="Robots" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="false"/>
         <categoryLink id="590f-f353-dc37-e9d2" name="The Cursed Earth" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="false"/>
-        <categoryLink id="c680-374d-b0d5-e3ce" name="Rules" hidden="false" targetId="7c47-63fd-b4bd-4951" primary="false"/>
         <categoryLink id="9d17-c758-f037-b51a" name="&lt;Inmate Judges" hidden="false" targetId="146a-0b0a-94f9-e02c" primary="false"/>
         <categoryLink id="c275-53d9-db75-cfd7" name="&lt;Mounts" hidden="false" targetId="2d27-82b5-e828-bd48" primary="false"/>
-        <categoryLink id="274b-119a-2954-52d0" name="&gt;Vehicles" hidden="false" targetId="070a-9232-c940-3075" primary="false"/>
+        <categoryLink id="9193-f355-da96-d91f" name="&lt;Vigilante" hidden="false" targetId="698c-0d31-fd49-0298" primary="false"/>
+        <categoryLink id="4627-5695-a4cc-0729" name="&lt;East-Meg One" hidden="false" targetId="f596-beef-7f3f-812f" primary="false"/>
+        <categoryLink id="2f07-d912-2d04-fe8d" name="&lt;The Angel Gang" hidden="false" targetId="42d3-7118-8492-ccab" primary="false"/>
+        <categoryLink id="b6e6-2798-7647-ef3e" name="&lt;The Blints" hidden="false" targetId="ce89-c9ae-9fbf-d40c" primary="false"/>
+        <categoryLink id="d4cd-0ab2-e6b0-fe31" name="&lt;Frendz Mob" hidden="false" targetId="2a25-d1c2-c149-ee73" primary="false"/>
+        <categoryLink id="0cc0-1e81-65ef-77ee" name="&gt;Rules" hidden="false" targetId="134c-6f7e-a1a4-f310" primary="false"/>
+        <categoryLink id="52b7-7246-9c15-0dc7" name="&gt;Vehicles" hidden="false" targetId="36c2-086b-f3d8-3700" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="c859-1019-c3b1-e6af" name="Small Game Force 10-25" publicationId="23e2-8cf2-260a-a7be" hidden="false">
@@ -119,10 +129,15 @@
         <categoryLink id="6ac8-aed9-75bd-1dcb" name="Fourth Faction Agents" hidden="false" targetId="0150-98ab-6640-0b05" primary="false"/>
         <categoryLink id="b256-54d5-c95a-58db" name="Robots" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="false"/>
         <categoryLink id="74d5-9acc-c404-3966" name="The Cursed Earth" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="false"/>
-        <categoryLink id="73ec-96eb-82c0-f012" name="Rules" hidden="false" targetId="7c47-63fd-b4bd-4951" primary="false"/>
         <categoryLink id="d8d0-f85f-7c66-22c5" name="&lt;Inmate Judges" hidden="false" targetId="146a-0b0a-94f9-e02c" primary="false"/>
         <categoryLink id="efbb-7e94-03d1-186f" name="&lt;Mounts" hidden="false" targetId="2d27-82b5-e828-bd48" primary="false"/>
-        <categoryLink id="8891-a21a-9674-b43c" name="&gt;Vehicles" hidden="false" targetId="070a-9232-c940-3075" primary="false"/>
+        <categoryLink id="e7f5-daa3-74f2-25df" name="&lt;Vigilante" hidden="false" targetId="698c-0d31-fd49-0298" primary="false"/>
+        <categoryLink id="a811-d580-2323-55cc" name="&lt;East-Meg One" hidden="false" targetId="f596-beef-7f3f-812f" primary="false"/>
+        <categoryLink id="5bbc-6d53-83e6-bcfc" name="&lt;The Angel Gang" hidden="false" targetId="42d3-7118-8492-ccab" primary="false"/>
+        <categoryLink id="d292-b7b2-3e19-cf30" name="&lt;The Blints" hidden="false" targetId="ce89-c9ae-9fbf-d40c" primary="false"/>
+        <categoryLink id="b5d3-b4d0-7803-a7e6" name="&lt;Frendz Mob" hidden="false" targetId="2a25-d1c2-c149-ee73" primary="false"/>
+        <categoryLink id="68bd-1dc9-e99e-bb50" name="&gt;Rules" hidden="false" targetId="134c-6f7e-a1a4-f310" primary="false"/>
+        <categoryLink id="28fb-5f14-376b-3fa5" name="&gt;Vehicles" hidden="false" targetId="36c2-086b-f3d8-3700" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="af73-aa3e-3857-fbab" name="Medium Force 26-50" publicationId="23e2-8cf2-260a-a7be" hidden="false">
@@ -142,10 +157,15 @@
         <categoryLink id="c441-55e8-6b9e-b801" name="Fourth Faction Agents" hidden="false" targetId="0150-98ab-6640-0b05" primary="false"/>
         <categoryLink id="7a84-5739-c019-94b1" name="Robots" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="false"/>
         <categoryLink id="09ef-e003-894b-6e92" name="The Cursed Earth" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="false"/>
-        <categoryLink id="90a8-a75f-bdf2-8f66" name="Rules" hidden="false" targetId="7c47-63fd-b4bd-4951" primary="false"/>
         <categoryLink id="4d8c-9379-1c96-656a" name="&lt;Inmate Judges" hidden="false" targetId="146a-0b0a-94f9-e02c" primary="false"/>
         <categoryLink id="c640-691d-7c71-7b48" name="&lt;Mounts" hidden="false" targetId="2d27-82b5-e828-bd48" primary="false"/>
-        <categoryLink id="c5c1-a424-9c8e-cc07" name="&gt;Vehicles" hidden="false" targetId="070a-9232-c940-3075" primary="false"/>
+        <categoryLink id="b26a-382d-a287-488b" name="&lt;Vigilante" hidden="false" targetId="698c-0d31-fd49-0298" primary="false"/>
+        <categoryLink id="5fd9-1cef-2b03-f8ad" name="&lt;East-Meg One" hidden="false" targetId="f596-beef-7f3f-812f" primary="false"/>
+        <categoryLink id="e4c2-d49f-a562-f653" name="&lt;The Angel Gang" hidden="false" targetId="42d3-7118-8492-ccab" primary="false"/>
+        <categoryLink id="0bc9-27e5-ecfb-9460" name="&lt;The Blints" hidden="false" targetId="ce89-c9ae-9fbf-d40c" primary="false"/>
+        <categoryLink id="4fa1-480c-0ae2-30fa" name="&lt;Frendz Mob" hidden="false" targetId="2a25-d1c2-c149-ee73" primary="false"/>
+        <categoryLink id="42ac-7857-7e5c-83e4" name="&gt;Rules" hidden="false" targetId="134c-6f7e-a1a4-f310" primary="false"/>
+        <categoryLink id="439a-a12e-2648-3cf8" name="&gt;Vehicles" hidden="false" targetId="36c2-086b-f3d8-3700" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="c1df-5bb0-e7ef-2cef" name=" Open Force" publicationId="23e2-8cf2-260a-a7be" hidden="false">
@@ -164,32 +184,42 @@
         <categoryLink id="a434-f9e2-714c-4cd6" name="Fourth Faction Agents" hidden="false" targetId="0150-98ab-6640-0b05" primary="false"/>
         <categoryLink id="db57-506c-b8f9-6201" name="Robots" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="false"/>
         <categoryLink id="26f6-b238-eebe-fd20" name="The Cursed Earth" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="false"/>
-        <categoryLink id="a682-f3e0-0f5b-9d4e" name="Rules" hidden="false" targetId="7c47-63fd-b4bd-4951" primary="false"/>
         <categoryLink id="0096-a3a3-6883-0d4f" name="&lt;Inmate Judges" hidden="false" targetId="146a-0b0a-94f9-e02c" primary="false"/>
         <categoryLink id="f395-f8ad-e83c-b508" name="&lt;Mounts" hidden="false" targetId="2d27-82b5-e828-bd48" primary="false"/>
-        <categoryLink id="daca-68f3-b406-6e78" name="&gt;Vehicles" hidden="false" targetId="070a-9232-c940-3075" primary="false"/>
+        <categoryLink id="72c1-cca5-1c3a-0cd0" name="&lt;Vigilante" hidden="false" targetId="698c-0d31-fd49-0298" primary="false"/>
+        <categoryLink id="37cf-3f30-74f7-c3ea" name="&lt;East-Meg One" hidden="false" targetId="f596-beef-7f3f-812f" primary="false"/>
+        <categoryLink id="f027-4584-316c-8bfd" name="&lt;The Angel Gang" hidden="false" targetId="42d3-7118-8492-ccab" primary="false"/>
+        <categoryLink id="2314-cc01-36b4-e47d" name="&lt;The Blints" hidden="false" targetId="ce89-c9ae-9fbf-d40c" primary="false"/>
+        <categoryLink id="e604-6c46-2f90-2a27" name="&lt;Frendz Mob" hidden="false" targetId="2a25-d1c2-c149-ee73" primary="false"/>
+        <categoryLink id="9e93-74cc-9733-eea8" name="&gt;Rules" hidden="false" targetId="134c-6f7e-a1a4-f310" primary="false"/>
+        <categoryLink id="4396-e252-f513-6f56" name="&gt;Vehicles" hidden="false" targetId="36c2-086b-f3d8-3700" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
   <entryLinks>
-    <entryLink id="9642-28e9-3c43-699b" name="Rules" hidden="false" collective="false" import="true" targetId="ee1b-113b-fa65-828c" type="selectionEntry"/>
-    <entryLink id="7bf3-01e8-8e81-4947" name="&lt;Vehicles" hidden="false" collective="false" import="true" targetId="9b81-b750-548d-9341" type="selectionEntry"/>
+    <entryLink id="9642-28e9-3c43-699b" name="Rules" hidden="false" collective="false" import="true" targetId="ee1b-113b-fa65-828c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e466-394b-2a79-3679" name="New CategoryLink" hidden="false" targetId="134c-6f7e-a1a4-f310" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7bf3-01e8-8e81-4947" name="&lt;Vehicles" hidden="false" collective="false" import="true" targetId="9b81-b750-548d-9341" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0434-8219-abd3-efe1" name="New CategoryLink" hidden="false" targetId="36c2-086b-f3d8-3700" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="ee1b-113b-fa65-828c" name="&lt;Rules" hidden="false" collective="false" import="true" type="upgrade">
-      <categoryLinks>
-        <categoryLink id="7dbf-7e9f-daeb-a7e1" name="New CategoryLink" hidden="false" targetId="7c47-63fd-b4bd-4951" primary="true"/>
-      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="aff6-37dc-aabe-1a20" name="&lt;Show rules&gt;" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="53e3-0fc9-2cff-e20b" name="Dual Weapon Fighting" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b67-b102-ad94-44aa" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="0164-6815-ebad-6f3f" name="Dual Weapon Fighting" hidden="false" targetId="03bc-162c-1edd-dde4" type="rule"/>
               </infoLinks>
-              <categoryLinks>
-                <categoryLink id="7f3c-bbe7-814d-b769" name="Rules" hidden="false" targetId="7c47-63fd-b4bd-4951" primary="false"/>
-              </categoryLinks>
               <costs>
                 <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
               </costs>
@@ -202,9 +232,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9b81-b750-548d-9341" name="&lt;Vehicles" hidden="false" collective="false" import="true" type="upgrade">
-      <categoryLinks>
-        <categoryLink id="dcf9-3630-b36f-bc75" name="New CategoryLink" hidden="false" targetId="070a-9232-c940-3075" primary="true"/>
-      </categoryLinks>
       <entryLinks>
         <entryLink id="7090-ad88-c4f7-c73f" name="&lt;[Vehicles]" hidden="false" collective="false" import="true" targetId="0f78-393c-9575-767c" type="selectionEntryGroup"/>
       </entryLinks>

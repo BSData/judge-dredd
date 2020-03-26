@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cffa-ce89-e560-fa98" name="The Justice Department" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cffa-ce89-e560-fa98" name="The Justice Department (WG2019)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="4cf6-f304-82ae-e9b8" name="Veteran Street Judge" hidden="false" collective="false" import="true" targetId="cd92-40f8-3fc4-ed09" type="selectionEntry"/>
     <entryLink id="2dd7-5690-4b2e-ef08" name="Judge" hidden="false" collective="false" import="true" targetId="e281-7b36-5e5e-4b76" type="selectionEntry"/>
@@ -7,7 +7,6 @@
     <entryLink id="5dd0-c84d-6418-6dd7" name="Senior Street Judge" hidden="false" collective="false" import="true" targetId="9aa8-98b6-07d9-2418" type="selectionEntry"/>
     <entryLink id="3eb3-355e-9630-4e18" name="Rookie Judge" hidden="false" collective="false" import="true" targetId="2f09-ea49-8443-26dd" type="selectionEntry"/>
     <entryLink id="340e-30d9-32da-264a" name="Cadet Judge " hidden="false" collective="false" import="true" targetId="b3c7-16d9-dfa0-2578" type="selectionEntry"/>
-    <entryLink id="cddb-a81d-8691-351d" name="Judge Dredd" hidden="false" collective="false" import="true" targetId="9dfe-7c4f-7926-2da2" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="cfca-f781-7059-c67d" name="Boot Knife" hidden="false" collective="false" import="true" type="upgrade">
@@ -142,13 +141,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3929-bafa-0ea9-ab09" name="Stub Gun" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9dfe-7c4f-7926-2da2" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <profiles>
         <profile id="a557-1778-f4d6-d328" name="Stub Gun" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
           <characteristics>
@@ -478,18 +470,6 @@
       </modifiers>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9dfe-7c4f-7926-2da2" name="Judge Dredd" hidden="false" collective="false" import="true" type="upgrade">
-      <categoryLinks>
-        <categoryLink id="284a-691f-5a43-b7aa" name="The Justice Department" hidden="false" targetId="679d-38be-0ed3-5a13" primary="false"/>
-        <categoryLink id="71e5-cbc8-3fd9-339b" name="New CategoryLink" hidden="false" targetId="7072-7f05-1d2c-1263" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="c7ba-70ed-74e3-5d6b" name="Judges Weapon" hidden="false" collective="false" import="true" targetId="7b8c-b7f7-1f9a-096d" type="selectionEntryGroup"/>
-      </entryLinks>
-      <costs>
-        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="35.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

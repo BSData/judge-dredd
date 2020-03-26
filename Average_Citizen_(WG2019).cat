@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ac40-b1a9-3883-b042" name="Average Citizen" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ac40-b1a9-3883-b042" name="Average Citizen (WG2019)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="ef02-138a-9f52-4f3a" name="Average Citizen" hidden="false" collective="false" import="true" targetId="d24c-9a2d-6da9-295e" type="selectionEntry"/>
   </entryLinks>

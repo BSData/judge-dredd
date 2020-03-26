@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e02f-48ed-79b7-c069" name="Citi-Def" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e02f-48ed-79b7-c069" name="Citi-Def (WG2019)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="2832-4750-b416-c0dd" name="Citi-Def Sniper" hidden="false" collective="false" import="true" targetId="3a4d-7b29-909d-f229" type="selectionEntry"/>
     <entryLink id="b3f3-21d0-de94-b11c" name="Citi-Def Auxiliary" hidden="false" collective="false" import="true" targetId="84ba-e5c6-d15a-d9c6" type="selectionEntry"/>

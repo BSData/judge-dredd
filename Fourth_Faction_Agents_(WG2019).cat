@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="617a-12ff-ca68-d3f3" name="Fourth Faction Agents" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="617a-12ff-ca68-d3f3" name="Fourth Faction Agents (WG2019)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="77c1-7ef3-5b95-6da3" name="Genetik Construkt" hidden="false" collective="false" import="true" targetId="3f8e-e17f-f12c-0873" type="selectionEntry"/>
   </entryLinks>

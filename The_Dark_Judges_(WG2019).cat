@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2115-3541-7237-f2ed" name="The Dark Judges" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2115-3541-7237-f2ed" name="The Dark Judges (WG2019)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="6957-e036-3dc6-3f97" name="Judge Death" hidden="false" collective="false" import="true" targetId="51ef-9824-7006-52fb" type="selectionEntry"/>
   </entryLinks>
