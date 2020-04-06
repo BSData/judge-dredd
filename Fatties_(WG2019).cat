@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8da1-29f1-903c-e35e" name="Fatties (WG2019)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8da1-29f1-903c-e35e" name="Fatties (WG2019)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="19bf-9d62-a8ce-3a9b" name="Contender" hidden="false" collective="false" import="true" targetId="ddef-4757-e92d-2b22" type="selectionEntry"/>
     <entryLink id="246d-568e-2e5e-efd3" name="Fattie" hidden="false" collective="false" import="true" targetId="2094-7ce1-c6d1-03bc" type="selectionEntry"/>
@@ -34,7 +34,8 @@
         <infoLink id="26f3-a355-964f-6cc2" name="Prime Porker" hidden="false" targetId="5ad9-2246-7b39-dcce" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8afe-ab79-55c9-b1d3" name="New CategoryLink" hidden="false" targetId="073f-0aee-8d5c-0765" primary="true"/>
+        <categoryLink id="8afe-ab79-55c9-b1d3" name="New CategoryLink" hidden="false" targetId="073f-0aee-8d5c-0765" primary="false"/>
+        <categoryLink id="3c18-c8ed-1e40-3c57" name="New CategoryLink" hidden="false" targetId="297e-ed7b-a238-301c" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4a0e-4d63-9c22-2e60" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
@@ -49,7 +50,8 @@
         <infoLink id="8e04-6b0e-0fbe-2e5c" name="Wall of Flub!" hidden="false" targetId="e899-38cb-91ab-c28a" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e26e-f493-5a62-7d5a" name="New CategoryLink" hidden="false" targetId="073f-0aee-8d5c-0765" primary="true"/>
+        <categoryLink id="e26e-f493-5a62-7d5a" name="New CategoryLink" hidden="false" targetId="073f-0aee-8d5c-0765" primary="false"/>
+        <categoryLink id="39f9-daf7-1968-e693" name="New CategoryLink" hidden="false" targetId="297e-ed7b-a238-301c" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="e44d-7f0d-e132-af3a" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
@@ -64,7 +66,8 @@
         <infoLink id="2aa1-850e-fe6c-e611" name="Wall of Flub!" hidden="false" targetId="e899-38cb-91ab-c28a" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="74ea-33cf-9415-7ccd" name="New CategoryLink" hidden="false" targetId="073f-0aee-8d5c-0765" primary="true"/>
+        <categoryLink id="74ea-33cf-9415-7ccd" name="New CategoryLink" hidden="false" targetId="073f-0aee-8d5c-0765" primary="false"/>
+        <categoryLink id="7913-1a4e-d729-6342" name="New CategoryLink" hidden="false" targetId="a11f-f32a-24ce-80e4" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ad2b-bd9a-0249-935b" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>

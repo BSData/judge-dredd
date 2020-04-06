@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="253b-3365-0b92-fd59" name="Characters (WG2019)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="253b-3365-0b92-fd59" name="Characters (WG2019)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="afe4-eb98-0adf-362c" name="Judge Dredd" hidden="false" collective="false" import="true" targetId="7482-f5d7-e427-e70d" type="selectionEntry"/>
     <entryLink id="6551-7146-97c8-bd68" name="Psi-Judge Anderson" hidden="false" collective="false" import="true" targetId="25b2-9ebb-01b5-6a36" type="selectionEntry"/>
@@ -29,8 +29,9 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="c1a8-38fe-eebc-12e2" name="&lt;The Justice Department" hidden="false" targetId="679d-38be-0ed3-5a13" primary="true"/>
+        <categoryLink id="c1a8-38fe-eebc-12e2" name="&lt;The Justice Department" hidden="false" targetId="679d-38be-0ed3-5a13" primary="false"/>
         <categoryLink id="b40a-c8f8-96dc-759d" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
+        <categoryLink id="3f31-8cc3-7f8e-411f" name="New CategoryLink" hidden="false" targetId="bbde-2ef6-d4a2-25e2" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="35.0"/>
@@ -52,7 +53,8 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="cfb1-f99f-f09b-256c" name="New CategoryLink" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
-        <categoryLink id="c58a-5293-53bb-a366" name="&lt;The Justice Department" hidden="false" targetId="679d-38be-0ed3-5a13" primary="true"/>
+        <categoryLink id="c58a-5293-53bb-a366" name="&lt;The Justice Department" hidden="false" targetId="679d-38be-0ed3-5a13" primary="false"/>
+        <categoryLink id="8ccb-d086-ea98-2eef" name="New CategoryLink" hidden="false" targetId="bbde-2ef6-d4a2-25e2" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="25.0"/>
@@ -74,7 +76,8 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="db3f-2f6e-7d51-dc67" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
-        <categoryLink id="cc10-e634-659e-2750" name="New CategoryLink" hidden="false" targetId="679d-38be-0ed3-5a13" primary="true"/>
+        <categoryLink id="cc10-e634-659e-2750" name="New CategoryLink" hidden="false" targetId="679d-38be-0ed3-5a13" primary="false"/>
+        <categoryLink id="d2be-c693-1b78-d314" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="21.0"/>
@@ -96,7 +99,8 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="f655-c0ab-6d59-506b" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
-        <categoryLink id="445b-b24a-1898-c7fe" name="&lt;Inmate Judges" hidden="false" targetId="146a-0b0a-94f9-e02c" primary="true"/>
+        <categoryLink id="445b-b24a-1898-c7fe" name="&lt;Inmate Judges" hidden="false" targetId="146a-0b0a-94f9-e02c" primary="false"/>
+        <categoryLink id="9510-a6c2-0898-2ed0" name="New CategoryLink" hidden="false" targetId="bbde-2ef6-d4a2-25e2" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="20.0"/>
@@ -118,7 +122,8 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="ee97-a42e-7822-4ea0" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
-        <categoryLink id="6fde-2ff5-bcdf-75e1" name="New CategoryLink" hidden="false" targetId="698c-0d31-fd49-0298" primary="true"/>
+        <categoryLink id="6fde-2ff5-bcdf-75e1" name="New CategoryLink" hidden="false" targetId="698c-0d31-fd49-0298" primary="false"/>
+        <categoryLink id="73fb-f7b8-e551-b8ee" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="16.0"/>
@@ -140,7 +145,8 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="8350-ea39-36b8-d3ea" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
-        <categoryLink id="8b20-ac1d-9361-cac4" name="New CategoryLink" hidden="false" targetId="f596-beef-7f3f-812f" primary="true"/>
+        <categoryLink id="8b20-ac1d-9361-cac4" name="New CategoryLink" hidden="false" targetId="f596-beef-7f3f-812f" primary="false"/>
+        <categoryLink id="8167-f9e6-24a5-9d0e" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="19.0"/>
@@ -162,7 +168,8 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="3882-9e43-d78d-08de" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
-        <categoryLink id="5262-bdac-2551-f476" name="New CategoryLink" hidden="false" targetId="42d3-7118-8492-ccab" primary="true"/>
+        <categoryLink id="5262-bdac-2551-f476" name="New CategoryLink" hidden="false" targetId="42d3-7118-8492-ccab" primary="false"/>
+        <categoryLink id="d095-0292-5c77-01d4" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="12.0"/>
@@ -184,7 +191,8 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="9f09-6ac4-8f22-37e0" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
-        <categoryLink id="202e-ac3b-c9b1-39c7" name="New CategoryLink" hidden="false" targetId="ce89-c9ae-9fbf-d40c" primary="true"/>
+        <categoryLink id="202e-ac3b-c9b1-39c7" name="New CategoryLink" hidden="false" targetId="ce89-c9ae-9fbf-d40c" primary="false"/>
+        <categoryLink id="6014-1676-1e42-c58b" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="13.0"/>
@@ -206,7 +214,8 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="6871-5314-8544-653f" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
-        <categoryLink id="28bc-a0eb-98a1-a168" name="&lt;The Blints" hidden="false" targetId="ce89-c9ae-9fbf-d40c" primary="true"/>
+        <categoryLink id="28bc-a0eb-98a1-a168" name="&lt;The Blints" hidden="false" targetId="ce89-c9ae-9fbf-d40c" primary="false"/>
+        <categoryLink id="3c0a-7fa9-db6f-7be8" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="9.0"/>
@@ -228,7 +237,8 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="8c6b-02a2-4f52-073f" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
-        <categoryLink id="5a74-c9db-2731-2d8e" name="New CategoryLink" hidden="false" targetId="073f-0aee-8d5c-0765" primary="true"/>
+        <categoryLink id="5a74-c9db-2731-2d8e" name="New CategoryLink" hidden="false" targetId="073f-0aee-8d5c-0765" primary="false"/>
+        <categoryLink id="e227-8acd-0c0e-6eae" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="14.0"/>
@@ -250,7 +260,8 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="57b1-1108-bd0f-cd69" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
-        <categoryLink id="2d9c-f9aa-d29a-86b9" name="&lt;Frendz Mob" hidden="false" targetId="2a25-d1c2-c149-ee73" primary="true"/>
+        <categoryLink id="2d9c-f9aa-d29a-86b9" name="&lt;Frendz Mob" hidden="false" targetId="2a25-d1c2-c149-ee73" primary="false"/>
+        <categoryLink id="8a50-1552-120e-d914" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="19.0"/>

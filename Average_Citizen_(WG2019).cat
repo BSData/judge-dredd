@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ac40-b1a9-3883-b042" name="Average Citizen (WG2019)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ac40-b1a9-3883-b042" name="Average Citizen (WG2019)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="ef02-138a-9f52-4f3a" name="Average Citizen" hidden="false" collective="false" import="true" targetId="d24c-9a2d-6da9-295e" type="selectionEntry"/>
   </entryLinks>
@@ -33,7 +33,8 @@ Up to six can be activated at once.</description>
         <infoLink id="57cc-d716-fe3b-c318" name="Average Citizen" hidden="false" targetId="3b59-9e2e-7d80-4f60" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9ea3-03cd-4ca7-d4cf" name="New CategoryLink" hidden="false" targetId="a8cb-f452-19f8-d44c" primary="true"/>
+        <categoryLink id="9ea3-03cd-4ca7-d4cf" name="New CategoryLink" hidden="false" targetId="a8cb-f452-19f8-d44c" primary="false"/>
+        <categoryLink id="afaa-5b68-6517-67ea" name="New CategoryLink" hidden="false" targetId="3671-e139-0e9b-f450" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>

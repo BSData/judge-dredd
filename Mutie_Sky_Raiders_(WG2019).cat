@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="42e6-96e8-e398-1c2f" name="Mutie Sky Raiders (WG2019)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="42e6-96e8-e398-1c2f" name="Mutie Sky Raiders (WG2019)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="ac51-75a8-d3a3-ca8b" name="Sky Raider Pack Leader" hidden="false" collective="false" import="true" targetId="9c55-ed1e-d935-8313" type="selectionEntry"/>
     <entryLink id="4387-6502-7fe1-6de5" name="Sky Raider" hidden="false" collective="false" import="true" targetId="8c5b-1e18-6fd6-8e81" type="selectionEntry"/>
@@ -29,7 +29,8 @@
         <infoLink id="71b2-7a1a-6cd7-231f" name="Sky Raider Pack Leader" hidden="false" targetId="f13e-d2f2-9c9d-330a" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2dd8-154d-d230-f539" name="New CategoryLink" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="true"/>
+        <categoryLink id="2dd8-154d-d230-f539" name="New CategoryLink" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="false"/>
+        <categoryLink id="fdd2-86b7-28af-4e49" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2025-4ef3-98b6-e536" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
@@ -54,7 +55,8 @@
         <infoLink id="84e0-80b2-697f-6756" name="Sky Raider Alpha" hidden="false" targetId="e1c3-f47e-30e3-c41e" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c9b8-f25b-04e0-6e4a" name="New CategoryLink" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="true"/>
+        <categoryLink id="c9b8-f25b-04e0-6e4a" name="New CategoryLink" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="false"/>
+        <categoryLink id="e694-2753-88ef-adf1" name="New CategoryLink" hidden="false" targetId="297e-ed7b-a238-301c" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="cb72-ef3e-9cea-0493" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
@@ -79,7 +81,8 @@
         <infoLink id="a537-b361-3aec-04d4" name="Sky Raider" hidden="false" targetId="63e3-bd96-e64c-92cc" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="51bf-404b-eafb-39b4" name="New CategoryLink" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="true"/>
+        <categoryLink id="51bf-404b-eafb-39b4" name="New CategoryLink" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="false"/>
+        <categoryLink id="bf10-1bd7-ed9f-1a26" name="New CategoryLink" hidden="false" targetId="a11f-f32a-24ce-80e4" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d3a7-4e3e-8989-1940" name="&gt;[Mounts]" hidden="false" collective="false" import="true" targetId="acf4-d154-6dd7-28a4" type="selectionEntryGroup">
@@ -114,7 +117,8 @@
         <infoLink id="d342-0f1f-42e4-81d8" name="Sky Raider Pack Leader" hidden="false" targetId="f13e-d2f2-9c9d-330a" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="a295-ce28-c001-5bc0" name="New CategoryLink" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="true"/>
+        <categoryLink id="a295-ce28-c001-5bc0" name="New CategoryLink" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="false"/>
+        <categoryLink id="fd8e-54fb-0563-fda0" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c840-c2ae-cdbf-c542" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
@@ -133,7 +137,8 @@
         <infoLink id="60e3-2866-f082-5d41" name="Sky Raider Alpha" hidden="false" targetId="e1c3-f47e-30e3-c41e" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8aff-2bf5-79c4-b584" name="New CategoryLink" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="true"/>
+        <categoryLink id="8aff-2bf5-79c4-b584" name="New CategoryLink" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="false"/>
+        <categoryLink id="bd29-6390-da69-02a6" name="New CategoryLink" hidden="false" targetId="297e-ed7b-a238-301c" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="74ef-f503-d47c-dd67" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
@@ -152,7 +157,8 @@
         <infoLink id="83a3-8e77-0931-ed30" name="Sky Raider" hidden="false" targetId="63e3-bd96-e64c-92cc" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="fab9-cb39-6559-3aef" name="New CategoryLink" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="true"/>
+        <categoryLink id="fab9-cb39-6559-3aef" name="New CategoryLink" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="false"/>
+        <categoryLink id="d4c4-5980-416f-4789" name="New CategoryLink" hidden="false" targetId="a11f-f32a-24ce-80e4" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="72a2-0348-1060-36f4" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>

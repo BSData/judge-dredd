@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="ae68-bf10-140a-0058" name="Judge Dredd Miniatures Game (WG2019)" revision="4" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="ae68-bf10-140a-0058" name="Judge Dredd Miniatures Game (WG2019)" revision="5" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="23e2-8cf2-260a-a7be" name="JDMG (2019)"/>
   </publications>
@@ -81,8 +81,13 @@
     <categoryEntry id="42d3-7118-8492-ccab" name="&lt;The Angel Gang" hidden="false"/>
     <categoryEntry id="ce89-c9ae-9fbf-d40c" name="&lt;The Blints" hidden="false"/>
     <categoryEntry id="2a25-d1c2-c149-ee73" name="&lt;Frendz Mob" hidden="false"/>
-    <categoryEntry id="134c-6f7e-a1a4-f310" name="&gt;Rules" hidden="false"/>
-    <categoryEntry id="36c2-086b-f3d8-3700" name="&gt;Vehicles" hidden="false"/>
+    <categoryEntry id="134c-6f7e-a1a4-f310" name="Rules" hidden="false"/>
+    <categoryEntry id="36c2-086b-f3d8-3700" name="Vehicles" hidden="false"/>
+    <categoryEntry id="bbde-2ef6-d4a2-25e2" name="[Cool 5]" hidden="false"/>
+    <categoryEntry id="1257-e7a3-4b18-49bc" name="[Cool 4]" hidden="false"/>
+    <categoryEntry id="297e-ed7b-a238-301c" name="[Cool 3]" hidden="false"/>
+    <categoryEntry id="a11f-f32a-24ce-80e4" name="[Cool 2]" hidden="false"/>
+    <categoryEntry id="3671-e139-0e9b-f450" name="[Cool 1]" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="1a15-0379-f38f-fc7f" name="Large Force 50+" publicationId="23e2-8cf2-260a-a7be" hidden="false">
@@ -91,25 +96,13 @@
         <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dbf-dd2f-18ed-97b9" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="218c-95d2-485f-4b81" name="The Dark Judges" hidden="false" targetId="8cfd-42d4-756a-862b" primary="false"/>
-        <categoryLink id="54da-fdbf-9e83-4ab3" name="The Justice Department" hidden="false" targetId="679d-38be-0ed3-5a13" primary="false"/>
-        <categoryLink id="0e57-f1b1-5f47-e17e" name="Citizens" hidden="false" targetId="8f61-3865-f1e7-f762" primary="false"/>
-        <categoryLink id="9099-033f-d80f-6b9a" name="Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
-        <categoryLink id="645e-769f-beb1-5bd3" name="Citi-Def" hidden="false" targetId="9cfd-c39e-c906-9440" primary="false"/>
-        <categoryLink id="24ad-2b7d-23dd-aee6" name="Citizens" hidden="false" targetId="a8cb-f452-19f8-d44c" primary="false"/>
-        <categoryLink id="ee95-224d-2a1b-64a1" name="Fatties" hidden="false" targetId="073f-0aee-8d5c-0765" primary="false"/>
-        <categoryLink id="e6f7-e486-1f25-1ab5" name="Fourth Faction Agents" hidden="false" targetId="0150-98ab-6640-0b05" primary="false"/>
-        <categoryLink id="a371-7449-76c6-ba29" name="Robots" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="false"/>
-        <categoryLink id="590f-f353-dc37-e9d2" name="The Cursed Earth" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="false"/>
-        <categoryLink id="9d17-c758-f037-b51a" name="&lt;Inmate Judges" hidden="false" targetId="146a-0b0a-94f9-e02c" primary="false"/>
-        <categoryLink id="c275-53d9-db75-cfd7" name="&lt;Mounts" hidden="false" targetId="2d27-82b5-e828-bd48" primary="false"/>
-        <categoryLink id="9193-f355-da96-d91f" name="&lt;Vigilante" hidden="false" targetId="698c-0d31-fd49-0298" primary="false"/>
-        <categoryLink id="4627-5695-a4cc-0729" name="&lt;East-Meg One" hidden="false" targetId="f596-beef-7f3f-812f" primary="false"/>
-        <categoryLink id="2f07-d912-2d04-fe8d" name="&lt;The Angel Gang" hidden="false" targetId="42d3-7118-8492-ccab" primary="false"/>
-        <categoryLink id="b6e6-2798-7647-ef3e" name="&lt;The Blints" hidden="false" targetId="ce89-c9ae-9fbf-d40c" primary="false"/>
-        <categoryLink id="d4cd-0ab2-e6b0-fe31" name="&lt;Frendz Mob" hidden="false" targetId="2a25-d1c2-c149-ee73" primary="false"/>
-        <categoryLink id="0cc0-1e81-65ef-77ee" name="&gt;Rules" hidden="false" targetId="134c-6f7e-a1a4-f310" primary="false"/>
-        <categoryLink id="52b7-7246-9c15-0dc7" name="&gt;Vehicles" hidden="false" targetId="36c2-086b-f3d8-3700" primary="false"/>
+        <categoryLink id="a7ed-51e5-871d-6391" name="[Cool 1]" hidden="false" targetId="3671-e139-0e9b-f450" primary="false"/>
+        <categoryLink id="1b70-1237-6958-c0b8" name="[Cool 2]" hidden="false" targetId="a11f-f32a-24ce-80e4" primary="false"/>
+        <categoryLink id="bba5-d38b-c8ba-c3ee" name="[Cool 3]" hidden="false" targetId="297e-ed7b-a238-301c" primary="false"/>
+        <categoryLink id="fe49-d9a7-1254-da47" name="[Cool 4]" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="false"/>
+        <categoryLink id="ca70-0971-1cf6-d196" name="[Cool 5]" hidden="false" targetId="bbde-2ef6-d4a2-25e2" primary="false"/>
+        <categoryLink id="f2c6-0ccc-506a-cbc4" name="Rules" hidden="false" targetId="134c-6f7e-a1a4-f310" primary="false"/>
+        <categoryLink id="8cab-6472-a029-032a" name="Vehicles" hidden="false" targetId="36c2-086b-f3d8-3700" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="c859-1019-c3b1-e6af" name="Small Game Force 10-25" publicationId="23e2-8cf2-260a-a7be" hidden="false">
@@ -119,25 +112,13 @@
         <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1e3-5f8e-c524-cb4b" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="4e53-1e65-2aa0-d316" name="The Dark Judges" hidden="false" targetId="8cfd-42d4-756a-862b" primary="false"/>
-        <categoryLink id="2b6d-7111-9c12-9399" name="The Justice Department" hidden="false" targetId="679d-38be-0ed3-5a13" primary="false"/>
-        <categoryLink id="deaf-d917-f1c5-5f96" name="Citizens" hidden="false" targetId="8f61-3865-f1e7-f762" primary="false"/>
-        <categoryLink id="8c68-cbf2-09f1-49a5" name="Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
-        <categoryLink id="18db-8ef0-b9e3-6e56" name="Citi-Def" hidden="false" targetId="9cfd-c39e-c906-9440" primary="false"/>
-        <categoryLink id="9c07-1ea1-6783-a505" name="Citizens" hidden="false" targetId="a8cb-f452-19f8-d44c" primary="false"/>
-        <categoryLink id="2121-68a3-eb6a-749f" name="Fatties" hidden="false" targetId="073f-0aee-8d5c-0765" primary="false"/>
-        <categoryLink id="6ac8-aed9-75bd-1dcb" name="Fourth Faction Agents" hidden="false" targetId="0150-98ab-6640-0b05" primary="false"/>
-        <categoryLink id="b256-54d5-c95a-58db" name="Robots" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="false"/>
-        <categoryLink id="74d5-9acc-c404-3966" name="The Cursed Earth" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="false"/>
-        <categoryLink id="d8d0-f85f-7c66-22c5" name="&lt;Inmate Judges" hidden="false" targetId="146a-0b0a-94f9-e02c" primary="false"/>
-        <categoryLink id="efbb-7e94-03d1-186f" name="&lt;Mounts" hidden="false" targetId="2d27-82b5-e828-bd48" primary="false"/>
-        <categoryLink id="e7f5-daa3-74f2-25df" name="&lt;Vigilante" hidden="false" targetId="698c-0d31-fd49-0298" primary="false"/>
-        <categoryLink id="a811-d580-2323-55cc" name="&lt;East-Meg One" hidden="false" targetId="f596-beef-7f3f-812f" primary="false"/>
-        <categoryLink id="5bbc-6d53-83e6-bcfc" name="&lt;The Angel Gang" hidden="false" targetId="42d3-7118-8492-ccab" primary="false"/>
-        <categoryLink id="d292-b7b2-3e19-cf30" name="&lt;The Blints" hidden="false" targetId="ce89-c9ae-9fbf-d40c" primary="false"/>
-        <categoryLink id="b5d3-b4d0-7803-a7e6" name="&lt;Frendz Mob" hidden="false" targetId="2a25-d1c2-c149-ee73" primary="false"/>
-        <categoryLink id="68bd-1dc9-e99e-bb50" name="&gt;Rules" hidden="false" targetId="134c-6f7e-a1a4-f310" primary="false"/>
-        <categoryLink id="28fb-5f14-376b-3fa5" name="&gt;Vehicles" hidden="false" targetId="36c2-086b-f3d8-3700" primary="false"/>
+        <categoryLink id="71b3-3266-962c-990f" name="[Cool 1]" hidden="false" targetId="3671-e139-0e9b-f450" primary="false"/>
+        <categoryLink id="a238-f917-2a51-c508" name="[Cool 2]" hidden="false" targetId="a11f-f32a-24ce-80e4" primary="false"/>
+        <categoryLink id="0a5e-c843-254a-c26a" name="[Cool 3]" hidden="false" targetId="297e-ed7b-a238-301c" primary="false"/>
+        <categoryLink id="ad46-b105-205c-ffa5" name="[Cool 4]" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="false"/>
+        <categoryLink id="13f2-1966-04dd-0483" name="[Cool 5]" hidden="false" targetId="bbde-2ef6-d4a2-25e2" primary="false"/>
+        <categoryLink id="ee51-f514-0ee1-fedf" name="Rules" hidden="false" targetId="134c-6f7e-a1a4-f310" primary="false"/>
+        <categoryLink id="8edc-1f95-e63d-cf28" name="Vehicles" hidden="false" targetId="36c2-086b-f3d8-3700" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="af73-aa3e-3857-fbab" name="Medium Force 26-50" publicationId="23e2-8cf2-260a-a7be" hidden="false">
@@ -147,25 +128,13 @@
         <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b006-2fc7-31c0-762d" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="bec4-6b0c-d5b5-13fa" name="The Dark Judges" hidden="false" targetId="8cfd-42d4-756a-862b" primary="false"/>
-        <categoryLink id="c51e-3fd2-c056-2aac" name="The Justice Department" hidden="false" targetId="679d-38be-0ed3-5a13" primary="false"/>
-        <categoryLink id="b61b-7571-9163-1d62" name="Citizens" hidden="false" targetId="8f61-3865-f1e7-f762" primary="false"/>
-        <categoryLink id="aa03-8d8b-efed-d897" name="Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
-        <categoryLink id="f72b-8aec-b3f9-a5a0" name="Citi-Def" hidden="false" targetId="9cfd-c39e-c906-9440" primary="false"/>
-        <categoryLink id="1cf9-ce34-c11f-6c75" name="Citizens" hidden="false" targetId="a8cb-f452-19f8-d44c" primary="false"/>
-        <categoryLink id="1bbe-ed0c-176b-862a" name="Fatties" hidden="false" targetId="073f-0aee-8d5c-0765" primary="false"/>
-        <categoryLink id="c441-55e8-6b9e-b801" name="Fourth Faction Agents" hidden="false" targetId="0150-98ab-6640-0b05" primary="false"/>
-        <categoryLink id="7a84-5739-c019-94b1" name="Robots" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="false"/>
-        <categoryLink id="09ef-e003-894b-6e92" name="The Cursed Earth" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="false"/>
-        <categoryLink id="4d8c-9379-1c96-656a" name="&lt;Inmate Judges" hidden="false" targetId="146a-0b0a-94f9-e02c" primary="false"/>
-        <categoryLink id="c640-691d-7c71-7b48" name="&lt;Mounts" hidden="false" targetId="2d27-82b5-e828-bd48" primary="false"/>
-        <categoryLink id="b26a-382d-a287-488b" name="&lt;Vigilante" hidden="false" targetId="698c-0d31-fd49-0298" primary="false"/>
-        <categoryLink id="5fd9-1cef-2b03-f8ad" name="&lt;East-Meg One" hidden="false" targetId="f596-beef-7f3f-812f" primary="false"/>
-        <categoryLink id="e4c2-d49f-a562-f653" name="&lt;The Angel Gang" hidden="false" targetId="42d3-7118-8492-ccab" primary="false"/>
-        <categoryLink id="0bc9-27e5-ecfb-9460" name="&lt;The Blints" hidden="false" targetId="ce89-c9ae-9fbf-d40c" primary="false"/>
-        <categoryLink id="4fa1-480c-0ae2-30fa" name="&lt;Frendz Mob" hidden="false" targetId="2a25-d1c2-c149-ee73" primary="false"/>
-        <categoryLink id="42ac-7857-7e5c-83e4" name="&gt;Rules" hidden="false" targetId="134c-6f7e-a1a4-f310" primary="false"/>
-        <categoryLink id="439a-a12e-2648-3cf8" name="&gt;Vehicles" hidden="false" targetId="36c2-086b-f3d8-3700" primary="false"/>
+        <categoryLink id="31c2-04a6-5074-31f9" name="[Cool 1]" hidden="false" targetId="3671-e139-0e9b-f450" primary="false"/>
+        <categoryLink id="efb2-c335-6cd4-74f2" name="[Cool 2]" hidden="false" targetId="a11f-f32a-24ce-80e4" primary="false"/>
+        <categoryLink id="857b-a571-c1f9-6fe6" name="[Cool 3]" hidden="false" targetId="297e-ed7b-a238-301c" primary="false"/>
+        <categoryLink id="f732-1444-c0dd-096e" name="[Cool 4]" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="false"/>
+        <categoryLink id="caee-547d-f1f6-54bb" name="[Cool 5]" hidden="false" targetId="bbde-2ef6-d4a2-25e2" primary="false"/>
+        <categoryLink id="41a5-8919-65e0-f8e8" name="Rules" hidden="false" targetId="134c-6f7e-a1a4-f310" primary="false"/>
+        <categoryLink id="dc60-d93d-b22a-9c67" name="Vehicles" hidden="false" targetId="36c2-086b-f3d8-3700" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="c1df-5bb0-e7ef-2cef" name=" Open Force" publicationId="23e2-8cf2-260a-a7be" hidden="false">
@@ -174,25 +143,13 @@
         <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31fe-0495-d8d8-24e4" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="8cf0-ff0b-1dae-3676" name="The Dark Judges" hidden="false" targetId="8cfd-42d4-756a-862b" primary="false"/>
-        <categoryLink id="651c-606d-8e48-50df" name="The Justice Department" hidden="false" targetId="679d-38be-0ed3-5a13" primary="false"/>
-        <categoryLink id="dda1-9638-2ffd-0b7f" name="Citizens" hidden="false" targetId="8f61-3865-f1e7-f762" primary="false"/>
-        <categoryLink id="4a3d-fcb7-84bc-7d88" name="Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
-        <categoryLink id="ae70-0ff1-b831-39e7" name="Citi-Def" hidden="false" targetId="9cfd-c39e-c906-9440" primary="false"/>
-        <categoryLink id="006c-c215-5561-bb64" name="Citizens" hidden="false" targetId="a8cb-f452-19f8-d44c" primary="false"/>
-        <categoryLink id="1ac7-1bb1-cdb9-a22d" name="Fatties" hidden="false" targetId="073f-0aee-8d5c-0765" primary="false"/>
-        <categoryLink id="a434-f9e2-714c-4cd6" name="Fourth Faction Agents" hidden="false" targetId="0150-98ab-6640-0b05" primary="false"/>
-        <categoryLink id="db57-506c-b8f9-6201" name="Robots" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="false"/>
-        <categoryLink id="26f6-b238-eebe-fd20" name="The Cursed Earth" hidden="false" targetId="99ee-b34f-b01c-ed36" primary="false"/>
-        <categoryLink id="0096-a3a3-6883-0d4f" name="&lt;Inmate Judges" hidden="false" targetId="146a-0b0a-94f9-e02c" primary="false"/>
-        <categoryLink id="f395-f8ad-e83c-b508" name="&lt;Mounts" hidden="false" targetId="2d27-82b5-e828-bd48" primary="false"/>
-        <categoryLink id="72c1-cca5-1c3a-0cd0" name="&lt;Vigilante" hidden="false" targetId="698c-0d31-fd49-0298" primary="false"/>
-        <categoryLink id="37cf-3f30-74f7-c3ea" name="&lt;East-Meg One" hidden="false" targetId="f596-beef-7f3f-812f" primary="false"/>
-        <categoryLink id="f027-4584-316c-8bfd" name="&lt;The Angel Gang" hidden="false" targetId="42d3-7118-8492-ccab" primary="false"/>
-        <categoryLink id="2314-cc01-36b4-e47d" name="&lt;The Blints" hidden="false" targetId="ce89-c9ae-9fbf-d40c" primary="false"/>
-        <categoryLink id="e604-6c46-2f90-2a27" name="&lt;Frendz Mob" hidden="false" targetId="2a25-d1c2-c149-ee73" primary="false"/>
-        <categoryLink id="9e93-74cc-9733-eea8" name="&gt;Rules" hidden="false" targetId="134c-6f7e-a1a4-f310" primary="false"/>
-        <categoryLink id="4396-e252-f513-6f56" name="&gt;Vehicles" hidden="false" targetId="36c2-086b-f3d8-3700" primary="false"/>
+        <categoryLink id="2b38-668f-367e-512e" name="[Cool 1]" hidden="false" targetId="3671-e139-0e9b-f450" primary="false"/>
+        <categoryLink id="463e-1af5-2330-fe6e" name="[Cool 2]" hidden="false" targetId="a11f-f32a-24ce-80e4" primary="false"/>
+        <categoryLink id="0745-12ed-e311-fa34" name="[Cool 3]" hidden="false" targetId="297e-ed7b-a238-301c" primary="false"/>
+        <categoryLink id="64d7-7aa0-deac-e2c5" name="[Cool 4]" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="false"/>
+        <categoryLink id="98bf-d113-8e65-ad46" name="[Cool 5]" hidden="false" targetId="bbde-2ef6-d4a2-25e2" primary="false"/>
+        <categoryLink id="64f0-2cd0-4bbc-bfd0" name="Rules" hidden="false" targetId="134c-6f7e-a1a4-f310" primary="false"/>
+        <categoryLink id="77df-a7b4-1758-6837" name="Vehicles" hidden="false" targetId="36c2-086b-f3d8-3700" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -266,8 +223,8 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="and">
@@ -297,9 +254,9 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="and">
@@ -329,9 +286,9 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="and">
@@ -361,8 +318,8 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -390,8 +347,8 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -418,7 +375,7 @@
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
-                        <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                        <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
                       </conditions>
                       <conditionGroups>
                         <conditionGroup type="and">
@@ -446,7 +403,7 @@
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
-                        <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0150-98ab-6640-0b05" type="instanceOf"/>
+                        <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0150-98ab-6640-0b05" type="instanceOf"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -479,10 +436,10 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="and">
@@ -515,10 +472,10 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="and">
@@ -551,10 +508,10 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="and">
@@ -587,9 +544,9 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="and">
@@ -622,10 +579,10 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="146a-0b0a-94f9-e02c" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="146a-0b0a-94f9-e02c" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -653,8 +610,8 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -685,8 +642,8 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -717,11 +674,11 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0150-98ab-6640-0b05" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="146a-0b0a-94f9-e02c" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0150-98ab-6640-0b05" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="146a-0b0a-94f9-e02c" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -749,8 +706,8 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -784,8 +741,8 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -818,7 +775,7 @@
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
-                        <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                        <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -845,7 +802,7 @@
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
-                        <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0150-98ab-6640-0b05" type="instanceOf"/>
+                        <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0150-98ab-6640-0b05" type="instanceOf"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -924,8 +881,8 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="and">
@@ -958,12 +915,12 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="146a-0b0a-94f9-e02c" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0150-98ab-6640-0b05" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="146a-0b0a-94f9-e02c" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0150-98ab-6640-0b05" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="and">
@@ -999,9 +956,9 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="and">
@@ -1032,7 +989,7 @@
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
-                        <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="equalTo"/>
+                        <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
                       </conditions>
                       <conditionGroups>
                         <conditionGroup type="and">
@@ -1070,12 +1027,12 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="146a-0b0a-94f9-e02c" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0150-98ab-6640-0b05" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="146a-0b0a-94f9-e02c" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0150-98ab-6640-0b05" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="and">
@@ -1111,10 +1068,10 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="and">
@@ -1150,12 +1107,12 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="146a-0b0a-94f9-e02c" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0150-98ab-6640-0b05" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="146a-0b0a-94f9-e02c" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0150-98ab-6640-0b05" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="and">
@@ -1191,9 +1148,9 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
-                            <condition field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="073f-0aee-8d5c-0765" type="instanceOf"/>
+                            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="and">
@@ -1273,9 +1230,9 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="primary-category" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
-                    <condition field="selections" scope="primary-category" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
-                    <condition field="selections" scope="primary-category" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-70b4-f4a1-c63d" type="instanceOf"/>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e02f-48ed-79b7-c069" type="instanceOf"/>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="42e6-96e8-e398-1c2f" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -1311,7 +1268,7 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="primary-category" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="42e6-96e8-e398-1c2f" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -1346,8 +1303,8 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="primary-category" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
-                    <condition field="selections" scope="primary-category" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0150-98ab-6640-0b05" type="instanceOf"/>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-70b4-f4a1-c63d" type="instanceOf"/>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="617a-12ff-ca68-d3f3" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -1379,9 +1336,9 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="primary-category" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
-                    <condition field="selections" scope="primary-category" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
-                    <condition field="selections" scope="primary-category" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0150-98ab-6640-0b05" type="instanceOf"/>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-70b4-f4a1-c63d" type="instanceOf"/>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e02f-48ed-79b7-c069" type="instanceOf"/>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="617a-12ff-ca68-d3f3" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -1416,8 +1373,8 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="primary-category" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f61-3865-f1e7-f762" type="instanceOf"/>
-                    <condition field="selections" scope="primary-category" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="99ee-b34f-b01c-ed36" type="instanceOf"/>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-70b4-f4a1-c63d" type="instanceOf"/>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="42e6-96e8-e398-1c2f" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>

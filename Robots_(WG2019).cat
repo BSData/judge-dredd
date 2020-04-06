@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4d9f-8dbb-b7f9-66a8" name="Robots (WG2019)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4d9f-8dbb-b7f9-66a8" name="Robots (WG2019)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="69cc-b013-e173-bb44" name="DemoBot" hidden="false" collective="false" import="true" targetId="ab7f-3a3a-48ff-4e32" type="selectionEntry"/>
     <entryLink id="1d25-9a6c-ba74-333e" name="MediBot" hidden="false" collective="false" import="true" targetId="8317-bada-8574-34eb" type="selectionEntry"/>
@@ -13,7 +13,8 @@
         <infoLink id="47a6-1820-a2af-5600" name="Robot" hidden="false" targetId="77fa-9473-9b8f-9902" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9a8c-c10f-ab1e-533d" name="New CategoryLink" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="true"/>
+        <categoryLink id="9a8c-c10f-ab1e-533d" name="New CategoryLink" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="false"/>
+        <categoryLink id="3cd9-5e3f-7108-cd4b" name="New CategoryLink" hidden="false" targetId="a11f-f32a-24ce-80e4" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5ac8-a94e-611f-d6c3" name="Improvised Ranged Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -75,7 +76,8 @@ This skill can be used to revive incapacitated and subdued models.</description>
         <infoLink id="3117-b97b-efd8-ba39" name="Robot" hidden="false" targetId="77fa-9473-9b8f-9902" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b5de-22e2-2285-d0fb" name="New CategoryLink" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="true"/>
+        <categoryLink id="b5de-22e2-2285-d0fb" name="New CategoryLink" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="false"/>
+        <categoryLink id="76c8-2a4d-717e-4e34" name="New CategoryLink" hidden="false" targetId="a11f-f32a-24ce-80e4" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6070-d3a8-aba3-7595" name="Surgical Instruments" hidden="false" collective="false" import="true" type="upgrade">
@@ -115,7 +117,8 @@ This skill can be used to revive incapacitated and subdued models.</description>
         <infoLink id="ae29-0c76-611f-2c5e" name="Robot" hidden="false" targetId="77fa-9473-9b8f-9902" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8c3c-c7d1-6eb1-47d8" name="New CategoryLink" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="true"/>
+        <categoryLink id="8c3c-c7d1-6eb1-47d8" name="New CategoryLink" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="false"/>
+        <categoryLink id="75e1-05df-06e5-ae80" name="New CategoryLink" hidden="false" targetId="297e-ed7b-a238-301c" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8008-7a0f-27f5-e5a3" name="Electro-zap Pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -186,7 +189,8 @@ This skill can be used to revive incapacitated and subdued models.</description>
         <infoLink id="42ed-2e4b-4fad-0b8e" name="WarBot" hidden="false" targetId="81f6-bbf8-d713-3754" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="be04-8f06-16fd-e2bb" name="New CategoryLink" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="true"/>
+        <categoryLink id="be04-8f06-16fd-e2bb" name="New CategoryLink" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="false"/>
+        <categoryLink id="ca8c-3dab-1996-e524" name="New CategoryLink" hidden="false" targetId="297e-ed7b-a238-301c" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b227-93fa-68f2-1bf2" name="Laser Rifle" hidden="false" collective="false" import="true" type="upgrade">
@@ -263,7 +267,8 @@ A Ponderous model is nevermarked with a Moving Fast marker and ignores the movem
         <infoLink id="d349-3891-f70b-c09b" name="DemoBot" hidden="false" targetId="b0ca-9c88-23ae-a3e2" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8067-8661-f8b8-a306" name="New CategoryLink" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="true"/>
+        <categoryLink id="8067-8661-f8b8-a306" name="New CategoryLink" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="false"/>
+        <categoryLink id="4730-eb8d-2159-ec45" name="New CategoryLink" hidden="false" targetId="297e-ed7b-a238-301c" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9291-5bbc-5fae-ddbb" name="Demolition Hammer" hidden="false" collective="false" import="true" type="upgrade">
@@ -365,7 +370,8 @@ After the activation is complete, the Mechanismo Mk1 is Stunned and control retu
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c128-955c-29a4-db44" name="New CategoryLink" hidden="false" targetId="a68a-3ba3-3053-a25b" primary="false"/>
-        <categoryLink id="6e33-13fa-a1e2-dbea" name="New CategoryLink" hidden="false" targetId="679d-38be-0ed3-5a13" primary="true"/>
+        <categoryLink id="6e33-13fa-a1e2-dbea" name="New CategoryLink" hidden="false" targetId="679d-38be-0ed3-5a13" primary="false"/>
+        <categoryLink id="1838-f6b7-309d-bcc0" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d922-af68-6b33-adbf" name="Judgement Bringer Hand Cannon" hidden="false" collective="false" import="true" type="upgrade">
