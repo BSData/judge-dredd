@@ -1000,6 +1000,9 @@
                       </conditionGroups>
                     </modifier>
                   </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c952-288e-bfce-50ce" type="max"/>
+                  </constraints>
                   <profiles>
                     <profile id="ed50-63cf-6d80-f959" name="Culinary Laser" publicationId="23e2-8cf2-260a-a7be" page="46" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
                       <characteristics>

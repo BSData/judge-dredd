@@ -792,6 +792,9 @@ Additionaly, when attempting to Dodge in close combat, Orlok may roll 5 Evade di
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="15a9-6f2c-d500-3ff7" name="Skull Plate" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -807,6 +810,38 @@ Additionaly, when attempting to Dodge in close combat, Orlok may roll 5 Evade di
               </characteristics>
             </profile>
           </profiles>
+          <rules>
+            <rule id="070b-8b6f-af4b-5a1a" name="BOK!!!" hidden="false">
+              <description>When performing a Charge double-action, roll two D6&apos;s when determining the additional distance moved. Take the highest value and add it to Mean&apos;s Move. Mean Machine will also add +3 Power to a Charge close combat attack rather than the normal+1.</description>
+            </rule>
+          </rules>
+          <infoGroups>
+            <infoGroup id="0a45-6408-3204-2bdc" name="Mean&apos;s Rules" hidden="false">
+              <rules>
+                <rule id="4221-3dbf-aa96-4b6c" name="I&apos;ll Go Up to 4 on the Chump!!!" hidden="false">
+                  <description>Mean Macines Fight and Shoot stat depend on his dial setting, the base stats are at his calmest:
+1 Surly = Shoot 3, Fight1		
+2 Mean = Shoot 2, Fight 2	
+3 Vicious = Shoot 1, Fight 3
+4 Brutal = Shoo 0, Fight 4
+Mean&apos;s dial can be set when he activates as a free action, on setting 4, Mean Machine suffers no stat losses for Injury or Stun markers on him. The only way you stop Mean on 4 is to incapacitate him or subdue him.</description>
+                </rule>
+                <rule id="a05a-41f9-809c-f95f" name="Izzat So!" hidden="false">
+                  <description>Mean has no fear of any opponent and is therefore completely immune to the Intimidate, Respect the Law, and &quot;Drokk Me, it&apos;s Dredd!!!&quot; skills.</description>
+                </rule>
+                <rule id="9c8e-bbd6-49f6-1bd4" name="4 1/2" hidden="false">
+                  <description>If Mean Machine is on dial setting 4 and takes one or more injury or stun results from a single attack then roll one Combat die.
+[Special] rolled = Mean&apos;s mood dial is knocked up to 4 1/2.
+Make an immediate free Charge double-action directly toward the model that inflicted that result.
+Once on 4 1/2, Mean Machine can no longer change his dial setting and is limited to taking Sprint, Charge or Fight actions.
+He will attack the closest model regardless of faction from now on until he is incapacitated or subdued.</description>
+                </rule>
+              </rules>
+            </infoGroup>
+          </infoGroups>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -827,11 +862,52 @@ Additionaly, when attempting to Dodge in close combat, Orlok may roll 5 Evade di
           </characteristics>
         </profile>
       </profiles>
+      <infoGroups>
+        <infoGroup id="e296-bdaa-def5-ed34" name="New InfoGroup" hidden="false">
+          <rules>
+            <rule id="5528-f158-b69c-0ddc" name="Angel of Mercy" hidden="false">
+              <description>if Oola begins an activation within 3&quot; of any subdued or incapacitated character, she must move within 1&quot; and use the Hunker Down double-action to deliver a fatal injection. If successful, the target character is immediately euthanised and becomes the property of Resyk. They are Permanently eliminated from the game, and if playing a campaing, these characters do not roll a Resist test to see if they return.</description>
+            </rule>
+            <rule id="0708-4e40-ec0a-f80a" name="Under the Radar" hidden="false">
+              <description>Anytime a character wishes to attack Oola in range or close combat they must make a Cool test. if they fail the attack does not happen and the action(s) are wasted.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="0b82-b61b-3553-9b63" name="Brawler" hidden="false" targetId="cff2-8dcb-5e21-c8c4" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
       <categoryLinks>
         <categoryLink id="9f09-6ac4-8f22-37e0" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
         <categoryLink id="202e-ac3b-c9b1-39c7" name="New CategoryLink" hidden="false" targetId="ce89-c9ae-9fbf-d40c" primary="false"/>
         <categoryLink id="6014-1676-1e42-c58b" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8335-6af3-2679-6444" name="Injecto-gun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f7b-a634-4685-9c75" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15ff-8755-e48e-24ec" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="03b3-5014-7de0-77ef" name="Injecto-gun" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+              <characteristics>
+                <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+2</characteristic>
+                <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                <characteristic name="Power" typeId="8fc6-55c1-1604-402e">4</characteristic>
+                <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Lethal</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="2b99-482e-7c2b-40e4" name="Lethal" hidden="false">
+              <description>Any injuries inflicted by a weapon with the Lethal rule cannot be removed with the Hunker Down double-action. They also cannot be removed with a Med-Pack Armoury card or by any character using the Combat Medic rule.
+Cannot harm robots or vehicles.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="13.0"/>
       </costs>
@@ -850,11 +926,85 @@ Additionaly, when attempting to Dodge in close combat, Orlok may roll 5 Evade di
           </characteristics>
         </profile>
       </profiles>
+      <infoGroups>
+        <infoGroup id="a489-145c-80e2-7f80" name="Homer&apos;s Rules" hidden="false">
+          <rules>
+            <rule id="385b-e66a-2f2d-1f1c" name="Fly Like an Eagle" hidden="false">
+              <description>Homer&apos;s enchance attributes of his custom Bat glider are built in to his stat line. Homer is always assumed to be airborne and using the Grav trait during movement. Additionaly is not affected by forcible dismounts.</description>
+            </rule>
+            <rule id="5342-210a-6d47-dec9" name="Homer&apos;s Eggs" hidden="false">
+              <description>Homer has the special ability to accurately drop smoke bombs rather than throw them. At any one point during Homer&apos;s move, whether a Move or a Sprint action, you may place a convenient Smoke marker up to 1&quot; away from the model. After Homer&apos;s activation has completed, models may not trace a line of sight for ranged attacks if they pass within 3&quot; of that Smoke marker.
+The effect of the Smoke Bomb remain until the end of the game tunr it was used in. Remove the Smoke markers from the tabletop when you collect up Action chips.
+This ability has not limit and requires no Armoury cards.</description>
+            </rule>
+          </rules>
+        </infoGroup>
+      </infoGroups>
       <categoryLinks>
         <categoryLink id="6871-5314-8544-653f" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
         <categoryLink id="28bc-a0eb-98a1-a168" name="&lt;The Blints" hidden="false" targetId="ce89-c9ae-9fbf-d40c" primary="false"/>
         <categoryLink id="3c0a-7fa9-db6f-7be8" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a624-3563-a1a6-ce82" name="Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0300-1753-f574-5a61" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f141-80ec-9399-71e0" name="Pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="651e-4704-ff1c-8057" name="Pistol" publicationId="23e2-8cf2-260a-a7be" page="41" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                  <characteristics>
+                    <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                    <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                    <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                    <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                    <characteristic name="Power" typeId="8fc6-55c1-1604-402e">3</characteristic>
+                    <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3267-03d6-a0f2-d6f7" name="Hand Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="4a91-e35e-589a-4f18" name="Hand Cannon" publicationId="23e2-8cf2-260a-a7be" page="41" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                  <characteristics>
+                    <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                    <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                    <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                    <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                    <characteristic name="Power" typeId="8fc6-55c1-1604-402e">4</characteristic>
+                    <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7ec9-713a-c7f8-316a" name="Spit Pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="de2d-c3db-d386-c861" name="Spit Pistol" publicationId="23e2-8cf2-260a-a7be" page="41" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                  <characteristics>
+                    <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                    <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+2</characteristic>
+                    <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                    <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                    <characteristic name="Power" typeId="8fc6-55c1-1604-402e">2</characteristic>
+                    <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="9.0"/>
       </costs>
@@ -872,12 +1022,45 @@ Additionaly, when attempting to Dodge in close combat, Orlok may roll 5 Evade di
             <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">BeliWheel Skills, Jet Barf!, Wall of Flub!</characteristic>
           </characteristics>
         </profile>
+        <profile id="26af-7c92-05e6-fa04" name="Jet Barf" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+          <characteristics>
+            <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">3&quot;</characteristic>
+            <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+3</characteristic>
+            <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">9&quot;</characteristic>
+            <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+            <characteristic name="Power" typeId="8fc6-55c1-1604-402e">4</characteristic>
+            <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Aimed Fire only, Blast(2&quot;), Stun</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
+      <infoGroups>
+        <infoGroup id="60f8-1fad-f7c0-28c7" name="Dick&apos;s Rules" hidden="false">
+          <rules>
+            <rule id="137d-df6a-9594-d256" name="Jet Barf" hidden="false">
+              <description>Once per game, a Fattie with this rule may perform an Aimed Fire double-action to spray nearby enemies with a concentrated stream of corrosive vomit!
+All models caught within the blast will be automatically pinned unless successfully dodged.</description>
+            </rule>
+            <rule id="aefd-4036-a566-b9b1" name="Wall of Flub!" hidden="false">
+              <description>When making a Charge roll use 2D6 but do not add the model&apos;s Move.
+-The Fattie must move the full distance rolled.
+-If a Fattie moves in to close combat range (1&quot;) of a target it makes a close combat attack with a bonus of +2 to its Fight.
+-Target model gains +1 to Evade Dodge, whatever the result of the attack the target is diplaced 1&quot; out of the Fattie&apos;s path.</description>
+            </rule>
+            <rule id="33d3-c318-b406-9cc7" name="BeliWheel Skills" hidden="false">
+              <description>Porker statline includes +2&quot; Move and +1 Evade from his cutom BeliWheel.
+When Dick rolls for his Wall of Flub! Charge distance roll 3D6 instead of 2D6.</description>
+            </rule>
+          </rules>
+        </infoGroup>
+      </infoGroups>
       <categoryLinks>
         <categoryLink id="8c6b-02a2-4f52-073f" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
         <categoryLink id="5a74-c9db-2731-2d8e" name="New CategoryLink" hidden="false" targetId="073f-0aee-8d5c-0765" primary="false"/>
         <categoryLink id="e227-8acd-0c0e-6eae" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="0772-2cb2-2323-f90e" name="&lt;[Weapons]" hidden="false" collective="false" import="true" targetId="5af3-34a2-637e-bc2f" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="14.0"/>
       </costs>
@@ -896,11 +1079,49 @@ Additionaly, when attempting to Dodge in close combat, Orlok may roll 5 Evade di
           </characteristics>
         </profile>
       </profiles>
+      <infoGroups>
+        <infoGroup id="e1d4-aa68-2502-29da" name="Nero&apos;s Rules" hidden="false">
+          <rules>
+            <rule id="3ed0-d232-494e-26ce" name="Robot Control" hidden="false">
+              <description>When Narcos is activated he can use one or both of his actions to allow any friendly robot that has already activated to perform a bonus single action. If he uses both actions to two different robots. However, no single robot can be given two actions.</description>
+            </rule>
+            <rule id="c8c5-d43b-0afd-2103" name="Self-Repair Sub-Routines" hidden="false">
+              <description>Ner&apos;s body is capable of rapid and highly effective self-repairs. If Narcos is injured and uses the Hunker Down double action, it can potentially remove all injury markers if enough successes are rolled.</description>
+            </rule>
+            <rule id="7281-98a6-1864-0d86" name="Who Needs Frendz" hidden="false">
+              <description>If Nero is the leader of your faction then after both factions have drawn their Armoury cards, you may randomly pikc and discard one of your opponent&apos;s Armoury cards.</description>
+            </rule>
+          </rules>
+        </infoGroup>
+      </infoGroups>
       <categoryLinks>
         <categoryLink id="57b1-1108-bd0f-cd69" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
         <categoryLink id="2d9c-f9aa-d29a-86b9" name="&lt;Frendz Mob" hidden="false" targetId="2a25-d1c2-c149-ee73" primary="false"/>
         <categoryLink id="8a50-1552-120e-d914" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d48c-8393-bcd5-5ff5" name="FL-27 Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3892-39f3-fe3f-b7d5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0085-f47f-81b3-cffa" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="fb64-e6cc-dc43-14fb" name="FL-27 Grenade Launcher" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+              <characteristics>
+                <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">10&quot;</characteristic>
+                <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">20&quot;</characteristic>
+                <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                <characteristic name="Power" typeId="8fc6-55c1-1604-402e">5</characteristic>
+                <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Aimed Fire only, Blast (2&quot;), Special Rounds</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="91c8-a933-214f-5673" name="Special Rounds" hidden="false" targetId="dd58-ed58-d5a9-2fee" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="19.0"/>
       </costs>
