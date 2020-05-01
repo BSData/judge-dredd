@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cffa-ce89-e560-fa98" name="The Justice Department (WG2019)" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cffa-ce89-e560-fa98" name="The Justice Department (WG2019)" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="4cf6-f304-82ae-e9b8" name="Veteran Street Judge" hidden="false" collective="false" import="true" targetId="cd92-40f8-3fc4-ed09" type="selectionEntry"/>
     <entryLink id="2dd7-5690-4b2e-ef08" name="Judge" hidden="false" collective="false" import="true" targetId="e281-7b36-5e5e-4b76" type="selectionEntry"/>
@@ -404,6 +404,11 @@
           </conditions>
         </modifier>
       </modifiers>
+      <rules>
+        <rule id="2d10-971d-36a4-eaf7" name="Med Judge" hidden="false">
+          <description>A Med Judge can use the Hunker Downdouble action to attempt to remove Injury or Stun markers from a single friendly model within 1&quot;, even if that model is incapacitated. Roll a Resist test using the injured model&apos;s starting Resist stat. For each [Armour] result one Injury or Stun marker may be removed. This skill can be used to revive incapacitated and subdues models. </description>
+        </rule>
+      </rules>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
       </costs>
@@ -416,6 +421,13 @@
           </conditions>
         </modifier>
       </modifiers>
+      <rules>
+        <rule id="5623-fb02-979c-77fd" name="Tek Judge" hidden="false">
+          <description>The model gains the Armourer Skill.
+Before the beginning of the gamedraw one additionalArmoury card for each Tek Judge present in the player&apos;s faction. The player is then allowed to keep one more Armoury card than usual.
+</description>
+        </rule>
+      </rules>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="4.0"/>
       </costs>
@@ -429,16 +441,43 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="f3e3-b002-3558-268a" name="Pre-Cog" publicationId="23e2-8cf2-260a-a7be" page="70" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="7277-be0b-3909-b785" name="Pre-Cog" hidden="false">
+                  <description>To use Pre-Cog a Psi-Judge must be activated and perform an Overwatch action following all the normal rules for this double-action. As a Psi-Judge on Overwatch is predicting the short-term future, they are less surprised by the actions of enemy models. A Psi-Judge can, therefore, take an Aimed Shot even if the model they are reacting to performs a Move, Sprint or Charge action.
+
+Alternatively, if any Judge within line of sight of the Psi-Judge using Pre-Cog is subject to a ranged or close combat attack they may re-roll their Evade dice when dodging thanks to the Pre-Cog&apos;s warning. The Psi-Judge&apos;s Overwatch token is immediately removed after this roll.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a225-ec54-e4d7-6822" name="Psionic Control" publicationId="23e2-8cf2-260a-a7be" page="70" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="5a2e-4289-6f9e-a347" name="Psionic Control" hidden="false">
+                  <description>Psionic Control requires a double-action. The Psi-Judge using it must be within 12&quot; of the target. Psionic Control does not affect robots and A.I. controlled vehicles.
+
+If the Psi-Judge has Los to the target, the opposing model must take a Cool test. 
+Fails = Justice Department player makes the target model take a single action, but not a double-action.
+
+If the Psi-Judge does not have line of sight to the target, the opposing model may roll one extra Combat dice for their Cool test. In either case if the target passes the model is Pinned.
+
+The target model may not be forced to take any action that would catastrophically harm it such as jumping off a building or eating a frag bomb. However, a victim could be forced to Snapshot at or Fight with a friendly model.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fd58-9976-16b1-550d" name="Mind Probe!" publicationId="23e2-8cf2-260a-a7be" page="71" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="8b32-98df-9a6d-9838" name="Mind Probe!" hidden="false">
+                  <description>Upon activating, a Psi-Judge can manifest this power as a double-action. The Psi-Judge using it must be within 12&quot; of the target model. Mind probe does not affect robots and A.I. controlled vehicles.
+
+Make a Cool test for the Psi-Judge counting [Special] and [Hit] results as successes. Each success rolled automatically inflicts one Stun marker on the target.
+Roll a Cool test for the target model, adding one Combat dice if the Psi-Judge does not have Los. Each [Armour] rolled negates one of the Stun results. Mind Probe can subdue a model if the number of stuns remaining equals or beats their Cool stat.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
               </costs>
@@ -474,6 +513,11 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <rules>
+        <rule id="e04a-f7ee-90a3-7686" name="One-way Trip to Titan" hidden="false">
+          <description>Any Justice Department model is subject to the Respect the Law rule when facing SJS Judges. The mere sight of a distinctively uniformed SJS Judge can compel even experienced Mega-City One Judges to freeze with indecision. When SJS Judges activate they can intimidate any Justice Department model within 12&quot; and within Los for no cost. To determine the effect of theintimidation, take a Cool test for the target model. If the test is failed, the target is pinned.</description>
+        </rule>
+      </rules>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
       </costs>
