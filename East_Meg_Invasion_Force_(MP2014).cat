@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="5176-d844-2f23-c9a7" name="East_Meg_Invasion_Force_(MP2014)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="11c0-e445-663f-e530" name="Agent" hidden="false" collective="false" import="true" targetId="9865-7c73-cded-0991" type="selectionEntry"/>
+    <entryLink id="4e93-9e0d-60fc-6e0a" name="Sentenoid" hidden="false" collective="false" import="true" targetId="eaf9-8294-966b-d8e8" type="selectionEntry"/>
+    <entryLink id="f28c-e70e-dc1f-da98" name="East Meg Officer" hidden="false" collective="false" import="true" targetId="5fb0-54f9-85bf-1098" type="selectionEntry"/>
+    <entryLink id="89f9-f242-0f12-3424" name="East Meg Judge" hidden="false" collective="false" import="true" targetId="766c-e809-68e7-7e66" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="9865-7c73-cded-0991" name="Agent" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="3910-9138-8559-75b0" name="Super Secret Agent Man" hidden="false">
+          <description>The Agent has the Infiltrator Talent for free. He does not require the Stealthy Talent in order to use it.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="8183-32ed-37db-71d4" name="New CategoryLink" hidden="false" targetId="80a9-1440-951f-0bcc" primary="true"/>
+        <categoryLink id="daa4-190e-d8c9-3010" name="[Agent]" hidden="false" targetId="da5e-9d2f-ce0f-549d" primary="false"/>
+        <categoryLink id="b87a-0d72-5261-8833" name="[Hero]" hidden="false" targetId="190b-65e3-d23a-1371" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d9c0-5f35-59a6-a716" name="Handgun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d755-2998-2433-fc0a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e793-6198-c671-d157" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2e93-867e-4456-08f3" name="Knife" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="218f-afbb-b1f5-4536" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4505-00d0-b432-5889" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6500-0918-4488-6cf0" name="&lt; May take &gt;" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="8288-8597-ebd7-07b8" name="[Shields]" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b34-25c6-7c8c-f396" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="fd89-ef2c-b937-21ac" name="Energy Shield" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98d2-13f0-4e3f-0783" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="5f4d-8740-1bf5-e870" name="Energy Shield" hidden="false">
+                      <description>The energy shield functions as normal armour, but will only absorb a total of 10 Hits of damage. Once 10 Hits have been absorbed by the shield (by making its Armour rolls), it will instantly wink out of existence, with any remaining damage being applied to the wearer’s own Hits. The energy shield can be worn with other armour, but only one of them can be used against any one attack.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name=" Credits" typeId="Credits" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="289c-252a-4e33-caff" name="[Satellat]" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="0e2a-cb28-f7fc-c2a3" name="Satellat" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name=" Credits" typeId="Credits" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="c630-80bb-70d3-51b1" name="Heavy Satellat" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name=" Credits" typeId="Credits" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="da70-9d0a-1e88-4b71" name="&gt;[Hero]" hidden="false" collective="false" import="true" targetId="6dc9-6556-f642-6c0e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="95.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5fb0-54f9-85bf-1098" name="East Meg Officer" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="80f4-05ac-cd61-bd3a" name="Never Retreat!" hidden="false">
+          <description>If a friendly model within 12&quot; of the East Meg Officer fails a Will to Fight check, it may re-roll the result. If it fails this too, the East Meg Officer will execute the retreating model immediately. Roll on the injury table for this model, but add +6 to the result.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="6a8e-4f5e-9227-ee3a" name="1&lt; Ill. Inf. Hero" hidden="false" targetId="80a9-1440-951f-0bcc" primary="true"/>
+        <categoryLink id="3305-d75f-ac69-a4e5" name="[East Meg Officer]" hidden="false" targetId="ce03-a028-cfb3-45a6" primary="false"/>
+        <categoryLink id="c069-5a5b-c6a1-a87f" name="[Judge Hero]" hidden="false" targetId="cbec-7d08-dc24-9f86" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2f6f-ef42-79ce-d5a9" name="&lt; May take &gt;" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="f49d-8c21-2c67-d286" name="[Shields]" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="410f-b746-1711-333d" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="8654-f194-81b4-4445" name="Energy Shield" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffa0-279f-ee23-cb00" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="b131-d0d7-ccf4-3f70" name="Energy Shield" hidden="false">
+                      <description>The energy shield functions as normal armour, but will only absorb a total of 10 Hits of damage. Once 10 Hits have been absorbed by the shield (by making its Armour rolls), it will instantly wink out of existence, with any remaining damage being applied to the wearer’s own Hits. The energy shield can be worn with other armour, but only one of them can be used against any one attack.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name=" Credits" typeId="Credits" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="ecb5-62ed-5095-0b08" name="[Satellat]" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="86dd-3a8c-3aba-8780" name="Satellat" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name=" Credits" typeId="Credits" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="fa87-f1f4-c854-bf34" name="Heavy Satellat" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name=" Credits" typeId="Credits" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c3f7-e69f-79bf-99dd" name="&lt; East Meg Officer Standard Equipment &gt;" hidden="false" collective="false" import="true" targetId="a67a-3905-fbdf-f9bb" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="766c-e809-68e7-7e66" name="East Meg Judge" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="12af-f4f7-d597-e6a3" name="New CategoryLink" hidden="false" targetId="a2c6-638e-1643-ceaa" primary="true"/>
+        <categoryLink id="91a5-3b51-8534-f06d" name="[East Meg Judge]" hidden="false" targetId="ed23-a23b-4f89-cf93" primary="false"/>
+        <categoryLink id="47c7-e156-1084-bad1" name="[Min. Upg]" hidden="false" targetId="4d4f-5d8c-eed7-0803" primary="false"/>
+        <categoryLink id="cc2a-af95-42cb-8244" name="[Psi. Min. Upg]" hidden="false" targetId="1c26-2e7c-0d62-53bf" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6582-8c75-444a-5013" name="&lt; Weapon options &gt;" hidden="false" collective="false" import="true" defaultSelectionEntryId="53f3-8bb8-469c-a7e1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e31-083f-c57d-f5e4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd7a-b67f-a981-3776" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="53f3-8bb8-469c-a7e1" name="Krashnikov 99 Sidearm" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="47fe-cf9d-ffa9-c2d9" name="&gt;Krashnikov 99 Sidearm" hidden="false" typeId="2398-f308-475c-f428" typeName="&lt;4 Krashnikov 99 Sidearm">
+                  <characteristics>
+                    <characteristic name="Range" typeId="e1ee-8eee-eb85-646c">15&quot;	</characteristic>
+                    <characteristic name="Shooting Dice" typeId="a6a3-122b-eee6-404d">-</characteristic>
+                    <characteristic name="Damage" typeId="2dfd-dfac-bbcf-9d82">-</characteristic>
+                    <characteristic name="AP" typeId="f8b3-ccb8-b36b-4825">-</characteristic>
+                    <characteristic name="Special Rules" typeId="666f-d8b5-be02-7301">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="b8d8-7ffb-321f-6b38" name="Energy Pulse" hidden="false" typeId="2398-f308-475c-f428" typeName="&lt;4 Krashnikov 99 Sidearm">
+                  <characteristics>
+                    <characteristic name="Range" typeId="e1ee-8eee-eb85-646c">-</characteristic>
+                    <characteristic name="Shooting Dice" typeId="a6a3-122b-eee6-404d">2D</characteristic>
+                    <characteristic name="Damage" typeId="2dfd-dfac-bbcf-9d82">2</characteristic>
+                    <characteristic name="AP" typeId="f8b3-ccb8-b36b-4825">-3</characteristic>
+                    <characteristic name="Special Rules" typeId="666f-d8b5-be02-7301">Complex</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="e740-d088-c921-8059" name="Standard Execution" hidden="false" typeId="2398-f308-475c-f428" typeName="&lt;4 Krashnikov 99 Sidearm">
+                  <characteristics>
+                    <characteristic name="Range" typeId="e1ee-8eee-eb85-646c">-</characteristic>
+                    <characteristic name="Shooting Dice" typeId="a6a3-122b-eee6-404d">3D</characteristic>
+                    <characteristic name="Damage" typeId="2dfd-dfac-bbcf-9d82">2</characteristic>
+                    <characteristic name="AP" typeId="f8b3-ccb8-b36b-4825">-1</characteristic>
+                    <characteristic name="Special Rules" typeId="666f-d8b5-be02-7301">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2750-fb5a-695e-817e" name="Krashnikov 97 carbine" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="a893-f035-fd01-91f4" name="&gt;Krashnikov 97 Carbine" hidden="false" typeId="fffe-a4da-e728-4945" typeName="&lt;4 Krashnikov 97 Carbine">
+                  <characteristics>
+                    <characteristic name="Range" typeId="e22e-76de-da95-3ba9">24&quot;</characteristic>
+                    <characteristic name="Shooting Dice" typeId="150c-c994-1413-7369">-</characteristic>
+                    <characteristic name="Damage" typeId="a384-8572-759f-4c0e">-</characteristic>
+                    <characteristic name="AP" typeId="048c-faac-a8e2-937d">-</characteristic>
+                    <characteristic name="Special Rules" typeId="f4ba-c03e-b6f7-21a1">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="b987-985a-a824-01d6" name="Energy Pulse" hidden="false" typeId="fffe-a4da-e728-4945" typeName="&lt;4 Krashnikov 97 Carbine">
+                  <characteristics>
+                    <characteristic name="Range" typeId="e22e-76de-da95-3ba9">-</characteristic>
+                    <characteristic name="Shooting Dice" typeId="150c-c994-1413-7369">2D</characteristic>
+                    <characteristic name="Damage" typeId="a384-8572-759f-4c0e">2</characteristic>
+                    <characteristic name="AP" typeId="048c-faac-a8e2-937d">-4</characteristic>
+                    <characteristic name="Special Rules" typeId="f4ba-c03e-b6f7-21a1">Complex</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="894b-983f-2612-36a0" name="Standard Execution" hidden="false" typeId="fffe-a4da-e728-4945" typeName="&lt;4 Krashnikov 97 Carbine">
+                  <characteristics>
+                    <characteristic name="Range" typeId="e22e-76de-da95-3ba9">-</characteristic>
+                    <characteristic name="Shooting Dice" typeId="150c-c994-1413-7369">4D</characteristic>
+                    <characteristic name="Damage" typeId="a384-8572-759f-4c0e">2</characteristic>
+                    <characteristic name="AP" typeId="048c-faac-a8e2-937d">-1</characteristic>
+                    <characteristic name="Special Rules" typeId="f4ba-c03e-b6f7-21a1">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f8aa-a815-68e9-573d" name="Flamethrower" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d8e-7382-b389-8750" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="a6da-2cc1-5eef-c642" name="Flamethrower" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">8&quot;</characteristic>
+                    <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">6D</characteristic>
+                    <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">1</characteristic>
+                    <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">+0</characteristic>
+                    <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">Fire, Spray</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="5516-5c07-c80c-5163" name="Fire" hidden="false" targetId="18fd-a5af-bc8e-ffd1" type="rule"/>
+                <infoLink id="32cb-2faf-2941-46a2" name="Spray" hidden="false" targetId="3982-db5b-c6b4-b418" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c00d-8ad7-b0e1-fb68" name="&lt; Upgrade to level 1 Hero &gt;" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="4f7f-4798-d214-33af" name="&lt; Level Upgrade &gt;" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a81b-4d3e-7c34-1211" name="&lt; May take &gt;" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="766c-e809-68e7-7e66" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="7ddd-c680-ead9-9519" name="[Shields]" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4875-edd6-71f8-ff45" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="89ae-24e8-47e9-6ef4" name="Energy Shield" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be6d-01de-d696-fd0b" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="c5cf-bb7a-29f4-7ac1" name="Energy Shield" hidden="false">
+                      <description>The energy shield functions as normal armour, but will only absorb a total of 10 Hits of damage. Once 10 Hits have been absorbed by the shield (by making its Armour rolls), it will instantly wink out of existence, with any remaining damage being applied to the wearer’s own Hits. The energy shield can be worn with other armour, but only one of them can be used against any one attack.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name=" Credits" typeId="Credits" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="7810-ee41-8b20-a79f" name="[Satellat]" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="0b71-6bad-2d8c-1105" name="Satellat" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name=" Credits" typeId="Credits" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="7e0a-21c6-8ee2-3f3d" name="Heavy Satellat" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name=" Credits" typeId="Credits" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="fda9-2658-0cd9-28cd" name="&lt; East Meg Judge Standard Equipment &gt;" hidden="false" collective="false" import="true" targetId="2cfe-fafd-dcde-8b2e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="95.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eaf9-8294-966b-d8e8" name="Sentenoid" hidden="false" collective="false" import="true" type="upgrade">
+      <infoGroups>
+        <infoGroup id="bd99-911f-eedc-a7a9" name="Sentenoid Rules" hidden="false">
+          <rules>
+            <rule id="8912-9a38-98ec-0743" name="Crushing Arms" hidden="false">
+              <description>In every way, the arms of the Sentenoid are treated like chainsaws.</description>
+            </rule>
+            <rule id="b347-f375-66c9-1692" name="Eradicate all Resistance!" hidden="false">
+              <description>The twin street cannon mounted in the Sentenoid’s body are always fired together. It rolls 5 Shooting Dice rather than 4, but the Sentenoid’s long range sensors are rather poor, and so the street cannon have a maximum range of 12”.</description>
+            </rule>
+            <rule id="92bc-07ab-4c75-c6db" name="Telescopic Arms" hidden="false">
+              <description>The Sentenoid can make close combat attacks against a target up to 6” away with a Melee action but cannot benefit from charging if it does so. At the end of this close combat, the two models are not required to take Melee actions again, and the Sentenoid is not moved closer to a pushed back enemy. The target may leave close combat in its turn without any penalties for fleeing.
+</description>
+            </rule>
+          </rules>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="a0cf-d09d-4e5b-6c0c" name="New CategoryLink" hidden="false" targetId="a1d8-ce2d-a3e7-4da8" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6d7d-b749-177d-9d41" name="Flamethrower" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d82-3156-d5ae-12d3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc17-08b8-9eaf-1d45" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="7d23-209d-e6d2-400c" name="Flamethrower" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">8&quot;	</characteristic>
+                <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">6D</characteristic>
+                <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">1</characteristic>
+                <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">+0</characteristic>
+                <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">Fire, Spray</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="eccc-1100-e47a-fbd8" name="Fire" hidden="false" targetId="18fd-a5af-bc8e-ffd1" type="rule"/>
+            <infoLink id="90f3-c380-4cd9-d991" name="Spray" hidden="false" targetId="3982-db5b-c6b4-b418" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8b3e-5e38-83d2-a3a0" name="2 Street Cannons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="089d-8b94-8c82-c2f4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9306-2c13-1070-8e0f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ca50-3014-910a-aeab" name="2 Street Cannons" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">12&quot;	</characteristic>
+                <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">5D</characteristic>
+                <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">2</characteristic>
+                <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">-3</characteristic>
+                <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="80be-9cd7-ab58-d404" name="Sentenoid Arms" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e327-dfbd-ed6a-db1b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6939-cd2b-58ee-999a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0bd2-1134-95a5-8233" name="Sentenoid Arms" hidden="false" typeId="80d2-e41e-4294-6fca" typeName="&lt;2 Close Combat Weapon">
+              <characteristics>
+                <characteristic name="Damage" typeId="d7ee-8740-c2fc-b939">2</characteristic>
+                <characteristic name="AP" typeId="8b7a-b403-bfd7-0446">-3</characteristic>
+                <characteristic name="Special Rules" typeId="187d-a926-b5f3-956d">Smasher</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f330-084c-ceca-7b85" name="Smasher" hidden="false" targetId="4d10-13e9-7af1-bf12" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="275.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="a809-da7b-3b08-11b9" name="Fattie Stampede (MP2014)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="4007-8501-7b1a-c289" name="Fats Fan" hidden="false" collective="false" import="true" targetId="c5cd-8b71-7784-4b4e" type="selectionEntry"/>
+    <entryLink id="6f91-6c3a-0fe8-c285" name="Fattie" hidden="false" collective="false" import="true" targetId="6dea-d162-165c-1976" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="6dea-d162-165c-1976" name="Fattie" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="8766-26f7-7581-1a8a" name="Fattie" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+          <characteristics>
+            <characteristic name="Move" typeId="247a-4650-f3d4-51bf">3&quot;</characteristic>
+            <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">-2</characteristic>
+            <characteristic name="Shoot" typeId="6e97-95f4-e0eb-12db">-1</characteristic>
+            <characteristic name="Melee" typeId="cf74-3d3d-6b64-614e">+4</characteristic>
+            <characteristic name="Melee Dice" typeId="9343-dc2e-9ac1-7ee2">1D</characteristic>
+            <characteristic name="Will" typeId="ef2d-08b2-6882-ff2a">+0</characteristic>
+            <characteristic name="Armour" typeId="5a44-35b1-a24f-8ff5">+0</characteristic>
+            <characteristic name="Hits" typeId="7a5b-410d-f798-b64a">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="1c6d-d1de-897a-6eb5" name="Fattie Rules" hidden="false">
+          <rules>
+            <rule id="4755-1d56-05e3-59d2" name="Belliwheel" hidden="false">
+              <description>Once a Fattie gets going, there is little that can stop him. If a Fattie takes two consecutive Move or Melee actions in the same turn, the second Move or Melee action must be made in a completely straight line, but he will move an additional D10+2”. In addition, the Fattie’s close combat attacks will ignore all Armour except against vehicles and have a Damage score equal to the Fattie’s remaining Hits. Fatties may only move in clear terrain.
+</description>
+            </rule>
+            <rule id="8f0c-0e25-62fb-9da3" name="Fat!" hidden="false">
+              <description>A Fattie may be purchased armour but double all costs. A Fattie may never use a Jetpack, Bat Glider, Power Board, Sucker Gun or Chameleon Suit. They are just too big! A Fattie can ride in a vehicle and will count as a single Crew or Passenger if the vehicle model has been suitably modified/ converted. Otherwise a Fattie may not ride in a vehicle unless there is a suitable place on the model for them to sit (such as the flatbed of a Sloth Cargo Hauler – and no, they may not sit on the roof!). Fatties cannot use ladders at all, and may only use elevators and grav chutes that are physically large enough for the model. Finally, Fatties are immune to knockdowns.
+</description>
+            </rule>
+            <rule id="63c7-e37b-501f-6dac" name="Bacon Butty!" hidden="false">
+              <description>If a Fattie has at least 3 Hits remaining and performs two Special actions in a turn it will stuff its face with as much food as it can, the Fattie will then regain 1 Hit. This may not be used to increase its Hits beyond its starting score.
+</description>
+            </rule>
+          </rules>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="c287-f5ee-adcf-3c51" name="2&lt; Inf. Minion" hidden="false" targetId="453a-509d-5f60-19d4" primary="true"/>
+        <categoryLink id="196e-a514-c717-d7e4" name="[Min. Upg]" hidden="false" targetId="4d4f-5d8c-eed7-0803" primary="false"/>
+        <categoryLink id="ab58-8673-c89e-d411" name="[Fattie]" hidden="false" targetId="b955-7000-3aae-7dea" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7fac-cd30-6301-7f11" name="&lt; May be purchased up to 50 Credits of: &gt;" hidden="false" collective="false" import="true" type="upgrade">
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="name" value="&lt; May be purchased up to 125 Credits of: &gt;">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="8bb6-af1a-e69b-9c9b" value="75.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d664-ef56-4ff9-e51e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91dd-3ed6-ccd6-76a8" type="min"/>
+            <constraint field="Credits" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bb6-af1a-e69b-9c9b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ea91-f1d9-15e1-e3bc" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="59ea-143c-2b10-cf29" name="&lt; Upgrade to level 1 Hero &gt;" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="4c23-63f3-92dc-61d9" name="&lt; Level Upgrade &gt;" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c5cd-8b71-7784-4b4e" name="Fats Fan" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="3c9a-4452-89bf-2b5d" name="Fats Fan" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+          <characteristics>
+            <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
+            <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0</characteristic>
+            <characteristic name="Shoot" typeId="6e97-95f4-e0eb-12db">+0</characteristic>
+            <characteristic name="Melee" typeId="cf74-3d3d-6b64-614e">+0</characteristic>
+            <characteristic name="Melee Dice" typeId="9343-dc2e-9ac1-7ee2">2D</characteristic>
+            <characteristic name="Will" typeId="ef2d-08b2-6882-ff2a">+0</characteristic>
+            <characteristic name="Armour" typeId="5a44-35b1-a24f-8ff5">+0</characteristic>
+            <characteristic name="Hits" typeId="7a5b-410d-f798-b64a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a8ea-6f75-fd6b-b353" name="Go, Piggy, Go!" hidden="false">
+          <description>If one or more Fats Fans are within 2” of a Fattie they may try to help him cross difficult terrain. If a Fattie wants to perform a Move or Melee action over difficult terrain, roll one die and add +2 for every Fats Fan within 2”. If the total is higher than 10, the Fattie may continue moving over the terrain (halving movement as normal). If the total is less, the Fattie spends the action not moving as his fans try fruitlessly to move the massive bulk.
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="ec70-3e13-7c47-e76d" name="New CategoryLink" hidden="false" targetId="453a-509d-5f60-19d4" primary="true"/>
+        <categoryLink id="c37f-0e27-40a2-b5a1" name="[Fats Fan]" hidden="false" targetId="8f42-5c8d-4a7f-d19c" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="40bb-2dca-4ab6-6413" name="&lt; May be purchased up to 25 Credits of: &gt;" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bfb-fde8-bc1a-6ae4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1957-9219-6334-6b36" type="min"/>
+            <constraint field="Credits" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="094d-b336-fcd7-5a32" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6a6a-0b49-9179-708c" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="20.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

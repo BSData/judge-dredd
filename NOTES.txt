@@ -1,0 +1,39 @@
+Main
+All Talents and Weapons, Armour and Equipment have been added.
+Reworked equipment layouts.
+Allocated talents that are given freely due to ability or weapon selection.
+19/04/2020
+Reworked pre allocated selections and layouts.
+20/04/2020
+Added/ removed more categories from BotS.
+
+
+Street Gang Cat. 
+07/04/2020
+Improved selection layouts, such as hero leveling and weapon selections.
+15/04/2020
+Reworded layouts to < May be purchased "X" of: >
+
+The Citi-Def Cat.
+15/04/2020
+Completed main force selections (pending full testing)
+
+The Justice Department Cat.
+19/04/2020
+Added main force selections.
+
+Ape Gang Cat.
+20/04/2020
+Added main force selections.
+
+Fattie Stampede
+20/04/2020
+Added main force selections.
+
+Cursed Earth Desperadoes
+25/04/2020
+Added main force selections. Have set characteristics to hide if at least on type 5/10/20 has been selected as no characteristic can be changed more than once.
+
+East Meg Invasion Force
+01/05/2020
+Added main force selections.

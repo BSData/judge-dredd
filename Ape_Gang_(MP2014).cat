@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="bbac-5b9b-642a-d7a7" name="Ape Gang (MP2014)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="2cdd-907a-803b-3ba8" name="Chimp" hidden="false" collective="false" import="true" targetId="7f27-5200-327e-7867" type="selectionEntry"/>
+    <entryLink id="5b0d-6d21-4cbc-7c17" name="Gorilla" hidden="false" collective="false" import="true" targetId="a0dd-3516-94a6-b251" type="selectionEntry"/>
+    <entryLink id="4f7a-41ee-9359-53c3" name="Orang-utan" hidden="false" collective="false" import="true" targetId="5392-2d25-c3eb-8533" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="7f27-5200-327e-7867" name="Chimp" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="385c-5970-916e-cc68" name="Chimp" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+          <characteristics>
+            <characteristic name="Move" typeId="247a-4650-f3d4-51bf">6&quot;</characteristic>
+            <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
+            <characteristic name="Shoot" typeId="6e97-95f4-e0eb-12db">+0</characteristic>
+            <characteristic name="Melee" typeId="cf74-3d3d-6b64-614e">+0</characteristic>
+            <characteristic name="Melee Dice" typeId="9343-dc2e-9ac1-7ee2">2D</characteristic>
+            <characteristic name="Will" typeId="ef2d-08b2-6882-ff2a">+0</characteristic>
+            <characteristic name="Armour" typeId="5a44-35b1-a24f-8ff5">+0</characteristic>
+            <characteristic name="Hits" typeId="7a5b-410d-f798-b64a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="79db-6692-2229-7f72" name="New CategoryLink" hidden="false" targetId="453a-509d-5f60-19d4" primary="true"/>
+        <categoryLink id="1090-94a8-9609-b7a3" name="[Chimp]" hidden="false" targetId="5921-be97-0ec2-ba9a" primary="false"/>
+        <categoryLink id="5696-9fab-8ddf-a1f9" name="[Min. Upg]" hidden="false" targetId="4d4f-5d8c-eed7-0803" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c0ac-8a2b-5a22-1d97" name="&lt; May be purchased up to 50 Credits of: &gt;" hidden="false" collective="false" import="true" type="upgrade">
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="increment" field="e04f-154d-4b75-61ed" value="50.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="name" value="&lt; May be purchased up to 100 Credits of: &gt;">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8669-b2a2-d828-2fc3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e93-2dd1-c6d4-b91c" type="min"/>
+            <constraint field="Credits" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e04f-154d-4b75-61ed" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9cf9-27d1-5e48-099a" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a465-877f-2389-c233" name="&lt; Upgrade to level 1 Hero &gt;" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="d61d-5d45-5167-fcfd" name="&lt; Level Upgrade &gt;" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5392-2d25-c3eb-8533" name="Orang-utan" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6049-7315-d07b-a39b" name="Orang-utan" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+          <characteristics>
+            <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
+            <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0</characteristic>
+            <characteristic name="Shoot" typeId="6e97-95f4-e0eb-12db">+0</characteristic>
+            <characteristic name="Melee" typeId="cf74-3d3d-6b64-614e">+1</characteristic>
+            <characteristic name="Melee Dice" typeId="9343-dc2e-9ac1-7ee2">3D</characteristic>
+            <characteristic name="Will" typeId="ef2d-08b2-6882-ff2a">+0</characteristic>
+            <characteristic name="Armour" typeId="5a44-35b1-a24f-8ff5">+0</characteristic>
+            <characteristic name="Hits" typeId="7a5b-410d-f798-b64a">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="68ba-4a76-d89c-599a" name="New CategoryLink" hidden="false" targetId="453a-509d-5f60-19d4" primary="true"/>
+        <categoryLink id="e59d-3eeb-6428-3ebc" name="[Min. Upg]" hidden="false" targetId="4d4f-5d8c-eed7-0803" primary="false"/>
+        <categoryLink id="18e8-492e-3805-69ec" name="[Orang-utan]" hidden="false" targetId="03f0-a231-2cbb-d7a7" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e018-dfd7-ba3b-4813" name="&lt; May be purchased up to 75 Credits of: &gt;" hidden="false" collective="false" import="true" type="upgrade">
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="increment" field="1d77-5f9b-8123-cfe5" value="50.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="name" value="&lt; May be purchased up to 125 Credits of: &gt;">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9497-6f90-2c0c-2897" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba88-3f38-d537-d8be" type="min"/>
+            <constraint field="Credits" scope="parent" value="75.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d77-5f9b-8123-cfe5" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8ce0-2854-db3e-3033" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ae56-8049-f7ae-b00b" name="&lt; Upgrade to level 1 Hero &gt;" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="e4bc-fce6-f53a-09d4" name="&lt; Level Upgrade &gt;" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a0dd-3516-94a6-b251" name="Gorilla" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="dc15-c837-2aaf-13c5" name="Gorilla" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+          <characteristics>
+            <characteristic name="Move" typeId="247a-4650-f3d4-51bf">6&quot;</characteristic>
+            <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+2</characteristic>
+            <characteristic name="Shoot" typeId="6e97-95f4-e0eb-12db">+0</characteristic>
+            <characteristic name="Melee" typeId="cf74-3d3d-6b64-614e">+0</characteristic>
+            <characteristic name="Melee Dice" typeId="9343-dc2e-9ac1-7ee2">2D</characteristic>
+            <characteristic name="Will" typeId="ef2d-08b2-6882-ff2a">+1</characteristic>
+            <characteristic name="Armour" typeId="5a44-35b1-a24f-8ff5">+0</characteristic>
+            <characteristic name="Hits" typeId="7a5b-410d-f798-b64a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="949c-1d1f-6de7-33ed" name="2&lt; Inf. Minion" hidden="false" targetId="453a-509d-5f60-19d4" primary="true"/>
+        <categoryLink id="4a31-8967-1ce5-18b6" name="[Gorilla]" hidden="false" targetId="fed6-c53a-376b-3c4c" primary="false"/>
+        <categoryLink id="4ed5-7c11-4f25-de61" name="[Min. Upg]" hidden="false" targetId="4d4f-5d8c-eed7-0803" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9a82-b09c-148e-c38b" name="&lt; May be purchased up to 75 Credits of: &gt;" hidden="false" collective="false" import="true" type="upgrade">
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="increment" field="1e3e-2e91-25ce-2192" value="50.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="name" value="&lt; May be purchased up to 125 Credits of: &gt;">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="789c-f6c4-154e-a6db" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe05-e8c2-1b0e-b5cf" type="min"/>
+            <constraint field="Credits" scope="parent" value="75.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e3e-2e91-25ce-2192" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f4bd-100c-1ace-8686" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b9ca-944c-f653-d55d" name="&lt; Upgrade to level 1 Hero &gt;" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="4f42-e5d4-7ccd-2256" name="&lt; Level Upgrade &gt;" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="60.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

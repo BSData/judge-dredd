@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="e369-9f39-1125-052f" name="Street Gang (MP2014)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="8be1-fe2d-eebf-eee4" name="Punk" hidden="false" collective="false" import="true" targetId="d9ea-b824-aa98-2c93" type="selectionEntry"/>
+    <entryLink id="7b38-d2fc-9ab2-f0d7" name="Juve" hidden="false" collective="false" import="true" targetId="b740-fb23-6e90-7012" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="b740-fb23-6e90-7012" name="Juve" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="c975-752d-909f-c9c0" name="Juve" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+          <characteristics>
+            <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
+            <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
+            <characteristic name="Shoot" typeId="6e97-95f4-e0eb-12db">-1</characteristic>
+            <characteristic name="Melee" typeId="cf74-3d3d-6b64-614e">-1</characteristic>
+            <characteristic name="Melee Dice" typeId="9343-dc2e-9ac1-7ee2">2D</characteristic>
+            <characteristic name="Will" typeId="ef2d-08b2-6882-ff2a">+0</characteristic>
+            <characteristic name="Armour" typeId="5a44-35b1-a24f-8ff5">+0</characteristic>
+            <characteristic name="Hits" typeId="7a5b-410d-f798-b64a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d207-2138-b849-2dff" name="New CategoryLink" hidden="false" targetId="453a-509d-5f60-19d4" primary="true"/>
+        <categoryLink id="508e-f94e-0120-e162" name="[Hero. Lv. Up]" hidden="false" targetId="4d4f-5d8c-eed7-0803" primary="false"/>
+        <categoryLink id="809f-0abb-1163-89cd" name="[Psi. Hero . Lv. Up]" hidden="false" targetId="1c26-2e7c-0d62-53bf" primary="false"/>
+        <categoryLink id="75ab-cdad-df42-100a" name="[Juve]" hidden="false" targetId="754e-5077-941f-5382" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7c7d-de72-c49a-9ac9" name="&lt; May be purchased up to 50 Credits of: &gt;" hidden="false" collective="false" import="true" type="upgrade">
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="name" value="&lt; May be purchased up to 100 Credits of: &gt;">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d658-0ad9-6e15-958e" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="a4af-0595-92dd-38ba" value="50.0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d658-0ad9-6e15-958e" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02fb-e193-7454-cd63" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ff9-56ae-f271-f7d0" type="min"/>
+            <constraint field="Credits" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4af-0595-92dd-38ba" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4c80-7a1a-cf9f-a2cc" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5080-bf84-5876-3457" name="&lt; Upgrade to level 1 Hero &gt;" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="b056-c26f-9264-e3f7" name="&lt; Hero Leveling &gt;" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0c2-a48c-a2ff-649d" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d9ea-b824-aa98-2c93" name="Punk" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="9f11-57c5-f2d3-e173" name="Punk" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+          <characteristics>
+            <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
+            <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0</characteristic>
+            <characteristic name="Shoot" typeId="6e97-95f4-e0eb-12db">+0</characteristic>
+            <characteristic name="Melee" typeId="cf74-3d3d-6b64-614e">+0</characteristic>
+            <characteristic name="Melee Dice" typeId="9343-dc2e-9ac1-7ee2">2D</characteristic>
+            <characteristic name="Will" typeId="ef2d-08b2-6882-ff2a">+0</characteristic>
+            <characteristic name="Armour" typeId="5a44-35b1-a24f-8ff5">+0</characteristic>
+            <characteristic name="Hits" typeId="7a5b-410d-f798-b64a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="a234-17f7-3db5-8dd6" name="New CategoryLink" hidden="false" targetId="453a-509d-5f60-19d4" primary="true"/>
+        <categoryLink id="3675-88b4-b158-f3c7" name="[Psi. Hero . Lv. Up]" hidden="false" targetId="1c26-2e7c-0d62-53bf" primary="false"/>
+        <categoryLink id="039d-2935-8f66-765a" name="[Hero. Lv. Up]" hidden="false" targetId="4d4f-5d8c-eed7-0803" primary="false"/>
+        <categoryLink id="21c3-a643-f358-f6ea" name="[Punk]" hidden="false" targetId="8c5f-b845-d880-c7bb" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4a7d-6071-e979-ef76" name="&lt; May be purchased up to 75 Credits of &gt;" hidden="false" collective="false" import="true" type="upgrade">
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="name" value="&lt; May be purchased up to 125 Credits of: &gt;">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d658-0ad9-6e15-958e" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="cced-fa42-15ca-26aa" value="50.0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d658-0ad9-6e15-958e" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fd9-9e8f-37cc-8949" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58e6-e90c-c8c6-eb96" type="min"/>
+            <constraint field="Credits" scope="parent" value="75.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cced-fa42-15ca-26aa" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8c43-063e-ce29-4ed6" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7ce2-5c78-e51d-ad5c" name="&lt; Upgrade to level 1 Hero &gt;" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="b5f7-18b2-a5cf-3837" name="&lt; Hero Leveling &gt;" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="20.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

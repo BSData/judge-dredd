@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="c250-f995-a6b7-6b94" name="The Justice Department (MP2014)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="6565-d79d-a40b-c8ad" name="Street Judge" hidden="false" collective="false" import="true" targetId="e9c0-c8d6-cb63-dc97" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="e9c0-c8d6-cb63-dc97" name="Street Judge" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d899-1bf4-3ff0-d6af" name="Street Judge" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+          <characteristics>
+            <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
+            <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
+            <characteristic name="Shoot" typeId="6e97-95f4-e0eb-12db">+1</characteristic>
+            <characteristic name="Melee" typeId="cf74-3d3d-6b64-614e">+1</characteristic>
+            <characteristic name="Melee Dice" typeId="9343-dc2e-9ac1-7ee2">2D</characteristic>
+            <characteristic name="Will" typeId="ef2d-08b2-6882-ff2a">+1</characteristic>
+            <characteristic name="Armour" typeId="5a44-35b1-a24f-8ff5">+5</characteristic>
+            <characteristic name="Hits" typeId="7a5b-410d-f798-b64a">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="eb48-96f3-9a06-fa6d" name="New CategoryLink" hidden="false" targetId="c247-c866-3c19-ef70" primary="true"/>
+        <categoryLink id="fbdc-2960-e3bf-88a0" name="[Judge Hero]" hidden="false" targetId="cbec-7d08-dc24-9f86" primary="false"/>
+        <categoryLink id="b727-70ed-e4dc-e123" name="[Street Judge]" hidden="false" targetId="d2f1-0d15-d5f7-fff9" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ecc9-4a46-4281-0025" name="1 &lt; Options &gt;" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="c62a-b1db-a1ce-04d7" name="&lt; Judge Equipment &gt; " hidden="false" collective="false" import="true" targetId="4b73-80a3-6e74-78dc" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7679-e564-0cdf-0cb6" name="&lt; Judge Standard Equipment &gt;" hidden="false" collective="false" import="true" targetId="af39-5234-a8fd-a216" type="selectionEntry"/>
+        <entryLink id="5d85-5f0c-f000-a9c6" name="&gt;[Judge Hero]" hidden="false" collective="false" import="true" targetId="d4b8-6141-6269-f49c" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=".Credits" typeId="Credits" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="97c4-fb7b-cb3a-d330" name="Psi-Judge" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1f96-6130-75eb-d66e" name="Psi-Judge" hidden="false" typeId="6175-c29b-2daa-5fa4" typeName="&lt;0 Psi Infantry">
+          <characteristics>
+            <characteristic name="Move" typeId="da22-dc43-c4b1-e93b">5&quot;</characteristic>
+            <characteristic name="Agility" typeId="913c-3b85-1f70-b8db">+1</characteristic>
+            <characteristic name="Shoot" typeId="d5c6-6a10-20cd-7930">+1</characteristic>
+            <characteristic name="Melee" typeId="c26e-f408-2718-426c">+1</characteristic>
+            <characteristic name="Melee Dice" typeId="5314-b6b9-7201-7857">2D</characteristic>
+            <characteristic name="Will" typeId="5603-7d42-0153-2cb2">+1</characteristic>
+            <characteristic name="Armour" typeId="6ee1-0475-ecbb-bfdd">+5</characteristic>
+            <characteristic name="Hits" typeId="479d-c31a-fc20-8a32">2</characteristic>
+            <characteristic name="Psi" typeId="1896-6192-d7d2-386e">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="f460-c523-ff72-775a" name="1&lt; Inf. Hero" hidden="false" targetId="c247-c866-3c19-ef70" primary="true"/>
+        <categoryLink id="8054-0a2d-5fdb-c188" name="[Psi Judge Hero]" hidden="false" targetId="29e4-b539-238c-00ae" primary="false"/>
+        <categoryLink id="efd1-8845-c43d-9977" name="[Psi Judge]" hidden="false" targetId="1eb2-89a1-9adb-1329" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="931c-a1d1-ebca-23c3" name="1 &lt; Options &gt;" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="8a75-c687-0848-4b12" name="&lt; Judge Standard Equipment &gt;" hidden="false" collective="false" import="true" targetId="af39-5234-a8fd-a216" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6206-8156-a6b5-450c" name="&gt;[Psi Judge Herol]" hidden="false" collective="false" import="true" targetId="5728-a3eb-8325-40ac" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=".Credits" typeId="Credits" value="175.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f8c5-04e6-b520-9347" name="Riot Judge" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ab52-b37d-b111-ac64" name="Riot Judge" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+          <characteristics>
+            <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
+            <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
+            <characteristic name="Shoot" typeId="6e97-95f4-e0eb-12db">+1</characteristic>
+            <characteristic name="Melee" typeId="cf74-3d3d-6b64-614e">+1</characteristic>
+            <characteristic name="Melee Dice" typeId="9343-dc2e-9ac1-7ee2">2D</characteristic>
+            <characteristic name="Will" typeId="ef2d-08b2-6882-ff2a">+1</characteristic>
+            <characteristic name="Armour" typeId="5a44-35b1-a24f-8ff5">+7</characteristic>
+            <characteristic name="Hits" typeId="7a5b-410d-f798-b64a">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="fd8e-037c-21b4-a3e0" name="Riot Control" hidden="false">
+          <description>A Riot Judge is trained to combat perps while on foot, and may not ride a Lawmaster.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="18c6-5923-02be-ae4e" name="[Judge Hero]" hidden="false" targetId="cbec-7d08-dc24-9f86" primary="false"/>
+        <categoryLink id="27f3-e9eb-ea8a-0da2" name="New CategoryLink" hidden="false" targetId="c247-c866-3c19-ef70" primary="true"/>
+        <categoryLink id="2a66-8a37-e6f9-41dc" name="[Riot Judge]" hidden="false" targetId="89e7-d914-8ec3-962f" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f20f-ba37-818f-d521" name="1 &lt; Options &gt;" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="a2c5-59a4-0617-daec" name="&lt; Judge Standard Equipment &gt;" hidden="false" collective="false" import="true" targetId="af39-5234-a8fd-a216" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2d40-8e12-1ca1-a3b5" name="&gt;[Judge Hero]" hidden="false" collective="false" import="true" targetId="d4b8-6141-6269-f49c" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=".Credits" typeId="Credits" value="190.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e249-8971-3c28-5034" name="Rookie Judge" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0e84-caad-397b-e782" name="Rookie Judge" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+          <characteristics>
+            <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
+            <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
+            <characteristic name="Shoot" typeId="6e97-95f4-e0eb-12db">+0</characteristic>
+            <characteristic name="Melee" typeId="cf74-3d3d-6b64-614e">+0</characteristic>
+            <characteristic name="Melee Dice" typeId="9343-dc2e-9ac1-7ee2">2D</characteristic>
+            <characteristic name="Will" typeId="ef2d-08b2-6882-ff2a">+0</characteristic>
+            <characteristic name="Armour" typeId="5a44-35b1-a24f-8ff5">+5</characteristic>
+            <characteristic name="Hits" typeId="7a5b-410d-f798-b64a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="66bf-92ed-20ba-5842" name="New CategoryLink" hidden="false" targetId="453a-509d-5f60-19d4" primary="true"/>
+        <categoryLink id="d8b3-9339-3ddb-310f" name="[Rookie Judge]" hidden="false" targetId="487f-f347-b8e0-df4b" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="92a4-9f82-e239-04ba" name="1 &lt; Options &gt;" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="e310-b035-11e6-c00f" name="&lt; Judge Standard Equipment &gt;" hidden="false" collective="false" import="true" targetId="af39-5234-a8fd-a216" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=".Credits" typeId="Credits" value="75.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
