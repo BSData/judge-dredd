@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="c250-f995-a6b7-6b94" name="The Justice Department (MP2014)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="6565-d79d-a40b-c8ad" name="Street Judge" hidden="false" collective="false" import="true" targetId="e9c0-c8d6-cb63-dc97" type="selectionEntry"/>
+    <entryLink id="6565-d79d-a40b-c8ad" name="Psi-Judge" hidden="false" collective="false" import="true" targetId="97c4-fb7b-cb3a-d330" type="selectionEntry"/>
+    <entryLink id="300f-45f9-aada-6e0b" name="Street Judge" hidden="false" collective="false" import="true" targetId="e9c0-c8d6-cb63-dc97" type="selectionEntry"/>
+    <entryLink id="71cc-b43c-3162-1e40" name="Riot Judge" hidden="false" collective="false" import="true" targetId="f8c5-04e6-b520-9347" type="selectionEntry"/>
+    <entryLink id="9516-dad5-d663-f85f" name="Rookie Judge" hidden="false" collective="false" import="true" targetId="e249-8971-3c28-5034" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="e9c0-c8d6-cb63-dc97" name="Street Judge" hidden="false" collective="false" import="true" type="model">
@@ -36,7 +39,7 @@
         <entryLink id="5d85-5f0c-f000-a9c6" name="&gt;[Judge Hero]" hidden="false" collective="false" import="true" targetId="d4b8-6141-6269-f49c" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=".Credits" typeId="Credits" value="150.0"/>
+        <cost name=" Credits" typeId="Credits" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="97c4-fb7b-cb3a-d330" name="Psi-Judge" hidden="false" collective="false" import="true" type="model">
@@ -71,7 +74,7 @@
         <entryLink id="6206-8156-a6b5-450c" name="&gt;[Psi Judge Herol]" hidden="false" collective="false" import="true" targetId="5728-a3eb-8325-40ac" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=".Credits" typeId="Credits" value="175.0"/>
+        <cost name=" Credits" typeId="Credits" value="175.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f8c5-04e6-b520-9347" name="Riot Judge" hidden="false" collective="false" import="true" type="model">
@@ -97,7 +100,7 @@
       <categoryLinks>
         <categoryLink id="18c6-5923-02be-ae4e" name="[Judge Hero]" hidden="false" targetId="cbec-7d08-dc24-9f86" primary="false"/>
         <categoryLink id="27f3-e9eb-ea8a-0da2" name="New CategoryLink" hidden="false" targetId="c247-c866-3c19-ef70" primary="true"/>
-        <categoryLink id="2a66-8a37-e6f9-41dc" name="[Riot Judge]" hidden="false" targetId="89e7-d914-8ec3-962f" primary="false"/>
+        <categoryLink id="f3f7-b0f2-1976-6c81" name="[Riot Judge]" hidden="false" targetId="5a3c-8ece-7cc4-3215" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f20f-ba37-818f-d521" name="1 &lt; Options &gt;" hidden="false" collective="false" import="true">
@@ -110,7 +113,7 @@
         <entryLink id="2d40-8e12-1ca1-a3b5" name="&gt;[Judge Hero]" hidden="false" collective="false" import="true" targetId="d4b8-6141-6269-f49c" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=".Credits" typeId="Credits" value="190.0"/>
+        <cost name=" Credits" typeId="Credits" value="190.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e249-8971-3c28-5034" name="Rookie Judge" hidden="false" collective="false" import="true" type="model">
@@ -140,7 +143,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=".Credits" typeId="Credits" value="75.0"/>
+        <cost name=" Credits" typeId="Credits" value="75.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="ac5e-7fa4-dbbd-ef80" name="Mobsters (2014)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="f339-aa5c-1e01-63dd" name="Assassinator Droid" hidden="false" collective="false" import="true" targetId="07b5-cd58-bc86-4bc3" type="selectionEntry"/>
+    <entryLink id="efad-2898-4f04-b8b7" name="Blitzer" hidden="false" collective="false" import="true" targetId="efa6-df56-7312-b66a" type="selectionEntry"/>
+    <entryLink id="8a8e-cd91-539a-9d5d" name="Punk" hidden="false" collective="false" import="true" targetId="e318-83d7-bcd9-3171" type="selectionEntry"/>
+    <entryLink id="beb1-4782-5ee7-c1a1" name="Nero Narcos" hidden="false" collective="false" import="true" targetId="2577-508a-d933-7e9f" type="selectionEntry"/>
+    <entryLink id="eb35-011c-a81a-2e57" name="Assassin" hidden="false" collective="false" import="true" targetId="7cb6-4c2b-a8c4-9185" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="7cb6-4c2b-a8c4-9185" name="Assassin" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0b2f-8974-3192-f618" name="Assassin" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+          <characteristics>
+            <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;	</characteristic>
+            <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0</characteristic>
+            <characteristic name="Shoot" typeId="6e97-95f4-e0eb-12db">+1</characteristic>
+            <characteristic name="Melee" typeId="cf74-3d3d-6b64-614e">-1</characteristic>
+            <characteristic name="Melee Dice" typeId="9343-dc2e-9ac1-7ee2">1D</characteristic>
+            <characteristic name="Will" typeId="ef2d-08b2-6882-ff2a">+0</characteristic>
+            <characteristic name="Armour" typeId="5a44-35b1-a24f-8ff5">+0</characteristic>
+            <characteristic name="Hits" typeId="7a5b-410d-f798-b64a">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e715-de78-7362-c014" name="1&lt; Inf. Hero" hidden="false" targetId="c247-c866-3c19-ef70" primary="true"/>
+        <categoryLink id="9183-1e96-5e82-74a9" name="[Assassin]" hidden="false" targetId="6b68-6fe0-34b2-920b" primary="false"/>
+        <categoryLink id="a3fd-335f-aaad-da69" name="[Hero]" hidden="false" targetId="190b-65e3-d23a-1371" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0066-d65e-e193-53da" name="&lt; May be purchased up to 150 Credits of: &gt;" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf00-5629-0eba-8de5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebc4-3999-08ba-bd7c" type="max"/>
+            <constraint field="Credits" scope="parent" value="150.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="91d5-5585-d31c-ce26" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="dec0-03a5-a5ee-af37" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="117e-cb09-3a28-352c" name="&gt;[Hero]" hidden="false" collective="false" import="true" targetId="6dc9-6556-f642-6c0e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="07b5-cd58-bc86-4bc3" name="Assassinator Droid" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6119-3fc8-2b9b-e74c" name="Assassinator Droid" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+          <characteristics>
+            <characteristic name="Move" typeId="247a-4650-f3d4-51bf">6&quot;</characteristic>
+            <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0	</characteristic>
+            <characteristic name="Shoot" typeId="6e97-95f4-e0eb-12db">+2</characteristic>
+            <characteristic name="Melee" typeId="cf74-3d3d-6b64-614e">+2</characteristic>
+            <characteristic name="Melee Dice" typeId="9343-dc2e-9ac1-7ee2">2D</characteristic>
+            <characteristic name="Will" typeId="ef2d-08b2-6882-ff2a">+1</characteristic>
+            <characteristic name="Armour" typeId="5a44-35b1-a24f-8ff5">+5</characteristic>
+            <characteristic name="Hits" typeId="7a5b-410d-f798-b64a">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1626-4341-d283-7c14" name="Flight Pack" hidden="false">
+          <description>The Assassinator may deploy its flight pack by performing a Special action. After this, its Move increases to 10” and it is treated as a Flyer. It may not perform any Melee actions while a Flyer, but may return to the ground and fold away its flight pack by performing another Special action.
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="3dfa-bc21-660a-92d6" name="2&lt; Inf. Robot Minion" hidden="false" targetId="a1d8-ce2d-a3e7-4da8" primary="true"/>
+        <categoryLink id="90a2-9100-bfa0-1a05" name="[Assassinator Droid]" hidden="false" targetId="344f-bee5-6811-cb97" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="167f-867e-759d-d216" name="Club" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31cf-f573-190a-a301" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7459-9856-b420-abbe" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="c23d-da02-0853-d4dc" name="Club" hidden="false" typeId="80d2-e41e-4294-6fca" typeName="&lt;2 Close Combat Weapon">
+              <characteristics>
+                <characteristic name="Damage" typeId="d7ee-8740-c2fc-b939">1</characteristic>
+                <characteristic name="AP" typeId="8b7a-b403-bfd7-0446">0</characteristic>
+                <characteristic name="Special Rules" typeId="187d-a926-b5f3-956d">Smasher</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4af5-1c8e-289d-a4e6" name="Smasher" hidden="false" targetId="4d10-13e9-7af1-bf12" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="baf9-0f5e-d772-1936" name="Laser Pistol" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60e3-8b03-44d7-7e0f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d97e-e618-3eda-f62d" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="5e7d-5f1e-839f-b0dd" name="Laser Pistol" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">12&quot;</characteristic>
+                <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">1D</characteristic>
+                <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">1</characteristic>
+                <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">-4</characteristic>
+                <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="78b2-e07d-c3b1-1215" name="Spit Gun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4f8-0334-f5bc-7107" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f0a-0105-654f-05b2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="61b5-802b-40a9-bf57" name="Spit Gun" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">20&quot;</characteristic>
+                <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">3D</characteristic>
+                <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">1</characteristic>
+                <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">-2</characteristic>
+                <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="195.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="efa6-df56-7312-b66a" name="Blitzer" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1e4d-570f-8200-164c" name="Blitzer" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+          <characteristics>
+            <characteristic name="Move" typeId="247a-4650-f3d4-51bf">4&quot;</characteristic>
+            <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0</characteristic>
+            <characteristic name="Shoot" typeId="6e97-95f4-e0eb-12db">+2</characteristic>
+            <characteristic name="Melee" typeId="cf74-3d3d-6b64-614e">+2</characteristic>
+            <characteristic name="Melee Dice" typeId="9343-dc2e-9ac1-7ee2">4D	</characteristic>
+            <characteristic name="Will" typeId="ef2d-08b2-6882-ff2a">+3</characteristic>
+            <characteristic name="Armour" typeId="5a44-35b1-a24f-8ff5">+0</characteristic>
+            <characteristic name="Hits" typeId="7a5b-410d-f798-b64a">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4710-29a6-88ea-ea11" name="Brain Bomb" hidden="false">
+          <description>If a Blitzer is ever forced to surrender or is arrested, its brain bomb will automatically detonate, killing the Blitzer immediately. He is removed from the force permanently.
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="fc89-5f27-872f-41e7" name="2&lt; Inf. Minion" hidden="false" targetId="453a-509d-5f60-19d4" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="18e8-49d0-8ba1-8a03" name="&lt; May be purchased up to 100 Credits of: &gt;" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c82c-526c-bdf0-94b4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6925-bddf-e453-8519" type="max"/>
+            <constraint field="Credits" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6bd4-519a-8355-903c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="64b4-704a-2444-ad9b" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c3f-3231-e04e-4f42" name="Gangster" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="da2f-787a-fddc-8e0d" name="Gangster" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+          <characteristics>
+            <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
+            <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
+            <characteristic name="Shoot" typeId="6e97-95f4-e0eb-12db">+0</characteristic>
+            <characteristic name="Melee" typeId="cf74-3d3d-6b64-614e">+0</characteristic>
+            <characteristic name="Melee Dice" typeId="9343-dc2e-9ac1-7ee2">2D</characteristic>
+            <characteristic name="Will" typeId="ef2d-08b2-6882-ff2a">+1</characteristic>
+            <characteristic name="Armour" typeId="5a44-35b1-a24f-8ff5">+0</characteristic>
+            <characteristic name="Hits" typeId="7a5b-410d-f798-b64a">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ac29-d977-0956-e13e" name="New CategoryLink" hidden="false" targetId="c247-c866-3c19-ef70" primary="true"/>
+        <categoryLink id="fcff-1de4-efe6-e9dc" name="[Gangster]" hidden="false" targetId="674d-31ce-fd37-1772" primary="false"/>
+        <categoryLink id="c695-9c07-67fc-51b9" name="[Hero]" hidden="false" targetId="190b-65e3-d23a-1371" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="aa0b-d8ec-fa61-4799" name="&lt; May be purchased up to 200 Credits of: &gt;" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20b4-9393-be52-918a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b23-effd-3495-4a6c" type="max"/>
+            <constraint field="Credits" scope="parent" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aaf4-478e-8896-69f6" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8fe5-4b98-ea8e-5842" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="a6b2-5276-644e-5722" name="&gt;[Hero]" hidden="false" collective="false" import="true" targetId="6dc9-6556-f642-6c0e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2577-508a-d933-7e9f" name="Nero Narcos" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="92d0-9b55-83cd-a29a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6512-32e9-c621-e236" name="Nero Narcos" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+          <characteristics>
+            <characteristic name="Move" typeId="247a-4650-f3d4-51bf">6&quot;</characteristic>
+            <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+2</characteristic>
+            <characteristic name="Shoot" typeId="6e97-95f4-e0eb-12db">+2</characteristic>
+            <characteristic name="Melee" typeId="cf74-3d3d-6b64-614e">+2</characteristic>
+            <characteristic name="Melee Dice" typeId="9343-dc2e-9ac1-7ee2">3D</characteristic>
+            <characteristic name="Will" typeId="ef2d-08b2-6882-ff2a">+3</characteristic>
+            <characteristic name="Armour" typeId="5a44-35b1-a24f-8ff5">+6</characteristic>
+            <characteristic name="Hits" typeId="7a5b-410d-f798-b64a">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0316-920c-f01d-ec1e" name="There is only Nero" hidden="false">
+          <description>You may only ever have one Nero Narcos in your force.
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="dad6-fb73-e1e3-e244" name="New CategoryLink" hidden="false" targetId="58b3-d999-3d1c-9b27" primary="false"/>
+        <categoryLink id="9971-f7db-0275-b4e5" name="[Nero Narcos]" hidden="false" targetId="91a9-e60c-2d8f-ab68" primary="false"/>
+        <categoryLink id="dd13-3287-39ef-e247" name="[Hero]" hidden="false" targetId="190b-65e3-d23a-1371" primary="false"/>
+        <categoryLink id="3a3a-df8e-5d62-04aa" name="New CategoryLink" hidden="false" targetId="c247-c866-3c19-ef70" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="71a7-2427-85c2-cbc5" name="&lt; May be purchased up to 200 Credits of: &gt;" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9401-f79a-c92c-f370" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eeed-f760-0d3b-e1e1" type="max"/>
+            <constraint field="Credits" scope="parent" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e9e2-58df-9681-41de" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8d41-9786-b27c-32af" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="6b91-e8c4-31e5-4ca7" name="&gt;[Hero]" hidden="false" collective="false" import="true" targetId="6dc9-6556-f642-6c0e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="195.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e318-83d7-bcd9-3171" name="Punk" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="783a-57c4-8767-61c9" name="Punk" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+          <characteristics>
+            <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
+            <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0</characteristic>
+            <characteristic name="Shoot" typeId="6e97-95f4-e0eb-12db">+0</characteristic>
+            <characteristic name="Melee" typeId="cf74-3d3d-6b64-614e">+0</characteristic>
+            <characteristic name="Melee Dice" typeId="9343-dc2e-9ac1-7ee2">2D</characteristic>
+            <characteristic name="Will" typeId="ef2d-08b2-6882-ff2a">+0</characteristic>
+            <characteristic name="Armour" typeId="5a44-35b1-a24f-8ff5">+0</characteristic>
+            <characteristic name="Hits" typeId="7a5b-410d-f798-b64a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="afa9-b294-fe16-16f4" name="New CategoryLink" hidden="false" targetId="453a-509d-5f60-19d4" primary="true"/>
+        <categoryLink id="cc14-e605-60d1-ef0f" name="[Punk]" hidden="false" targetId="8c5f-b845-d880-c7bb" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="446a-1049-02d9-6afd" name="&lt; May be purchased up to 75 Credits of &gt;" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3742-6d7c-393b-ba58" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7860-a778-f40a-52b4" type="min"/>
+            <constraint field="Credits" scope="parent" value="75.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4404-0579-c152-a8be" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="481f-633c-61a8-99e7" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="20.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

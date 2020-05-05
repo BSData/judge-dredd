@@ -6,6 +6,8 @@ Allocated talents that are given freely due to ability or weapon selection.
 Reworked pre allocated selections and layouts.
 20/04/2020
 Added/ removed more categories from BotS.
+05/05/2020
+Added keys for preleveled heroes and adjusted hero profiles to compensat for the prealoocations. Such as Hits, Psi, Credit cost increase and characteristics. 
 
 
 Street Gang Cat. 
@@ -21,6 +23,8 @@ Completed main force selections (pending full testing)
 The Justice Department Cat.
 19/04/2020
 Added main force selections.
+04/05/2020
+Some entries where not root entry linked (changed)
 
 Ape Gang Cat.
 20/04/2020
