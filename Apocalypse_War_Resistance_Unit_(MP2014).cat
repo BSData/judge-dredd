@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="8fd9-613c-1937-f40e" name="Apocalypse War Resistance Unit (MP2014)" revision="1" battleScribeVersion="2.03" authorName="Vescarea" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="b8c6-c83f-ac75-9bc4" name="Citi-Def Soldier" hidden="false" collective="false" import="true" targetId="33a0-dd97-2568-1f3b" type="selectionEntry"/>
+    <entryLink id="2ddc-76be-1f87-6640" name="Street Judge" hidden="false" collective="false" import="true" targetId="d4ea-74a1-292d-2f79" type="selectionEntry"/>
+    <entryLink id="feef-be30-7dc3-3a80" name="Punk" hidden="false" collective="false" import="true" targetId="5253-ad10-31d9-659a" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="5253-ad10-31d9-659a" name="Punk" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="39eb-6ff2-ac2a-c906" name="Punk" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+          <characteristics>
+            <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
+            <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0</characteristic>
+            <characteristic name="Shoot" typeId="6e97-95f4-e0eb-12db">+0</characteristic>
+            <characteristic name="Melee" typeId="cf74-3d3d-6b64-614e">+0</characteristic>
+            <characteristic name="Melee Dice" typeId="9343-dc2e-9ac1-7ee2">2D</characteristic>
+            <characteristic name="Will" typeId="ef2d-08b2-6882-ff2a">+0</characteristic>
+            <characteristic name="Armour" typeId="5a44-35b1-a24f-8ff5">+0</characteristic>
+            <characteristic name="Hits" typeId="7a5b-410d-f798-b64a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="aef3-fbf7-6ce9-c3dc" name="New CategoryLink" hidden="false" targetId="453a-509d-5f60-19d4" primary="true"/>
+        <categoryLink id="2ac6-dac0-505e-fef6" name="[Hero. Lv. Up]" hidden="false" targetId="4d4f-5d8c-eed7-0803" primary="false"/>
+        <categoryLink id="6839-f3d5-73ee-81aa" name="[Punk]" hidden="false" targetId="8c5f-b845-d880-c7bb" primary="false"/>
+        <categoryLink id="c02e-3c7f-036f-5c41" name="[Apoc. War Res. Unit]" hidden="false" targetId="406b-849c-5580-1696" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6686-c355-826e-6684" name="&lt; May be purchased up to 50 Credits of &gt;" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a5b-a7e5-fcb5-b7cf" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67a9-66cf-e26c-723b" type="min"/>
+            <constraint field="Credits" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a92-679d-e15f-55fa" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1171-8e5d-4172-021f" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c217-de45-d8f0-1e77" name="&lt; Upgrade to level 1 Hero &gt;" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="c489-9626-f4cd-7def" name="&lt; Hero Leveling &gt;" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="043a-f213-63c0-6481" name="&lt; Scavenged Weapon Options &gt;" hidden="false" collective="false" import="true" targetId="de37-9a67-a070-a5b9" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d4ea-74a1-292d-2f79" name="Street Judge" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f87a-5a69-d5c7-6e16" name="Street Judge" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+          <characteristics>
+            <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
+            <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
+            <characteristic name="Shoot" typeId="6e97-95f4-e0eb-12db">+1</characteristic>
+            <characteristic name="Melee" typeId="cf74-3d3d-6b64-614e">+1</characteristic>
+            <characteristic name="Melee Dice" typeId="9343-dc2e-9ac1-7ee2">2D</characteristic>
+            <characteristic name="Will" typeId="ef2d-08b2-6882-ff2a">+1</characteristic>
+            <characteristic name="Armour" typeId="5a44-35b1-a24f-8ff5">+5</characteristic>
+            <characteristic name="Hits" typeId="7a5b-410d-f798-b64a">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="7fdd-e082-5a7f-a807" name="New CategoryLink" hidden="false" targetId="c247-c866-3c19-ef70" primary="true"/>
+        <categoryLink id="1656-6e72-707d-59bb" name="[Judge Hero]" hidden="false" targetId="cbec-7d08-dc24-9f86" primary="false"/>
+        <categoryLink id="e3af-5c2b-6da2-00c8" name="[Street Judge]" hidden="false" targetId="d2f1-0d15-d5f7-fff9" primary="false"/>
+        <categoryLink id="68da-862e-3450-a0e1" name="[Apoc. War Res. Unit]" hidden="false" targetId="406b-849c-5580-1696" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7667-fa09-e2c1-7a30" name="&lt; Judge Standard Equipment &gt;" hidden="false" collective="false" import="true" targetId="af39-5234-a8fd-a216" type="selectionEntry"/>
+        <entryLink id="6977-f354-f803-8eea" name="&gt;[Judge Hero]" hidden="false" collective="false" import="true" targetId="d4b8-6141-6269-f49c" type="selectionEntry"/>
+        <entryLink id="8f0b-6b78-4483-93b6" name="&lt; Judge Equipment Options &gt; " hidden="false" collective="false" import="true" targetId="4b73-80a3-6e74-78dc" type="selectionEntryGroup"/>
+        <entryLink id="c2d2-ddcf-2dd0-a0c0" name="&lt; Scavenged Weapon Options &gt;" hidden="false" collective="false" import="true" targetId="de37-9a67-a070-a5b9" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="140.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="33a0-dd97-2568-1f3b" name="Citi-Def Soldier" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="fd86-13e7-393d-91f6" name="Citi-Def Soldier" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+          <characteristics>
+            <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
+            <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0</characteristic>
+            <characteristic name="Shoot" typeId="6e97-95f4-e0eb-12db">+1</characteristic>
+            <characteristic name="Melee" typeId="cf74-3d3d-6b64-614e">+1</characteristic>
+            <characteristic name="Melee Dice" typeId="9343-dc2e-9ac1-7ee2">2D</characteristic>
+            <characteristic name="Will" typeId="ef2d-08b2-6882-ff2a">+0</characteristic>
+            <characteristic name="Armour" typeId="5a44-35b1-a24f-8ff5">+5</characteristic>
+            <characteristic name="Hits" typeId="7a5b-410d-f798-b64a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="757e-8d84-b6e2-0f64" name="Trigger Happy" hidden="false">
+          <description>Whenever a Citi-Def soldier performs a Shoot action, he must make a Will check. If this is failed, his next action must also be a Shoot action unless an enemy engages him in Close Combat before this action can be taken. If no enemy model is in sight, he will attack the closest target, be it friend, foe or an innocent bystander!
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="c0ea-87cb-d9e1-4e9a" name="New CategoryLink" hidden="false" targetId="453a-509d-5f60-19d4" primary="true"/>
+        <categoryLink id="e923-e0a8-1e9a-7bba" name="[Min. Lv. Up]" hidden="false" targetId="4d4f-5d8c-eed7-0803" primary="false"/>
+        <categoryLink id="9727-078d-4414-81b3" name="[Citi-Def Soldier]" hidden="false" targetId="ea4a-1cdd-0b24-aaf7" primary="false"/>
+        <categoryLink id="8494-67e9-38a1-d71f" name="[Apoc. War Res. Unit]" hidden="false" targetId="406b-849c-5580-1696" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5fda-e407-928b-9b5c" name="Shell Jacket" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c00-d29e-b745-82b6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77e9-3a72-5de2-2b51" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7ef8-cacf-a42f-4b25" name="Shell Jacket" hidden="false" typeId="c941-e5bc-0796-536b" typeName="Armour">
+              <characteristics>
+                <characteristic name="Save" typeId="0dc2-16f5-65da-00c6">+5</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="88df-4a08-050b-029a" name="Spit Gun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ac1-628f-a4c5-bb02" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25c6-3c42-d9a7-d933" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="8e6c-cd7e-b8af-2f21" name="Spit Gun" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">20&quot;</characteristic>
+                <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">3D</characteristic>
+                <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">1</characteristic>
+                <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">-2</characteristic>
+                <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4972-027e-f471-8051" name="&lt; Upgrade to level 1 Hero &gt;" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="1c72-44a4-f2c2-08a9" name="&lt; Level Upgrade &gt;" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e618-0171-580a-0c41" name="&lt; Scavenged Weapon Options &gt;" hidden="false" collective="false" import="true" targetId="de37-9a67-a070-a5b9" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="70.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="de37-9a67-a070-a5b9" name="&lt; Scavenged Weapon Options &gt;" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac5a-d4f9-f203-5247" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="e575-d26c-2d2e-de50" name="Krashnikov 99 Sidearm" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="ab77-9222-fa4f-943f" name="&gt;Krashnikov 99 Sidearm" hidden="false" typeId="2398-f308-475c-f428" typeName="&lt;4 Krashnikov 99 Sidearm">
+              <characteristics>
+                <characteristic name="Range" typeId="e1ee-8eee-eb85-646c">15&quot;	</characteristic>
+                <characteristic name="Shooting Dice" typeId="a6a3-122b-eee6-404d">-</characteristic>
+                <characteristic name="Damage" typeId="2dfd-dfac-bbcf-9d82">-</characteristic>
+                <characteristic name="AP" typeId="f8b3-ccb8-b36b-4825">-</characteristic>
+                <characteristic name="Special Rules" typeId="666f-d8b5-be02-7301">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e256-aa24-cac6-9e68" name="Energy Pulse" hidden="false" typeId="2398-f308-475c-f428" typeName="&lt;4 Krashnikov 99 Sidearm">
+              <characteristics>
+                <characteristic name="Range" typeId="e1ee-8eee-eb85-646c">-</characteristic>
+                <characteristic name="Shooting Dice" typeId="a6a3-122b-eee6-404d">2D</characteristic>
+                <characteristic name="Damage" typeId="2dfd-dfac-bbcf-9d82">2</characteristic>
+                <characteristic name="AP" typeId="f8b3-ccb8-b36b-4825">-3</characteristic>
+                <characteristic name="Special Rules" typeId="666f-d8b5-be02-7301">Complex</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="2a1b-f462-0652-e09b" name="Standard Execution" hidden="false" typeId="2398-f308-475c-f428" typeName="&lt;4 Krashnikov 99 Sidearm">
+              <characteristics>
+                <characteristic name="Range" typeId="e1ee-8eee-eb85-646c">-</characteristic>
+                <characteristic name="Shooting Dice" typeId="a6a3-122b-eee6-404d">3D</characteristic>
+                <characteristic name="Damage" typeId="2dfd-dfac-bbcf-9d82">2</characteristic>
+                <characteristic name="AP" typeId="f8b3-ccb8-b36b-4825">-1</characteristic>
+                <characteristic name="Special Rules" typeId="666f-d8b5-be02-7301">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4750-4479-767d-ead3" name="Krashnikov 97 carbine" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="2c80-5b99-1f21-6f37" name="&gt;Krashnikov 97 Carbine" hidden="false" typeId="fffe-a4da-e728-4945" typeName="&lt;4 Krashnikov 97 Carbine">
+              <characteristics>
+                <characteristic name="Range" typeId="e22e-76de-da95-3ba9">24&quot;</characteristic>
+                <characteristic name="Shooting Dice" typeId="150c-c994-1413-7369">-</characteristic>
+                <characteristic name="Damage" typeId="a384-8572-759f-4c0e">-</characteristic>
+                <characteristic name="AP" typeId="048c-faac-a8e2-937d">-</characteristic>
+                <characteristic name="Special Rules" typeId="f4ba-c03e-b6f7-21a1">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="199c-4a21-b0d9-e913" name="Energy Pulse" hidden="false" typeId="fffe-a4da-e728-4945" typeName="&lt;4 Krashnikov 97 Carbine">
+              <characteristics>
+                <characteristic name="Range" typeId="e22e-76de-da95-3ba9">-</characteristic>
+                <characteristic name="Shooting Dice" typeId="150c-c994-1413-7369">2D</characteristic>
+                <characteristic name="Damage" typeId="a384-8572-759f-4c0e">2</characteristic>
+                <characteristic name="AP" typeId="048c-faac-a8e2-937d">-4</characteristic>
+                <characteristic name="Special Rules" typeId="f4ba-c03e-b6f7-21a1">Complex</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0655-96ab-b0ba-1990" name="Standard Execution" hidden="false" typeId="fffe-a4da-e728-4945" typeName="&lt;4 Krashnikov 97 Carbine">
+              <characteristics>
+                <characteristic name="Range" typeId="e22e-76de-da95-3ba9">-</characteristic>
+                <characteristic name="Shooting Dice" typeId="150c-c994-1413-7369">4D</characteristic>
+                <characteristic name="Damage" typeId="a384-8572-759f-4c0e">2</characteristic>
+                <characteristic name="AP" typeId="048c-faac-a8e2-937d">-1</characteristic>
+                <characteristic name="Special Rules" typeId="f4ba-c03e-b6f7-21a1">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="70.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="58f3-01b0-a6ff-6c48" name="Flamethrower" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fe5-e98f-b8b1-3b39" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c1c3-873f-58a5-345e" name="Flamethrower" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">8&quot;</characteristic>
+                <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">6D</characteristic>
+                <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">1</characteristic>
+                <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">+0</characteristic>
+                <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">Fire, Spray</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b168-483b-f919-5477" name="Fire" hidden="false" targetId="18fd-a5af-bc8e-ffd1" type="rule"/>
+            <infoLink id="32fa-f0e2-3a7e-57c8" name="Spray" hidden="false" targetId="3982-db5b-c6b4-b418" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

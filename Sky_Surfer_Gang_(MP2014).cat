@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="6718-62df-fbb4-c575" name="Sky Surfer Gang (MP2014)" revision="1" battleScribeVersion="2.03" authorName="Vescarea" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="864f-59e4-3785-0496" name="Sky Surfer Icon" hidden="false" collective="false" import="true" targetId="94e4-be13-ce9f-a3eb" type="selectionEntry"/>
+    <entryLink id="c46c-c1a0-456f-2a77" name="Sky Surfer Juve" hidden="false" collective="false" import="true" targetId="d5d8-541a-45a3-e154" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="d5d8-541a-45a3-e154" name="Sky Surfer Juve" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="b531-159a-2dea-982a" name="Sky Surfer Juve" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+          <characteristics>
+            <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
+            <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
+            <characteristic name="Shoot" typeId="6e97-95f4-e0eb-12db">-1</characteristic>
+            <characteristic name="Melee" typeId="cf74-3d3d-6b64-614e">-1</characteristic>
+            <characteristic name="Melee Dice" typeId="9343-dc2e-9ac1-7ee2">2D</characteristic>
+            <characteristic name="Will" typeId="ef2d-08b2-6882-ff2a">+0</characteristic>
+            <characteristic name="Armour" typeId="5a44-35b1-a24f-8ff5">+0</characteristic>
+            <characteristic name="Hits" typeId="7a5b-410d-f798-b64a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ea97-64bb-01b2-db97" name="2&lt; Flyer Minion" hidden="false" targetId="0754-7c40-11d2-254b" primary="true"/>
+        <categoryLink id="a6dd-ec4a-b33b-7c18" name="[Sky Surfer Juve]" hidden="false" targetId="b3ba-38a2-298e-4b77" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="768d-f265-fe2c-50d6" name="&lt; May be purchased up to 25 Credits of: &gt;" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7050-d84b-55ff-d52f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15f4-2983-6764-8316" type="max"/>
+            <constraint field="Credits" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5b05-e794-9fa1-3496" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="88f4-e749-fae9-12a3" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="03a8-7b09-f44c-9784" name="Power Board" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2348-c784-d215-47fa" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee2b-fc49-11de-a704" type="min"/>
+          </constraints>
+          <rules>
+            <rule id="e799-6045-7880-65ad" name="Power Board" hidden="false">
+              <description>A model with a power board has a Move of 20”, becomes a Flyer and gains a +1 bonus to Agility. A power boarding model may only use grenades or pistol weapons, and may never dual wield them. It may also never perform a Melee action, though it may still be attacked by other models in close combat. </description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="75.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="94e4-be13-ce9f-a3eb" name="Sky Surfer Icon" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0524-0cf7-4691-0df2" name="Sky Surfer Icon" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+          <characteristics>
+            <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
+            <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
+            <characteristic name="Shoot" typeId="6e97-95f4-e0eb-12db">+0</characteristic>
+            <characteristic name="Melee" typeId="cf74-3d3d-6b64-614e">+0</characteristic>
+            <characteristic name="Melee Dice" typeId="9343-dc2e-9ac1-7ee2">2D</characteristic>
+            <characteristic name="Will" typeId="ef2d-08b2-6882-ff2a">+1</characteristic>
+            <characteristic name="Armour" typeId="5a44-35b1-a24f-8ff5">+0</characteristic>
+            <characteristic name="Hits" typeId="7a5b-410d-f798-b64a">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9dbd-76b2-a65c-6a8b" name="New CategoryLink" hidden="false" targetId="9520-30d3-a8bf-f53d" primary="true"/>
+        <categoryLink id="c2b7-1621-a6ac-22d3" name="[Sky Surfer Icon]" hidden="false" targetId="21a7-1914-ae74-b0a6" primary="false"/>
+        <categoryLink id="26ef-38fb-6e84-45b6" name="[Hero]" hidden="false" targetId="190b-65e3-d23a-1371" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="855b-4df5-625e-36b2" name="&lt; May be purchased up to 50 Credits of: &gt;" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5915-ba06-36cd-9bd7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54e5-3904-1a5c-af6c" type="max"/>
+            <constraint field="Credits" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="91bc-bf9b-3b5d-0ccd" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="67c6-f221-622f-5fbf" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a84b-3e0d-04bd-fd43" name="Power Board" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c448-3ea0-e18d-b4c2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af2a-da5b-6f76-59ad" type="min"/>
+          </constraints>
+          <rules>
+            <rule id="9c13-da90-f60b-ea8c" name="Power Board" hidden="false">
+              <description>A model with a power board has a Move of 20”, becomes a Flyer and gains a +1 bonus to Agility. A power boarding model may only use grenades or pistol weapons, and may never dual wield them. It may also never perform a Melee action, though it may still be attacked by other models in close combat. </description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="75.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="09b7-497e-99cb-1ef0" name="&gt;[Hero]" hidden="false" collective="false" import="true" targetId="6dc9-6556-f642-6c0e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="125.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

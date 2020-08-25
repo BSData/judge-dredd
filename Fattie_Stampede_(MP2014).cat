@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a809-da7b-3b08-11b9" name="Fattie Stampede (MP2014)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a809-da7b-3b08-11b9" name="Fattie Stampede (MP2014)" revision="1" battleScribeVersion="2.03" authorName="Vescarea" authorContact="" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="4007-8501-7b1a-c289" name="Fats Fan" hidden="false" collective="false" import="true" targetId="c5cd-8b71-7784-4b4e" type="selectionEntry"/>
     <entryLink id="6f91-6c3a-0fe8-c285" name="Fattie" hidden="false" collective="false" import="true" targetId="6dea-d162-165c-1976" type="selectionEntry"/>
@@ -7,7 +7,7 @@
   <sharedSelectionEntries>
     <selectionEntry id="6dea-d162-165c-1976" name="Fattie" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="8766-26f7-7581-1a8a" name="Fattie" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+        <profile id="8766-26f7-7581-1a8a" name="Fattie" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">3&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">-2</characteristic>
@@ -87,7 +87,7 @@
     </selectionEntry>
     <selectionEntry id="c5cd-8b71-7784-4b4e" name="Fats Fan" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="3c9a-4452-89bf-2b5d" name="Fats Fan" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+        <profile id="3c9a-4452-89bf-2b5d" name="Fats Fan" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0</characteristic>

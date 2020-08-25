@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c250-f995-a6b7-6b94" name="The Justice Department (MP2014)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c250-f995-a6b7-6b94" name="The Justice Department (MP2014)" revision="1" battleScribeVersion="2.03" authorName="Vescarea" authorContact="" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="6565-d79d-a40b-c8ad" name="Psi-Judge" hidden="false" collective="false" import="true" targetId="97c4-fb7b-cb3a-d330" type="selectionEntry"/>
     <entryLink id="300f-45f9-aada-6e0b" name="Street Judge" hidden="false" collective="false" import="true" targetId="e9c0-c8d6-cb63-dc97" type="selectionEntry"/>
@@ -9,7 +9,7 @@
   <sharedSelectionEntries>
     <selectionEntry id="e9c0-c8d6-cb63-dc97" name="Street Judge" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="d899-1bf4-3ff0-d6af" name="Street Judge" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+        <profile id="d899-1bf4-3ff0-d6af" name="Street Judge" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
@@ -44,7 +44,7 @@
     </selectionEntry>
     <selectionEntry id="97c4-fb7b-cb3a-d330" name="Psi-Judge" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="1f96-6130-75eb-d66e" name="Psi-Judge" hidden="false" typeId="6175-c29b-2daa-5fa4" typeName="&lt;0 Psi Infantry">
+        <profile id="1f96-6130-75eb-d66e" name="Psi-Judge" hidden="false" typeId="6175-c29b-2daa-5fa4" typeName="&lt;0 Psi Model">
           <characteristics>
             <characteristic name="Move" typeId="da22-dc43-c4b1-e93b">5&quot;</characteristic>
             <characteristic name="Agility" typeId="913c-3b85-1f70-b8db">+1</characteristic>
@@ -79,7 +79,7 @@
     </selectionEntry>
     <selectionEntry id="f8c5-04e6-b520-9347" name="Riot Judge" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="ab52-b37d-b111-ac64" name="Riot Judge" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+        <profile id="ab52-b37d-b111-ac64" name="Riot Judge" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
@@ -118,7 +118,7 @@
     </selectionEntry>
     <selectionEntry id="e249-8971-3c28-5034" name="Rookie Judge" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="0e84-caad-397b-e782" name="Rookie Judge" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+        <profile id="0e84-caad-397b-e782" name="Rookie Judge" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>

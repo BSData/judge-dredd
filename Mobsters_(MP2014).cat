@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ac5e-7fa4-dbbd-ef80" name="Mobsters (2014)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ac5e-7fa4-dbbd-ef80" name="Mobsters (2014)" revision="1" battleScribeVersion="2.03" authorName="Vescarea" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="f339-aa5c-1e01-63dd" name="Assassinator Droid" hidden="false" collective="false" import="true" targetId="07b5-cd58-bc86-4bc3" type="selectionEntry"/>
-    <entryLink id="efad-2898-4f04-b8b7" name="Blitzer" hidden="false" collective="false" import="true" targetId="efa6-df56-7312-b66a" type="selectionEntry"/>
+    <entryLink id="efad-2898-4f04-b8b7" name="Gangster" hidden="false" collective="false" import="true" targetId="0c3f-3231-e04e-4f42" type="selectionEntry"/>
     <entryLink id="8a8e-cd91-539a-9d5d" name="Punk" hidden="false" collective="false" import="true" targetId="e318-83d7-bcd9-3171" type="selectionEntry"/>
     <entryLink id="beb1-4782-5ee7-c1a1" name="Nero Narcos" hidden="false" collective="false" import="true" targetId="2577-508a-d933-7e9f" type="selectionEntry"/>
     <entryLink id="eb35-011c-a81a-2e57" name="Assassin" hidden="false" collective="false" import="true" targetId="7cb6-4c2b-a8c4-9185" type="selectionEntry"/>
+    <entryLink id="1829-a1d3-f0ea-0706" name="Blitzer" hidden="false" collective="false" import="true" targetId="efa6-df56-7312-b66a" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="7cb6-4c2b-a8c4-9185" name="Assassin" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="0b2f-8974-3192-f618" name="Assassin" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+        <profile id="0b2f-8974-3192-f618" name="Assassin" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;	</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0</characteristic>
@@ -52,7 +53,7 @@
     </selectionEntry>
     <selectionEntry id="07b5-cd58-bc86-4bc3" name="Assassinator Droid" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="6119-3fc8-2b9b-e74c" name="Assassinator Droid" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+        <profile id="6119-3fc8-2b9b-e74c" name="Assassinator Droid" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">6&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0	</characteristic>
@@ -144,7 +145,7 @@
     </selectionEntry>
     <selectionEntry id="efa6-df56-7312-b66a" name="Blitzer" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="1e4d-570f-8200-164c" name="Blitzer" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+        <profile id="1e4d-570f-8200-164c" name="Blitzer" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">4&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0</characteristic>
@@ -187,7 +188,7 @@
     </selectionEntry>
     <selectionEntry id="0c3f-3231-e04e-4f42" name="Gangster" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="da2f-787a-fddc-8e0d" name="Gangster" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+        <profile id="da2f-787a-fddc-8e0d" name="Gangster" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
@@ -232,16 +233,17 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="92d0-9b55-83cd-a29a" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6512-32e9-c621-e236" name="Nero Narcos" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+        <profile id="6512-32e9-c621-e236" name="Nero Narcos" hidden="false" typeId="986a-d875-9131-b046" typeName="&lt;0 Model ">
           <characteristics>
-            <characteristic name="Move" typeId="247a-4650-f3d4-51bf">6&quot;</characteristic>
-            <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+2</characteristic>
-            <characteristic name="Shoot" typeId="6e97-95f4-e0eb-12db">+2</characteristic>
-            <characteristic name="Melee" typeId="cf74-3d3d-6b64-614e">+2</characteristic>
-            <characteristic name="Melee Dice" typeId="9343-dc2e-9ac1-7ee2">3D</characteristic>
-            <characteristic name="Will" typeId="ef2d-08b2-6882-ff2a">+3</characteristic>
-            <characteristic name="Armour" typeId="5a44-35b1-a24f-8ff5">+6</characteristic>
-            <characteristic name="Hits" typeId="7a5b-410d-f798-b64a">5</characteristic>
+            <characteristic name="Lv" typeId="6a75-01c6-5a91-2acd">3</characteristic>
+            <characteristic name="Move " typeId="2020-6563-6c28-4484">6&quot;	</characteristic>
+            <characteristic name="Agility " typeId="1cf5-be6a-9794-7127">+2</characteristic>
+            <characteristic name="Shoot" typeId="b034-29af-1ad0-06b5">+2</characteristic>
+            <characteristic name="Melee" typeId="3886-c346-31e4-4deb">+2</characteristic>
+            <characteristic name="Melee Dice" typeId="0035-8fa2-ff3c-255d">3D</characteristic>
+            <characteristic name="Will" typeId="5ada-807c-fcee-01df">+3</characteristic>
+            <characteristic name="Armour" typeId="0868-4ab5-af67-12e1">5</characteristic>
+            <characteristic name="Hits" typeId="cb4d-92e9-47f0-7368">5</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -271,17 +273,130 @@
             <cost name=" Credits" typeId="Credits" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="472e-2042-c604-5705" name="Talents" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12f3-4e26-b75e-34d4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fef-80df-10a9-fe60" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9d41-563a-e233-9c3f" name="2.0&gt; Crackshot" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0804-b0eb-c0a0-1bee" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21c3-4de7-5dcd-08bd" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="cbc4-782f-5aed-0fd7" name="2.0&gt; Crackshot" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Gunslinger</characteristic>
+                    <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">2.0</characteristic>
+                    <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                    <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                    <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                    <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Adept at pinpointing the weak points in an enemy’s armour, the Hero makes a mockery of any light protection. Every shooting weapon the model uses gains a –1 bonus to its AP score. This Talent may not be used with weapons that have the Spray or Explosive special rules.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8ec2-1850-1bd7-42e5" name="1&gt; Fixer" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aff3-7d9c-dbef-bb01" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4595-388e-85dc-c223" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="e409-b3ca-a72c-c1fa" name="1&gt; Fixer" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Connected</characteristic>
+                    <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1</characteristic>
+                    <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                    <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Campaign</characteristic>
+                    <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                    <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Hero has connections and can always call in a favour. Every battle, one Mercenary may be used regardless of whether the force is out-matched by its enemy or not,  and they will deduct half their normal cost from the revenue the force receives after the battle is complete. The maximum cost of the Mercenary is 100 Credits for every level the Hero has.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="59d7-7439-cc11-66a3" name="1&gt; Agile" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca03-d544-13f7-efeb" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b278-03e3-91d9-ff61" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="ccba-fefe-297f-1a50" name="1&gt; Agile" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Swift and Deadly</characteristic>
+                    <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1</characteristic>
+                    <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                    <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                    <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">Agility +1 or higher</characteristic>
+                    <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Lithe and nimble, the Hero may re-roll any failed Agility checks. This does not include rolls where you add Agility to avoid being hit in combat! A check is where you need to roll 6 or more on a dice for success after adding your Agility.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8b47-9525-e928-072f" name="1.1&gt; Close Combat Shooter" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62fa-13bd-2401-7c8c" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ed0-81f7-c93a-bdf9" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="9acd-7753-0c45-a07e" name="1.1&gt; Close Combat Shooter" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Gunslinger</characteristic>
+                    <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1.1</characteristic>
+                    <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                    <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                    <characteristic name="Pre-req." typeId="930f-9f47-8537-2256"/>
+                    <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Experience fighting in tight quarters has taught the Hero to fire without interruption, even when being attacked. He may perform Shoot actions with pistol weapons even if an enemy is in contact with him.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="21a8-897d-9032-857f" name="1.0&gt; Accurate" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdbb-dcea-018a-8fb6" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c17d-068d-aaa8-3344" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="3bf8-57ca-d592-36f8" name="1.0&gt; Accurate" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Gunslinger</characteristic>
+                    <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1.0</characteristic>
+                    <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                    <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Shoot)</characteristic>
+                    <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">Shoot +1 or higher</characteristic>
+                    <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Long hours training as a marksman have paid off. The Hero may re-roll any shooting attack that misses. This may only be used with weapons that have just one Shooting Dice and may not be used with weapons that have the Spray or Explosive special rules. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="6b91-e8c4-31e5-4ca7" name="&gt;[Hero]" hidden="false" collective="false" import="true" targetId="6dc9-6556-f642-6c0e" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name=" Credits" typeId="Credits" value="195.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e318-83d7-bcd9-3171" name="Punk" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="783a-57c4-8767-61c9" name="Punk" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+        <profile id="783a-57c4-8767-61c9" name="Punk" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0</characteristic>

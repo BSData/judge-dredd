@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bbac-5b9b-642a-d7a7" name="Ape Gang (MP2014)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bbac-5b9b-642a-d7a7" name="Ape Gang (MP2014)" revision="1" battleScribeVersion="2.03" authorName="Vescarea" authorContact="" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="2cdd-907a-803b-3ba8" name="Chimp" hidden="false" collective="false" import="true" targetId="7f27-5200-327e-7867" type="selectionEntry"/>
     <entryLink id="5b0d-6d21-4cbc-7c17" name="Gorilla" hidden="false" collective="false" import="true" targetId="a0dd-3516-94a6-b251" type="selectionEntry"/>
@@ -8,7 +8,7 @@
   <sharedSelectionEntries>
     <selectionEntry id="7f27-5200-327e-7867" name="Chimp" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="385c-5970-916e-cc68" name="Chimp" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+        <profile id="385c-5970-916e-cc68" name="Chimp" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">6&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
@@ -70,7 +70,7 @@
     </selectionEntry>
     <selectionEntry id="5392-2d25-c3eb-8533" name="Orang-utan" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="6049-7315-d07b-a39b" name="Orang-utan" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+        <profile id="6049-7315-d07b-a39b" name="Orang-utan" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0</characteristic>
@@ -132,7 +132,7 @@
     </selectionEntry>
     <selectionEntry id="a0dd-3516-94a6-b251" name="Gorilla" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="dc15-c837-2aaf-13c5" name="Gorilla" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+        <profile id="dc15-c837-2aaf-13c5" name="Gorilla" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">6&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+2</characteristic>

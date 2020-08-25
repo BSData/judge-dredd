@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1970-6ae0-db0b-35fc" name="The Citi-Def (MP2014)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1970-6ae0-db0b-35fc" name="The Citi-Def (MP2014)" revision="1" battleScribeVersion="2.03" authorName="Vescarea" authorContact="" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="64a4-d4d6-0cd0-6cda" name="Citi-Def Medtech" hidden="false" collective="false" import="true" targetId="5da1-6483-84df-0848" type="selectionEntry"/>
     <entryLink id="3dee-f1fd-bb1f-50d1" name="Citi-Def Officer" hidden="false" collective="false" import="true" targetId="3426-03ad-9d6d-b796" type="selectionEntry"/>
@@ -9,7 +9,7 @@
   <sharedSelectionEntries>
     <selectionEntry id="3426-03ad-9d6d-b796" name="Citi-Def Officer" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="8780-94df-127d-b3fa" name="Citi-Def Officer" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+        <profile id="8780-94df-127d-b3fa" name="Citi-Def Officer" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0</characteristic>
@@ -26,7 +26,7 @@
         <infoGroup id="a89b-6d17-a021-aea8" name="CD Officer " hidden="false">
           <rules>
             <rule id="60d2-f130-3e84-ce83" name="Rallying Cry" hidden="false">
-              <description>So long as the officer is still on the table, all failedWill to Fight checks for all friendly models may be re-rolled.</description>
+              <description>So long as the officer is still on the table, all failed Will to Fight checks for all friendly models may be re-rolled.</description>
             </rule>
             <rule id="e363-8b12-e5e9-11bf" name="True Leader" hidden="false">
               <description>Everyone in the Citi-Def unitlooks up to the officer, trusting him to see them through the worst fire fights. Any friendly model within 15&quot; and in line of sight of the officer may use his Will score instead of their own for any Will check, including Arrest checks.</description>
@@ -48,12 +48,12 @@
           <profiles>
             <profile id="4008-e53d-58f0-e071" name="Shell Jacket" hidden="false" typeId="c941-e5bc-0796-536b" typeName="Armour">
               <characteristics>
-                <characteristic name="New CharacteristicType" typeId="0dc2-16f5-65da-00c6">+5</characteristic>
+                <characteristic name="Save" typeId="0dc2-16f5-65da-00c6">+5</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=".Credits" typeId="Credits" value="0.0"/>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -87,7 +87,7 @@
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=".Credits" typeId="Credits" value="0.0"/>
+                    <cost name=" Credits" typeId="Credits" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="aad1-c1d9-2b98-4e7c" name="Spit Gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -103,7 +103,7 @@
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=".Credits" typeId="Credits" value="30.0"/>
+                    <cost name=" Credits" typeId="Credits" value="30.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -115,12 +115,12 @@
         <entryLink id="bdd3-9654-a109-1b3c" name="&gt;[Hero]" hidden="false" collective="false" import="true" targetId="6dc9-6556-f642-6c0e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=".Credits" typeId="Credits" value="95.0"/>
+        <cost name=" Credits" typeId="Credits" value="95.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5da1-6483-84df-0848" name="Citi-Def Medtech" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="e56e-2264-46bb-4106" name="Citi-Def Medtech" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+        <profile id="e56e-2264-46bb-4106" name="Citi-Def Medtech" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">6&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+2</characteristic>
@@ -161,7 +161,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=".Credits" typeId="Credits" value="0.0"/>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3c5c-8076-8a83-6b07" name="Medi-kit" hidden="false" collective="false" import="true" type="upgrade">
@@ -175,7 +175,7 @@
             </rule>
           </rules>
           <costs>
-            <cost name=".Credits" typeId="Credits" value="0.0"/>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1ffa-869b-25b1-0c0a" name="Pad Armour" hidden="false" collective="false" import="true" type="upgrade">
@@ -186,12 +186,12 @@
           <profiles>
             <profile id="bc30-ac80-e8d9-0e6c" name="Pad Armour" hidden="false" typeId="c941-e5bc-0796-536b" typeName="Armour">
               <characteristics>
-                <characteristic name="New CharacteristicType" typeId="0dc2-16f5-65da-00c6">+4</characteristic>
+                <characteristic name="Save" typeId="0dc2-16f5-65da-00c6">+4</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=".Credits" typeId="Credits" value="0.0"/>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -211,12 +211,12 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=".Credits" typeId="Credits" value="80.0"/>
+        <cost name=" Credits" typeId="Credits" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d758-4e6e-1985-675c" name="Citi-Def Soldier" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="e41a-d5f8-ebc3-1c26" name="Citi-Def Soldier" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+        <profile id="e41a-d5f8-ebc3-1c26" name="Citi-Def Soldier" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0</characteristic>
@@ -249,12 +249,12 @@
           <profiles>
             <profile id="7699-3013-3e36-bc2f" name="Shell Jacket" hidden="false" typeId="c941-e5bc-0796-536b" typeName="Armour">
               <characteristics>
-                <characteristic name="New CharacteristicType" typeId="0dc2-16f5-65da-00c6">+5</characteristic>
+                <characteristic name="Save" typeId="0dc2-16f5-65da-00c6">+5</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=".Credits" typeId="Credits" value="0.0"/>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -279,12 +279,12 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=".Credits" typeId="Credits" value="100.0"/>
+        <cost name=" Credits" typeId="Credits" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1cd1-b1bf-775a-ebd4" name="Jaeger Squad Commando" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="9a6d-b92e-c3e2-e625" name="Jaeger Squad Commando" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Infantry">
+        <profile id="9a6d-b92e-c3e2-e625" name="Jaeger Squad Commando" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">6&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
@@ -319,12 +319,12 @@
           <profiles>
             <profile id="e190-166f-5873-1ffb" name="Shell Jacket" hidden="false" typeId="c941-e5bc-0796-536b" typeName="Armour">
               <characteristics>
-                <characteristic name="New CharacteristicType" typeId="0dc2-16f5-65da-00c6">+5</characteristic>
+                <characteristic name="Save" typeId="0dc2-16f5-65da-00c6">+5</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=".Credits" typeId="Credits" value="0.0"/>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5ada-04ec-7e6b-172f" name="Respirator" hidden="false" collective="false" import="true" type="upgrade">
@@ -338,7 +338,7 @@
             </rule>
           </rules>
           <costs>
-            <cost name=".Credits" typeId="Credits" value="0.0"/>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9272-0572-cdb9-2149" name="Knife" hidden="false" collective="false" import="true" type="upgrade">
@@ -356,7 +356,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=".Credits" typeId="Credits" value="0.0"/>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c480-343d-4ce6-f80d" name="Spit Pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -376,7 +376,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=".Credits" typeId="Credits" value="0.0"/>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -394,7 +394,7 @@
         <entryLink id="3c11-28af-9d75-3e72" name="&gt;[Hero]" hidden="false" collective="false" import="true" targetId="6dc9-6556-f642-6c0e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=".Credits" typeId="Credits" value="175.0"/>
+        <cost name=" Credits" typeId="Credits" value="175.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
