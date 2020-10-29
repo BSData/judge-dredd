@@ -21,7 +21,8 @@ Talent shared entry groups replaced by entries and created for 4 individual type
 15/08/2020
 Talent rules implemented.
 Talent layout as entry groups in profile (Using entries is noviable as they are included in the max/ min selections).
-
+29/10/2020
+Removed "Dial" from Mood Dial Profile type
 
 Street Gang Cat. 
 07/04/2020
@@ -74,3 +75,7 @@ Lone Vigilante
 Added only selection.
 29/06/2020
 Added 6 entries (2 lv1/ 2 lv2/ 2 lv3 (Hero and Psi).
+
+The Angel Gang
+29/10/2020
+Added main selections

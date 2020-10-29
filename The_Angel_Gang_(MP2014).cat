@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="896f-fb95-46b3-6b00" name="The Angel Gang (MP2014)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="1a8a-4ddb-7bb3-23d5" name="Fink Angel" hidden="false" collective="false" import="true" targetId="96f0-4711-da4f-a783" type="selectionEntry"/>
+    <entryLink id="bda5-477d-8c91-536b" name="Junior Angel" hidden="false" collective="false" import="true" targetId="6be4-230b-dec8-63c9" type="selectionEntry"/>
+    <entryLink id="20e7-99f0-fb87-472d" name="Link Angel" hidden="false" collective="false" import="true" targetId="4378-d341-8b99-fa96" type="selectionEntry"/>
+    <entryLink id="523e-4a8d-69bc-f11e" name="Mean Machine Angel" hidden="false" collective="false" import="true" targetId="b8b5-384b-219c-98b2" type="selectionEntry"/>
+    <entryLink id="bf37-0100-b671-93c6" name="Pa Angel" hidden="false" collective="false" import="true" targetId="59ba-711d-ea75-9244" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="59ba-711d-ea75-9244" name="Pa Angel" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f85c-8461-b936-be50" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6f58-dd5a-86eb-076b" name="Pa Angel" hidden="false" typeId="986a-d875-9131-b046" typeName="&lt;0 Model ">
+          <characteristics>
+            <characteristic name="Lv" typeId="6a75-01c6-5a91-2acd">5	</characteristic>
+            <characteristic name="Move " typeId="2020-6563-6c28-4484">5&quot;</characteristic>
+            <characteristic name="Agility " typeId="1cf5-be6a-9794-7127">+0</characteristic>
+            <characteristic name="Shoot" typeId="b034-29af-1ad0-06b5">+2</characteristic>
+            <characteristic name="Melee" typeId="3886-c346-31e4-4deb">+1</characteristic>
+            <characteristic name="Melee Dice" typeId="0035-8fa2-ff3c-255d">3D</characteristic>
+            <characteristic name="Will" typeId="5ada-807c-fcee-01df">+3</characteristic>
+            <characteristic name="Armour" typeId="0868-4ab5-af67-12e1">+3</characteristic>
+            <characteristic name="Hits" typeId="cb4d-92e9-47f0-7368">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ec08-766a-1a63-2df0" name="1&lt; Inf. Hero" hidden="false" targetId="c247-c866-3c19-ef70" primary="true"/>
+        <categoryLink id="8eb8-cc9e-5a81-ca47" name="[Hero]" hidden="false" targetId="190b-65e3-d23a-1371" primary="false"/>
+        <categoryLink id="d2a3-f588-b4d1-3561" name="[Lv05]" hidden="false" targetId="34c5-2ae5-b493-4b52" primary="false"/>
+        <categoryLink id="9a14-ffdd-abcd-afc1" name="[Pa Angel]" hidden="false" targetId="3fb7-b722-c4f8-4673" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0c83-5167-aa44-18f2" name="Talents" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e9c-d0e1-5578-e6fd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3859-0845-04eb-a89b" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3547-b6f9-3f88-b620" name="2.0&gt; Crackshot" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26f8-3821-a0cd-1b08" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39f6-fccb-c326-d923" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="c760-12f0-b13c-3fc5" name="2.0&gt; Crackshot" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Gunslinger</characteristic>
+                    <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">2.0</characteristic>
+                    <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                    <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                    <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                    <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Adept at pinpointing the weak points in an enemy’s armour, the Hero makes a mockery of any light protection. Every shooting weapon the model uses gains a –1 bonus to its AP score. This Talent may not be used with weapons that have the Spray or Explosive special rules.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1e30-b18f-8696-f5f2" name="1.1&gt; Close Combat Shooter" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="914e-03af-e756-7ceb" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b39a-7082-8d08-9344" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="c623-8dd5-db4d-a83f" name="1.1&gt; Close Combat Shooter" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Gunslinger</characteristic>
+                    <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1.1</characteristic>
+                    <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                    <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                    <characteristic name="Pre-req." typeId="930f-9f47-8537-2256"/>
+                    <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Experience fighting in tight quarters has taught the Hero to fire without interruption, even when being attacked. He may perform Shoot actions with pistol weapons even if an enemy is in contact with him.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="92c7-862b-956a-9220" name="1.0&gt; Brave" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2008-782f-2fe5-4755" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7005-8f17-f339-ebc1" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="095b-634c-4f3a-2577" name="1.0&gt; Brave" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">True Hero</characteristic>
+                    <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1.0</characteristic>
+                    <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                    <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                    <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                    <characteristic name="Descr." typeId="8692-98c2-5f20-4631">There is not much that terrifies this Hero. All Will checks the Hero is called upon to make for Will to Fight purposes may be re-rolled.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a2ee-99f6-8b17-00ff" name="1.1&gt; Drokk the Law!" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fce-871f-c459-a8cd" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8f10-4699-47a0-0834" name="1.1&gt; Drokk the Law!" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">True Hero</characteristic>
+                    <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1.1</characteristic>
+                    <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                    <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                    <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                    <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Hero’s bravery is infectious, spreading to the rest of his force. All allies within 15” of the Hero may re-roll any Will check made to resist arrest</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ef26-20f2-9ecd-a48c" name="1&gt; Voice of Command" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af52-3fed-a5c1-cfa9" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="850c-d290-01ec-b9ec" name="1&gt; Voice of Command" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Leader of Men</characteristic>
+                    <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1</characteristic>
+                    <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                    <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                    <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                    <characteristic name="Descr." typeId="8692-98c2-5f20-4631">So long as the Hero is around and shouting out orders, all other models in the force become naturally more courageous and more resistant to the wiles of the enemy. Every model within 12” of the Hero gains a +1 bonus to all Will checks.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="682e-93c0-158a-34b9" name="1&gt; Fixer" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2319-0df1-8660-c3a3" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1df9-af10-5172-d74d" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="bc4c-822d-88e8-33b7" name="1&gt; Fixer" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Connected</characteristic>
+                    <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1</characteristic>
+                    <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                    <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Campaign</characteristic>
+                    <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                    <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Hero has connections and can always call in a favour. Every battle, one Mercenary may be used regardless of whether the force is out-matched by its enemy or not,  and they will deduct half their normal cost from the revenue the force receives after the battle is complete. The maximum cost of the Mercenary is 100 Credits for every level the Hero has.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a86b-8b58-a291-f0cf" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="574f-8ee7-ca1f-2405" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c496-7829-99f5-edc8" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="917e-757d-ef52-d42e" name="Leathers" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3f5-3287-b9b0-5365" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d48f-01d9-df2a-c1ce" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="1771-e1c9-1faf-f516" name="Leathers" hidden="false" typeId="c941-e5bc-0796-536b" typeName="Armour">
+                  <characteristics>
+                    <characteristic name="Save" typeId="0dc2-16f5-65da-00c6">+3</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4cc0-1665-e7f8-ad51" name="Handgun" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00f9-81ef-7ca7-fa99" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da3d-fd14-2f93-9b23" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="af63-c067-fb92-62f9" name="Handgun" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">15&quot;</characteristic>
+                    <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">1D</characteristic>
+                    <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">1</characteristic>
+                    <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">-</characteristic>
+                    <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1ce6-d10b-712b-bc16" name="Knife" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c05-990b-4d08-55aa" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c82a-2779-e553-2cb3" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="38e9-4381-e4a3-0782" name="Knife" hidden="false" typeId="80d2-e41e-4294-6fca" typeName="&lt;2 Close Combat Weapon">
+                  <characteristics>
+                    <characteristic name="Damage" typeId="d7ee-8740-c2fc-b939">1</characteristic>
+                    <characteristic name="AP" typeId="8b7a-b403-bfd7-0446">-1</characteristic>
+                    <characteristic name="Special Rules" typeId="187d-a926-b5f3-956d">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="205.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4378-d341-8b99-fa96" name="Link Angel" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcb9-ebc1-63b7-7261" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="fa81-d1c4-d26d-6dca" name="Link Angel" hidden="false" typeId="986a-d875-9131-b046" typeName="&lt;0 Model ">
+          <characteristics>
+            <characteristic name="Lv" typeId="6a75-01c6-5a91-2acd">3</characteristic>
+            <characteristic name="Move " typeId="2020-6563-6c28-4484">5&quot;</characteristic>
+            <characteristic name="Agility " typeId="1cf5-be6a-9794-7127">+0</characteristic>
+            <characteristic name="Shoot" typeId="b034-29af-1ad0-06b5">+2</characteristic>
+            <characteristic name="Melee" typeId="3886-c346-31e4-4deb">+2</characteristic>
+            <characteristic name="Melee Dice" typeId="0035-8fa2-ff3c-255d">3D</characteristic>
+            <characteristic name="Will" typeId="5ada-807c-fcee-01df">+1</characteristic>
+            <characteristic name="Armour" typeId="0868-4ab5-af67-12e1">+3</characteristic>
+            <characteristic name="Hits" typeId="cb4d-92e9-47f0-7368">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5992-ce11-6f06-3d30" name="1&lt; Inf. Hero" hidden="false" targetId="c247-c866-3c19-ef70" primary="true"/>
+        <categoryLink id="ff6b-e3ff-7baa-7cc9" name="[Hero]" hidden="false" targetId="190b-65e3-d23a-1371" primary="false"/>
+        <categoryLink id="1a4d-1390-c168-6383" name="[Link Angel]" hidden="false" targetId="a72a-eb20-1231-84c7" primary="false"/>
+        <categoryLink id="e91c-bdd9-c717-d35a" name="[Lv03]" hidden="false" targetId="58b3-d999-3d1c-9b27" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="dc42-ab55-4f7a-8b5e" name="Talents" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f68-2970-e136-adf8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62c0-676a-7f17-ccee" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="be6f-ba35-6f32-4632" name="1.0&gt; Dirty Fighting" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c62-8825-736e-3d99" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2c1-995f-253c-d7d2" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="58f6-ae02-9843-3959" name="1.0&gt; Dirty Fighting" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Alley Way Fighter</characteristic>
+                    <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1.0</characteristic>
+                    <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                    <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Melee)</characteristic>
+                    <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                    <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero tries to incapacitate a target. If the Hero causes damage against an opponent with this Melee attack, no damage is caused. Instead, the enemy must make a Will check. If the check is failed, the enemy will recieve a Stun.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cca7-6b7e-70db-db6d" name="3&gt; Deadly Strike" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="534d-e2f8-1fea-ee4a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a388-a28a-553d-251b" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="7756-3984-d2c5-57c4" name="3&gt; Deadly Strike" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Alley Way Fighter</characteristic>
+                    <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">3</characteristic>
+                    <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                    <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Activate (Melee)</characteristic>
+                    <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                    <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero makes a swift strike at a vulnerable area on the target. This attack gains an additional –2 to the AP score of the Hero’s weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9ed6-058c-404b-710a" name="2&gt; Below the Belt" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ac5-88c1-7bcc-70cc" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cfa-60ae-5f85-54c2" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="0daf-008f-8fd1-e5dc" name="2&gt; Below the Belt" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Alley Way Fighter</characteristic>
+                    <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">2</characteristic>
+                    <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                    <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Melee)</characteristic>
+                    <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                    <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero delivers a swift and unsportsmanlike kick to the target. In addition to suffering normal damage, the enemy must pass a Will check or suffer a –1 penalty to its Move and Melee scores until the end of its next Phase. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3509-67f4-9877-505c" name="1.0&gt; Accurate" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2d6-5ed8-375b-2015" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41a6-0add-f1f1-7c59" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="b00e-8bb1-0757-0719" name="1.0&gt; Accurate" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Gunslinger</characteristic>
+                    <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1.0</characteristic>
+                    <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                    <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Shoot)</characteristic>
+                    <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">Shoot +1 or higher</characteristic>
+                    <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Long hours training as a marksman have paid off. The Hero may re-roll any shooting attack that misses. This may only be used with weapons that have just one Shooting Dice and may not be used with weapons that have the Spray or Explosive special rules. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="296c-6027-0b2e-7c04" name="2.0&gt; Crackshot" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f14f-9f52-4914-7616" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57be-2260-d6ab-af79" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="ab5b-fa13-8e2f-a7d4" name="2.0&gt; Crackshot" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Gunslinger</characteristic>
+                    <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">2.0</characteristic>
+                    <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                    <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                    <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                    <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Adept at pinpointing the weak points in an enemy’s armour, the Hero makes a mockery of any light protection. Every shooting weapon the model uses gains a –1 bonus to its AP score. This Talent may not be used with weapons that have the Spray or Explosive special rules.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c3bc-3e59-6428-83f1" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31f1-ecb4-63e6-9a36" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5eb-27af-60cf-6c37" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f77f-6d30-5c0c-4b99" name="Leathers" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ceb3-08aa-891a-6918" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="731f-2ba9-00ae-5125" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="b3ab-275b-d8f8-a9fd" name="Leathers" hidden="false" typeId="c941-e5bc-0796-536b" typeName="Armour">
+                  <characteristics>
+                    <characteristic name="Save" typeId="0dc2-16f5-65da-00c6">+3</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a6fd-b9c0-80a4-2890" name="Handgun" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3720-b2b8-73c1-0299" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d7a-1925-fcaf-5bae" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="6944-844d-3b16-80bc" name="Handgun" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">15&quot;</characteristic>
+                    <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">1D</characteristic>
+                    <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">1</characteristic>
+                    <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">-</characteristic>
+                    <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d8ee-ba99-30d2-a3ff" name="Knife" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfff-5219-ebe8-12cb" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="159a-1a1a-e618-2156" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="ee2d-64db-7a5a-ce8a" name="Knife" hidden="false" typeId="80d2-e41e-4294-6fca" typeName="&lt;2 Close Combat Weapon">
+                  <characteristics>
+                    <characteristic name="Damage" typeId="d7ee-8740-c2fc-b939">1</characteristic>
+                    <characteristic name="AP" typeId="8b7a-b403-bfd7-0446">-1</characteristic>
+                    <characteristic name="Special Rules" typeId="187d-a926-b5f3-956d">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="82d8-d613-7ea5-25f4" name="Stump Gun" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d76-744f-096a-d75a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97ee-df78-ac3d-bbcd" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="96d7-40a8-9626-3dcf" name="Stump Gun" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">12&quot;</characteristic>
+                    <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">1D</characteristic>
+                    <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">1</characteristic>
+                    <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">0</characteristic>
+                    <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">Blast, Power Shot</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoGroups>
+                <infoGroup id="d01f-4000-c795-fa1f" name="New InfoGroup" hidden="false">
+                  <infoLinks>
+                    <infoLink id="864c-7378-20ea-61e6" name="Power Shot" hidden="false" targetId="d5b1-d61a-3963-24ed" type="rule"/>
+                    <infoLink id="fa77-d8c2-2dea-d46a" name="Blast" hidden="false" targetId="cea5-32bc-42ec-fe2a" type="rule"/>
+                  </infoLinks>
+                </infoGroup>
+              </infoGroups>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="75c4-53fb-9b41-c3ab" name="Hand Bombs" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81bb-2bae-62cd-f8e3" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e44e-4001-a71d-40e7" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="c8c7-cf42-097e-e86a" name="Hand Bombs" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">10&quot;</characteristic>
+                    <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">1D</characteristic>
+                    <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">1</characteristic>
+                    <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">0</characteristic>
+                    <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">Explosive 2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="2c40-f6f9-4041-efcd" name="Explosive &quot;X&quot;" hidden="false" targetId="732f-8019-c442-218b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="195.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6be4-230b-dec8-63c9" name="Junior Angel" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c37e-0ac8-3f59-a79c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0252-337b-61f8-0c69" name="Junior Angel" hidden="false" typeId="986a-d875-9131-b046" typeName="&lt;0 Model ">
+          <characteristics>
+            <characteristic name="Lv" typeId="6a75-01c6-5a91-2acd">2</characteristic>
+            <characteristic name="Move " typeId="2020-6563-6c28-4484">5&quot;</characteristic>
+            <characteristic name="Agility " typeId="1cf5-be6a-9794-7127">+1</characteristic>
+            <characteristic name="Shoot" typeId="b034-29af-1ad0-06b5">+2</characteristic>
+            <characteristic name="Melee" typeId="3886-c346-31e4-4deb">+2</characteristic>
+            <characteristic name="Melee Dice" typeId="0035-8fa2-ff3c-255d">2D</characteristic>
+            <characteristic name="Will" typeId="5ada-807c-fcee-01df">+1</characteristic>
+            <characteristic name="Armour" typeId="0868-4ab5-af67-12e1">+0</characteristic>
+            <characteristic name="Hits" typeId="cb4d-92e9-47f0-7368">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="efc5-5b69-0990-a07b" name="1&lt; Inf. Hero" hidden="false" targetId="c247-c866-3c19-ef70" primary="true"/>
+        <categoryLink id="476e-f01c-44fc-b5e9" name="[Hero]" hidden="false" targetId="190b-65e3-d23a-1371" primary="false"/>
+        <categoryLink id="c024-5e9a-4f34-729b" name="[Lv02]" hidden="false" targetId="fed5-fc32-acdd-0f8d" primary="false"/>
+        <categoryLink id="1254-1931-f3a8-8602" name="[Junior Angel]" hidden="false" targetId="0419-400f-c888-0780" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="512a-1bcb-8126-d9bb" name="Talents" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2318-faf6-366a-eae5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f50d-f716-20ad-f115" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2500-ecc3-3d79-3f0d" name="1&gt; Dual Shooter" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2de6-3586-e775-30b7" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12aa-edbc-2417-9799" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="b1b9-6f43-5dbf-ad2a" name="1&gt; Dual Shooter" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Twin Shooter</characteristic>
+                    <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1</characteristic>
+                    <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                    <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                    <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">Shoot +2 or higher</characteristic>
+                    <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero shoots with two pistol weapons simultaneously. The damage he deals gains a +1 bonus, but none of his attacks may be critical hits. Note that he still only rolls Shooting Dice for one of the Pistols (his choice which).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1a31-149c-3f0a-5d0d" name="2&gt; Dual Pistol Master" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0346-a4c5-3884-e4ba" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3078-64c5-5753-4c79" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="9af1-b0b1-1e91-0f90" name="2&gt; Dual Pistol Master" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Twin Shooter</characteristic>
+                    <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">2</characteristic>
+                    <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                    <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                    <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">Shoot +3 or higher, Agility +2 or higher</characteristic>
+                    <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero has become proficient fighting with two pistols, and now gains an extra Shooting Die with one pistol weapon when wielding another in his other hand. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="07a7-194c-29a1-ee0c" name="1&gt; Luck of Grud" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8f6-8b2a-bf4f-5b35" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a62-bf4e-494d-963d" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="5bf2-5f26-52b3-b4b7" name="1&gt; Luck of Grud" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Streetwise</characteristic>
+                    <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1</characteristic>
+                    <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                    <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                    <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                    <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Maybe the Hero was born under a lucky star, perhaps he is favoured by Grud. Whatever the reason, others look on with amazement at what the Hero gets away with, wondering how he can be so Grud-damned lucky! This Talent may be selected up to three times. The Hero gets one free re-roll per battle for every time he has taken the Talent, and this may be used for any dice roll it makes during a battle.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cd13-805f-9a98-d560" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66bb-82bb-b58a-498f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98af-59fc-e4bd-5539" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="aef8-6f1a-2e4f-1bdb" name="Hand Bombs" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2524-2401-7173-ccca" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db35-1bde-ff20-233e" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="1143-9ea2-d1c9-9586" name="Hand Bombs" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">10&quot;</characteristic>
+                    <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">1D</characteristic>
+                    <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">1</characteristic>
+                    <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">0</characteristic>
+                    <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">Explosive 2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="d344-7d37-babc-f14d" name="Explosive &quot;X&quot;" hidden="false" targetId="732f-8019-c442-218b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9b2f-b108-88c4-baf3" name="Knife" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="937c-ed67-7536-74c1" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de0f-7b4c-9a5f-7544" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="1477-b9af-961c-d925" name="Knife" hidden="false" typeId="80d2-e41e-4294-6fca" typeName="&lt;2 Close Combat Weapon">
+                  <characteristics>
+                    <characteristic name="Damage" typeId="d7ee-8740-c2fc-b939">1</characteristic>
+                    <characteristic name="AP" typeId="8b7a-b403-bfd7-0446">-1</characteristic>
+                    <characteristic name="Special Rules" typeId="187d-a926-b5f3-956d">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a551-4c03-1ff8-6192" name="Dual Handguns" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdf2-5e3d-4bcb-b77f" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="795a-4756-bca9-8d70" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="9c62-2211-0051-9fd5" name="Handgun" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">15&quot;</characteristic>
+                    <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">1D</characteristic>
+                    <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">1</characteristic>
+                    <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">-</characteristic>
+                    <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="165.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="96f0-4711-da4f-a783" name="Fink Angel" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da30-a4ae-a85f-f395" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="51d9-a2e0-7a90-56fd" name="Fink Angel" hidden="false" typeId="986a-d875-9131-b046" typeName="&lt;0 Model ">
+          <characteristics>
+            <characteristic name="Lv" typeId="6a75-01c6-5a91-2acd">8</characteristic>
+            <characteristic name="Move " typeId="2020-6563-6c28-4484">5&quot;</characteristic>
+            <characteristic name="Agility " typeId="1cf5-be6a-9794-7127">+2</characteristic>
+            <characteristic name="Shoot" typeId="b034-29af-1ad0-06b5">+1</characteristic>
+            <characteristic name="Melee" typeId="3886-c346-31e4-4deb">+3</characteristic>
+            <characteristic name="Melee Dice" typeId="0035-8fa2-ff3c-255d">3D</characteristic>
+            <characteristic name="Will" typeId="5ada-807c-fcee-01df">+2</characteristic>
+            <characteristic name="Armour" typeId="0868-4ab5-af67-12e1">+0</characteristic>
+            <characteristic name="Hits" typeId="cb4d-92e9-47f0-7368">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e1ee-376b-1cec-f3eb" name="1&lt; Inf. Hero" hidden="false" targetId="c247-c866-3c19-ef70" primary="true"/>
+        <categoryLink id="127d-9af8-af75-e2b1" name="[Hero]" hidden="false" targetId="190b-65e3-d23a-1371" primary="false"/>
+        <categoryLink id="bc5e-5c91-230b-e9bf" name="[Fink Angel]" hidden="false" targetId="b5b8-669d-8dd4-1280" primary="false"/>
+        <categoryLink id="40a7-261f-daf7-6032" name="[Lv08]" hidden="false" targetId="070f-78d8-0151-5cba" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7204-b228-2685-1fd6" name="Talents" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b83-b376-ae60-25da" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da1e-77e9-c8de-4692" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7bec-db3f-484f-5b49" name="2&gt; Below the Belt" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30d6-e86d-2dcc-4815" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e132-d556-ed13-7599" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="50d4-96c9-54a2-0755" name="2&gt; Below the Belt" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Alley Way Fighter</characteristic>
+                    <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">2</characteristic>
+                    <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                    <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Melee)</characteristic>
+                    <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                    <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero delivers a swift and unsportsmanlike kick to the target. In addition to suffering normal damage, the enemy must pass a Will check or suffer a –1 penalty to its Move and Melee scores until the end of its next Phase. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="85c4-254d-9cce-cb8e" name="3&gt; Deadly Strike" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19c5-a112-3dca-aaf6" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22bd-3bdf-32c7-a078" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="79ff-7727-e248-3327" name="3&gt; Deadly Strike" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Alley Way Fighter</characteristic>
+                    <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">3</characteristic>
+                    <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                    <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Activate (Melee)</characteristic>
+                    <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                    <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero makes a swift strike at a vulnerable area on the target. This attack gains an additional –2 to the AP score of the Hero’s weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="44f8-61da-2bb5-9354" name="1.0&gt; Dirty Fighting" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a664-0160-4f01-ea86" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8132-0d64-75dd-3f13" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="7f7d-f0dc-8943-3da4" name="1.0&gt; Dirty Fighting" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Alley Way Fighter</characteristic>
+                    <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1.0</characteristic>
+                    <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                    <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Melee)</characteristic>
+                    <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                    <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero tries to incapacitate a target. If the Hero causes damage against an opponent with this Melee attack, no damage is caused. Instead, the enemy must make a Will check. If the check is failed, the enemy will recieve a Stun.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="85ef-306b-17ff-23c7" name="4&gt; Just Plain Lethal" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d211-6501-6ed3-32ae" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc4b-8dff-3258-40cb" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="2228-23ea-96b3-efa9" name="4&gt; Just Plain Lethal" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Alley Way Fighter</characteristic>
+                    <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">4</characteristic>
+                    <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                    <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                    <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                    <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero has a keen eye for weak spots. The dice roll needed to cause a critical hit with a Melee attack (normally a 10) is always reduced by one. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a1a1-43b8-028d-86c8" name="1.1&gt; Infiltrator" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b3b-d3f7-fe17-c12e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8ff-9951-cb4e-2c7a" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="89ee-d1ca-fdbf-d027" name="1.1&gt; Infiltrator" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Sneaky Does it</characteristic>
+                    <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1.1</characteristic>
+                    <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill </characteristic>
+                    <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                    <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                    <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Skilled at infiltration, the Hero will usually sneak onto the scene of battle before either force arrives, to scope the area and get into a position of advantage. The Hero is placed on the table after all the models of both forces have been deployed. He may be placed anywhere up to 15” away from another member of its force, so long as he is not in the Line of Sight or within 15” of any enemy model. If both forces have models with this Talent, both players must roll a dice – the lowest scoring will place his models first.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7982-697b-f028-0bb5" name="2&gt; Silent Action" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a7a-4131-e6f9-7a18" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eeec-87d9-b721-3399" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="ebbe-12bb-b26d-034f" name="2&gt; Silent Action" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Sneaky Does it</characteristic>
+                    <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">2</characteristic>
+                    <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                    <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Activate (Move or Special)</characteristic>
+                    <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                    <characteristic name="Descr." typeId="8692-98c2-5f20-4631">While using Stealthy, the Hero may use perform quiet actions without revealing himself. After performing a Special action to activate Stealthy, the Hero may then choose either a Move or Special action without revealing himself.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9ce4-c890-e61c-f1e3" name="3&gt; Silent Killer" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b09-f014-342b-5572" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d0b-e824-c1ed-b1b7" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="e91b-1564-be8f-673c" name="3&gt; Silent Killer" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Sneaky Does it</characteristic>
+                    <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">3</characteristic>
+                    <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                    <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Activate</characteristic>
+                    <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                    <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Hero may now take Shoot and Melee actions while using Stealthy. However, he suffers a –1 penalty to his Melee and Shoot scores while doing so. If the Hero attacks while using Stealthy, he will automatically cause a critical hit. However, he will automatically break his Stealth as soon as the attack has been completed.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3a6d-f744-7ea6-4aa0" name="1.0&gt; Stealthy" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a512-2ffb-7bac-b6cf" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e02e-3bed-14e1-becc" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="65c7-52b7-d5ae-661b" name="1.0&gt; Stealthy" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Sneaky Does it</characteristic>
+                    <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1.0</characteristic>
+                    <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                    <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Activate (Move)</characteristic>
+                    <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                    <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Hero has learned to fade from view. Until the beginning of the Hero’s next Phase, enemies within 20” wishing to take any action against the Hero must succeed at an opposed Will check. If one enemy succeeds, then the Hero is no longer in Stealth. Enemies further away cannot take any action against the Hero. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="02a9-d5f6-6717-19f6" name="1.0&gt; Martial Artist" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcf0-ac76-c336-e080" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fe0-612f-621a-1191" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="edf5-63f2-2ca0-4c37" name="1.0&gt; Martial Artist" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">He Knows Kung Fu</characteristic>
+                    <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1</characteristic>
+                    <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                    <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                    <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                    <characteristic name="Descr." typeId="7acd-3372-b13a-e170">After many years of study and dedication, the Hero has become a fair martial artist. Their Fists &amp; Feet attacks no longer have the Weak special rule. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c114-1884-cbfe-9a0c" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ce4-109f-a154-63c4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61e9-884c-aa99-3de3" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ec1b-bb31-8b38-0bde" name="Ratty" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d7c-758f-54e3-1155" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fd6-3243-aec2-58b1" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="e20d-4654-50f0-7b97" name="Ratty" hidden="false">
+                  <description>Ratty is a mean and very intelligent rat. He adds a bonus +1D to Fink’s Melee Dice (already included above).</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b84c-a7a5-fe22-0d24" name="Pizzen Stick" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16b6-a8e8-7471-2b13" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74ea-fba9-558f-3c73" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="1149-778a-9f32-6f95" name="Pizzen Stick" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">12&quot;	</characteristic>
+                    <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">1D	</characteristic>
+                    <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">5D</characteristic>
+                    <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">0</characteristic>
+                    <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="423c-ef8b-a006-ebea" name="Pizzen Stick" hidden="false">
+                  <description>This is both a close combat weapon and a ranged weapon, using the rules below</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="285.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b8b5-384b-219c-98b2" name="Mean Machine Angel" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81a5-1a6f-6da0-1337" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c022-c501-00fe-173b" name="Mean Machine Angel" hidden="false" typeId="986a-d875-9131-b046" typeName="&lt;0 Model ">
+          <characteristics>
+            <characteristic name="Lv" typeId="6a75-01c6-5a91-2acd">6</characteristic>
+            <characteristic name="Move " typeId="2020-6563-6c28-4484">5&quot;	</characteristic>
+            <characteristic name="Agility " typeId="1cf5-be6a-9794-7127">+1</characteristic>
+            <characteristic name="Shoot" typeId="b034-29af-1ad0-06b5">+1</characteristic>
+            <characteristic name="Melee" typeId="3886-c346-31e4-4deb">+2</characteristic>
+            <characteristic name="Melee Dice" typeId="0035-8fa2-ff3c-255d">2D</characteristic>
+            <characteristic name="Will" typeId="5ada-807c-fcee-01df">+3</characteristic>
+            <characteristic name="Armour" typeId="0868-4ab5-af67-12e1">+6</characteristic>
+            <characteristic name="Hits" typeId="cb4d-92e9-47f0-7368">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="576e-b228-f161-eb73" name="Mood Dial" hidden="false">
+          <description>Mean Machine has a mood dial fitted to his cranium, allowing the rest of the Angel Gang to dial him up to various degrees of
+strength and aggression. Mean starts the game on ‘1’ and this may be changed to any other setting except ‘4 ½’ (either by Mean himself or
+another Angel in base contact) with a Special action. The table below demonstrates the changes he goes through as his mood dial is turned up.
+
+If Mean suffers a Hit while on ‘4’ or a Critical Hit any other time, roll a die. On a 6 or more, he gets locked onto ‘4 ½’ and will stay there for
+the rest of the game.
+When Mean is on ‘4 ½’ he is in an unstoppable rage, almost oblivious to his surroundings. On the start of each turn, roll a die. On 1-3, the
+Angel Gang player’s opponent will choose Mean’s actions and move him, as he goes completely out of control! When Mean is on ‘4 ½’ he will
+also automatically pass any Will to Fight checks.</description>
+        </rule>
+      </rules>
+      <infoGroups>
+        <infoGroup id="1319-1c31-3600-90fa" name="Mood Dial" hidden="false">
+          <profiles>
+            <profile id="d042-2972-f5d7-2769" name="1" hidden="false" typeId="231d-2f63-0f7b-e204" typeName="&lt;9 Mood Dial">
+              <characteristics>
+                <characteristic name="Move" typeId="0569-98a7-b472-e899">+0&quot;</characteristic>
+                <characteristic name="Shoot" typeId="6ac6-d222-00d2-b995">+0</characteristic>
+                <characteristic name="Melee" typeId="ff70-98bf-f859-d7e8">+0</characteristic>
+                <characteristic name="Melee Dice" typeId="d292-6af6-5778-5201">+0D</characteristic>
+                <characteristic name="Claw DAmage" typeId="ba91-d6cc-3ff6-985d">+0</characteristic>
+                <characteristic name="Hits" typeId="eb51-bbc7-0cc2-d3fe">+0</characteristic>
+                <characteristic name="Permisiable Actions" typeId="d0f4-61c9-5cdb-0373">Any</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e395-ce58-f099-1a6e" name="2" hidden="false" typeId="231d-2f63-0f7b-e204" typeName="&lt;9 Mood Dial">
+              <characteristics>
+                <characteristic name="Move" typeId="0569-98a7-b472-e899">+0&quot;</characteristic>
+                <characteristic name="Shoot" typeId="6ac6-d222-00d2-b995">-1</characteristic>
+                <characteristic name="Melee" typeId="ff70-98bf-f859-d7e8">+1</characteristic>
+                <characteristic name="Melee Dice" typeId="d292-6af6-5778-5201">+1D</characteristic>
+                <characteristic name="Claw DAmage" typeId="ba91-d6cc-3ff6-985d">+1</characteristic>
+                <characteristic name="Hits" typeId="eb51-bbc7-0cc2-d3fe">+1</characteristic>
+                <characteristic name="Permisiable Actions" typeId="d0f4-61c9-5cdb-0373">Any</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1ec2-e644-14b7-14ec" name="3" hidden="false" typeId="231d-2f63-0f7b-e204" typeName="&lt;9 Mood Dial">
+              <characteristics>
+                <characteristic name="Move" typeId="0569-98a7-b472-e899">+1&quot;</characteristic>
+                <characteristic name="Shoot" typeId="6ac6-d222-00d2-b995">-2</characteristic>
+                <characteristic name="Melee" typeId="ff70-98bf-f859-d7e8">+2</characteristic>
+                <characteristic name="Melee Dice" typeId="d292-6af6-5778-5201">+2D</characteristic>
+                <characteristic name="Claw DAmage" typeId="ba91-d6cc-3ff6-985d">+2</characteristic>
+                <characteristic name="Hits" typeId="eb51-bbc7-0cc2-d3fe">+2</characteristic>
+                <characteristic name="Permisiable Actions" typeId="d0f4-61c9-5cdb-0373">Melee, Move</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a668-6508-ece7-4e41" name="4" hidden="false" typeId="231d-2f63-0f7b-e204" typeName="&lt;9 Mood Dial">
+              <characteristics>
+                <characteristic name="Move" typeId="0569-98a7-b472-e899">+2&quot;</characteristic>
+                <characteristic name="Shoot" typeId="6ac6-d222-00d2-b995">-</characteristic>
+                <characteristic name="Melee" typeId="ff70-98bf-f859-d7e8">+3</characteristic>
+                <characteristic name="Melee Dice" typeId="d292-6af6-5778-5201">+3D</characteristic>
+                <characteristic name="Claw DAmage" typeId="ba91-d6cc-3ff6-985d">+4</characteristic>
+                <characteristic name="Hits" typeId="eb51-bbc7-0cc2-d3fe">+3</characteristic>
+                <characteristic name="Permisiable Actions" typeId="d0f4-61c9-5cdb-0373">Melee, Move</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e147-105b-9bc7-015c" name="4 1/2" hidden="false" typeId="231d-2f63-0f7b-e204" typeName="&lt;9 Mood Dial">
+              <characteristics>
+                <characteristic name="Move" typeId="0569-98a7-b472-e899">+2&quot;</characteristic>
+                <characteristic name="Shoot" typeId="6ac6-d222-00d2-b995">-</characteristic>
+                <characteristic name="Melee" typeId="ff70-98bf-f859-d7e8">+3</characteristic>
+                <characteristic name="Melee Dice" typeId="d292-6af6-5778-5201">+5D</characteristic>
+                <characteristic name="Claw DAmage" typeId="ba91-d6cc-3ff6-985d">+5</characteristic>
+                <characteristic name="Hits" typeId="eb51-bbc7-0cc2-d3fe">+5</characteristic>
+                <characteristic name="Permisiable Actions" typeId="d0f4-61c9-5cdb-0373">Melee, Move</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="b797-0fa7-9302-3a77" name="1&lt; Inf. Hero" hidden="false" targetId="c247-c866-3c19-ef70" primary="true"/>
+        <categoryLink id="11d5-cf24-082c-62d3" name="[Hero]" hidden="false" targetId="190b-65e3-d23a-1371" primary="false"/>
+        <categoryLink id="f8d7-0183-3df6-b3c0" name="[Lv06]" hidden="false" targetId="99ec-4c14-5102-7618" primary="false"/>
+        <categoryLink id="c4b8-7416-085e-37f1" name="[Mean Machine Angel]" hidden="false" targetId="9a84-2297-df30-23a8" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6ec1-916e-4fa2-c026" name="Talents" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f7c-556b-27de-d118" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a26-41cb-378e-25dc" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="872c-faae-12e5-309c" name="1.0&gt; Brave" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18d9-f670-2c2c-91e6" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ffa-f2c0-8174-31ca" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="46ca-d23d-abe9-7208" name="1.0&gt; Brave" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">True Hero</characteristic>
+                    <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1.0</characteristic>
+                    <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                    <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                    <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                    <characteristic name="Descr." typeId="8692-98c2-5f20-4631">There is not much that terrifies this Hero. All Will checks the Hero is called upon to make for Will to Fight purposes may be re-rolled.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2fff-c0d0-19c8-6ba2" name="2&gt; Below the Belt" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85af-3879-4acb-a9fa" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a03-492c-c5bd-cd23" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="96aa-3406-d194-94ee" name="2&gt; Below the Belt" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Alley Way Fighter</characteristic>
+                    <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">2</characteristic>
+                    <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                    <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Melee)</characteristic>
+                    <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                    <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero delivers a swift and unsportsmanlike kick to the target. In addition to suffering normal damage, the enemy must pass a Will check or suffer a –1 penalty to its Move and Melee scores until the end of its next Phase. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="02a9-9cff-757a-89b6" name="3&gt; Deadly Strike" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b7f-263a-7e85-c56d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3695-2767-5235-907c" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="e67d-9379-2259-34a5" name="3&gt; Deadly Strike" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Alley Way Fighter</characteristic>
+                    <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">3</characteristic>
+                    <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                    <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Activate (Melee)</characteristic>
+                    <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                    <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero makes a swift strike at a vulnerable area on the target. This attack gains an additional –2 to the AP score of the Hero’s weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0a1e-a5ed-e3d1-b687" name="1.0&gt; Dirty Fighting" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c029-0f0c-b8a0-6915" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78ca-71f3-eaf0-8b62" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="a162-9862-4230-94d7" name="1.0&gt; Dirty Fighting" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Alley Way Fighter</characteristic>
+                    <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1.0</characteristic>
+                    <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                    <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Melee)</characteristic>
+                    <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                    <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero tries to incapacitate a target. If the Hero causes damage against an opponent with this Melee attack, no damage is caused. Instead, the enemy must make a Will check. If the check is failed, the enemy will recieve a Stun.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="33bc-94e7-4a32-2ce4" name="4&gt; Just Plain Lethal" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a5d-854a-fd56-6ce3" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4086-f9fd-53cc-4c8e" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="dc07-7d8b-3214-8654" name="4&gt; Just Plain Lethal" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Alley Way Fighter</characteristic>
+                    <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">4</characteristic>
+                    <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                    <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                    <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                    <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero has a keen eye for weak spots. The dice roll needed to cause a critical hit with a Melee attack (normally a 10) is always reduced by one. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d3f1-ed64-84ee-d80e" name="1.1&gt; Careless Charge" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="078d-7d61-80fe-f9b6" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e09-2dd2-2389-27e2" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="f69e-5e30-b4ab-9d9e" name="1.1&gt; Careless Charge" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                  <characteristics>
+                    <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Alley Way Fighter</characteristic>
+                    <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1.1</characteristic>
+                    <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                    <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Melee)</characteristic>
+                    <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                    <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero charges forth with wild abandon, and may double its Move for a single Melee action to reach an enemy. However, the enemy may take an immediate Shoot action against the Hero, though only one Shooting Dice may be used.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="65ef-649b-73fd-624a" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b28e-df2e-ff16-51ba" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a74a-8e8f-0e9e-33ed" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4db0-3070-f051-af9c" name="Handgun" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bc0-6eba-73be-3f64" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e83-4972-099a-3278" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="90ab-3fb9-39cb-402b" name="Handgun" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">15&quot;</characteristic>
+                    <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">1D</characteristic>
+                    <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">1</characteristic>
+                    <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">-</characteristic>
+                    <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dc34-8891-7b2c-a65e" name="Knife" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3af3-4845-e919-c141" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90bd-e206-b527-2501" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="c7c7-8f4a-d022-d8ba" name="Knife" hidden="false" typeId="80d2-e41e-4294-6fca" typeName="&lt;2 Close Combat Weapon">
+                  <characteristics>
+                    <characteristic name="Damage" typeId="d7ee-8740-c2fc-b939">1</characteristic>
+                    <characteristic name="AP" typeId="8b7a-b403-bfd7-0446">-1</characteristic>
+                    <characteristic name="Special Rules" typeId="187d-a926-b5f3-956d">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dd3a-fcc2-7733-08ab" name="Cybernetic Claw" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e39c-7f34-4720-dcab" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d07-3732-dbce-ef20" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="c654-fa43-05ee-331d" name="Cybernetic Claw" hidden="false" typeId="80d2-e41e-4294-6fca" typeName="&lt;2 Close Combat Weapon">
+                  <characteristics>
+                    <characteristic name="Damage" typeId="d7ee-8740-c2fc-b939">2</characteristic>
+                    <characteristic name="AP" typeId="8b7a-b403-bfd7-0446">-1</characteristic>
+                    <characteristic name="Special Rules" typeId="187d-a926-b5f3-956d">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="38c4-2fda-3840-6cfd" name="Cybernetic Claw" hidden="false">
+                  <description>See profile</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name=" Credits" typeId="Credits" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="325.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

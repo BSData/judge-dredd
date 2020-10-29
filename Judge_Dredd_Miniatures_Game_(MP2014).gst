@@ -247,7 +247,6 @@
     </profileType>
     <profileType id="231d-2f63-0f7b-e204" name="&lt;9 Mood Dial">
       <characteristicTypes>
-        <characteristicType id="56db-e3e2-99d5-4552" name="Dial"/>
         <characteristicType id="0569-98a7-b472-e899" name="Move"/>
         <characteristicType id="6ac6-d222-00d2-b995" name="Shoot"/>
         <characteristicType id="ff70-98bf-f859-d7e8" name="Melee"/>
@@ -1024,7 +1023,7 @@ Of course if you are setting your games in East Meg itself, they should indeed b
             </rule>
           </rules>
         </infoGroup>
-        <infoGroup id="f483-2b9b-16e2-b714" name="Apoc. War. Resistance Unit" hidden="true">
+        <infoGroup id="f483-2b9b-16e2-b714" name="Apoc. War. Resistance Unit Rules" hidden="true">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -1048,6 +1047,33 @@ Of course if you are setting your games in East Meg itself, they should indeed b
             <rule id="c49b-ef34-697a-465d" name="&lt;Force: Freedom!" hidden="false">
               <description>The Judges in the resistance unit are fighting for their city and have become a quasi-military force. They do not need to follow the Arrest rules but may do so if they wish.
 </description>
+            </rule>
+          </rules>
+        </infoGroup>
+        <infoGroup id="b204-0a97-a5fc-5116" name="The Angel Gang Rules" hidden="false">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="896f-fb95-46b3-6b00" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="6708-89be-560e-310c" name="The Angel Gang Rules" hidden="false">
+              <description>If you select the Angel Gang, you do not get 500 Credits
+to buy models and equipment – instead you get the entire
+Angel gang, as detailed over the next few pages! However,
+there is no requirement for you to use the entire gang every
+game, and individual members often go off and do their
+own thing. When you play against another force, come to
+an agreement with your opponent, and either reduce the
+number of Angel Gang members to suit the total value of
+his force, or allow him to add Mercenaries to match yours,
+or agree to meet in the middle.
+The Angel Gang may never be purchased new equipment
+or weapons (just keep on counting the Credits as they
+come in!) but can earn experience, gaining new levels and
+Talents, as normal.</description>
             </rule>
           </rules>
         </infoGroup>
