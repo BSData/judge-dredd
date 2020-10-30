@@ -23,6 +23,9 @@ Talent rules implemented.
 Talent layout as entry groups in profile (Using entries is noviable as they are included in the max/ min selections).
 29/10/2020
 Removed "Dial" from Mood Dial Profile type
+30/10/2020
+Added Rules profiles for remaining forces
+Adjusted [Hero]pre-leveled by changing the modifaction querys to >[Hero]Pre-leveled and added dedicated XP 'X' entry.
 
 Street Gang Cat. 
 07/04/2020

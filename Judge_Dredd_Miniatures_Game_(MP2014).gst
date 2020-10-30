@@ -671,6 +671,7 @@
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="XP" name="XP" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Main XP</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dc5-011c-066c-11be" type="max"/>
       </constraints>
@@ -1050,7 +1051,7 @@ Of course if you are setting your games in East Meg itself, they should indeed b
             </rule>
           </rules>
         </infoGroup>
-        <infoGroup id="b204-0a97-a5fc-5116" name="The Angel Gang Rules" hidden="false">
+        <infoGroup id="b204-0a97-a5fc-5116" name="The Angel Gang Rules" hidden="true">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -1074,6 +1075,183 @@ The Angel Gang may never be purchased new equipment
 or weapons (just keep on counting the Credits as they
 come in!) but can earn experience, gaining new levels and
 Talents, as normal.</description>
+            </rule>
+          </rules>
+        </infoGroup>
+        <infoGroup id="33dd-933e-20ed-40f5" name="The Dark Judges Rules" hidden="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3802-a21f-1ccb-4701" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="eef7-8c8a-d1d6-a2dc" name="The Dark Judges" hidden="false">
+              <description>If you select the Dark Judges, you do not get 500 Credits to
+buy models and equipment – instead you get all four Dark
+Judges, as detailed below! However, there is no requirement
+for you to use all four every game, and individuals often go
+off and do their own thing. When you play against another
+force, come to an agreement with your opponent, and either
+reduce the number of Dark Judges to suit the total value of
+his force, or allow him to add Mercenaries to match yours,
+or agree to meet in the middle.
+The Dark Judges may never be purchased new equipment
+or weapons (just keep on counting the Credits as they come
+in!) and nor can they earn experience, gaining new levels
+and Talents, you are playing them to bring doom to Mega-
+City One (death truly is its own reward)!</description>
+            </rule>
+            <rule id="97e7-a463-04f1-83e2" name="Possession" hidden="false">
+              <description>The Dark Judges can never be truly killed.
+When reduced to 0 Hits, replace their models with their
+spirit form. The spirit form may only perform Move or
+Special actions and is a Flyer with a Move score of 6” and
+Hits 2. All other characteristics remain the same as for the
+Dark Judge the spirit form came from.
+
+The spirit form is immune to all forms of attack except Psi
+Talents. If the spirit form is reduced to 0 Hits, the Dark
+Judge will dissipate to rebuild its strength (and will be
+back another day!). Remove it as a casualty but do not
+make any injury roll.
+
+A spirit form may try to possess any model, except a
+robot, within 1” with a Special action. Both models make
+opposed Will checks and, if the spirit form wins, the enemy
+is automatically killed and replaced with a model of the
+Dark Judge. The Dark Judge is restored to full Hits and,
+from the next turn onwards, may take actions normally.</description>
+            </rule>
+            <rule id="7035-556b-3d70-92df" name="We Have Arrived" hidden="false">
+              <description>If their player so wishes, the Dark
+Judges need not be placed on the table at the start of the
+fight. Instead, they may be placed anywhere on the table
+within 4” of one another and at least 12” from any enemy
+model at the start of the first turn.</description>
+            </rule>
+            <rule id="0fcb-1b8b-74b3-7e6b" name="We Will Return" hidden="false">
+              <description>The Dark Judges will endure a great
+deal of punishment but even they know when to retreat
+and marshal their strength. They take Will to Fight
+checks as normal, and their spirit forms do not count
+when totalling up how many models they have remaining
+on the table.</description>
+            </rule>
+            <rule id="a5cb-bfdb-6bca-00ac" name="We Got One!" hidden="false">
+              <description>If a Dark Judge’s Spirit form is destroyed,
+the model that delivered the final blow will gain enough
+XP to go up a level and place it just one XP short of going
+up a second level.</description>
+            </rule>
+          </rules>
+        </infoGroup>
+        <infoGroup id="a174-0204-d3d2-745b" name="Judge Cal&apos;s Personal Retinue Rules" hidden="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f636-4e14-88ce-f9a5" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="df0b-5a09-92e2-f762" name="Justice Department" hidden="false">
+              <description>Judge Cal’s wave of draconic laws
+means more arrests, not less! All Judges in Cal’s Personal
+Retinue must use the Arrest rules.</description>
+            </rule>
+          </rules>
+        </infoGroup>
+        <infoGroup id="45ba-4341-ba72-b0c0" name="Demonic Cabal" hidden="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b615-a892-5adf-d1fe" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="bcb6-75cc-801f-6196" name="The Summoning" hidden="false">
+              <description>Demonic Cabals exist for summoning
+demons. However, this process is rarely straightforward.
+
+Demonic Cabals must purchase one or more demonic
+pacts in order to perform a summoning. Each demonic
+pact may only be used successfully once in a game, though
+any number of summonings may be attempted.
+
+The Grand Warlock must always lead a summoning, by
+performing two Special Actions in the same turn. He may
+be aided by any number of cabalists who must perform
+at least one Special Action before the Grand Warlock
+performs his in the same turn. They must also be within
+2” of the Grand Warlock.
+
+A demonic pact is chosen, and then a die is rolled,
+comparing the result to the table below. The Grand Warlock
+adds both his Will score and his Hero level to this roll. For
+each cabalist, roll one die. On a 5 or more, the cabalist adds
++1 to this roll. On a 4 or less, they deduct –1 from it.
+
+If a class II entity is being summoned, an additional -2
+penalty is applied to the roll.
+
+If a major entity is being summoned, an additional –5
+penalty is applied to the die roll.
+
+After a game all entities disappear. They can never become
+Heroes.</description>
+            </rule>
+          </rules>
+        </infoGroup>
+        <infoGroup id="f53f-13fd-4998-e218" name="Renegade Robots Rules" hidden="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f7b-253d-13df-4860" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="457f-0c96-6b8e-954f" name="Repair" hidden="false">
+              <description>Robots do not heal naturally but, at the same time,
+can easily repair even a severed limb – so long as they can
+find the replacement parts.
+
+After a battle, a robot will not automatically recover any
+lost Hits. Instead, they must be repaired at a cost of 10
+Credits per Hit lost. Robots still roll on the Injury Table as
+normal, but can repair any permanent damage that does
+not kill (destroy) them at a cost of 50 Credits per -1 penalty
+to be negated.</description>
+            </rule>
+            <rule id="92d6-7dfa-d92d-a7fc" name="Weapons, Armour and Equipment" hidden="false">
+              <description>Most robots have
+these items built into their chassis but, for the purposes
+of this game, it does not matter if a weapon or anything
+else is built into an arm or held in a hand. They can all
+be freely swapped as the player desires. Robots already
+come with armour and, aside from any listed upgrades,
+cannot be purchased any other type except for an
+Energy Shield.</description>
+            </rule>
+          </rules>
+        </infoGroup>
+        <infoGroup id="8289-79d3-a0c2-2a37" name="The ABC Wrriors" hidden="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8b3a-587a-916b-7f34" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="1ab5-2015-9a83-b636" name="Using The ABC Wrriors" publicationId="8f52-f1e7-b5e7-f697" page="120" hidden="false">
+              <description>If you select the ABC Warriors in a campaign, you do not get 500 Credits to buy models and equipment - instead you get every ABC Warrior, as detailed in this chapter! 
+However, there is no requirment for you to use all the robots in every game, and individual members often go off and do their own thing. When you  play against another force, come to an agreement with your opponent, andeither reduce the number of ABC Warriors to suit the total value of their force, or allow them to add Mercenaries to match yours, or agree to meet in the middle.
+
+The ABC Warriors may never be purchased equipment or weapons that are not listed in their options (and these may only be purchased once the force has earned enough Credits) but earn experience, gaining new levels and Talents, as normal.</description>
             </rule>
           </rules>
         </infoGroup>
@@ -19139,7 +19317,7 @@ With a reputation close to that of most famous of the Judges of the city, includ
         <cost name=" Credits" typeId="Credits" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="LV2" name="XP" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="LV2" name="XP02" hidden="false" collective="false" import="true" type="upgrade">
       <comment>2</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c57-73e0-5536-c199" type="max"/>
@@ -19149,7 +19327,7 @@ With a reputation close to that of most famous of the Judges of the city, includ
         <cost name=" Credits" typeId="Credits" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="LV3" name="XP" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="LV3-" name="XP03" hidden="false" collective="false" import="true" type="upgrade">
       <comment>3</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06e7-22e6-f027-7d29" type="max"/>
@@ -19159,7 +19337,7 @@ With a reputation close to that of most famous of the Judges of the city, includ
         <cost name=" Credits" typeId="Credits" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="LV4" name="XP" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="LV4" name="XP04" hidden="false" collective="false" import="true" type="upgrade">
       <comment>4</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02ec-3180-62d8-f93d" type="max"/>
@@ -19169,7 +19347,7 @@ With a reputation close to that of most famous of the Judges of the city, includ
         <cost name=" Credits" typeId="Credits" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="LV5" name="XP " hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="LV5" name="XP05" hidden="false" collective="false" import="true" type="upgrade">
       <comment>5</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8928-75f4-762d-cacc" type="max"/>
@@ -19179,7 +19357,7 @@ With a reputation close to that of most famous of the Judges of the city, includ
         <cost name=" Credits" typeId="Credits" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="LV6" name="XP" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="LV6" name="XP06" hidden="false" collective="false" import="true" type="upgrade">
       <comment>6</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24db-d623-7e31-0f0e" type="max"/>
@@ -19189,7 +19367,7 @@ With a reputation close to that of most famous of the Judges of the city, includ
         <cost name=" Credits" typeId="Credits" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="VL7" name="XP " hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="LV07" name="XP07" hidden="false" collective="false" import="true" type="upgrade">
       <comment>7</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e9c-7fc1-1726-5058" type="max"/>
@@ -19199,7 +19377,7 @@ With a reputation close to that of most famous of the Judges of the city, includ
         <cost name=" Credits" typeId="Credits" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="LV8" name="XP" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="LV8" name="XP08" hidden="false" collective="false" import="true" type="upgrade">
       <comment>8</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c390-91f6-69a0-0257" type="max"/>
@@ -19209,7 +19387,7 @@ With a reputation close to that of most famous of the Judges of the city, includ
         <cost name=" Credits" typeId="Credits" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="LV9" name="XP" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="LV9" name="XP09" hidden="false" collective="false" import="true" type="upgrade">
       <comment>9</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41ba-b5cf-6386-59eb" type="max"/>
@@ -19219,11 +19397,11 @@ With a reputation close to that of most famous of the Judges of the city, includ
         <cost name=" Credits" typeId="Credits" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="LV10" name="XP" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="LV10" name="XP10" hidden="false" collective="false" import="true" type="upgrade">
       <comment>10</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b9d-30a3-ee08-8308" type="max"/>
-        <constraint field="selections" scope="parent" value="37.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="83d3-6399-0d2e-8c16" type="min"/>
+        <constraint field="selections" scope="parent" value="46.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="83d3-6399-0d2e-8c16" type="min"/>
       </constraints>
       <costs>
         <cost name=" Credits" typeId="Credits" value="0.0"/>
@@ -19387,135 +19565,159 @@ With a reputation close to that of most famous of the Judges of the city, includ
       </costs>
     </selectionEntry>
     <selectionEntry id="15fa-95ea-16ba-f47c" name="&gt;[Hero] Prelevel" hidden="false" collective="false" import="true" type="upgrade">
-      <comment>Pre-level
+      <comment>Pre-level requirements
 Copy &gt;[Hero] to model profile
-Must reconfigure all modifiers and conditions after pasting
-Set minimum XP to required level of model
-Adjust min/ max characteristics depending on the level of the model
-Set the Talents condition to minimum selection of 1
+Adjust the &quot;XP &apos;X&apos; Min to relate to the level of the character, don&apos;t change the Max!
+Must re-configure all modifiers and conditions after pasting by re-selecting the ID to the XP level being used for the character.
+For Characteristics, remove the modification of the levels below the character level.
+Set the Talents condition to minimum selection of 1 for preallocated talents of the character. Adjust if the character has an odd amount of talents in relation to its actual level.
 </comment>
       <modifierGroups>
         <modifierGroup>
           <comment>Credits</comment>
           <modifiers>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>3</comment>
               <conditions>
-                <condition field="selections" scope="self" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>2</comment>
               <conditions>
-                <condition field="selections" scope="self" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>24</comment>
               <conditions>
-                <condition field="selections" scope="self" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>12</comment>
               <conditions>
-                <condition field="selections" scope="self" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>11</comment>
               <conditions>
-                <condition field="selections" scope="self" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>14</comment>
               <conditions>
-                <condition field="selections" scope="self" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>23</comment>
               <conditions>
-                <condition field="selections" scope="self" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>9</comment>
               <conditions>
-                <condition field="selections" scope="self" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>10</comment>
               <conditions>
-                <condition field="selections" scope="self" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>17</comment>
               <conditions>
-                <condition field="selections" scope="self" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>21</comment>
               <conditions>
-                <condition field="selections" scope="self" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>15</comment>
               <conditions>
-                <condition field="selections" scope="self" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>5</comment>
               <conditions>
-                <condition field="selections" scope="self" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>8</comment>
               <conditions>
-                <condition field="selections" scope="self" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>25</comment>
               <conditions>
-                <condition field="selections" scope="self" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>16</comment>
               <conditions>
-                <condition field="selections" scope="self" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>13</comment>
               <conditions>
-                <condition field="selections" scope="self" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>18</comment>
               <conditions>
-                <condition field="selections" scope="self" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>20</comment>
               <conditions>
-                <condition field="selections" scope="self" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>22</comment>
               <conditions>
-                <condition field="selections" scope="self" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>22</comment>
               <conditions>
-                <condition field="selections" scope="self" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>6</comment>
               <conditions>
-                <condition field="selections" scope="self" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>19</comment>
               <conditions>
-                <condition field="selections" scope="self" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
+              <comment>7</comment>
               <conditions>
-                <condition field="selections" scope="self" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -19530,7 +19732,7 @@ Set the Talents condition to minimum selection of 1
           <modifiers>
             <modifier type="increment" field="131a-f4c0-d395-a938" value="1">
               <repeats>
-                <repeat field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="XP" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="15fa-95ea-16ba-f47c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="LV" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -19540,32 +19742,32 @@ Set the Talents condition to minimum selection of 1
               <modifiers>
                 <modifier type="increment" field="1385-8e52-3487-395f" value="1">
                   <repeats>
-                    <repeat field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="MO" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="15fa-95ea-16ba-f47c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="MO" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
                 <modifier type="increment" field="9ef6-1486-ac85-d1d4" value="1">
                   <repeats>
-                    <repeat field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="AG" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="15fa-95ea-16ba-f47c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="AG" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
                 <modifier type="increment" field="c69a-aee0-2796-5154" value="1">
                   <repeats>
-                    <repeat field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="S" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="15fa-95ea-16ba-f47c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="S" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
                 <modifier type="increment" field="d096-5706-af82-e32f" value="1">
                   <repeats>
-                    <repeat field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ME" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="15fa-95ea-16ba-f47c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ME" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
                 <modifier type="increment" field="53ec-8236-7dcb-927f" value="1">
                   <repeats>
-                    <repeat field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="MD" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="15fa-95ea-16ba-f47c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="MD" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
                 <modifier type="increment" field="13c6-d3c6-30b1-5eda" value="1">
                   <repeats>
-                    <repeat field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="W" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="15fa-95ea-16ba-f47c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="W" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -19574,123 +19776,147 @@ Set the Talents condition to minimum selection of 1
               <comment>Hits</comment>
               <modifiers>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>3</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>2</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>24</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>12</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>11</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>14</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>23</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>9</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>10</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>17</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>21</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>15</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>5</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>8</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>25</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>16</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>13</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>18</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>20</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1">
+                  <comment>4</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>22</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>6</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>19</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
+                  <comment>7</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -19699,128 +19925,153 @@ Set the Talents condition to minimum selection of 1
               <comment>LV</comment>
               <modifiers>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>3</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>2</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>24</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1">
+                  <comment>12</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>11</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>14</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>23</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>9</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>10</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>17</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>21</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>15</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>5</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>8</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>25</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>16</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>13</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>18</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>20</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1">
+                  <comment>4</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>22</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>6</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>19</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>7</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
+                  <comment>1</comment>
                   <conditions>
-                    <condition field="selections" scope="self" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -19843,9 +20094,10 @@ Set the Talents condition to minimum selection of 1
         <categoryLink id="7283-1e84-76f5-c35d" name="[Hero]" hidden="false" targetId="190b-65e3-d23a-1371" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="abb6-c7d7-610d-9cd5" name="XP" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="LV" name="XP &apos;X&apos;" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4404-263a-ef5c-1294" type="max"/>
+            <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d69-d6ab-d0b6-6848" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14f2-3237-661d-3f79" type="max"/>
           </constraints>
           <costs>
             <cost name=" Credits" typeId="Credits" value="0.0"/>
@@ -19859,63 +20111,75 @@ Set the Talents condition to minimum selection of 1
               <comment>Min increments</comment>
               <modifiers>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
+                  <comment>2</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
+                  <comment>24</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
+                  <comment>12</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
+                  <comment>14</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
+                  <comment>10</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
+                  <comment>8</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
+                  <comment>16</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
+                  <comment>18</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
+                  <comment>20</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
+                  <comment>4</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
+                  <comment>22</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
+                  <comment>6</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -19924,63 +20188,75 @@ Set the Talents condition to minimum selection of 1
               <comment>Max increments</comment>
               <modifiers>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
+                  <comment>2</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
+                  <comment>24</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
+                  <comment>12</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
+                  <comment>14</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
+                  <comment>10</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
+                  <comment>8</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
+                  <comment>16</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
+                  <comment>18</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
+                  <comment>20</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
+                  <comment>4</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
+                  <comment>22</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
+                  <comment>6</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -20071,123 +20347,147 @@ Set the Talents condition to minimum selection of 1
               <comment>Min incriments</comment>
               <modifiers>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>3</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>2</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>24</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>12</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>11</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>14</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>253</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>9</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>10</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>17</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>21</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>15</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>5</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>8</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>25</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>16</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>13</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>18</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>20</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>4</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>22</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>6</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>19</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
+                  <comment>7</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -20196,123 +20496,147 @@ Set the Talents condition to minimum selection of 1
               <comment>Max increments</comment>
               <modifiers>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>3</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>2</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>24</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>12</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>11</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>14</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>23</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>9</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>10</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>17</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>21</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>15</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>5</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>8</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>25</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>121</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>13</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>18</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>20</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>4</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>22</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>6</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>19</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
+                  <comment>7</comment>
                   <conditions>
-                    <condition field="selections" scope="parent" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -24315,6 +24639,156 @@ Judges may never use this Psi Talent.</characteristic>
           </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="LV11" name="XP11" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>11</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1581-8add-0aa6-ef42" type="max"/>
+        <constraint field="selections" scope="parent" value="56.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3759-2551-5d0c-0411" type="min"/>
+      </constraints>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="LV12" name="XP12" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>12</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84b7-d594-3eaf-ec4e" type="max"/>
+        <constraint field="selections" scope="parent" value="67.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="39ab-9a71-c98d-ca34" type="min"/>
+      </constraints>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="LV13" name="XP13" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>13</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47d8-b864-6379-cab4" type="max"/>
+        <constraint field="selections" scope="parent" value="79.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0e54-b659-b664-803d" type="min"/>
+      </constraints>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="LV14" name="XP14" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>14</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7aaf-7192-1b91-c293" type="max"/>
+        <constraint field="selections" scope="parent" value="92.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6740-fc21-76fb-1308" type="min"/>
+      </constraints>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="LV25" name="XP25" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>25</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6238-a151-3818-6604" type="max"/>
+        <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b89f-97bd-f69e-4483" type="min"/>
+      </constraints>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="LV23" name="XP23" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>23</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45dc-a073-4fbb-8a7e" type="max"/>
+        <constraint field="selections" scope="parent" value="253.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="15b0-ff54-081e-a47f" type="min"/>
+      </constraints>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="LV22" name="XP22" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>22</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1336-e366-562c-17ff" type="max"/>
+        <constraint field="selections" scope="parent" value="231.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d194-3c8f-2b5f-6648" type="min"/>
+      </constraints>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="LV21" name="XP21" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>21</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="599e-4146-e116-4b77" type="max"/>
+        <constraint field="selections" scope="parent" value="210.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="96dc-f3a8-08ab-4a6c" type="min"/>
+      </constraints>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="LV24" name="XP24" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>24</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a71-c696-a879-9962" type="max"/>
+        <constraint field="selections" scope="parent" value="277.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7d37-5af1-8c2d-d897" type="min"/>
+      </constraints>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="LV20" name="XP20" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>20</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac97-bdae-ce66-bdeb" type="max"/>
+        <constraint field="selections" scope="parent" value="190.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="75d7-58bd-5c62-2504" type="min"/>
+      </constraints>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="LV19" name="XP19" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>19</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88c4-1bea-d3f1-ab70" type="max"/>
+        <constraint field="selections" scope="parent" value="171.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c6d-eb48-3eee-2cea" type="min"/>
+      </constraints>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="LV18" name="XP18" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>18</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10db-b4ec-c083-2b1a" type="max"/>
+        <constraint field="selections" scope="parent" value="153.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="68ba-74c2-2ea6-46e6" type="min"/>
+      </constraints>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="LV17" name="XP17" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>17</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2412-bc59-bc66-dfaa" type="max"/>
+        <constraint field="selections" scope="parent" value="137.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a3d9-00c6-658e-44d4" type="min"/>
+      </constraints>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="LV16" name="XP16" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>16</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baf5-dd97-3928-6510" type="max"/>
+        <constraint field="selections" scope="parent" value="121.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d072-af90-54d1-3cf2" type="min"/>
+      </constraints>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="LV15" name="XP15" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>15</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ea6-c750-28db-f191" type="max"/>
+        <constraint field="selections" scope="parent" value="106.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="deac-18f9-84f5-c642" type="min"/>
+      </constraints>
       <costs>
         <cost name=" Credits" typeId="Credits" value="0.0"/>
       </costs>
