@@ -26,6 +26,9 @@ Removed "Dial" from Mood Dial Profile type
 30/10/2020
 Added Rules profiles for remaining forces
 Adjusted [Hero]pre-leveled by changing the modifaction querys to >[Hero]Pre-leveled and added dedicated XP 'X' entry.
+02/11/2020
+Added [Psi Hero] Prelevel.
+Changed XP to Xp in profile type for model stats.
 
 Street Gang Cat. 
 07/04/2020

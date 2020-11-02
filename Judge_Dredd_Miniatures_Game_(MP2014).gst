@@ -39,7 +39,7 @@
       <comment>Psi Hero</comment>
       <characteristicTypes>
         <characteristicType id="d9ca-c609-fc92-f521" name="Lv"/>
-        <characteristicType id="131a-f4c0-d395-a938" name="XP"/>
+        <characteristicType id="131a-f4c0-d395-a938" name="Xp"/>
         <characteristicType id="1385-8e52-3487-395f" name="Move (+)"/>
         <characteristicType id="9ef6-1486-ac85-d1d4" name="Agility (+)"/>
         <characteristicType id="c69a-aee0-2796-5154" name="Shoot (+)"/>
@@ -53,7 +53,7 @@
       <comment>Hero</comment>
       <characteristicTypes>
         <characteristicType id="3668-af6d-9843-3d2f" name="Lv"/>
-        <characteristicType id="aa10-487d-055a-0089" name="XP"/>
+        <characteristicType id="aa10-487d-055a-0089" name="Xp"/>
         <characteristicType id="f338-81be-7289-1d69" name="Move (+)"/>
         <characteristicType id="6a84-03c4-a4c2-88a6" name="Agility (+)"/>
         <characteristicType id="6084-1eda-03eb-c2b1" name="Shoot (+)"/>
@@ -1950,7 +1950,7 @@ The ABC Warriors may never be purchased equipment or weapons that are not listed
           </modifierGroups>
           <characteristics>
             <characteristic name="Lv" typeId="d9ca-c609-fc92-f521">0</characteristic>
-            <characteristic name="XP" typeId="131a-f4c0-d395-a938">0</characteristic>
+            <characteristic name="Xp" typeId="131a-f4c0-d395-a938">0</characteristic>
             <characteristic name="Move (+)" typeId="1385-8e52-3487-395f">0</characteristic>
             <characteristic name="Agility (+)" typeId="9ef6-1486-ac85-d1d4">0</characteristic>
             <characteristic name="Shoot (+)" typeId="c69a-aee0-2796-5154">0</characteristic>
@@ -1968,7 +1968,7 @@ The ABC Warriors may never be purchased equipment or weapons that are not listed
       <selectionEntryGroups>
         <selectionEntryGroup id="18b5-18c6-f7c5-cdfe" name="1 [Experience]" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="84d3-d7fa-f8d6-2e64" name="XP" hidden="false" collective="false" import="true" targetId="XP" type="selectionEntry">
+            <entryLink id="84d3-d7fa-f8d6-2e64" name="Xp" hidden="false" collective="false" import="true" targetId="XP" type="selectionEntry">
               <modifierGroups>
                 <modifierGroup>
                   <comment>Lone Vigilante</comment>
@@ -5509,7 +5509,7 @@ The Judda</description>
           </modifierGroups>
           <characteristics>
             <characteristic name="Lv" typeId="d9ca-c609-fc92-f521">0</characteristic>
-            <characteristic name="XP" typeId="131a-f4c0-d395-a938">0</characteristic>
+            <characteristic name="Xp" typeId="131a-f4c0-d395-a938">0</characteristic>
             <characteristic name="Move (+)" typeId="1385-8e52-3487-395f">0</characteristic>
             <characteristic name="Agility (+)" typeId="9ef6-1486-ac85-d1d4">0</characteristic>
             <characteristic name="Shoot (+)" typeId="c69a-aee0-2796-5154">0</characteristic>
@@ -5527,7 +5527,7 @@ The Judda</description>
       <selectionEntryGroups>
         <selectionEntryGroup id="c3f5-3bb8-5c07-61aa" name="1 [Experience]" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="f186-b2fd-c54a-e38f" name="XP" hidden="false" collective="false" import="true" targetId="XP" type="selectionEntry"/>
+            <entryLink id="f186-b2fd-c54a-e38f" name="Xp" hidden="false" collective="false" import="true" targetId="XP" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="0f95-8eb0-4c17-def3" name="3 [Talent Groups]" hidden="false" collective="false" import="true">
@@ -9888,7 +9888,7 @@ With a reputation close to that of most famous of the Judges of the city, includ
           </modifierGroups>
           <characteristics>
             <characteristic name="Lv" typeId="3668-af6d-9843-3d2f">0</characteristic>
-            <characteristic name="XP" typeId="aa10-487d-055a-0089">0</characteristic>
+            <characteristic name="Xp" typeId="aa10-487d-055a-0089">0</characteristic>
             <characteristic name="Move (+)" typeId="f338-81be-7289-1d69">0</characteristic>
             <characteristic name="Agility (+)" typeId="6a84-03c4-a4c2-88a6">0</characteristic>
             <characteristic name="Shoot (+)" typeId="6084-1eda-03eb-c2b1">0</characteristic>
@@ -9907,7 +9907,7 @@ With a reputation close to that of most famous of the Judges of the city, includ
       <selectionEntryGroups>
         <selectionEntryGroup id="ac88-b7e6-4844-6d3b" name="1 [Experience]" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="ff49-f230-afdf-7b9c" name="XP" hidden="false" collective="false" import="true" targetId="XP" type="selectionEntry">
+            <entryLink id="ff49-f230-afdf-7b9c" name="Xp" hidden="false" collective="false" import="true" targetId="XP" type="selectionEntry">
               <modifierGroups>
                 <modifierGroup>
                   <comment>Lone Vigilante</comment>
@@ -14361,7 +14361,7 @@ Judges may never use this Psi Talent.</characteristic>
           </modifierGroups>
           <characteristics>
             <characteristic name="Lv" typeId="3668-af6d-9843-3d2f">0</characteristic>
-            <characteristic name="XP" typeId="aa10-487d-055a-0089">0</characteristic>
+            <characteristic name="Xp" typeId="aa10-487d-055a-0089">0</characteristic>
             <characteristic name="Move (+)" typeId="f338-81be-7289-1d69">0</characteristic>
             <characteristic name="Agility (+)" typeId="6a84-03c4-a4c2-88a6">0</characteristic>
             <characteristic name="Shoot (+)" typeId="6084-1eda-03eb-c2b1">0</characteristic>
@@ -14380,7 +14380,7 @@ Judges may never use this Psi Talent.</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup id="41fa-27d5-1f2b-7b1f" name="1 [Experience]" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="1d6a-17dd-c288-0487" name="XP" hidden="false" collective="false" import="true" targetId="XP" type="selectionEntry"/>
+            <entryLink id="1d6a-17dd-c288-0487" name="Xp" hidden="false" collective="false" import="true" targetId="XP" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="98ad-61d7-2188-25bc" name="3 [Talent Groups]" hidden="false" collective="false" import="true">
@@ -19579,145 +19579,145 @@ Set the Talents condition to minimum selection of 1 for preallocated talents of 
             <modifier type="increment" field="Credits" value="25.0">
               <comment>3</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>2</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>24</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>12</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>11</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>14</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>23</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>9</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>10</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>17</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>21</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>15</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>5</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>8</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>25</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>16</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>13</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>18</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>20</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>22</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>22</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>6</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>19</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="Credits" value="25.0">
               <comment>7</comment>
               <conditions>
-                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                <condition field="selections" scope="15fa-95ea-16ba-f47c" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -19732,7 +19732,7 @@ Set the Talents condition to minimum selection of 1 for preallocated talents of 
           <modifiers>
             <modifier type="increment" field="131a-f4c0-d395-a938" value="1">
               <repeats>
-                <repeat field="selections" scope="15fa-95ea-16ba-f47c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="LV" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="15fa-95ea-16ba-f47c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="HERO" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -19778,145 +19778,145 @@ Set the Talents condition to minimum selection of 1 for preallocated talents of 
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>3</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>2</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>24</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>12</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>11</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>14</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>23</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>9</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>10</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>17</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>21</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>15</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>5</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>8</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>25</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>16</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>13</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>18</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>20</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1">
                   <comment>4</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>22</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>6</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>19</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="47e3-682f-a9e7-fcaf" value="1.0">
                   <comment>7</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -19927,151 +19927,151 @@ Set the Talents condition to minimum selection of 1 for preallocated talents of 
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>3</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>2</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>24</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1">
                   <comment>12</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>11</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>14</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>23</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>9</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>10</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>17</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>21</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>15</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>5</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>8</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>25</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>16</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>13</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>18</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>20</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1">
                   <comment>4</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>22</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>6</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>19</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>7</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="d9ca-c609-fc92-f521" value="1.0">
                   <comment>1</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -20079,7 +20079,7 @@ Set the Talents condition to minimum selection of 1 for preallocated talents of 
           </modifierGroups>
           <characteristics>
             <characteristic name="Lv" typeId="d9ca-c609-fc92-f521">0</characteristic>
-            <characteristic name="XP" typeId="131a-f4c0-d395-a938">0</characteristic>
+            <characteristic name="Xp" typeId="131a-f4c0-d395-a938">0</characteristic>
             <characteristic name="Move (+)" typeId="1385-8e52-3487-395f">0</characteristic>
             <characteristic name="Agility (+)" typeId="9ef6-1486-ac85-d1d4">0</characteristic>
             <characteristic name="Shoot (+)" typeId="c69a-aee0-2796-5154">0</characteristic>
@@ -20093,19 +20093,9 @@ Set the Talents condition to minimum selection of 1 for preallocated talents of 
       <categoryLinks>
         <categoryLink id="7283-1e84-76f5-c35d" name="[Hero]" hidden="false" targetId="190b-65e3-d23a-1371" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="LV" name="XP &apos;X&apos;" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d69-d6ab-d0b6-6848" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14f2-3237-661d-3f79" type="max"/>
-          </constraints>
-          <costs>
-            <cost name=" Credits" typeId="Credits" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="0899-e3fe-fa2a-22b8" name="2 [Characteristics]" hidden="false" collective="false" import="true">
+          <comment>Remember to change &quot;Max&quot; Modifier of current level to Set as  0 and remove modifiers below the models level.</comment>
           <modifierGroups>
             <modifierGroup>
               <comment>Min increments</comment>
@@ -20113,73 +20103,73 @@ Set the Talents condition to minimum selection of 1 for preallocated talents of 
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
                   <comment>2</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
                   <comment>24</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
                   <comment>12</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
                   <comment>14</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
                   <comment>10</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
                   <comment>8</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
                   <comment>16</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
                   <comment>18</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
                   <comment>20</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
                   <comment>4</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
                   <comment>22</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="901e-50a5-00b6-90c3" value="1.0">
                   <comment>6</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -20190,151 +20180,109 @@ Set the Talents condition to minimum selection of 1 for preallocated talents of 
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
                   <comment>2</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
                   <comment>24</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
                   <comment>12</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
                   <comment>14</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
                   <comment>10</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
                   <comment>8</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
                   <comment>16</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
                   <comment>18</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
                   <comment>20</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
                   <comment>4</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
                   <comment>22</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="00a9-0561-727d-8119" value="1.0">
                   <comment>6</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
               </modifiers>
             </modifierGroup>
           </modifierGroups>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00a9-0561-727d-8119" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="901e-50a5-00b6-90c3" type="min"/>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00a9-0561-727d-8119" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="901e-50a5-00b6-90c3" type="min"/>
           </constraints>
           <entryLinks>
             <entryLink id="e315-e2e8-915b-a576" name="Melee" hidden="false" collective="false" import="true" targetId="ME" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="6d3d-857d-cbd4-26dd" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="lessThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d3d-857d-cbd4-26dd" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="a1f9-5375-29b9-8491" name="Will" hidden="false" collective="false" import="true" targetId="W" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="9cc8-ce1c-b8a1-845d" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="lessThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cc8-ce1c-b8a1-845d" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="25d9-06be-46d3-a8e9" name="Agility" hidden="false" collective="false" import="true" targetId="AG" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="8138-e8a6-5a5f-dc5f" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="lessThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8138-e8a6-5a5f-dc5f" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="b4e0-0048-418b-a38a" name="Melee Dice" hidden="false" collective="false" import="true" targetId="MD" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="6a5c-89a4-fc7e-5af6" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="lessThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a5c-89a4-fc7e-5af6" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="f68b-eaef-b7f4-1cf0" name="Move" hidden="false" collective="false" import="true" targetId="MO" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="0d33-bf36-28a7-2d15" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="lessThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d33-bf36-28a7-2d15" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="1113-11ba-bc4d-289a" name="Shoot" hidden="false" collective="false" import="true" targetId="S" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="1bf1-a3f7-48f8-ca3c" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="XP" type="lessThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bf1-a3f7-48f8-ca3c" type="max"/>
               </constraints>
@@ -20349,145 +20297,145 @@ Set the Talents condition to minimum selection of 1 for preallocated talents of 
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>3</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>2</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>24</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>12</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>11</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>14</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>253</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>9</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>10</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>17</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>21</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>15</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>5</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>8</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>25</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>16</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>13</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>18</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>20</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>4</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>22</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>6</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>19</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="6587-d802-a7bb-2f33" value="1.0">
                   <comment>7</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -20498,145 +20446,145 @@ Set the Talents condition to minimum selection of 1 for preallocated talents of 
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>3</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>2</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>24</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>12</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>11</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>14</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>23</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>9</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>10</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>17</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>21</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>15</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>5</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>8</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>25</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>121</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>13</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>18</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>20</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>4</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>22</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>6</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>19</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" field="e8b0-778c-15c0-e9d0" value="1.0">
                   <comment>7</comment>
                   <conditions>
-                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="LV" type="atLeast"/>
+                    <condition field="selections" scope="15fa-95ea-16ba-f47c" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="HERO" type="atLeast"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -24638,6 +24586,19 @@ Judges may never use this Psi Talent.</characteristic>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
+        <selectionEntryGroup id="ba93-f5df-1301-64ae" name="1 [Experience]" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="HERO" name="Xp &apos;X&apos;" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ce5-2962-0a38-4818" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cca-4c4e-ef01-b91e" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name=" Credits" typeId="Credits" value="0.0"/>
@@ -24789,6 +24750,5172 @@ Judges may never use this Psi Talent.</characteristic>
         <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ea6-c750-28db-f191" type="max"/>
         <constraint field="selections" scope="parent" value="106.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="deac-18f9-84f5-c642" type="min"/>
       </constraints>
+      <costs>
+        <cost name=" Credits" typeId="Credits" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3f52-399f-9b70-26b5" name="&gt;[Psi Hero] Prelevel" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Pre-level requirements
+Copy &gt;[Hero] to model profile
+Adjust the &quot;XP &apos;X&apos; Min to relate to the level of the character, don&apos;t change the Max!
+Must re-configure all modifiers and conditions after pasting by re-selecting the ID to the XP level being used for the character.
+For Characteristics, remove the modification of the levels below the character level.
+Set the Talents condition to minimum selection of 1 for preallocated talents of the character. Adjust if the character has an odd amount of talents in relation to its actual level.
+Remove Psi Modifiers up to and current level.</comment>
+      <modifierGroups>
+        <modifierGroup>
+          <comment>Credits</comment>
+          <modifiers>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>3</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>2</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>24</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>12</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>11</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>14</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>23</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>9</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>10</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>17</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>21</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>15</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>5</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>8</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>25</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>16</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>13</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>18</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>20</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>22</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>22</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>6</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>19</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="Credits" value="25.0">
+              <comment>7</comment>
+              <conditions>
+                <condition field="selections" scope="3f52-399f-9b70-26b5" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7467-463a-9e07-416d" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="348b-b12f-98fe-8947" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="e8d5-1a17-bd57-ea1d" name="&lt; Psi Hero" hidden="false" typeId="cc4a-ae17-5e4b-9d93" typeName="&lt;1Psi Status ">
+          <modifiers>
+            <modifier type="increment" field="aa10-487d-055a-0089" value="1">
+              <repeats>
+                <repeat field="selections" scope="3f52-399f-9b70-26b5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="PSI HERO" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <modifierGroups>
+            <modifierGroup>
+              <comment>Characteristics</comment>
+              <modifiers>
+                <modifier type="increment" field="f338-81be-7289-1d69" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="3f52-399f-9b70-26b5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="e6c4-e7ea-03a8-da10" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="3f52-399f-9b70-26b5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="9317-ed34-7080-5b55" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="3f52-399f-9b70-26b5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="a6a8-da39-48a5-93c8" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="3f52-399f-9b70-26b5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="6a84-03c4-a4c2-88a6" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="3f52-399f-9b70-26b5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="6084-1eda-03eb-c2b1" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="3f52-399f-9b70-26b5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <comment>Hits</comment>
+              <modifiers>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>3</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>2</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>24</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>12</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>11</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>14</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>23</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>9</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>10</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>17</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>21</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>15</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>5</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>8</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>25</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>16</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>13</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>18</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>20</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1">
+                  <comment>4</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>22</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>6</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>19</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f87a-6cc6-c1ed-931e" value="1.0">
+                  <comment>7</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <comment>LV</comment>
+              <modifiers>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>3</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>2</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>24</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1">
+                  <comment>12</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>11</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>14</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>23</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>9</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>10</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>17</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>21</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>15</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>5</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>8</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>25</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>16</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>13</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>18</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>20</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1">
+                  <comment>4</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>22</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>6</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>19</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>7</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="3668-af6d-9843-3d2f" value="1.0">
+                  <comment>1</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <comment>Psi</comment>
+              <modifiers>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="2">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="2">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="2">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="2">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="2">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="2">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="2">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="2">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="2">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="2">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="2">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="2">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b5d2-78f5-5ead-2795" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Lv" typeId="3668-af6d-9843-3d2f">0</characteristic>
+            <characteristic name="Xp" typeId="aa10-487d-055a-0089">0</characteristic>
+            <characteristic name="Move (+)" typeId="f338-81be-7289-1d69">0</characteristic>
+            <characteristic name="Agility (+)" typeId="6a84-03c4-a4c2-88a6">0</characteristic>
+            <characteristic name="Shoot (+)" typeId="6084-1eda-03eb-c2b1">0</characteristic>
+            <characteristic name="Melee (+)" typeId="a6a8-da39-48a5-93c8">0</characteristic>
+            <characteristic name="Melee Dice(+)" typeId="9317-ed34-7080-5b55">0</characteristic>
+            <characteristic name="Will (+)" typeId="e6c4-e7ea-03a8-da10">0</characteristic>
+            <characteristic name="Hits (+)" typeId="f87a-6cc6-c1ed-931e">0</characteristic>
+            <characteristic name="Psi (+)" typeId="b5d2-78f5-5ead-2795">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="7009-d2d2-42a4-5b44" name="[Hero]" hidden="false" targetId="190b-65e3-d23a-1371" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1620-cc6b-4030-52dc" name="2 [Characteristics]" hidden="false" collective="false" import="true">
+          <comment>Remember to change &quot;Max&quot; Modifier of current level to Set as  0 and remove modifiers below the models level.</comment>
+          <modifierGroups>
+            <modifierGroup>
+              <comment>Min increments</comment>
+              <modifiers>
+                <modifier type="increment" field="ab1f-eff6-6218-a237" value="1.0">
+                  <comment>2</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ab1f-eff6-6218-a237" value="1.0">
+                  <comment>24</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ab1f-eff6-6218-a237" value="1.0">
+                  <comment>12</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ab1f-eff6-6218-a237" value="1.0">
+                  <comment>14</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ab1f-eff6-6218-a237" value="1.0">
+                  <comment>10</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ab1f-eff6-6218-a237" value="1.0">
+                  <comment>8</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ab1f-eff6-6218-a237" value="1.0">
+                  <comment>16</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ab1f-eff6-6218-a237" value="1.0">
+                  <comment>18</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ab1f-eff6-6218-a237" value="1.0">
+                  <comment>20</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ab1f-eff6-6218-a237" value="1.0">
+                  <comment>4</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ab1f-eff6-6218-a237" value="1.0">
+                  <comment>22</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ab1f-eff6-6218-a237" value="1.0">
+                  <comment>6</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <comment>Max increments</comment>
+              <modifiers>
+                <modifier type="increment" field="4bba-2f74-9a5d-01c6" value="1.0">
+                  <comment>2</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="4bba-2f74-9a5d-01c6" value="1.0">
+                  <comment>24</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="4bba-2f74-9a5d-01c6" value="1.0">
+                  <comment>12</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="4bba-2f74-9a5d-01c6" value="1.0">
+                  <comment>14</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="4bba-2f74-9a5d-01c6" value="1.0">
+                  <comment>10</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="4bba-2f74-9a5d-01c6" value="1.0">
+                  <comment>8</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="4bba-2f74-9a5d-01c6" value="1.0">
+                  <comment>16</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="4bba-2f74-9a5d-01c6" value="1.0">
+                  <comment>18</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="4bba-2f74-9a5d-01c6" value="1.0">
+                  <comment>20</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="4bba-2f74-9a5d-01c6" value="1.0">
+                  <comment>4</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="4bba-2f74-9a5d-01c6" value="1.0">
+                  <comment>22</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="4bba-2f74-9a5d-01c6" value="1.0">
+                  <comment>6</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bba-2f74-9a5d-01c6" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab1f-eff6-6218-a237" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="76f4-480f-a302-8ef3" name="Melee" hidden="false" collective="false" import="true" targetId="ME" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3f3-eac6-fb48-6628" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="a8c4-a6f8-b461-9797" name="Will" hidden="false" collective="false" import="true" targetId="W" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e47-d07e-6282-7b9e" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="74b4-1833-3788-66f8" name="Agility" hidden="false" collective="false" import="true" targetId="AG" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6026-029d-51b4-3707" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="8e9c-2ccb-ed55-0b1b" name="Melee Dice" hidden="false" collective="false" import="true" targetId="MD" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b8f-4fd2-c621-6a5c" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="1f2a-0164-5889-fa10" name="Move" hidden="false" collective="false" import="true" targetId="MO" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8213-9bc0-7fec-4f31" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="881f-5469-03fa-deea" name="Shoot" hidden="false" collective="false" import="true" targetId="S" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d19-30b0-9837-cdc4" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1c76-549d-249d-7389" name="3 [Talents]" hidden="false" collective="false" import="true">
+          <modifierGroups>
+            <modifierGroup>
+              <comment>Min incriments</comment>
+              <modifiers>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>3</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>2</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>24</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>12</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>11</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>14</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>253</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>9</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>10</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>17</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>21</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>15</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>5</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>8</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>25</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>16</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>13</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>18</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>20</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>4</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>22</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>6</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>19</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="58ae-bd11-a041-1421" value="1.0">
+                  <comment>7</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <comment>Max increments</comment>
+              <modifiers>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>3</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>2</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>24</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="277.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>12</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="67.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>11</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="56.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>14</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="92.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>23</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="253.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>9</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="37.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>10</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="46.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>17</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="137.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>21</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="210.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>15</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="106.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>5</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>8</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>25</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>121</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="121.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>13</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="79.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>18</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="153.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>20</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="190.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>4</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>22</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="231.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>6</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>19</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="171.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="ddfa-34e9-8679-2a52" value="1.0">
+                  <comment>7</comment>
+                  <conditions>
+                    <condition field="selections" scope="3f52-399f-9b70-26b5" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="PSI HERO" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58ae-bd11-a041-1421" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddfa-34e9-8679-2a52" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="8fed-a6ce-df21-f2bc" name="[Skill]" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="46f9-7eb8-cace-d176" name="[Hands of a Healer]" page="" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a35d-ced9-8f1b-fe31" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="8418-502c-bcfd-4778" name="1&gt; Medic" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72e1-176b-6ea8-07f3" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="4778-3004-eaec-cefd" name="1&gt; Medic" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Hands of a Healer</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Campaign</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Between battles, the Hero can automatically heal one injury. This will negate one characteristic penalty that has resulted from injury (except those resulting from a body part being torn off). For example, if a model sustained a crippling injury to the head, then using Medical Care would allow it to remove the penalty to its Shoot, Psi, or Will characteristics. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="ee1c-ffe1-94a6-1a26" name="2&gt; Nurse" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bae-e50d-bd0a-8e20" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="af48-7130-3a51-c4f7" name="2&gt; Nurse" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Hands of a Healer</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">2</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Campaign</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Between battles, the Hero can automatically heal injuries. He may now negate two characteristic penalties that have resulted from injury (except those resulting from a body part being torn off). </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3249-cb57-011e-4bd6" name="3&gt; Doctor" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e03-6655-18f8-3613" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="66d4-75a0-3a87-8c17" name="3&gt; Doctor" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Hands of a Healer</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">3</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Campaign</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Between battles, the Hero can automatically heal injuries. He may now negate three characteristic penalties that have resulted from injury (except those resulting from a body part being torn off).</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="387f-744d-0c93-452f" name="4&gt; Surgeon" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="149e-05a9-11a4-c1e0" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="1b16-5561-e7a4-5aa8" name="4&gt; Surgeon" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Hands of a Healer</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">4</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Campaign</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Between battles, the Hero can automatically heal injuries. He may now negate four characteristic penalties that have resulted from injury. If a body part has been torn off, the Hero can make a Will check. If he succeeds, the body part can be reattached and up to four characteristic penalties restored as normal.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="8ab6-8a65-eb77-6c3c" name="[Streetwise]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="bf44-83e2-c80d-d7bc" name="1&gt; Luck of Grud" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9edb-df32-09cc-99e7" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="f46b-a09d-c7ca-71e3" name="1&gt; Luck of Grud" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Streetwise</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Maybe the Hero was born under a lucky star, perhaps he is favoured by Grud. Whatever the reason, others look on with amazement at what the Hero gets away with, wondering how he can be so Grud-damned lucky! This Talent may be selected up to three times. The Hero gets one free re-roll per battle for every time he has taken the Talent, and this may be used for any dice roll it makes during a battle.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3d58-fb8f-936b-7d3c" name="2&gt; Slippery" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5f1-d9a4-97ac-c53d" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="5906-5f09-8b1f-7085" name="2&gt; Slippery" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Streetwise</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">2</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Campaign</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">No matter how bad the situation is, this hard-nosed Hero will always find his way home, no matter the odds. This Hero may never be taken hostage and always returns to his force at the end of a fight. If the Hero is ever arrested, make an Agility check. If the Hero succeeds, it manages to escape even judicial custody and returns to his force as normal.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="1ba6-c633-6d93-3c27" name="[Grease Monkey]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="9bee-4942-0ba6-08dd" name="1&gt; Bodge &apos;n&apos; Fix" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6275-34cb-b2be-4c71" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="0e46-ba4e-15be-9c2b" name="1&gt; Bodge &apos;n&apos; Fix" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Grease Monkey</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">By ensuring a vehicle is in pristine condition before a fight and then performing quick fixes when under fire, the Hero ensures it stays operational. Any vehicle the Hero is on board will have –1 deducted from the dice of any roll on the critical hit table.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="d4c8-38d0-0a26-f4b2" name="2&gt; Can We Fix It?" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26c5-cbdd-dcf6-ed00" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="cb35-5d42-9a08-56c8" name="2&gt; Can We Fix It?" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Grease Monkey</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">2</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Campaign</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Hero has a complete workshop, lots of spare parts and a gift for repairs. He may repair two Hits on a damaged vehicle for 1/10th the vehicle’s cost, instead of just one.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="5c7e-cfd1-c6f3-854d" name="3&gt; Pimped Out" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3751-4257-ff0f-467c" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="5fc9-c547-4040-a73d" name="3&gt; Pimped Out" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Grease Monkey</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">3</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Campaign</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The vehicle’s worked over by this Hero stand out from the crowd and are typically loaded down with modifications and customisation. Vehicle’s owned by the Hero’s force never have their Move reduced for multiple modifications.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="0bb7-141c-f2c1-a5ce" name="[Connected]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="94f0-213d-20f8-a1b1" name="1&gt; Fixer" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddb6-3856-7a1a-7276" type="max"/>
+                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4892-9c3b-9abf-c421" type="min"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="7e20-4a4d-6488-7a82" name="1&gt; Fixer" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Connected</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Campaign</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Hero has connections and can always call in a favour. Every battle, one Mercenary may be used regardless of whether the force is out-matched by its enemy or not,  and they will deduct half their normal cost from the revenue the force receives after the battle is complete. The maximum cost of the Mercenary is 100 Credits for every level the Hero has.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="5b02-b2ce-90f3-23e4" name="2&gt; Wealthy" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a02f-fb41-fea2-c834" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="cd10-ca9f-cafb-e31c" name="2&gt; Wealthy" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Connected</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">2</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Campaign</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Hero is used to the better things in life, either through the right contacts or by having a huge stack of Credits in a safe account. The Hero may double the maximum Credit value of equipment, armour and weapons he may usually have. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="e68c-b6a6-1f52-f787" name="[Healthy body, Healthy Mind]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="ae08-7a85-a823-afd3" name="1&gt; Concentrated Mind" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7d3-f972-2156-d1ef" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="67c5-47d9-db6f-c002" name="1&gt; Concentrated Mind" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Healthy Body, Healthy Mind</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">Psi +1 or higher</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Rarely distracted by the swirl of combat around him, the Hero can unleash Psi Talents even when in contact with an enemy model.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="4d36-2414-ee41-bf45" name="2&gt; The Power Within" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b31-47e1-3d42-a585" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="e70b-2ee7-fb6d-d4f7" name="2&gt; The Power Within" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Healthy Body, Healthy Mind</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">2</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Hero has tremendous psychic potential, and can continue manifesting Psi Talents long after others would be exhausted. The Hero gains a permanent +2 bonus to its Psi score.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="8c95-782c-efe4-f342" name="3&gt; Critical Reserves" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f472-1128-fc7a-8ee5" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="947d-4d1e-eb1c-d2fe" name="3&gt; Critical Reserves" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Healthy Body, Healthy Mind</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">3</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Activate</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Hero has learned how to fuel his Psi Talents with his own physical reserves. This is a dangerous practice, but can save a Hero in serious trouble. The Hero deducts a number of Hits of his own choosing. For every Hit lost, he immediately gains 2 Psi.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="0459-dad1-1a55-8784" name="[Sneaky Does it]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="a72b-ea17-8287-59af" name="1.0&gt; Stealthy" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0784-79dd-b0e6-d735" type="max"/>
+                        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69cc-b2f2-a158-9e3d" type="min"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="8475-e3d5-f0d0-1ce8" name="1.0&gt; Stealthy" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Sneaky Does it</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1.0</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Activate (Move)</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Hero has learned to fade from view. Until the beginning of the Hero’s next Phase, enemies within 20” wishing to take any action against the Hero must succeed at an opposed Will check. If one enemy succeeds, then the Hero is no longer in Stealth. Enemies further away cannot take any action against the Hero. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="b9f0-6ab9-45a6-54ff" name="1.1&gt; Infiltrator" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df3f-e4a5-45f2-9470" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="a0fe-dfda-3c79-f86e" name="1.1&gt; Infiltrator" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Sneaky Does it</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1.1</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill </characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Skilled at infiltration, the Hero will usually sneak onto the scene of battle before either force arrives, to scope the area and get into a position of advantage. The Hero is placed on the table after all the models of both forces have been deployed. He may be placed anywhere up to 15” away from another member of its force, so long as he is not in the Line of Sight or within 15” of any enemy model. If both forces have models with this Talent, both players must roll a dice – the lowest scoring will place his models first.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="20b8-2422-0e8a-092c" name="2&gt; Silent Action" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea98-3a38-3f30-55de" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="f980-0bba-0233-e5e5" name="2&gt; Silent Action" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Sneaky Does it</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">2</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Activate (Move or Special)</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">While using Stealthy, the Hero may use perform quiet actions without revealing himself. After performing a Special action to activate Stealthy, the Hero may then choose either a Move or Special action without revealing himself.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="0a2d-5bdd-5a0c-ab2b" name="3&gt; Silent Killer" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6e2-163e-a31a-1d07" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="893d-692d-f2da-60b0" name="3&gt; Silent Killer" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Sneaky Does it</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">3</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Activate</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Hero may now take Shoot and Melee actions while using Stealthy. However, he suffers a –1 penalty to his Melee and Shoot scores while doing so. If the Hero attacks while using Stealthy, he will automatically cause a critical hit. However, he will automatically break his Stealth as soon as the attack has been completed.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="007b-bbb3-3712-268c" name="4&gt; The Shadow" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cf1-79dd-de14-d0f5" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="3f2f-9ba1-1186-db48" name="4&gt; The Shadow" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Sneaky Does it</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">4</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Activate</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Hero has mastered the art of stealth. He no longer suffers a penalty on Melee and Shoot scores while using Stealthy and gains a +2 bonus to his Will checks when opposing enemies trying to spot him. If the Hero attacks while using Stealthy, he will automatically cause a critical hit. Using The Shadow, he will not break his Stealth after a shooting attack – he can choose to remain in Stealth until an enemy spots him. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="5f1a-a814-b003-7df1" name="[Swift and Deadly]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="7edb-c05a-6a58-8774" name="1&gt; Agile" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bc3-2f69-dea0-89c3" type="max"/>
+                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5c3-d60e-992c-2893" type="min"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="51cf-11bd-584a-473e" name="1&gt; Agile" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Swift and Deadly</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">Agility +1 or higher</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Lithe and nimble, the Hero may re-roll any failed Agility checks. This does not include rolls where you add Agility to avoid being hit in combat! A check is where you need to roll 6 or more on a dice for success after adding your Agility.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="1db9-f8cd-4fbc-6d1e" name="2.0&gt; Light Foot" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a6b-c40f-ea99-3cbb" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="f469-4cb0-5927-b68e" name="2.0&gt; Light Foot" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Swift and Deadly</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">2.0</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Action (Move)</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">During a Move action, the Hero can make an Agility check able to jump over any obstacle up to 1” high without any Move penalty. If the Agility check is failed, the Hero will stop at the obstacle, losing any subsequent move still available.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="a83a-b9c9-33d1-01fa" name="2.1&gt; Quick Dodge" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8960-ebda-775f-10b3" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="5488-4139-e0c8-f810" name="2.1&gt; Quick Dodge" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Swift and Deadly</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">2.1</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">During an intense fire fight, cover is usually the first port of call, but some individuals learn to do without. If the Hero is not in cover, it may add a +1 bonus to its Agility when being shot at. This may not be used against weapons with the Spray or Explosive special rules, as they cover too much ground to avoid effectively.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="39a3-d5ff-3327-cb6c" name="3.0&gt; Duck &amp; Weave" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dee-081f-a840-f8a2" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="59f1-75a7-d640-262b" name="3.0&gt; Duck &amp; Weave" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Swift and Deadly</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">3.0</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Having spent a long time in fire fights, the Hero has learnt the benefits of keeping its head down when the bullets start flying. The Hero gains a +1 bonus to any Agility checks he is eligible to make against shooting attacks so long as he is already benefiting from Cover. He does not gain any extra benefit from Cover against close combat attacks, nor does he gain any benefit if it is not within cover.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="212c-cb89-cc09-bffe" name="3.1&gt; Lighting Leap" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a14-ff63-52bd-46e2" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="3230-2a6f-e76f-03bb" name="3.1&gt; Lighting Leap" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Swift and Deadly</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">3.1</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Action (Move or Melee)</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">With a graceful leap, the Hero is gone - or suddenly appears right in your face! When in Close Combat, the Hero may leap a distance up to his Move score in any direction. This does not count as fleeing Close Combat and his opponent does not get any attacks. If a Melee action is used to engage another enemy in Close Combat, the Hero will count as charging and adds +1 to his Melee score for this action.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="9ccc-6799-8d9c-8846" name="4&gt; Enemy Shield" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3082-4ebc-79b8-ddf5" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="593a-eba5-5e17-0576" name="4&gt; Enemy Shield" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Swift and Deadly</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">4</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">There is no better cover than an enemy when the bullets starting flying and the Hero is adept at positioning itself so incoming shots will strike opponents in close combat. When a shooting attack is made into close combat, the Hero gains a +3 bonus to the dice roll made to determine whether a friend or an enemy is actually hit.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="df91-24b8-eacf-7367" name="[True Hero]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="dbdc-3380-964c-2b7c" name="1.0&gt; Brave" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8099-250d-bf4c-80d8" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="667c-e116-9537-033d" name="1.0&gt; Brave" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">True Hero</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1.0</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">There is not much that terrifies this Hero. All Will checks the Hero is called upon to make for Will to Fight purposes may be re-rolled.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="291e-49c9-507f-caa6" name="1.1&gt; Drokk the Law!" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfa9-fb08-3511-d8c3" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="7635-a320-a42c-3f71" name="1.1&gt; Drokk the Law!" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">True Hero</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1.1</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Hero’s bravery is infectious, spreading to the rest of his force. All allies within 15” of the Hero may re-roll any Will check made to resist arrest</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3b8e-0087-6498-def8" name="2.0&gt; Inspire" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea17-24d3-ef1b-fd2b" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="a94c-9c71-5cd4-7141" name="2.0&gt; Inspire" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">True Hero</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">2.0</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Having fought with his allies through thick and thin and saved their lives many times, the mere presence of this Hero is a great boost to morale. Every friendly model within 12” of the Hero gains a +1 bonus to all Will checks made for resisting arrest and Will to Fight purposes. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="b6b7-b172-e4b4-4dfd" name="2.1&gt; Loyal Follower" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1926-ddfc-304c-9e91" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="954d-1cf4-353b-20e4" name="2.1&gt; Loyal Follower" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">True Hero</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">2.1</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Campaign</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Hero forms a bond with a Mercenary, inspiring them to join his force permanently. One Mercenary that has fought alongside the force in a past battle may be taken into the force as a permanent member, allowing them to be bought weapons, armour and equipment, and to start acquiring Experience Points, if they are a Hero.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="e128-9580-63dc-bbdb" name="3.0&gt; Nerves of Steel" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9022-dc46-8371-77e1" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="9f09-f42b-5c86-d603" name="3.0&gt; Nerves of Steel" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">True Hero</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">3.0</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">Inspire</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Even when in great danger, the Hero is utterly unflappable, heedless of his own safety. The Hero will automatically pass all Will checks made for Will to Fight purposes.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="5102-5bd0-a9a7-c41f" name="3.1&gt; Heroic Push" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3786-d5c3-b0f9-fdb0" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="9c23-831e-5d8c-2e80" name="3.1&gt; Heroic Push" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">True Hero</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">3.1</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">A true hero, this model is able to perform acts that no mortal would normally consider, flanking enemies or finishing off a particularly hard rival. Once per battle, the Hero may take three actions in its Phase instead of two. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="fc68-2bb4-d8a5-91a3" name="4&gt; Die Hard" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c67-c020-213f-5954" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="33f9-d90d-459f-de73" name="4&gt; Die Hard" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">True Hero</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">4</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Hero is an ornery brute and refuses to die! If the Hero is reduced to 0 Hits, make a Will check immediately. If failed, the model is removed as normal. If successful, the Hero immediately regains one Hit and may continue fighting. The Hero must continue to make successful Will checks at the start of each of its Phases in order to continue fighting. Failure will result in him being removed from the table as a casualty. If the Hero takes more damage and loses another Hit while benefiting from the Die Hard Talent he is automatically removed from the table as a casualty.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="8b41-10b1-f770-3e3d" name="5&gt; Die Harder" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3595-ef2b-b1a4-a4cf" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="8baf-e556-7f99-6990" name="5&gt; Die Harder" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">True Hero</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">5</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">If a Hero takes damage and loses a Hit while benefiting from the Die Hard Talent, having already been reduced to 0 Hits previously, he makes an additional Will check immediately. If failed, the Hero is removed as normal. If successful, the Hero immediately regains one Hit and may continue fighting. The Hero must continue to make successful Will checks at the start of each of its Phases in order to continue fighting. Failure will result in him being removed from the table as a casualty. If the Hero takes further damage while benefiting from the Die Harder Talent,  additional Will checks will need to be made to be able to continue fighting.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="309d-a33d-49f9-59aa" name="[Biker Groove]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="450d-646e-f69e-fa95" name="1&gt; Hunker Down" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c05-84d9-7108-3df8" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="e7ad-893a-1751-7e8c" name="1&gt; Huner Down" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Biker Groove</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">When fire is incoming, the Hero has learned to keep his head down. Whenever subjected to a shooting attack, a –1 modifier is applied to the roll that determines whether the bike or the Hero is hit.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="fe27-7646-ffec-bdcf" name="2&gt; Brive-by Boot" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca78-d679-fdb8-f263" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="d5b2-a748-4d43-e11f" name="2&gt; Brive-by Boot" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Biker Groove</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">2</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Action (Melee)</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">If the Hero has travelled at least 5” on his bike before he moves into contact with an enemy, then a Drive-by Boot can be executed with one of the Hero’s close combat weapons. This attack uses only a single Melee Dice but doubles any Damage caused with a +1 bonus to the Hero’s Melee score. After this attack is complete, Move the Hero 2” in any direction away from the Model it attacked. He may not use this Movement to enter Close Combat with another Model.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="be12-d889-ff0b-f560" name="3&gt; Dodgem" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edcc-5b7b-c213-fa5a" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="8731-7f32-dfc0-7d4e" name="3&gt; Dodgem" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Biker Groove</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">3</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Hero has almost supernatural reflexes and a constant awareness of anything nearby that is larger than himself. Whenever a vehicle with more Hits than his bike attempts to ram him, the Hero may re-roll his opposed Agility check in order to get out of the way.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="90c5-9594-7081-29ac" name="4&gt; Wheelie" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f33-6ba3-f02d-2ade" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="5df4-d91e-f3ac-bdac" name="4&gt; Wheelie" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Biker Groove</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">4</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Activate (Melee)</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">By gunning his engine, the Hero rears his bike up and runs over his enemies at speed while using the bulk of his bike as a shield. If the Hero has travelled at least 5” on his bike before he moves into contact with an enemy, then a Wheelie can be executed. The Hero rolls just one Melee Dice, but uses his bike as a weapon. The bike itself will have a Damage score of 2 and AP -3. In addition, the Hero gains a +1 bonus to his Armour until the start of his next Phase.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="ff1a-ab3e-5f88-b34f" name="[Midnight Surfer]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="4098-1479-daf4-f4a6" name="1&gt; Jinker" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="866f-fc34-844e-b290" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="26cf-6d39-0676-23db" name="1&gt; Jinker" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Midnight Surfer</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Able to turn on a 10 Credit piece, the Hero manoeuvres to avoid incoming fire. While on a Power Board, the Hero may re-roll his Agility whenever subjected to a shooting attack. However this re-roll suffers a cumulative –1 penalty for every shooting attack made after the first.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="04d3-a517-f05d-9f65" name="2&gt; Stunt Surfer" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4110-192f-a58c-d45c" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="ea1c-1ce2-e650-8958" name="2&gt; Stunt Surfer" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Midnight Surfer</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">2</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Activate (Move)</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Every great sky surfer has a signature move, one that identifies him to all other sky surfers and their fans (and the Judges). Using this Talent, the Hero performs his signature move high above the raging battle. He may not be attacked by any weapon with a Range less than 40” for the rest of this turn. He must then make an Agility check. If he succeeds, he suitably inspires the rest of his force, giving them a +1 bonus to all Will to Fight checks for the rest of the turn. If he fails, he will become a laughing stock and the rest of his force will suffer a –1 penalty on all Will to Fight checks for the rest of the turn.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="83ae-a6b3-fb8c-f768" name="3&gt; Precision Drop" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e659-3d19-2cda-be66" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="fd47-16ff-aa29-ee64" name="3&gt; Precision Drop" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Midnight Surfer</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">3</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Activate (Move)</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Hero has trained long and hard to make precision drops while travelling at high speed – he can now drop a grenade down the smallest of hatches. A shooting attack with a single grenade may be made at any point along the Hero’s movement when he uses a power board.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3015-7c03-4c3a-74bb" name="4&gt; Scything Attack" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="563e-f5ac-0428-c4d5" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="3cb6-b91d-f8ff-1af9" name="4&gt; Scything Attack" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Midnight Surfer</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">4</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Action (Melee)</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Having trained to fly very close to the ground while weaving in-between enemies, the Hero launches a devastating power board-borne attack. The Hero may perform a Melee action while mounted on a power board. He may only ever roll one Melee Die in any close combat, but will add +1 to the Damage of any weapon he uses. After the Melee action has been completed, the next action performed must be a Move action to flee close combat. Note that this is an exception to models on power boards not being able to enter Close Combat.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="768a-28a6-d63e-a505" name="[Leader of Men]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="23d2-7a53-cebd-ffc6" name="1&gt; Voice of Command" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e08c-8c22-2765-4221" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="4bc9-148f-846b-97b1" name="1&gt; Voice of Command" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Leader of Men</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">So long as the Hero is around and shouting out orders, all other models in the force become naturally more courageous and more resistant to the wiles of the enemy. Every model within 12” of the Hero gains a +1 bonus to all Will checks.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="c8ab-8e76-ace7-ad08" name="2&gt; Loyal Bodygaurd" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb18-1eb0-7374-c69f" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="52e6-e7d1-11ef-cb24" name="2&gt; Loyal Bodygaurd" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Leader of Men</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">2</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Select one Hero or Minion in the same force as this Hero. This model has attained an undying loyalty to his leader and will gladly sacrifice himself if it means the Hero will go on to greater things. So long as this model remains within 1” of the Hero, any shooting attack aimed at the Hero may instead be directed towards the loyal bodyguard.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="1f1b-ba0a-a1d8-384f" name="3&gt; Inspire and Elevate" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8a9-3a3b-bd73-70e5" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="763f-afdc-7ece-01b4" name="3&gt; Inspire and Elevate" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Leader of Men</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">3</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Campaign</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">When calculating victories and updating rosters in a campaign, choose one Minion in the force that survived the last battle. This Minion then makes a Will check. If it succeeds, it is automatically made a Hero, without having to survive for five full battles.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="ca88-de5c-74a7-f3d6" name="4&gt; Total Tactical Control" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0d4-1f80-28c4-7b23" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="1aad-61e8-1368-e259" name="4&gt; Total Tactical Control" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Leader of Men</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">4</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Hero has studied his tactics well, and knows when to launch a suicidal assault and when discretion is the better part of valour. A force with this Hero is never forced to take Will to Fight checks. Instead, all models may voluntarily fail a Will to Fight check (and thus retreat from the fight) at any time after 25% of more casualties have been taken (rounding down). Alternatively, Will to Fight checks can be ignored altogether, with the force fighting to the last man if necessary! As soon as the Hero is removed as a casualty, however, Will to Fight checks are taken as normal.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="a908-7d3a-62ba-8197" name="[Cursed Earth Survival]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="9e24-44bd-973f-7175" name="1.0&gt; Tough As Nails" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7b5-edd8-564f-1397" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="dc53-5205-e4f2-1b5f" name="1.0&gt; Tough As Nails" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Cursed Earth Survival</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1.0</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Weak have no place within the Cursed Earth, and inhabitants quicly toughen up or die. The Hero permanently gains +1 Hits. This Talent may be selected up to three times, granting an extra Hit every time.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="2909-9f9d-defa-8c72" name="Cursed Earth Survival Rules" hidden="false">
+                          <description>These Talents may be taken by Heroes in the following forces:
+Cursed Earth Desperados
+The Angel Gang
+Zombie Horde 
+The Judda</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="1539-8af1-03c3-db8e" name="1.1A&gt; Latent Psi" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f936-9d1e-624b-96da" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="4053-f8df-04cc-6f8f" name="1.1A&gt; Latent Psi" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Cursed Earth Survival</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1.1A</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Radiation still present in the Cursed Earth can do odd things to its inhabitants. This Hero has become a strange sort of mutant, developing a limited psychic potential. The Hero Gains a Psi scor of 2, and any free Psi Talent that has the Psi cost of 1. In all respects, the Hero uses the Psi Talent rules but cannot choose any more Psi Talents.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="beae-bb0f-282e-4e26" name="1.1B&gt; Mutant" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e73f-e4f2-7020-05ee" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="fca7-ae2b-bd85-ebaf" name="1.1B&gt; Mutant" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Cursed Earth Survival</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1.1B</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Sooner or later, mutations manifest themselves on most inhabitants of the Cursed Earth, even those who origionally came from pure genetic stock. The Hero gains any one 5 Credit mutation. This Talent may be selected up to three times, with the second upgrading the mutation to 10 Credits, and the third up to 20 Credits. Note that if a particular mutation type is not listed under a certain Credit score (such as Melee Dice nad Hits at 5 Credits o, or Agility, Shoot, Melee or Will at 10 Credits), a Talent must still be used for it (for no immediate benifit) if a higher Credit mutation is desired in the  future.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="7874-e383-dc9c-cedc" name="1.1C&gt; Wary" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75cc-0aa3-2a9c-cc12" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="1fab-d9e9-4a94-f474" name="1.1C&gt; Wary" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Curssed Earth Survival</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1.1C</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">It pays to be cautious and to keep eyes in the back of your head (sometimes literally) whne in the Cursed Earth. Once per game, the Hero may be placed onto Alert Status after he has completed his actions, evenif he has actually performed those actions.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="fc76-eadb-ae42-8e61" name="2&gt; Irradiated Immunity" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ad8-a576-f4c1-9abc" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="6ac8-3f47-3d9c-8d72" name="2&gt; Irradiated Immunity" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Cursed Earth Survival</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">2</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">After having been bitten,shot or struck by just about everything the Cursed Earth has to offer, there is little that trully bothers the Hero. He is immune to all effects of rules which mention poison, such as Fink Angel&apos;s Pizzen Stick or Oola Blint&apos;s Poiison Gun.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="43c0-52b1-8e1b-a9ca" name="[Heavy Rigger]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="927c-55bf-3fe6-f9de" name="1&gt; Bootlegger" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f9b-e431-4e95-4ead" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="7154-fa9b-dcc4-696e" name="1&gt; Bootlegger" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Heavy Rigger</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Action (Move)</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Even the heaviest mo-pad can make tight turns, if the driver has the skill. With this Talent, the Hero may attempt an Agility check before the vehicle he is driving is moved. If successful, he can make a turn of any angle during the vehicle&apos;s movement. If he fails, however, he may not make any turns at all.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="d73c-8092-c3cb-51fc" name="2.0&gt; She&apos;ll Hold Together!" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc64-b25b-badc-c6f1" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="13c5-7f6b-1629-9d28" name="2.0&gt; She&apos;ll Hold Together!" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Heavy Rigger</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">2.0</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Through a combination of personal belief, precision driving and sheer luck, the Hero can position his vehicle so incoming damage is at least mitigated a little. When rolling on the critical hit table for his vehicle, the Hero may adjust the result by an amount up to or equal to his Agility score. This may be done after the die has been rolled.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="21bd-eecf-3bc6-2bc8" name="2.1&gt; It&apos;s Gunna Blow!" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cd0-354a-5623-89fe" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="d524-cedf-19aa-52a0" name="2.1&gt; It&apos;s Gunna Blow!" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Heavy Rigger</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">2.1</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill </characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">There may come a time when even a Hero&apos;s beloved rig takes too much damage to carry on. In these cases, it is better to abandon the vehicle quickly! The Hero may leave a vehicle at any time, even if it not his Phase, such as to avoid taking damage when a Boom! result is rolled for on the critical hit table. The Heor must succeed at an Agility check. If successful, he is placed outside the vehicle, taking damage if the vehicle was moved when he last toook actions.However, the &apos;falling&apos; distance is halved.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3e93-8f16-706b-e1ed" name="3&gt; Steady at the Wheel" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19d3-ec80-c9fd-0129" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="2f75-8553-9b55-c506" name="3&gt; Steady at the Wheel" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Heavy Rigger</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">3</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Action (Move)</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Even the most unresponsive hauler responds to the Hero&apos;s touch when he is at the controls. So long as the vehicle moved but did not make any turns, every model firing from the vehicle for the rest of the Phase gains a +1 bonus to their Shoot scores.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="408c-f86b-303e-fcb5" name="4&gt; Ramming Speed" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="960e-3032-6ac9-0aba" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="7e5c-679e-fab2-dc1f" name="4&gt; Ramming Speed" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Heavy Rigger</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a"/>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Action (Move)</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">When the Hero drives headlong into another vehicle (as opposed to being driven into), he can use the full inertia of his own vehicle to cause maximum damage. The Hero may choose to take any penalty on his opposed Agility check and add the score he deducted to the number of Ramming Dice he rolls.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="d18e-cd6f-3b7c-10db" name="[Futsie]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="d5e8-42d3-7a69-4f61" name="1&gt; I Am Completely Mad" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ffe-5956-5144-5764" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="0a23-3c52-e717-43af" name="1&gt; I Am Completely Mad" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Futsie</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Hero has flipped. Confronted by his own mortality and the acceptance that he has no useful place in the universe, he has gone Futsie. He immedialty suffers a -1 penalty to his Shoot score, but gains +1 bonus to his Melee scoreand a +2 bonus to Will. At the start of each Turn, both players roll a die, with the Hero&apos;s player adding +5 if he rolls an odd number. The highest roller will have control of the Hero for that Turn.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="8ee2-747d-d7ca-b9fc" name="2.0&gt; Empty Head" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96b6-8ceb-c691-a10a" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="dc28-3007-eff3-9253" name="2.0&gt; Empty Head" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Futsie</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">2.0</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949"/>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">There is nothing but madness in the Hero&apos;s head, a place where psychics fear to tread. The Hero automatically passes all will checks required to resist Psi Talents.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3794-bce9-9eee-3c99" name="2.1&gt; Kill Them All" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e6a-0287-17ab-90b1" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="7e6c-6a52-319b-013e" name="2.1&gt; Kill Them All" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Futsie</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">2.1</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Action (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Laughing manically, the Hero unleashes a torrent of firepower, laying waste to everything an everone around him. He doubles his Shooting Dice for this attack but must perform a Will check. If he succeeds but psychosis takes full hold and his next action must also be a Shoot action using this Talent unless he is engaged in close combat beforehand. If no enemy model is in sight, he will attack the closest target be it friend, foe, or otherwise!</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="d4ec-97c9-8505-a266" name="4&gt; Pain-Free" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51f7-51c6-3cf0-3e38" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="b0ef-661f-80d6-cffa" name="4&gt; Pain-Free" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Futsie</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">4</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">When this Hero is shot, there is every chance he will not even notice, so far has he descended into madness. whenever the HEro loses a Hit from a Damage 1 weapon, he canmake a Will check. If successful, he loses no Hits at all. Weapons with Damage 2 or higher affect him normally.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="f85d-5bc7-2904-81c3" name="3&gt; Crazed" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4328-f3ff-682b-9735" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="7b2e-3451-13db-6407" name="3&gt; Crazed" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Futsie</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">3</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Action (Melee)</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">With limbs flailing and teeth bared, the Hero is psychotic terror in close combat. During this action, his Melee Dicve are doubled.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="d981-80fd-bf5a-e76d" name="5&gt; Method in Madness" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8a3-fef8-682b-2ccf" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="e27a-5586-ac7e-90ba" name="5&gt; Method in Madness" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Futsie</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">5</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Everyone belives the Hero is howling mad but, deep down in the darkest parts of his mind, he knows what he is doing. When rolling to see who controls the Hero at the start of every Turn, the Hero&apos;s player adds +5, regardless of whether he rolls an odd or even number.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="f31b-0df5-8941-4ccd" name="[Mob Justice]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="7cbf-54d9-429d-a8eb" name="1&gt; Ablitive Citizens" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="552a-1ee4-25db-3968" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="d2d6-8d1a-41d6-2362" name="1&gt; Ablitive Citizens" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Mob Justice</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">1</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The first thing a Hero learns when leading a Mob is to keep his head down - far better a Minion takes a bullet than im! If the Hero is attacked by any shooting weapon, he may immediatly swap position with any other model in the Mob to take him out of the line of fire. The attack is then applied to the new model instead. However, the Hero may not use this Talent if every other model in the Mob is being attack anyway (such as an Explosive weapon with sufficient blast to cover all models at the same time).</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="2d88-8417-72fc-5868" name="[Mob Justice]" hidden="false">
+                          <description>Hero must be leading a Mob to use these Talents.</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="53f5-6996-5448-9b40" name="2&gt; Hell No!" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bc9-cdb3-e6fb-4ee1" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="2467-db7b-5a94-1978" name="2&gt; Hell No!" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Mob Justice</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">2</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Activate (Melee)</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Agitating the Mob, the Hero galvanises them into action, turning them into a veritable frothing horde ready to take on anyone. During the Melee action, the Mob doubles its Move score when charging (there is no effect if this is notsufficient to get intoclose combat), and gains a +1 bonus to its Melee acore.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="83af-fa15-0c67-3544" name="3&gt; We Won&apos;t Go!" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5109-45a8-0e2f-72ab" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="626e-f118-ab7b-e87d" name="3&gt; We Won&apos;t Go!" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Mob Justice</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">3</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Hero is a master as manipluating a Mob, making it angry enough to face Judges, Mutants and even Demonic entities. If the Mob is already under the effects of the Hell No! Talent, it will also gain a bonus Melee Die.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="6ace-3857-1ae2-b2ff" name="4&gt; Get &apos;Im&apos;!" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e4e-124d-d83b-ee6c" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="3047-11c0-d42c-f03d" name="4&gt; Get &apos;Im&apos;!" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Mob Justice</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">4</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill </characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Action (Melee)</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Facing a Mob can be daunting experience, even for those with proper military or judicial training. When a Mob charges, its deafening cries filling the air while the ground trembles underfoot, some enemies may simply turn and run. The Hero drives his Mob foreward. and any model they charge must perform a Will check. Ifthis is failed, the next action the enemy model must perform is a Move action to flee close combat.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="ee62-ea38-6a71-2a3a" name="[Field Medic]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="d4af-68fb-d668-c4ea" name="1&gt; First Aid" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7559-b722-042b-eb47" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="44f1-c0be-36e9-a92d" name="1&gt; First Aid" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Field Medic</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a"/>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Action (Special)</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">With a combination of Stimulants and coagulants, the Hero can patch up a friend and send them back into battle. When the Hero is in base contact with another model(not a Robot, Zombie, Demon or Alien), use of this Talent will restore a lost Hit to the model. If the Hero loses Hits, he may use this Talent on himself so long as he passes a successful Will check. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="cf9c-4214-126d-b7bc" name="[Field Medic]" hidden="false">
+                          <description>These Talents may only be used when a Hero is carrying a medi-kit.</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="8496-5fc3-6170-58b7" name="2&gt; Just Give Me a Chance!" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c233-b50a-2332-91f7" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="ddb3-54e5-64a4-76fe" name="2&gt; Just Give Me a Chance!" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Field Medic</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">2</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">Sprinting forward, the Hero uses his own body to shield an injured comrade. The Hero may use his medi-kit when another model has been reduced to its last Hit, rather than wwaiting for it to be reduce to zero Hits. He moves to the model&apos;s side as normal and, so long as the model takes no actions in its next Phase, it will gain a +2 bonus to its Armour as the Hero helps shield it from further harm. The HEro is free to perform any actions and will continue to grant the bonus to ARmour for as long as he remains in contact with the model.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="4d2f-8375-82fe-5e5e" name="3&gt; The Doc Will Sort Ya" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2829-9d52-3a84-ad74" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="8188-2e99-538f-7d56" name="3&gt; The Doc Will Sort Ya" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Field Medic</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a"/>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">While the Hero is not a true doctor, he knows how to rapidly patch people up so they have a greater chance of survival when they do get to a medical facility. If another Hero is removed as a casualty within 6&quot; of this Hero, it will deduct -2 from the die roll when determining the seriousness of its injuries. If a Minion is removed within 6&quot;, it will gain a +1 bonus when rolling to see if it returns to the force.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="dddf-1b54-8ce4-919a" name="4&gt; Don&apos;t Die On Me!" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fc2-ab5e-346e-a362" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="0aba-8c8d-917d-bb1d" name="4&gt; Don&apos;t Die On Me!" hidden="false" typeId="e25a-fdfa-6125-25f5" typeName="&lt;7 Skill Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="9567-a5fd-5c40-3d71">Field Medic</characteristic>
+                            <characteristic name="Branch No." typeId="2bc3-3e5a-baed-ca8a">4</characteristic>
+                            <characteristic name="Type" typeId="6097-db5b-d056-6300">Skill</characteristic>
+                            <characteristic name="Use" typeId="2e55-e2f3-646c-9f22">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="17ec-98e7-07ee-3949">-</characteristic>
+                            <characteristic name="Descr." typeId="8692-98c2-5f20-4631">The Hero not only has perserverance, but also great belief in his abilities, continuing in his attempts at resuscitation when others would have given up long before. If the Hero has rushed to the side of a model that has lost its last Hit but fails to revive it, he may continue the attempt in subsequent  Phases. If he spends the next Phase performing two Special actions, another Agility check may be made to bring the downed model back up to one Hit, though with a -1 penalty. If this is failed, two Special actions may be attempted the next Phase, but with a -2 penalty to the Agility check, and so on. The Hero can make any number of attempts with a cumulative penalty to his Agility checks, but as soon as he performs and action other than Special, the casualty is removed permanently.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="c1b0-739a-257b-77a3" name="[Weapon]" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="6887-f6bf-dc20-9444" name="[Alleyway Fighter]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="e72a-d901-82ac-874e" name="1.0&gt; Dirty Fighting" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="201d-1258-7105-996e" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="baab-0423-d794-aac5" name="1.0&gt; Dirty Fighting" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Alley Way Fighter</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1.0</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Melee)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero tries to incapacitate a target. If the Hero causes damage against an opponent with this Melee attack, no damage is caused. Instead, the enemy must make a Will check. If the check is failed, the enemy will recieve a Stun.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="ba5e-1276-f45e-ee74" name="1.1&gt; Careless Charge" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8806-263b-d076-0f65" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="c4e4-ca19-8f90-6b0b" name="1.1&gt; Careless Charge" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Alley Way Fighter</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1.1</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Melee)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero charges forth with wild abandon, and may double its Move for a single Melee action to reach an enemy. However, the enemy may take an immediate Shoot action against the Hero, though only one Shooting Dice may be used.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="2cb5-c8b2-bdf5-b740" name="1.2&gt; Thundering Charge" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f7f-96a4-07c6-8199" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="fe80-d190-f7a6-664b" name="1.2&gt; Thundering Charge" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Alley Way Fighter</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1.2</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Melee)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">With an almighty roar, the Hero surges forward in close combat, scaring the wits out of any enemy and throwing caution to the wind. When the Hero charges in a Melee action to first enter close combat, it gains two extra Melee Dice instead of one, but also suffers a –1 penalty to its Melee score. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="30de-a7ff-8cc5-ae0f" name="2&gt; Below the Belt" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c267-c84b-e909-a2c1" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="b1f4-36dc-fa24-6cb7" name="2&gt; Below the Belt" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Alley Way Fighter</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">2</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Melee)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero delivers a swift and unsportsmanlike kick to the target. In addition to suffering normal damage, the enemy must pass a Will check or suffer a –1 penalty to its Move and Melee scores until the end of its next Phase. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="b31a-22aa-bbc3-a4c1" name="3&gt; Deadly Strike" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8f8-fa0d-a05f-1307" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="836d-e59f-610f-cf59" name="3&gt; Deadly Strike" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Alley Way Fighter</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">3</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Activate (Melee)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero makes a swift strike at a vulnerable area on the target. This attack gains an additional –2 to the AP score of the Hero’s weapon.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="8e20-b3e0-2e63-46f2" name="4&gt; Just Plain Lethal" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e8c-b263-33bf-9397" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="3d66-00e8-ff81-3b46" name="4&gt; Just Plain Lethal" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Alley Way Fighter</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">4</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero has a keen eye for weak spots. The dice roll needed to cause a critical hit with a Melee attack (normally a 10) is always reduced by one. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="a4d7-6c2f-8b52-6c52" name="5&gt; Mighty Blow" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9f8-a9b8-e4fa-49fb" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="49bd-ff4e-5fe5-f7b1" name="5&gt; Mighty Blow" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Alley Way Fighter</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">5</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero puts extra weight and effort behind a single strike. He only rolls one Melee Die for this attack. If it hits, the blow is an automatic critical hit that quadruples Damage rather than doubling it, and unless the target succeeds at a Will check, it will also suffer a –1 penalty to its Move score.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="e12c-996a-7d7c-ffa4" name="[Gunslinger]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="43f2-767b-8e13-11b3" name="1.0&gt; Accurate" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c0f-4301-504e-2d56" type="max"/>
+                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6cd-77bf-6103-393a" type="min"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="67ef-aff7-2d0a-20a1" name="1.0&gt; Accurate" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Gunslinger</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1.0</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">Shoot +1 or higher</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Long hours training as a marksman have paid off. The Hero may re-roll any shooting attack that misses. This may only be used with weapons that have just one Shooting Dice and may not be used with weapons that have the Spray or Explosive special rules. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="d8c2-7631-c830-775c" name="1.1&gt; Close Combat Shooter" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f74-aa89-c408-b397" type="max"/>
+                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6031-6264-05c3-76f7" type="min"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="1724-7699-06fe-80e6" name="1.1&gt; Close Combat Shooter" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Gunslinger</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1.1</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256"/>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Experience fighting in tight quarters has taught the Hero to fire without interruption, even when being attacked. He may perform Shoot actions with pistol weapons even if an enemy is in contact with him.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="6d07-675e-b170-78d1" name="1.2&gt; Pistol Whip" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="216c-542b-a45b-2a76" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="bae6-4e56-a33a-56c0" name="1.2&gt; Pistol Whip" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Gunslinger</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1.2</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero is never at a loss to improvise a weapon, and can use any pistol weapon as a club in Melee actions.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="378d-96df-db68-4b30" name="2.0&gt; Crackshot" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4d8-77a9-b892-d6a1" type="max"/>
+                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65f8-75ee-fa43-5ec5" type="min"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="e8b6-f3b5-6daa-241b" name="2.0&gt; Crackshot" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Gunslinger</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">2.0</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Adept at pinpointing the weak points in an enemy’s armour, the Hero makes a mockery of any light protection. Every shooting weapon the model uses gains a –1 bonus to its AP score. This Talent may not be used with weapons that have the Spray or Explosive special rules.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="140b-d87f-122b-a49f" name="2.1&gt; Wild Shooting" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5d4-2a8e-f403-6675" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="a02f-4a6b-d1ba-c558" name="2.1&gt; Wild Shooting" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Gunslinger</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">2.1</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Activate (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Pulling the trigger repeatedly on his weapon, the Hero shoots wildly at anything that moves. The Hero may shoot a weapon three times with his Shoot action, but all dice suffer a –2 penalty and no critical hits can be scored.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="0793-adc3-c677-0dfd" name="3&gt; Crippling Fire" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92c7-f5bb-0009-cc63" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="29e8-439a-ba55-a2c4" name="3&gt; Crippling Fire" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Gunslinger</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">3</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">A carefully aimed shot with a shooting weapon hampers the target’s ability to fight. This attack cannot cause a critical hit but if damage is caused, the enemy will suffer a –1 penalty to its Melee, Shoot and Armour scores. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="9b76-f575-c6d6-d9bf" name="4&gt; Rapid Fire" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb04-f787-3454-94ae" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="a5ac-968d-d522-c9d6" name="4&gt; Rapid Fire" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Gunslinger</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">4</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Speed wins out over power as the Hero fires more rapidly with a shooting weapon. The Hero gains +1 Shooting Dice but cannot cause any critical hits.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="4aa1-ffb4-7760-cb24" name="[He Knows Kung Fu]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="527e-2406-66ea-f3f4" name="1.0&gt; Martial Artist" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ca5-93f3-fa9e-78d1" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="0f35-ab99-69e8-09f0" name="1.0&gt; Martial Artist" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">He Knows Kung Fu</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">After many years of study and dedication, the Hero has become a fair martial artist. Their Fists &amp; Feet attacks no longer have the Weak special rule. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="521d-6661-5319-064a" name="2&gt; Black Belt Martial Artist" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d120-c071-4a8d-15e3" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="40c3-4a8e-84f3-bc8d" name="2&gt; Black Belt Martial Artist" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">He Knows Kung Fu</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">2</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero enjoys some renown as a martial artist. Their Fists &amp; Feet attacks now have Damage 2. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="388f-a1d7-6f87-8d27" name="3&gt; Call Me Master" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e8b-bc0e-7f20-36a4" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="7e09-53d0-0d9f-71da" name="3&gt; Call Me Master" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">He Knows Kung Fu</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">3</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">Melee +3 or higher</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero has few peers in the field of unarmed combat. Their Fists &amp; Feet attacks now have the Smasher special rule, along with Damage 3 and AP -2. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="bbfc-619f-1bf2-87e4" name="1.1A&gt; Parry" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1614-2811-c8bb-86b0" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="e53a-5e66-4001-729c" name="1.1A&gt; Parry" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">He Knows Kung Fu</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1.1A</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">This Hero is adept at knocking aside an enemy’s attacks. You may force your opponent to re-roll one of his Melee Dice.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="693a-edc8-8a3e-aad9" name="1.2A&gt; Combat Awareness" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f708-3ee2-983b-0120" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="5710-7f1e-1028-8e25" name="1.2A&gt; Combat Awareness" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">He Knows Kung Fu</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1.2A</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero is always aware of their surroundings. Multiple attackers will not gain the usual bonus +1 to Melee against the Hero. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="6245-939d-0726-5181" name="1.3A&gt; Hit and Run" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c62-ab79-fbad-0fcf" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="bd82-d7b9-089b-6a70" name="1.3A&gt; Hit and Run" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">He Knows Kung Fu</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1.3A</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Move)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Get in and get out, that is the only way to survive on the streets of Mega-City One. The Hero is adept at slipping in and out of close combat, tying up an enemy long enough for his allies to succeed in their objectives. When trying to flee from close combat, the Hero makes an opposed Will check with his opponent. If this is successful, the Hero may automatically disengage in complete safety, without having to fight another round of close combat. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="5de4-8dd8-9117-c489" name="1.1B&gt; Dance of Death" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81cd-15d1-3283-7e0c" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="a9fd-36c9-ee35-52af" name="1.1B&gt; Dance of Death" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">He Knows Kung Fu</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1.1B</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Once per turn if the Hero removes an enemy as a casualty in close combat, he may make an immediate, bonus Melee action. This Talent may not be used by a Flyer or by a model on a vehicle.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="74d0-d9eb-806d-15a0" name="1.2B&gt; Gun Kata" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd79-31e9-37ae-8dbc" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="8fcb-635c-46ee-3f90" name="1.2B&gt; Gun Kata" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">He Knows Kung Fu</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1.2B</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">Close Combat Shooter, Dual Pistol Mastery, Shoot +3 or higher</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero flies into a whirling dance of death, striking out at surrounding enemies with two pistol weapons. The Hero rolls two Shooting Dice against every enemy in contact with him.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="785a-d6e2-20f2-7c73" name="1.3B&gt; Number Count For Nothing" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e820-b5de-8332-fefc" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="3903-864b-3d9e-bf47" name="1.3B&gt; Number Count For Nothing" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">He Knows Kung Fu</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1.3B</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">Agility +3 of higher</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Never overcome by the weight of numbers, the Hero can uses multiple attackers against one another with a combination of ducks and throws. The Hero gains one extra Melee Dice for every attacker in contact with him beyond the first.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="3b70-1d3c-ba32-ead0" name="[Sniper Artist]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="8569-eafc-be9b-1efd" name="1&gt; Aim" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4674-f359-c25e-2054" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="831f-1896-9840-6593" name="1&gt; Aim" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Sniper Artist</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Activate (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">Shoot +2 or higher</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero carefully places each shot for maximum effect with a rifle weapon. This decreases his rate of fire, but grants a +1 bonus to Shoot and AP, as well as decreasing the dice roll needed to cause a critical hit (normally a 10) by one.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="fb21-fc6f-a1d2-6b6e" name="2.0&gt; Suppressing Fire" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e05b-e86c-923d-05e1" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="ffc1-79ca-224e-cd22" name="2.0&gt; Suppressing Fire" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Sniper Artist</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">2.0</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Suppressing Fire</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Activate (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero’s shots hamper foes when using a rifle weapon. Each successful attack deals regular damage and also inflicts a –1 penalty to the target’s Melee and Shoot scores until the end of its next Phase.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3942-460a-6d2a-8084" name="2.1&gt; This is My Rifle" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e00-2762-db83-570c" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="5624-34f2-1ce5-e70a" name="2.1&gt; This is My Rifle" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Sniper Artist</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">2.1</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero is calm and collected when under fire, able to handle his weapon efficiently due to prolonged training. The Hero ignores the Complex Special Weapon rule if he uses it in combination with any Activate (Shoot) Talent under Sniper Artist.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="6e2a-b511-3b84-a8d9" name="3&gt; Sniper Nest" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d879-3967-1232-5870" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="980d-f056-8458-3b04" name="3&gt; Sniper Nest" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Sniper Artist</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">3</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Activate (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Taking best advantage of cover when using a rifle weapon, the Hero receives a bonus to defence but slows his rate of fire. He gains a +2 bonus to Armour until the start of his next Phase.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="0dbe-764e-b140-d452" name="4&gt; Armour Cracker" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7844-bfcb-cd07-0851" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="a884-4281-5df2-4c87" name="4&gt; Armour Cracker" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Sniper Artist</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">4</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero fires a shot with a rifle weapon designed to open up a weak spot in the target’s armour. The attack deals normal damage if it hits and inflicts an additional –2 penalty on the target’s Armour.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="d5d8-45d3-d39f-15cf" name="5&gt; Critical Shot" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1153-301a-fa36-6eeb" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="9979-fc24-d500-cf5f" name="5&gt; Critical Shot" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Sniper Artist</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">5</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Activate (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">Armour Cracker, Shoot +3 or higher</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero finds a chink in the target’s defences when using a rifle weapon. The attack increases its AP by –2 and, if successful, will automatically be a critical hit.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="da3c-809a-4dad-3b94" name="6&gt; One Shot, One Kill" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24cc-5e1d-ae7a-2d07" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="a12a-c8e5-916e-1dbf" name="6&gt; One Shot, One Kill" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Sniper Artist</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">6</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Activate (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">Critiacal Shot, Shoot +4 or higher</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero fires a deadly shot with a rifle weapon. If it hits, the attack will be an automatic critical hit that quadruples damage instead of doubling it.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="fd78-c42e-4487-1b8c" name="[Demolition Man]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="5655-1882-45ba-e828" name="1&gt; Frag out!" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d08-66a7-8925-b116" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="6d73-4f94-8ad1-c7a5" name="1&gt; Frag out!" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Demolition Man</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Using an innate ability, as well as a strong arm, the Hero can increase the Range of grenade weapons by 50% more than normal.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="9bb9-1abb-83a5-4cee" name="2&gt; Long Lob" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f972-6f78-7158-f925" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="b9d1-4093-6af1-df7e" name="2&gt; Long Lob" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Demolition Man</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">2</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero has an uncanny ability to throw a grenade to just where it is needed. All grenades thrown by the Hero gain the Artillery special rule.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="13e8-9a06-19f2-d282" name="[Twin Shooter]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="8019-85b7-3a8e-3e2e" name="1&gt; Dual Shooter" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a87-23d2-06f9-77b2" type="max"/>
+                        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d93-932e-29f7-94d0" type="min"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="7e35-95fe-b67e-684f" name="1&gt; Dual Shooter" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Twin Shooter</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">Shoot +2 or higher</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero shoots with two pistol weapons simultaneously. The damage he deals gains a +1 bonus, but none of his attacks may be critical hits. Note that he still only rolls Shooting Dice for one of the Pistols (his choice which).</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="ad88-7b0e-1506-bca6" name="2&gt; Dual Pistol Master" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7899-bc67-7604-eb8c" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="be7d-bd76-337d-7f3e" name="2&gt; Dual Pistol Master" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Twin Shooter</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">2</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">Shoot +3 or higher, Agility +2 or higher</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero has become proficient fighting with two pistols, and now gains an extra Shooting Die with one pistol weapon when wielding another in his other hand. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="fe44-e54e-648f-42fa" name="3&gt; Punisher" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47c7-090f-7502-91ad" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="6cc8-47bd-c305-76c2" name="3&gt; Punisher" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Twin Shooter</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">3</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Activate (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">Shoot +4 or higher</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero makes multiple shots against a target when using two pistol weapons. If two or more attacks hit, one will be an automatic critical hit and the enemy must make two Will checks. If the first is failed, the enemy will suffer a –1 penalty to Melee and Armour for the rest of the battle. If the second is failed, the enemy will suffer a Knockdown.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="f8a8-6fa2-7608-62dc" name="[Up Close and Personal]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="4554-1e4a-05f9-8036" name="1.0&gt; Skilled and Deadly" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f144-a356-497b-ae01" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="7db7-63fd-9756-91d3" name="1.0&gt; Skilled and Deadly" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Up Close and Personal</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1.0</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">Melee +2 or higher</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Having been involved in more close scrapes than he can remember, the Hero knows how to best launch his attacks. In every round of close combat, the Hero may re-roll any one of his own Melee Dice.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="c2da-f5a9-4231-2073" name="1.1&gt; This is My Chainsaw" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92e3-4979-d98e-3e28" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="8a00-3d38-7e74-485a" name="1.1&gt; This is My Chainsaw" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Up Close and Personal</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1.1</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The Hero has found a weapon with the right balance and heft – and from now on, has chosen to use no other. Pick a single type of close combat weapon (such as club, chainsaw or knife). When the Hero uses this type of weapon he gains an extra Melee Die. If the weapon already has the Parry special rule, he may force an opponent to re-roll two Melee Dice (the weapon now effectively has the Parry special rule twice).</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="f13f-68a8-c93a-492d" name="2.0&gt; Feint" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62da-7bda-3720-700f" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="b873-7590-8d54-01fd" name="2.0&gt; Feint" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Up Close and Personal</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">2.0</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">Agility +2 of higher</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">A veritable sneak in close combat, the Hero is adept at flanking opponents and carving through their defences. The opponent uses one less Parry than he normally has – if he only has one Parry (be it from his weapon or a Talent), he may not Parry at all!</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="bc8b-1aba-bb31-0019" name="2.1&gt; Smackdown" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="397a-ab12-616f-1d11" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="be54-d666-8fbf-801c" name="2.1&gt; Smackdown" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Up Close and Personal</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">2.1</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Activate (Melee)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Summoning all his strength, agility and skill, the Hero launches a devastating attack. If he is using a blunt weapon, such as a club or daystick, any critical hit will also cause a Stun. If he is using a sharp weapon, such as a las-knife or katana, any critical hit will cause triple damage, not double.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="cf1c-7aae-88a9-295a" name="3.0&gt; Finding the Chink" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="061b-00fe-63ac-5525" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="da24-16a1-632a-e4df" name="3.0&gt; Finding the Chink" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Up Close and Personal</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">3.0</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Melee)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Even the most heavily armoured enemy has something to fear from this Hero. When using this Talent, the Hero’s close combat weapon gains an additional –2 bonus to its AP. This goes up to –4 if the Hero’s Melee score reaches +4 or higher.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="855b-94fd-65a7-ea34" name="3.1&gt; Disarm" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbf5-45de-5368-e7c0" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="26ae-af45-1230-05e5" name="3.1&gt; Disarm" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Up Close and Personal</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">3.1</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Melee)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">Melee +4 or higher</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">With all the flair and panache of his favourite vid-screen actors, the Hero can flick or smash a weapon out of an opponent’s hands. If the Hero wins a close combat while using this Talent, his opponent suffers no damage but will lose whatever close combat weapon (except fists &amp; feet!) he is currently using for the rest of the battle. If the opponent’s force loses the battle, the weapon is lost permanently.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="a34d-91d0-db98-56c2" name="4&gt; Surgeon Eye" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3373-6b6b-bebb-ae8f" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="e054-45d8-3ef3-90c4" name="4&gt; Surgeon Eye" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Up Close and Personal</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">4</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">With an eye for what causes the most pain, the Hero can cripple an enemy with a single blow. The die roll needed to cause a critical hit in close combat (normally a 10) is reduced by 1.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="2644-c968-fe34-245e" name="5&gt; Master Duelist" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e5d-e8f3-fdc0-14bf" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="b438-3832-7a74-2710" name="5&gt; Master Duelist" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Up Close and Personal</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">5</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Adapting to any style his enemy cares to adopt, few can best this Hero. When in close combat, the hero can nullify the effects of one Action (Melee) or Activate (Melee) Talent a single opponent attempts to use. It will instead become a normal Melee action.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="92da-d20c-b63d-3035" name="[Call the Power]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="5c2e-9cda-0565-f37b" name="1&gt; On Their Knees" hidden="false" collective="false" import="true" type="upgrade">
+                      <profiles>
+                        <profile id="4a74-37c7-4fea-602e" name="1&gt; On Their Knees" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Call the Power</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">1</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">The power of a heavy weapon is awesome, with immense amounts of energy being unleashed in a split second. Every model with the Infantry type that is hit by this weapon must succeed at a Will check or suffer a Knockdown.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="b895-3233-73ec-22fe" name="[Call the Power]" hidden="false">
+                          <description>These Talents may only be used when the Hero is shooting with a heavy weapon.</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3e5a-a4ef-d9c3-b125" name="2.0&gt; Maximum Firepower" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2571-692e-4be1-dd74" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="8515-0aba-2f6e-d48f" name="2.0&gt; Maximum Firepower" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Call the Power</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">2.0</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Aiming with precision, the Hero harnesses the destructive energy of his weapon for maximum effect. If the weapon has the Explosive or Spray rule, it adds 1&quot; to the distance of the Explosive score.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="0990-0653-6d92-9c5f" name="2.1&gt; Ripple Fire" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4393-c28b-4c75-14d0" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="3737-1520-a8ae-1457" name="2.1&gt; Ripple Fire" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Call the Power</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">2.1</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Missle launchers are usually cumbersome weapons, albiet ones that offer a variety of ways to destroy the enemy. When using a missle launcher, the Hero adds an extra Shooting Dice, which may be used with the same type of missle or a different one, as he sees fit.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="bc29-b100-2ffb-cacb" name="3&gt; Guided Shot" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65aa-ee25-9b95-b7f4" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="fabb-6453-569c-7a6d" name="3&gt; Guided Shot" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Call the Power</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">3</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Action (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Many hours spent at the practice range or shooting rad rats in an abandoned sector havepaid off, and the Hero now has the uncanny knack of placing shots exactly where he wants them. The Hero may re-roll any Shooting Dice that miss their target.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="ba5f-7925-535b-adbd" name="4&gt; Sprint and Fire" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8657-786e-1b56-45d1" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="b5d0-089e-e209-00dc" name="4&gt; Sprint and Fire" hidden="false" typeId="dce6-cce1-f770-9296" typeName="&lt;6 Weapon Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="cfb6-ab49-c78a-1c8d">Call the Power</characteristic>
+                            <characteristic name="Branch No." typeId="6759-15c3-1244-75e6">4</characteristic>
+                            <characteristic name="Type" typeId="8061-2144-c042-8ac1">Weapon</characteristic>
+                            <characteristic name="Use" typeId="cb9d-9736-9186-84ce">Activate (Move)</characteristic>
+                            <characteristic name="Pre-req." typeId="930f-9f47-8537-2256">-</characteristic>
+                            <characteristic name="Descr." typeId="7acd-3372-b13a-e170">Many heavy weapons take time and effort to use effectively, often leaving the HEro vulnerable,. However, this Hero has learned how to reload or prime a heavy weapon on the move. The Hero can now perform a Special action to activate this Talent, perform a Move action as normal, and then perform a free Shoot action immediately after.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="71e2-c33c-c3b0-f8e2" name="[Judge]" hidden="true" collective="false" import="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbec-7d08-dc24-9f86" type="instanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="29e4-b539-238c-00ae" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="9d18-a878-87e2-4a99" name="[Judical Podigy]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="feaf-cc0c-9685-899e" name="1&gt; Academy Star" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6e9-7dc3-1bba-10da" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="c523-d919-201c-8b59" name="1&gt; Academy Star" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Judical Prodigy</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">1</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">-</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">This Judge excelled at the Academy of Law, passing every test with flying colours through sheer dogged determination. The Judge permanently gains +1 Will or +1 Hits.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="c78f-e1b6-15ac-9c33" name="2&gt; Situational Awareness" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00a9-6e7d-b176-bda5" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="f4ec-3668-feaf-163f" name="2&gt; Situational Awareness" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Judical Prodigy</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">2</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Action (Melee)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">Will +2 or higher</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">Among Judges there are those who have an uncanny knack of being in the right place at the right time, doing the right thing. Once per game, the Judge may go onto Alert Status after he has completed his actions, even if he has already performed actions.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="2db0-723c-3c00-91bd" name="[Shoot to Wound]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="20bd-0ff0-0edd-5746" name="1&gt; Leg Shot" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a174-4919-e612-3b9c" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="f492-30e2-736f-e879" name="1&gt; Leg Shot" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Shoot to Wound</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">1</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Action (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">Shoot +3 or higher</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">The Judge lets fly with a shot, winging a target’s leg. This Talent can only be used with the Standard Execution rounds of a Lawgiver, and only one Shooting Dice may be rolled. If the target is successfully hit, it will not lose any Hits but instead will not be able to perform any Move or Melee actions in its next Phase. Leg Shot will not work on vehicles, or any model with more than two legs, but will work on models using jetpacks, power boards and bat gliders.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="24b0-285c-17e0-a618" name="2&gt; Stun Shot" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="903a-054f-0cc4-663b" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="e3a2-88d9-4bce-6bae" name="2&gt; Stun Shot" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Shoot to Wound</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">2</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Action (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">-</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">The Judge knows how to cause maximum confusion in his targets, forcing them to keep their heads down until other Judges can move into position and make an arrest. When using this Talent, every successful shooting attack the Judge makes (no matter how many Shooting Dice are rolled in a single Shoot action) that deducts at least one Hit from the target will also cause a Stun.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="289a-bbcf-73ea-9c42" name="3&gt; Disarming Shot" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36ea-1fbb-a04b-c7d6" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="6a2c-d832-be88-6b8f" name="3&gt; Disarming Shot" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Shoot to Wound</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">3</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Activate (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">Shoot +4 or higher, Agility +3 or higher</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">Snapping off a shot, the Judge accurately targets his enemy’s weapon, sending it spiralling away and out of reach. This Talent can only be used with the Standard Execution rounds of a Lawgiver, and only one Shooting Die may be rolled. If the target is successfully hit, it will not lose any Hits but instead lose one weapon of the Judge player’s choice. This weapon may not be used for the rest of the battle and may only be recovered afterwards if the Judges’ opponent wins the battle.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="e223-01ff-04a4-4f0e" name="[Crowd Control]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="ef9f-1fd6-c721-c87b" name="1&gt; Headbreaking" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6652-9f94-dd72-1dee" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="f24d-0bd4-b707-e55f" name="1&gt; Headbreaking" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Crowd Control</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">1</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Action (Melee)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">Melee +2 or higher</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">A smart Judge knows he can create a good impression on a whole gang by simply giving one of their leaders a decent pummelling. If a Judge removes a Hero as a casualty in close combat, then he may make an immediate Arrest check against every Minion on the Hero’s side who has Line of Sight to him. The Judge makes one Will check which is matched against the separate Will checks of every target. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="ef8c-1389-288d-19f4" name="2&gt; Creep Management" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9789-816d-2e7e-eca0" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="365a-decc-7bb7-d0e8" name="2&gt; Creep Management" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Crowd Control</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">2</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Action (Special)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">-</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">Some Judges have a truly authoritarian manner, and citizens follow their natural instincts to obey their commands. A Judge with this Talent rolls a dice and add its Will score. Every enemy Minion within 12” must also roll a dice and add its own Will score. All Minions that fail to roll higher than the Judge will have their actions in their next Phase chosen by the Judge’s player. These actions must all be the same – so, the Judge may order all the Minions to Move, for example, forcing them to take two Move actions next turn, or maybe two Special actions (perhaps having ordered them to ‘freeze’). All Minions must take the same action and all actions they take must be of the same type. However, it is up to the Minions’ own player how they go about the actions, and he is free to move or otherwise use them as he sees fit. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="e2fc-6d76-aee5-830e" name="3&gt; Multiple Arrest" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66c5-835a-b461-7df3" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="6386-03a8-d9e0-a9ed" name="3&gt; Multiple Arrest" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Crowd Control</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">3</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Action (Special)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">-</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">The Judge’s authority is impressive and he is capable of forcing entire crowds to surrender. The Judge may attempt to arrest any number of targets at once, so long as they are all within 12” and in Line of Sight. The Judge makes one Will check which is matched against the separate Will checks of every target. All other rules for Arrest checks apply as normal.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="c023-9de4-d230-bdd2" name="[Riot Judge]" hidden="true" collective="false" import="true">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5a3c-8ece-7cc4-3215" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <selectionEntries>
+                    <selectionEntry id="2567-cf0f-afd7-7e19" name="1&gt; Shield Bash" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29f5-0c3d-413a-85c3" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="51a1-7506-3758-c019" name="1&gt; Shield Bash" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Riot Judge</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">1</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Action (Melee)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">Must be a Riot Judge</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">The Hero shield-bashes a target. This attack automatically hits with Damage 1. In addition, the target must succeed at a Will check or suffer a Knockdown. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="6b7d-6735-cc18-0311" name="2&gt; Shield Wall" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27ce-0878-de18-070a" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="0cd7-9696-893c-2360" name="2&gt; Shield Wall" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Riot Judge</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">2</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Activate</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">-</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">The Hero’s shield becomes like a fortress, adding a +2 bonus to Armour, but at the cost of –1 Damage on all his attacks until the start of his next Phase. If at least one other Hero using this Talent is in base contact with the Judge, they both receive an additional +1 bonus to their Armour.
+</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="aceb-0f47-73a6-fec2" name="3&gt; Shield of Steel" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29be-8e6b-5a3a-a817" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="7ecd-e827-d51c-1790" name="3&gt; Shield of Steel" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Riot Judge</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">3</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Activate</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">-</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">The Hero’s shield provides protection against shooting attacks. Until the end of the Hero’s next Phase, he gains a +4 bonus to Armour against all shooting attacks.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="a750-54e2-fedf-d193" name="[Lawmaster Mastery]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="b936-1340-4055-9c73" name="1&gt; Drive-by Boot" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f66-4846-5152-e0fc" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="becb-fc65-cc6f-3ab9" name="1&gt; Drive-by Boot" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Lawmaster Mastery</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">1</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">
+Action (Melee)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">-</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">Judges often learn how to bring fleeing perp down with a well-placed boot or swung daystick from the back of a Lawmaster. If a Judge is on a bike and has travelled at least 5” before he moves into contact with an enemy, then a Driveby Boot can be executed with one of the Judge’s close combat weapons. This attack uses only a single Melee Dice but doubles any Damage caused with a +1 bonus to the Judge’s Melee score. After this attack is complete, move the Hero 2” in any direction away from the model it attacked. It may not use this movement to enter Close Combat with another model.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="4d66-3d00-fba0-e9e2" name="2&gt; Saddle Shot" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0563-49ba-b4a5-a454" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="699f-739c-da59-af04" name="2&gt; Saddle Shot" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Lawmaster Mastery</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">2</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Action (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e"/>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">Developing skills learned at the Academy of Law, the Judge has learned how to use his scattergun from the seat of a moving Lawmaster. The Judge may shoot his scattergun while on a Lawmaster.
+</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="ba69-5e0e-f9cf-1c58" name="3&gt; Bike Wheelie" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2988-972e-4b32-8fe1" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="3147-b24f-5e0e-6b7c" name="3&gt; Bike Wheelie" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Lawmaster Mastery</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">3</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Activate (Melee)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">-</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">By gunning his engine, the Judge rears his bike up and literally runs over his enemies at speed while using the bulk of his bike as a shield. If a Judge is on a bike and has travelled at least 5” before he moves into contact with an enemy, then a Bike Wheelie can be executed. The Judge only uses one Melee Die, but uses his bike as a weapon. The bike itself will have a Damage score of 3 and AP –4. In addition, the Judge gains a +2 bonus to his own Armour until the start of his next Phase.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="ac8d-eca5-d9cd-defb" name="4&gt; Swerve" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="931b-e5d0-e570-f083" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="b627-9bdd-1818-52e4" name="4&gt; Swerve" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Lawmaster Mastery</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">4</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">-</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">The Judge is adept at hauling the big Lawmaster  out of the way of incoming fire when targeted by a Shooting attack, the Judge may choose to use his own Agility rather than that of the Lawmaster.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="3426-e950-d590-3ee7" name="[Punk Breaker]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="d776-8388-f2e9-a681" name="1&gt; Voice of Justice" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48c0-74f4-a583-043c" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="13a4-5938-7ebe-e71b" name="1&gt; Voice of Justice" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Punk Breaker</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">1</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">-</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">A Judge Cannot Graduate from the Academy of Law until his voice has been trained to cause ordinary citizens to quake in their boots. This Judge has a special gift when it comes to barking commands and few fail to take notice. The Judge may re-roll his die on a failed Arrest check.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="70b7-0dab-6ea1-bb0e" name="2&gt; One Second Labotomy" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abb4-ef26-0bd4-6130" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="b55f-3aa4-35e1-0840" name="2&gt; One Second Labotomy" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Punk Breaker</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">2</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Action (Melee)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">-</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">The famous OLne Second Labotomy (the day stick) is a superb tool for convincing a punk&apos;s friends to surrender, especialy when they see the punk hit the ground from a single blow. If the Judge defeats a model in close combat, he may make an immediata Arrest check against any other model within 12&quot; and in line of sight.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="f793-597a-4bfa-970d" name="3&gt; Intimidation" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23cd-2fd6-d4e3-7e29" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="5387-5536-77c3-2eb0" name="3&gt; Intimidation" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Punk Breaker</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">3</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">-</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">This Judge has a presence that can almost be physically felt. Perps get twitchy before he enters a room and citizens find themselves staring at the ground as he walks by. This Judge doubles hiw Will score for all Arrest checks.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="21ee-1ebb-60f3-e6f6" name="4&gt; I am the Law!" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3255-c306-ac0f-4e7a" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="fa84-92c1-ad7c-260e" name="4&gt; I am the Law!" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Punk Breaker</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">4</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e"/>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">
+With a reputation close to that of most famous of the Judges of the city, including Giant, Hershey, Dekker and maybe even Dredd himself, this Judge is not someone to be messed with and most perps know it. The Judge may make automatic Arrest checks against any and all models within 6&quot; of him after he takeshis last action every Phase.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="55b6-4097-2c0a-72a7" name="[Lawgiver Expertise]" hidden="false" collective="false" import="true">
+                  <rules>
+                    <rule id="e12f-bb15-eecf-3680" name="[Lawgiver Expertise]" hidden="false">
+                      <description>These Talents may only be used when the Judge is shooting with his Lawgiver.</description>
+                    </rule>
+                  </rules>
+                  <selectionEntries>
+                    <selectionEntry id="07ff-eb3c-cf13-5fa1" name="1.0&gt; Warning Shot" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd0d-47c5-9130-cab7" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="f301-1ef3-a52a-7793" name="1.0&gt; Warning Shot" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">LAwgiver Expertise</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">1.0</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Action (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">Will +2 or higher</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">Intentionally missing his target by a hair&apos;s breadth the Judge uses a single Standard Execution round to make his point. Choose a single model within range of the Lawgiver and in the Judge&apos;s Line of Sight. This model will have a -1 penalty applied to all Arrest checks it is forced to make in this Turn.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="9da2-8c65-0f85-97f8" name="1.1A&gt; Rubber Takedown" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d99a-9520-c7dc-63e8" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="3b06-eea3-f427-666f" name="1.1A&gt; Rubber Takedown" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Lawgiver Expertise</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">1.1A</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Action (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">-</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">Used correctly, the Rubber Ricochet round can be used to knock a perp flying, leaving him vulnerable to a good beating with a daystick. If the Judge uses a Rubber Ricochet round but does notuse the Spray rule with it, any model that survives the attack must make an Agility check opposed by the Judge&apos;s Shoot check. If the target fails, it suffers a Knockdown.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="0a6c-9e98-60cc-b582" name="1.1B&gt; Incendiary" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="478d-4390-35a0-94c9" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="dbb7-54b5-2a4e-d8e8" name="1.1B&gt; Incendiary" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Lawgiver Expertise</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">1.1B</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Action (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">-</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">The Judge has practised long and hard with the Incendiary rounds of the Lawgiver, and has learned how ot increase their area of effect. When the Judge uses the Incendiary round of a Lawgiver, it gainsthe Explosive 1 rule.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="666e-a278-d067-dc9d" name="2&gt; Armour Buster" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e159-85a3-11b2-7db1" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="d013-608a-d5db-cb2e" name="2&gt; Armour Buster" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Lawgiver Expertise</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">2</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Action (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e"/>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">The Judge instinctively knowswhere to find a weak point in his targets armour. This shooting attack inflicts an additional -1 penalty to the target&apos;s Armour.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="d755-d026-2e2f-5ae1" name="3&gt; Pour it On" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca24-5cbf-280b-9037" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="6c7d-db67-f29d-0c12" name="3&gt; Pour it On" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Lawgiver Expertise</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">3</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Actioon (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">-</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">If three Standard Execution rounds are good, four must always been better. Escewing the liberal use of specialised rounds, the Judge instead unleashing a hail of fire. Whenever he uses the Standard Execution round in his LAwgiver, he rolls four Shooting Dice rather than three.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="1e65-7fb3-c112-7ad9" name="4&gt; Modified Lawgiver" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="321a-d7b2-5b5f-9d8c" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="0905-5759-b420-bad8" name="4&gt; Modified Lawgiver" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Lawgiver Expertise</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">4</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Action (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">Shoot +4 or higher</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">Either through a intimate knowledge of the Lawgiver&apos;s workings or a close contactin Tek-Div, the Judgehas a modified Lawgiver in his possession. Upon gaining this Talent, immidiately choose one of the round types of the Lawgiver other than Standard execution. This round now has two Shooting Dice rather than one.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="f6a2-7d17-dd28-3fb0" name="[Sniper Judge]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="ebff-02c6-0d59-c2b9" name="1&gt; Boom! Head Shot" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bae6-8d5a-0491-8456" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="5292-368c-5541-f57b" name="1&gt; Boom! Head Shot" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Sniper Judge</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">1</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Activate (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">Shoots +3 or higher</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">The marksman of this Judge is worthy of study within the Academy of Law. Use of this Talent requires the Standard Execution round, which is reduced to a single Shooting Dice. However, any hit will automaticaly be a critical that triples damage rather than doubling it.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="4240-76b8-0993-7afe" name="[Sniper Judge]" hidden="false">
+                          <description>These Talents may only be used when the Judge is shooting with a Lawrod.</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="7504-fe39-c351-20e9" name="2&gt; Timed Fuse" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7b0-1552-156d-fafc" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="7a32-0417-1ae4-a3d8" name="2&gt; Timed Fuse" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Sniper Judge</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">2</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Activate (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">-</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">The Judge makeson-the-fly changes to the fusing of his High Explosive rounds causing them to detonate mid-flight rather than on impact. Properly adjusted, this can allow a round to explode above the head of a target behind cover, depriving them of their shield.When using this Talent with the High Explosive round, the Judge must first succeed in a Shoot check to properly set the fuse of the shot. If successful, the target will not benifit from the effects of cover if hit. If the Shoot check is failed, the attack automatically misses as the round explodes either too soon or too late.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="82eb-b957-9c83-6d00" name="3&gt; Long Shot" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29a1-9431-c4af-05bb" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="f1c4-8839-f932-6f8e" name="3&gt; Long Shot" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Sniper Judge</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">3</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Activate (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">-</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">Adopting a pose that give total stability allied to perfect eyesight, the Judge can engage targets far in excess of the Lawrod&apos;s listed effective range. When using this Talent, the range of the Lawrod is increased to 36&quot;.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="9e08-443c-f659-3366" name="[Assault Judge]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="cb91-0781-67bc-c463" name="1&gt; Shoulder Down" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd93-25ef-a0f7-8af0" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="bd48-2015-9ebe-0ecf" name="1&gt; Shoulder Down" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Assualt Judge</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">1</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Passive</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">Hits +3 or higher</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">When enemies start popping up at close quarters, this Judge knows how to get his shoulder down and present not only a moving target but one where his armour is positioned to absorb the most hits. The judge gains +1 bonus to his Armour rols against any shooting attack made from a range of less than 6&quot;.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="6a56-add7-6e7c-5f02" name="[Assault Judge]" hidden="false">
+                          <description>These Talents may only be used when the Judge is equiped with a Scattergun of Widowmaker.</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="ce93-30fe-82c7-0d74" name="2.0&gt; Blast and Charge" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2af-04ca-4d66-a010" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="391b-d90b-df16-2406" name="2.0&gt; Blast and Charge" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Assualt Judge</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">2.0</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Action (Melee)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">-</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">The Judge has trained in lightening assaults, moving in quickly to blow an enemy away with his pimary weapon, and finishing the perp off with a solid smack around the head if it is still standing. The Judge may chooseto forgo the bonus for charging and instead perform a free sShoot action with his Scatter Gun or Widowmaker at the model before engaging it in close combat. Note that if the Judge is too close to gain the charge bonus, he may not use this Talent.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="467f-4e72-e923-e83a" name="2.1&gt; Widowmaker Dance" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cac-f6d2-a08e-3bf7" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="fb90-8ba4-f51a-3ce3" name="2.1&gt; Widowmaker Dance" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Assualt Judge</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">2.1</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Action (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">-</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">Snapping off at short range, the Judge has learned how to riddle an  enemy with rounds. When making a shooting attack with the Widowmaker at a target within 6&quot;, the Judge roll +2 Shooting Dice.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="c40d-feed-cb5d-3d24" name="3&gt; Power Shot" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f88f-2366-5f35-7736" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="cfab-3084-46f2-a1ec" name="3&gt; Power Shot" hidden="false" typeId="2ea0-3862-98c1-ff45" typeName="&lt;5 Judge Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6801-e6c5-beec-2990">Assualt Judge</characteristic>
+                            <characteristic name="Branch No." typeId="a643-c188-7f61-6530">3</characteristic>
+                            <characteristic name="Type" typeId="2f35-af24-0256-bf63">Judge</characteristic>
+                            <characteristic name="Use" typeId="af39-b199-92dc-1b5c">Action (Shoot)</characteristic>
+                            <characteristic name="Pre-req." typeId="27c4-fe4c-2758-bb9e">-</characteristic>
+                            <characteristic name="Descr." typeId="7a8d-0a89-a85a-618a">With a Scatter Gun or Widowmaker in hand, the Judge knows just how to place a shot so it knocks a target off its feet. When using the Scatter Gun or the Scatter Gun part of the Widowmaker, the Judge will always cause a target to be pushed back by the Power Shot rule with a successful hit, rather than needing to roll 3 higher. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="134f-c9ed-5665-6b16" name="[Psi]" hidden="true" collective="false" import="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d658-0ad9-6e15-958e" type="instanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="29e4-b539-238c-00ae" type="instanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1c7f-4ed2-32e0-cb44" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="e461-6074-a73c-f458" name="[Pre-cog]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="8c67-70f3-907d-9250" name="1&gt; Danger Sense" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e09-0ba2-4d4b-542c" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="c74c-291e-6257-37f9" name="1&gt; Danger Sense" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Pre-cog</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">1</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">1</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">User Only</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero’s senses are psychically enhanced, allowing him to sense danger before it arrives. He gains a +1 bonus to his Agility score until the start of his next Phase.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="1ea7-2153-94c7-8005" name="2&gt; Foresight" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b6f-606a-0c2d-de48" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="9449-7e93-46e6-3df3" name="2&gt; Foresight" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Pre-cog</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">2</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">5</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">User Only</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero sees danger before it happens. He gains a +2 bonus to his Agility and Armour scores for the rest of the battle. These bonuses cannot be combined with Danger Sense.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="b016-b5c5-1380-df6c" name="[Necromancer]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="78f1-6404-36ca-6a19" name="1&gt; Shroud of the Dead" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1e6-ae52-a318-181c" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="1133-47a4-be6e-644d" name="1&gt; Shroud of the Dead" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Necromancer</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">1</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">2</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">User Only</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero knows how to ward off fatal injuries, wreathing himself in dark energies that blur the line between life and death. Whenever the Hero is reduced to 0 Hits, he must make a Will check. If successful, he is immediately put onto one Hit and may continue fighting as normal. This Talent will last for the rest of the game.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="d65e-f509-b0dd-c0e9" name="2&gt; Animate the Dead" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="674e-4458-ce94-0fcb" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="8ebc-7195-189c-798b" name="2&gt; Animate the Dead" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Necromance</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">2</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">4</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">6&quot;</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">Reaching out across near dimensions, the Hero locks onto the spirit essence of the recently deceased and forces a small part of it back into the physical remains. The Hero may target any Infantry Minion model within range that was removed as a casualty in this turn (though not a model with the Robot type). The model is placed back on the table with the same characteristics as a zombie on page 86, under the control of the Hero’s player. It may start taking actions in the next turn but does not use the Psychic Conduit rule on page 86. The model will crumble to dust at the end of the fight, automatically killing it.
+Judges may never use this Psi Talent.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="e1e3-115b-6752-1a61" name="3&gt; Poltergeist" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c100-6fbc-f201-efb6" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="1ea8-dbd0-9a34-cabc" name="3&gt; Poltergeist" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Necromancer</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">3</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">2</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">6</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">24&quot;</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero summons an angry spirit to plague a foe. At the start of every turn for the rest of the game, the targeted enemy model must succeed at a Will check or lose one Hit and its next action.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="3b0d-44ad-2745-7930" name="[Pyrokine]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="baa6-9516-aa16-27a8" name="1&gt; Resist Flames" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5922-5beb-b970-6f33" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="8ae9-48b5-7823-e47c" name="1&gt; Resist Flames" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Pyrokine</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">1</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">1</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">User Only</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero bends fire around his body, tuning his physical form with the fire. For the rest of the battle, the Hero will lose one less Hit than normal whenever taking damage from fire-based attacks.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="9623-59d8-2e20-174f" name="2&gt; Incinerating Finger" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89af-d4e1-309f-20ff" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="5168-0df1-5a2e-6c5c" name="2&gt; Incinerating Finger" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Pyrokine</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">2</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">1</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">5&quot;</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero extends his hand and a thin jet of flame shoot forward. The targeted enemy will automatically lose one Hit.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="657d-f0fb-156c-b574" name="3&gt; Flaming Shroud" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f316-4353-1bc0-283a" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="30a4-c599-576e-75a8" name="3&gt; Flaming Shroud" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Pyrokine</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">3</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">2</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">4&quot;</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero’s hands erupt with fire, inflicting damage on all targets in the area. All models within 4” of the Hero will lose one Hit.
+</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="fd34-1a15-9d7d-055b" name="4&gt; Pyrokinetic Burst" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2924-79e0-2b40-9030" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="64f8-7891-6c02-4d62" name="4&gt; Pyrokinetic Burst" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Pyrokine</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">4</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">4</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">15&quot;</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero throws at an explosive ball of flame, blasting all targets in the area with fiery death. This is a normal shooting attack as detailed below. In addition, all targets must succeed in a Will check or suffer a Knockdown. (See profile)</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="f1f5-0251-a8d5-f126" name="Pyrokinetic Burst" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">15&quot;</characteristic>
+                            <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">1D</characteristic>
+                            <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">2</characteristic>
+                            <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">-2</characteristic>
+                            <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">Explosive 3, Fire</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="c505-4fa5-fdd9-7050" name="Explosive &quot;X&quot;" hidden="false" targetId="732f-8019-c442-218b" type="rule"/>
+                        <infoLink id="e01a-2d51-9105-5a16" name="Fire" hidden="false" targetId="18fd-a5af-bc8e-ffd1" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="969b-e17f-4d77-8e08" name="5&gt; Tempest of Fire" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f13-61fb-c718-b2fe" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="a4e4-f696-cc1c-922e" name="5&gt; Tempest of Fire" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Pyrokine</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">5</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">3</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">8</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">15&quot;</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero summons a huge column of swirling flame. Place a marker anywhere within range – this is the centre of the Tempest of Fire. All models within 6” of this marker immediately lose 1 Hit and will continue to lose another Hit at the start of every one of their Phases while they are still within 6” of the marker. At the start of every subsequent Turn, roll one dice. On a 9 or 10, the Tempest of Fire ends. Otherwise, keep the marker on the table, and nearby models will continue to lose Hits.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="098f-c61a-27d1-f273" name="6&gt; Skies of Fire" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5aea-f0c3-4389-c095" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="546e-8853-6a89-dd62" name="6&gt; Skies of Fire" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Pyrokine</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">6</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">3</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">10</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">Battlefield</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">Fire is called from the sky in the form of flaming meteors, crashing randomly into the surrounding area. Roll a die for every model  (on both sides!) not inside a building or structure except the Hero. On the roll of a 9 or 10, the model is struck by a meteor and immediately loses D5 Hits. In addition, the model is treated as if hit by a weapon with the Fire special rule. At the start of every subsequent Turn, roll one dice. On a 9 or 10, Skies of Fire ends. Otherwise, roll again for every model on the table that is not inside a building or structure to see if it is struck  by a meteor.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="61e4-f8ae-33e4-56cc" name="[Telekinetic]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="1378-dbd1-e461-c8fc" name="3&gt; Crushing Force" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42d3-1606-da55-358e" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="1055-cb10-5896-7bbc" name="3&gt; Crushing Force" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Telekinetic</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">3</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">2</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">6</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">10&quot;</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero extends his telekinetic senses and tries to crush an enemy with the force of his mind. The Hero must select an enemy model within 10”, and make an immediate opposed Will check with it. If the Hero is successful, the enemy loses 1 Hit and must make another opposed Will check. If this too is failed, the enemy loses another Hit and must make another opposed Will check, and so on, until the target is either dead or the Hero fails his opposed Will check.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="63b7-df2a-541d-5b06" name="4&gt; Control Body" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25b2-6787-7c7e-44a5" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="c5c5-9142-4138-553a" name="4&gt; Control Body" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Telekinetic</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">4</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">2</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">8</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">20&quot;</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">By taking control of an enemy’s limbs and body, the Hero literally controls its actions. The Hero must select an enemy model within 20”, and makes an immediate opposed Will check with it. If the Hero succeeds, the opposing player still decides which actions the model will take, but the Hero’s player will otherwise control the model, deciding where to move, who to shoot, and so on. The enemy model must succeed at an opposed Will check at the start of its next phase or it will still be under the control of the Hero’s player, and will remain so until an opposed Will check is passed.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="319c-0459-78c6-6218" name="2.1&gt; Jinx" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f5e-cded-e0d0-ba17" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="3b77-1a44-7cdb-dbe6" name="2.1&gt; Jinx" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Telekinetic</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">2.1</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">4</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">15&quot;</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero effectively curses an enemy, fouling his mental processes so every action attempted is flawed. The enemy must make an opposed Will check against the Hero. If the enemy fails, he will suffer a –2 penalty to both Shoot and Melee scores for the rest of the battle.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="c9c8-f00b-e10e-20e0" name="2.0&gt; Levitate" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb22-2b7e-6cb4-067d" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="3fdd-e531-0314-0f08" name="2.0&gt; Levitate" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Telekinetic</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">2.0</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">1</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">User Only</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero uses his telekinetic powers to lift himself off the ground. So long as the Hero makes a Move or Melee action immediately after using this Talent, he may move up to 12” vertically (up or down) as well as his normal forward movement from the actions.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="c82c-7e3a-cc5f-ff5d" name="1&gt; Concussive Blast" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9823-bde9-4324-c8ac" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="7925-ccf4-4ff5-9522" name="1&gt; Concussive Blast" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Telekinetic</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">1</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">1</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">5&quot;</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero creates an explosive clap of air that frays the nerves of everyone nearby. Every model within 5” of the Hero must make a Will check or suffer a –1 penalty to every dice they roll until the end of their next phase.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="fa16-b2bd-6c44-fb47" name="[Telepath]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="647b-1bcc-e1ef-37db" name="1.0&gt; Mind Shield" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b96-30ad-dde6-c73c" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="e565-ba95-84f6-c085" name="1.0&gt; Mind Shield" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Telepath</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">1.0</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">4</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">User Only</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero builds a mental fortress, making himself impervious against any hostile Psi Talent. Whenever he is to be affected by an enemy Psi Talent, the Hero makes an opposed Will check against the enemy who used the Talent. If he fails, the Talent affects the Hero normally. If the Hero succeeds, he ignores all effects of the Talent. Mind Shield will not work against Psi Talents that are used as shooting weapons.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="38ab-9b9d-d15e-c367" name="1.1&gt; Demoralise" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40ca-1b4b-31a1-18cc" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="052c-d9cb-9c36-33cb" name="1.1&gt; Demoralise" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Telepath</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">1.1</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">2</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">10&quot;</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero channels a wave of negative psychic energy, encouraging his enemies to give up. Every enemy within 10” must make an opposed Will check against the Hero. If any enemy fails, it will suffer a –1 penalty to its Will score for the rest of the battle.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="e72c-8d25-b3cc-0e73" name="2&gt; Daze" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cf4-6764-439a-d2fe" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="5a02-1c7b-9667-e80d" name="2&gt; Daze" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Telepath</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">2</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">1</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">10&quot;</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero pushes against the mind of an enemy to confuse him. The enemy must make an opposed Will check against the Hero. If the enemy fails, he will lose his next action.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="74a0-a5be-347e-3c06" name="3.0&gt; Mental Sting" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc12-d01c-5ffb-a2e2" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="1216-55e6-1b31-38aa" name="3.0&gt; Mental Sting" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Telepath</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">3.0</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">1</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">10&quot;</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero sends a sharp psychic pulse towards an enemy. The enemy must make an opposed Will check against the Hero. If the enemy fails, he will lose a Hit.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="ada4-3ce5-bd32-1c1e" name="3.1&gt; Insanity" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8150-b265-a476-f680" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="16ac-f0af-ba30-c9bc" name="3.1&gt; Insanity" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Telepath</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">3.1</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">8</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">15&quot;</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero blasts his enemy with psychic energy, driving them insane. The enemy must make an opposed Will check against the Hero. If the enemy fails, roll on the table below at the start of its next phases. The enemy model must succeed at an opposed Will check at the start of every subsequent turn or it will still suffer from Insanity, rolling on the table (See profile), and will remain so until an opposed Will check is passed.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="af1a-6885-6963-6b35" name="Insanity" hidden="false" typeId="3367-7060-817a-73a5" typeName="&lt;9 Insanity Table">
+                          <characteristics>
+                            <characteristic name="1" typeId="2335-b0ea-ae6f-e210">Wanders off – remove model as a casualty </characteristic>
+                            <characteristic name="2-6" typeId="707d-f827-77df-1353">Stand still – take no actions </characteristic>
+                            <characteristic name="7-9" typeId="509c-b38e-54de-c44f">Goes berserk – Melee towards nearest model, friend or foe! </characteristic>
+                            <characteristic name="10" typeId="8b1c-7aa1-9093-5c47">Behave as normal</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="ea41-85de-d682-11bb" name="4&gt; Psi-lash" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0cd-c572-669b-fecd" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="8000-4926-92ec-c08d" name="4&gt; Psi-lash" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Telepath</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">4</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">2</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">15&quot;</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero attacks an enemy with a series of vicious psychic strikes. The enemy must make an opposed Will check against the Hero. If the enemy fails, he will lose 2 Hits.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="652d-c7f9-26a1-e8e8" name="5&gt; Mind Bomb" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5933-3b5e-136d-99db" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="a7fb-6bcf-365a-8c41" name="5&gt; Mind Bomb" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Telepath</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">5</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">2</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">8</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">20&quot;</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero attacks an enemy with a resonating psychic burst, producing devastating, if unpredictable results. The enemy must make an opposed Will check against the Hero. If the enemy fails, roll one die. He will lose that many Hits.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="c8d2-e16a-9328-810b" name="[Trans-dime]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="56e2-6f98-91f9-81f5" name="1.0&gt; Ectoplasmic Shield" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="febd-c494-b31e-4111" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="23c3-0b12-77f2-f44e" name="1.0&gt; Ectoplasmic Shield" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Trans-dime</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">1.0</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">2</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">User Only</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero cloaks himself with otherworldy material that resists attacks. For the rest of the battle, the Hero gains a +2 bonus to Armour.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="c7c7-bde3-1fe7-8d8f" name="1.1&gt; Summon Demonic Entity" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7594-872e-76ac-5f0f" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="2d6e-2743-a5c1-714c" name="1.1&gt; Summon Demonic Entity" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Trans-dime</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">1.1</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">2</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">3</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">User Only</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero reaches out to other dimensions with his mind, ensnaring a malevolent entity and bending it to his will. Roll on the Demonic Cabal’s summoning table as if the Hero was a Grand Warlock, adding the Hero’s Will score. Any effects that are applied to either the Grand Warlock or a Cabalist will be applied to the Hero. The demon summoned is the entity from the Minor Demonic Pact.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="8659-6def-9909-c98f" name="2&gt; Ectoplasmic Attack" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e156-d591-8dc1-006b" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="01d7-1452-4d02-151e" name="2&gt; Ectoplasmic Attack" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Trans-dime</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">2</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">4</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">15&quot;</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero moulds ectoplasm into a semi-solid projectile. This is a normal shooting attack (See Profile)
+</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="09e5-4ede-09e6-cf0a" name="Ectoplasmic Attack" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">15&quot;</characteristic>
+                            <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">1D</characteristic>
+                            <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">2</characteristic>
+                            <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">-3</characteristic>
+                            <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">Power Shot</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="761d-94ae-fef1-0871" name="Power Shot" hidden="false" targetId="d5b1-d61a-3963-24ed" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="9696-0871-8962-5f23" name="3&gt; Psychoportation" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bfc-ec3a-6b45-5722" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="bbe3-986d-095c-72da" name="3&gt; Psychoportation" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Trans-dime</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">3</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">2</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">8</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">Battlefield</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">Manipulating dimensions, the Hero is able to teleport himself anywhere on the battlefield in the blink of an eye. After the second Special action has been spent using this Psi Talent, immediately move the model to anywhere desired on the battlefield that is not in contact with an enemy model. </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="cb05-d2aa-57aa-027e" name="4&gt; Summon Psychic Entity" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97d6-af1b-d9f9-f28d" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="e1ae-0f1f-bbfe-1729" name="4&gt; Summon Psychic Entity" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Trans-dime</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">4</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">3</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">8</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">5&quot;</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">Breaking down the walls separating dimensions, the Hero brings a ravening entity into this reality. Choose a pact from the Demonic Cabal force list and immediately place it anywhere within 5” of the Hero. The Hero must then make an opposed Will check with the entity. If he succeeds, the entity is now under his control and is treated like any other model in the same force. If he fails, the entity will pass to the control of the opposing player. A Hero may only summon one entity at a time, and the entity will disappear at the end of the game.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="49ad-5c32-da77-e056" name="[Living Weapon]" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="07a8-81ce-628c-f952" name="1.0&gt; Spring Attack" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f811-9cb1-e29e-a4d5" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="959d-d61c-ae5c-277e" name="1.0&gt; Spring Attack" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Living Weapon</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">1.0</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">2</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">User Only</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">Launching himself into the air, the Hero is boosted an impossible distance, his feet turning into plastisteel claws as he descends on an unsuspecting victim with a piercing shriek. The Hero is moved into contact with any enemy model within 10&quot; and makes an immediate close combat attack. His claws have Damage 2and AP-2, and the attack counts as a charge. Once the attack has been completed, this Talent is no longer manifested.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="5ad0-6e14-ead5-db71" name="[Living Weapon]" hidden="false">
+                          <description>The hero may only have on of these Talents manifested at any one time, the new Talent replaces the first.</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="5acc-d519-85ae-9a30" name="1.1&gt; Blade Arm" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e30-ac06-87ab-a663" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="0e41-9c91-55d2-ace8" name="1.1&gt; Blade Arm" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Living Weapon</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">1.1</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">3</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">User Only</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">With a Malicious grin, the Hero enjoys the discomfort of his enemies as they see his arm elongate and shimmer with a crystallised edge. The Hero gains a close combat attack that has theParry rule, Damage 2 and AP-3.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="5f26-cdcd-788d-7d37" name="Blade Arm" hidden="false" typeId="80d2-e41e-4294-6fca" typeName="&lt;2 Close Combat Weapon">
+                          <characteristics>
+                            <characteristic name="Damage" typeId="d7ee-8740-c2fc-b939">2</characteristic>
+                            <characteristic name="AP" typeId="8b7a-b403-bfd7-0446">-2</characteristic>
+                            <characteristic name="Special Rules" typeId="187d-a926-b5f3-956d">Parry</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="769d-9325-c500-cb3d" name="Parry" hidden="false" targetId="47d1-e63a-c66e-4912" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="5125-3115-5d0a-5aa6" name="2&gt; Hammer Head" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8b1-ce13-edea-f31b" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="d740-ffde-1ed8-28e3" name="2&gt; Hammer Head" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Living Weapon</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">2</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">3</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">User Only</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">Sweat pours down the Hero&apos;s faceas he concentrates. With a twisted cry of pain and triumph, his forehead takes the sheen of synthi-diamond as it warps into the shape of a battering ram. The Hero gains a close combat attack that has the Smasher rule, Damage3 and AP-1.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="ca62-c1b6-f015-7b5d" name="Hammer Head" hidden="false" typeId="80d2-e41e-4294-6fca" typeName="&lt;2 Close Combat Weapon">
+                          <characteristics>
+                            <characteristic name="Damage" typeId="d7ee-8740-c2fc-b939">3</characteristic>
+                            <characteristic name="AP" typeId="8b7a-b403-bfd7-0446">-1</characteristic>
+                            <characteristic name="Special Rules" typeId="187d-a926-b5f3-956d">Smasher</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="fbd9-e7ad-4276-4dc4" name="3.0&gt; Plated Skin" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc8a-81d3-374c-7448" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="bb19-c843-1b2d-4266" name="3.0&gt; Plated Skin" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Living Weapon</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">3.0</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">2</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">User Only</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">The Hero&apos;s skin hardens and turns Grey, shaping itself into plastisteel plates. The Hero gains +3 bonus to Armour.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="ebda-8b43-1ba5-65b4" name="3.1&gt; Psi Battery" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05e8-3874-d2b1-342d" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="0def-0c92-62f8-24ce" name="3.1&gt; Psi Battery" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Living Weapon</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">3.1</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">1</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">2</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">User Only</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">Psychic energy crackles around the Hero as he aligns the neurons in his brain to gather every scrap of ethereal power from the surrounding area. At the end of every turn, the Hero rolls a die and regains that much Psi.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3c22-3ff2-4fcd-c748" name="4&gt; Dragon Breath" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d1d-e792-bbbf-f9cf" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="5e3c-ed1a-4aac-3510" name="4&gt; Dragon Breath" hidden="false" typeId="e687-4aea-3b8d-c5c5" typeName="&lt;8 Psi Talent">
+                          <characteristics>
+                            <characteristic name="Skill Tree" typeId="6a59-14eb-98de-75b6">Living Weapon</characteristic>
+                            <characteristic name="Branch No." typeId="5c23-bf38-979e-b608">4</characteristic>
+                            <characteristic name="Special Actions" typeId="44d6-c0cb-6227-a207">2</characteristic>
+                            <characteristic name="Psi Cost" typeId="2389-4af3-36da-0fea">4</characteristic>
+                            <characteristic name="Range" typeId="7798-c9fe-46df-ad42">User Only</characteristic>
+                            <characteristic name="Descr." typeId="195a-5a3d-8cb2-c02e">Taking in a deep breath, the Hero then blows out a wave of fire thatconsumes everything before him with the power of the legendary dragon. The Hero gains a shooting attack with the following characteristics. (See profile)</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="7a9b-3218-80b4-5415" name="Dragon Breath" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">8&quot;</characteristic>
+                            <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">2D</characteristic>
+                            <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">2</characteristic>
+                            <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">-3</characteristic>
+                            <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">Explosive1, Fire</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="5fa2-7e14-48cb-2af3" name="Explosive &quot;X&quot;" hidden="false" targetId="732f-8019-c442-218b" type="rule"/>
+                        <infoLink id="1c1c-d048-f3b3-d96d" name="Fire" hidden="false" targetId="18fd-a5af-bc8e-ffd1" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1470-acdf-cda4-00bb" name="1 [Experience]" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="PSI HERO" name="Xp &apos;X&apos;" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="301.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e65-4e0d-c882-1761" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28af-0a87-f0af-9cec" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name=" Credits" typeId="Credits" value="0.0"/>
       </costs>
@@ -25635,7 +30762,7 @@ Judges may never use this Psi Talent.</characteristic>
               </modifierGroups>
               <characteristics>
                 <characteristic name="Lv" typeId="3668-af6d-9843-3d2f">0</characteristic>
-                <characteristic name="XP" typeId="aa10-487d-055a-0089">0</characteristic>
+                <characteristic name="Xp" typeId="aa10-487d-055a-0089">0</characteristic>
                 <characteristic name="Move (+)" typeId="f338-81be-7289-1d69">0</characteristic>
                 <characteristic name="Agility (+)" typeId="6a84-03c4-a4c2-88a6">0</characteristic>
                 <characteristic name="Shoot (+)" typeId="6084-1eda-03eb-c2b1">0</characteristic>
@@ -29980,7 +35107,7 @@ Judges may never use this Psi Talent.</characteristic>
               </modifierGroups>
               <characteristics>
                 <characteristic name="Lv" typeId="d9ca-c609-fc92-f521">0</characteristic>
-                <characteristic name="XP" typeId="131a-f4c0-d395-a938">0</characteristic>
+                <characteristic name="Xp" typeId="131a-f4c0-d395-a938">0</characteristic>
                 <characteristic name="Move (+)" typeId="1385-8e52-3487-395f">0</characteristic>
                 <characteristic name="Agility (+)" typeId="9ef6-1486-ac85-d1d4">0</characteristic>
                 <characteristic name="Shoot (+)" typeId="c69a-aee0-2796-5154">0</characteristic>
