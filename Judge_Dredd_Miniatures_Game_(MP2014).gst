@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b6bc-5996-1c4c-957c" name="Judge Dredd Miniatures Game (MP2014)" revision="2" battleScribeVersion="2.03" authorName="Vescarea" authorContact="" authorUrl="https://github.com/BSData/judge-dredd" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b6bc-5996-1c4c-957c" name="Judge Dredd Miniatures Game (MP2014)" revision="3" battleScribeVersion="2.03" authorName="Vescarea" authorContact="" authorUrl="https://github.com/BSData/judge-dredd" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8f52-f1e7-b5e7-f697" name="BoTS"/>
     <publication id="58d6-eaa3-c92f-a34a" name="Core Rules"/>

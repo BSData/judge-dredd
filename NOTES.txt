@@ -82,3 +82,7 @@ Added 6 entries (2 lv1/ 2 lv2/ 2 lv3 (Hero and Psi).
 The Angel Gang
 29/10/2020
 Added main selections
+
+Mobsters
+02/11/2020
+Finalised main selections, Nero Narcos is a fully upgradable Hero with pre-allocated talents and re adjjusted profile modifications to acustom the the current level the model is at.
