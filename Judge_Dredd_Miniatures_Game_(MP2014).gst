@@ -1966,7 +1966,7 @@ The ABC Warriors may never be purchased equipment or weapons that are not listed
         <categoryLink id="a76f-34c3-810d-8ea1" name="[Lv01]" hidden="false" targetId="a41d-dccd-7b91-d329" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="18b5-18c6-f7c5-cdfe" name="1 [XP]" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="18b5-18c6-f7c5-cdfe" name="1 [Experience]" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="84d3-d7fa-f8d6-2e64" name="XP" hidden="false" collective="false" import="true" targetId="XP" type="selectionEntry">
               <modifierGroups>
@@ -1992,7 +1992,7 @@ The ABC Warriors may never be purchased equipment or weapons that are not listed
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="c45f-6214-99cf-3dfd" name="[Talent Groups]" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="c45f-6214-99cf-3dfd" name="3 [Talent Groups]" hidden="false" collective="false" import="true">
           <modifierGroups>
             <modifierGroup>
               <modifierGroups>
@@ -5525,12 +5525,12 @@ The Judda</description>
         <categoryLink id="dffa-b49b-9ff1-9b93" name="[Lv01]" hidden="false" targetId="a41d-dccd-7b91-d329" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c3f5-3bb8-5c07-61aa" name="1 [XP]" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="c3f5-3bb8-5c07-61aa" name="1 [Experience]" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="f186-b2fd-c54a-e38f" name="XP" hidden="false" collective="false" import="true" targetId="XP" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0f95-8eb0-4c17-def3" name="[Talent Groups]" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="0f95-8eb0-4c17-def3" name="3 [Talent Groups]" hidden="false" collective="false" import="true">
           <modifierGroups>
             <modifierGroup>
               <modifierGroups>
@@ -9905,7 +9905,7 @@ With a reputation close to that of most famous of the Judges of the city, includ
         <categoryLink id="aa86-c9ed-2010-e375" name="[Lv01]" hidden="false" targetId="a41d-dccd-7b91-d329" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ac88-b7e6-4844-6d3b" name="1 [XP]" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="ac88-b7e6-4844-6d3b" name="1 [Experience]" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="ff49-f230-afdf-7b9c" name="XP" hidden="false" collective="false" import="true" targetId="XP" type="selectionEntry">
               <modifierGroups>
@@ -9931,7 +9931,7 @@ With a reputation close to that of most famous of the Judges of the city, includ
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="37b5-9697-9c79-d426" name="[Talent Groups]" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="37b5-9697-9c79-d426" name="3 [Talent Groups]" hidden="false" collective="false" import="true">
           <modifierGroups>
             <modifierGroup>
               <modifierGroups>
@@ -14378,12 +14378,12 @@ Judges may never use this Psi Talent.</characteristic>
         <categoryLink id="56d1-a519-0470-bc07" name="[Lv01]" hidden="false" targetId="a41d-dccd-7b91-d329" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="41fa-27d5-1f2b-7b1f" name="1 [XP]" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="41fa-27d5-1f2b-7b1f" name="1 [Experience]" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="1d6a-17dd-c288-0487" name="XP" hidden="false" collective="false" import="true" targetId="XP" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="98ad-61d7-2188-25bc" name="[Talent Groups]" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="98ad-61d7-2188-25bc" name="3 [Talent Groups]" hidden="false" collective="false" import="true">
           <modifierGroups>
             <modifierGroup>
               <modifierGroups>
@@ -25652,12 +25652,12 @@ Judges may never use this Psi Talent.</characteristic>
             <categoryLink id="bc83-fef9-f215-4573" name="[Lv01]" hidden="false" targetId="a41d-dccd-7b91-d329" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="56bb-3806-5e7c-27bc" name="1 [XP]" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="56bb-3806-5e7c-27bc" name="1 [Experience]" hidden="false" collective="false" import="true">
               <entryLinks>
                 <entryLink id="0323-7f41-a083-ca7a" name="XP" hidden="false" collective="false" import="true" targetId="XP" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="9567-27c8-307a-1d8d" name="[Talent Groups]" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="9567-27c8-307a-1d8d" name="3 [Talent Groups]" hidden="false" collective="false" import="true">
               <modifierGroups>
                 <modifierGroup>
                   <modifierGroups>
@@ -29996,12 +29996,12 @@ Judges may never use this Psi Talent.</characteristic>
             <categoryLink id="1e23-dc8e-885f-9769" name="[Lv01]" hidden="false" targetId="a41d-dccd-7b91-d329" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="ab6d-dfab-03e2-4018" name="1 [XP]" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="ab6d-dfab-03e2-4018" name="1 [Experience]" hidden="false" collective="false" import="true">
               <entryLinks>
                 <entryLink id="c515-985c-a7bc-d0f2" name="XP" hidden="false" collective="false" import="true" targetId="XP" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="7104-5d80-2f7a-1494" name="[Talent Groups]" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="7104-5d80-2f7a-1494" name="3 [Talent Groups]" hidden="false" collective="false" import="true">
               <modifierGroups>
                 <modifierGroup>
                   <modifierGroups>
