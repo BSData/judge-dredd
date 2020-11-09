@@ -29,6 +29,11 @@ Adjusted [Hero]pre-leveled by changing the modifaction querys to >[Hero]Pre-leve
 02/11/2020
 Added [Psi Hero] Prelevel.
 Changed XP to Xp in profile type for model stats.
+09/11/2020
+Added page references to profiles and rules, replaced older entries too with new one with page refernces.
+Added Lone Vigilante Force Rules.
+Mutant Characteristics adjusted.
+
 
 Street Gang Cat. 
 07/04/2020
