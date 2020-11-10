@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d9ed-8342-1554-0dda" name="Brit-Cit Justice Department (MP2014)" revision="1" battleScribeVersion="2.03" authorName="Vescarea" authorContact="" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d9ed-8342-1554-0dda" name="Brit-Cit Justice Department (MP2014)" revision="1" battleScribeVersion="2.03" authorName="Vescarea" authorContact="" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="9105-d40f-412d-ea50" name="Plod Bot " hidden="false" collective="false" import="true" targetId="1c8e-8bcd-0c8d-a58e" type="selectionEntry"/>
     <entryLink id="7172-3528-b232-b352" name="Detective Judge" hidden="false" collective="false" import="true" targetId="1c8f-6597-5a78-9c79" type="selectionEntry"/>
@@ -7,7 +7,7 @@
     <entryLink id="e2f1-1416-0fa8-0aa9" name="Para Squad Judge" hidden="false" collective="false" import="true" targetId="a0af-3ec3-a182-66cc" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="5dfb-d38e-4d13-70d5" name="Beat Judge" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="5dfb-d38e-4d13-70d5" name="Beat Judge" publicationId="58d6-eaa3-c92f-a34a" page="48" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="4881-1361-9610-c954" name="Beat Judge" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
@@ -35,7 +35,7 @@
         <cost name=" Credits" typeId="Credits" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a0af-3ec3-a182-66cc" name="Para Squad Judge" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="a0af-3ec3-a182-66cc" name="Para Squad Judge" publicationId="58d6-eaa3-c92f-a34a" page="48" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="eaf8-34de-0cd0-6ec9" name="Para Squad Judge" hidden="false" typeId="6175-c29b-2daa-5fa4" typeName="&lt;0 Psi Model">
           <characteristics>
@@ -64,7 +64,7 @@
         <cost name=" Credits" typeId="Credits" value="165.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1c8f-6597-5a78-9c79" name="Detective Judge" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="1c8f-6597-5a78-9c79" name="Detective Judge" publicationId="58d6-eaa3-c92f-a34a" page="48" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="fca6-0ec4-d880-5e88" name="Detective Judge" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
@@ -140,7 +140,7 @@
         <cost name=" Credits" typeId="Credits" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1c8e-8bcd-0c8d-a58e" name="Plod Bot " hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="1c8e-8bcd-0c8d-a58e" name="Plod Bot " publicationId="58d6-eaa3-c92f-a34a" page="49" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="6abc-c03a-6a3d-04e0" name="Plod Bot " hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>

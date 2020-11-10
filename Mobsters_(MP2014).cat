@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ac5e-7fa4-dbbd-ef80" name="Mobsters (2014)" revision="2" battleScribeVersion="2.03" authorName="Vescarea" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ac5e-7fa4-dbbd-ef80" name="Mobsters (2014)" revision="2" battleScribeVersion="2.03" authorName="Vescarea" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="f339-aa5c-1e01-63dd" name="Assassinator Droid" hidden="false" collective="false" import="true" targetId="07b5-cd58-bc86-4bc3" type="selectionEntry"/>
     <entryLink id="efad-2898-4f04-b8b7" name="Gangster" hidden="false" collective="false" import="true" targetId="0c3f-3231-e04e-4f42" type="selectionEntry"/>
@@ -9,7 +9,7 @@
     <entryLink id="b77e-0c06-1f7a-e4fa" name="Nero Narcos Pre level settings" hidden="false" collective="false" import="true" targetId="e449-a648-83fd-ea55" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="7cb6-4c2b-a8c4-9185" name="Assassin" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="7cb6-4c2b-a8c4-9185" name="Assassin" publicationId="58d6-eaa3-c92f-a34a" page="58" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="0b2f-8974-3192-f618" name="Assassin" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
@@ -51,7 +51,7 @@
         <cost name=" Credits" typeId="Credits" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="07b5-cd58-bc86-4bc3" name="Assassinator Droid" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="07b5-cd58-bc86-4bc3" name="Assassinator Droid" publicationId="58d6-eaa3-c92f-a34a" page="58" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="6119-3fc8-2b9b-e74c" name="Assassinator Droid" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
@@ -143,7 +143,7 @@
         <cost name=" Credits" typeId="Credits" value="195.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="efa6-df56-7312-b66a" name="Blitzer" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="efa6-df56-7312-b66a" name="Blitzer" publicationId="58d6-eaa3-c92f-a34a" page="58" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="1e4d-570f-8200-164c" name="Blitzer" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
@@ -186,7 +186,7 @@
         <cost name=" Credits" typeId="Credits" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0c3f-3231-e04e-4f42" name="Gangster" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="0c3f-3231-e04e-4f42" name="Gangster" publicationId="58d6-eaa3-c92f-a34a" page="59" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="da2f-787a-fddc-8e0d" name="Gangster" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
@@ -228,7 +228,7 @@
         <cost name=" Credits" typeId="Credits" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e318-83d7-bcd9-3171" name="Punk" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="e318-83d7-bcd9-3171" name="Punk" publicationId="58d6-eaa3-c92f-a34a" page="59" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="783a-57c4-8767-61c9" name="Punk" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
@@ -266,7 +266,7 @@
         <cost name=" Credits" typeId="Credits" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e449-a648-83fd-ea55" name="Nero Narcos " hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="e449-a648-83fd-ea55" name="Nero Narcos " publicationId="58d6-eaa3-c92f-a34a" page="59" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="05fd-1507-1ca9-9002" type="max"/>
       </constraints>
@@ -802,7 +802,7 @@ Set the Talents condition to minimum selection of 1 for preallocated talents of 
               </modifierGroups>
               <characteristics>
                 <characteristic name="Lv" typeId="d9ca-c609-fc92-f521">0</characteristic>
-                <characteristic name="XP" typeId="131a-f4c0-d395-a938">0</characteristic>
+                <characteristic name="Xp" typeId="131a-f4c0-d395-a938">0</characteristic>
                 <characteristic name="Move (+)" typeId="1385-8e52-3487-395f">0</characteristic>
                 <characteristic name="Agility (+)" typeId="9ef6-1486-ac85-d1d4">0</characteristic>
                 <characteristic name="Shoot (+)" typeId="c69a-aee0-2796-5154">0</characteristic>

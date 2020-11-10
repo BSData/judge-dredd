@@ -1,43 +1,67 @@
+Here you will find a list of main detailed changes for the files and there corrosponding dates.
+
+Folder
+Added Copy of the (Free Mongoose Publishing/ Warlord Games) JDMG (MP2014) Core rulebook
+
 Main
+
 All Talents and Weapons, Armour and Equipment have been added.
 Reworked equipment layouts.
 Allocated talents that are given freely due to ability or weapon selection.
+
 19/04/2020
 Reworked pre allocated selections and layouts.
+
 20/04/2020
 Added/ removed more categories from BotS.
+
 05/05/2020
 Added keys for preleveled heroes and adjusted hero profiles to compensat for the prealoocations. Such as Hits, Psi, Credit cost increase and characteristics. 
+
 21/05/2020
 Hero profiles now have one for pre-leveled characters. 
 Force rulse must have (>Force:) before the name of the rule to keep them above the other rules.
+
 29/06/2020
 Added keys for Lone Vigilante [Lone Vigilante01/02/03]
 All Hero entries now add [lv00] to the models category and changes them based on level/ XP.
+
 01/07/2020
 Added Pre Hero level entry for copying to model profile in catalogue with instructions how to add and what needs to be amended.
+
 07/08/2020
 Talent shared entry groups replaced by entries and created for 4 individual types.
+
 15/08/2020
 Talent rules implemented.
 Talent layout as entry groups in profile (Using entries is noviable as they are included in the max/ min selections).
+
 29/10/2020
-Removed "Dial" from Mood Dial Profile type
+Removed "Dial" from Mood Dial Profile type.
+
 30/10/2020
 Added Rules profiles for remaining forces
 Adjusted [Hero]pre-leveled by changing the modifaction querys to >[Hero]Pre-leveled and added dedicated XP 'X' entry.
+
 02/11/2020
 Added [Psi Hero] Prelevel.
 Changed XP to Xp in profile type for model stats.
+
 09/11/2020
 Added page references to profiles and rules, replaced older entries too with new one with page refernces.
 Added Lone Vigilante Force Rules.
 Mutant Characteristics adjusted.
 
+10/11/2020
+Judges equipment and option layout redone to be more user friendly.
+Renamed < Level upgrade > to < Upgrade Minion >.
+
+
 
 Street Gang Cat. 
 07/04/2020
 Improved selection layouts, such as hero leveling and weapon selections.
+
 15/04/2020
 Reworded layouts to < May be purchased "X" of: >
 
@@ -48,8 +72,12 @@ Completed main force selections (pending full testing)
 The Justice Department Cat.
 19/04/2020
 Added main force selections.
+
 04/05/2020
 Some entries where not root entry linked (changed)
+
+10/11/2020
+Riot gear is now a direct from "Judge equimpent and options" (Due to trouble with equipment selection trouble)
 
 Ape Gang Cat.
 20/04/2020
@@ -62,6 +90,7 @@ Added main force selections.
 Cursed Earth Desperadoes
 25/04/2020
 Added main force selections. Have set characteristics to hide if at least on type 5/10/20 has been selected as no characteristic can be changed more than once.
+
 21/05/2020
 Adjusted mutaions and fixed errors.
 
@@ -93,4 +122,4 @@ Added main selections
 
 Mobsters
 02/11/2020
-Finalised main selections, Nero Narcos is a fully upgradable Hero with pre-allocated talents and re adjjusted profile modifications to acustom the the current level the model is at.
+Finalised main selections, Nero Narcos is a fully upgradable Hero with pre-allocated talents and re adjusted profile modifications to acustom the the current level the model is at.

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c250-f995-a6b7-6b94" name="The Justice Department (MP2014)" revision="1" battleScribeVersion="2.03" authorName="Vescarea" authorContact="" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c250-f995-a6b7-6b94" name="The Justice Department (MP2014)" revision="1" battleScribeVersion="2.03" authorName="Vescarea" authorContact="" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="6565-d79d-a40b-c8ad" name="Psi-Judge" hidden="false" collective="false" import="true" targetId="97c4-fb7b-cb3a-d330" type="selectionEntry"/>
     <entryLink id="300f-45f9-aada-6e0b" name="Street Judge" hidden="false" collective="false" import="true" targetId="e9c0-c8d6-cb63-dc97" type="selectionEntry"/>
@@ -7,7 +7,7 @@
     <entryLink id="9516-dad5-d663-f85f" name="Rookie Judge" hidden="false" collective="false" import="true" targetId="e249-8971-3c28-5034" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="e9c0-c8d6-cb63-dc97" name="Street Judge" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="e9c0-c8d6-cb63-dc97" name="Street Judge" publicationId="58d6-eaa3-c92f-a34a" page="45" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="d899-1bf4-3ff0-d6af" name="Street Judge" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
@@ -27,22 +27,15 @@
         <categoryLink id="fbdc-2960-e3bf-88a0" name="[Judge Hero]" hidden="false" targetId="cbec-7d08-dc24-9f86" primary="false"/>
         <categoryLink id="b727-70ed-e4dc-e123" name="[Street Judge]" hidden="false" targetId="d2f1-0d15-d5f7-fff9" primary="false"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="ecc9-4a46-4281-0025" name="1 &lt; Options &gt;" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="c62a-b1db-a1ce-04d7" name="&lt; Judge Equipment &gt; " hidden="false" collective="false" import="true" targetId="4b73-80a3-6e74-78dc" type="selectionEntryGroup"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="7679-e564-0cdf-0cb6" name="&lt; Judge Standard Equipment &gt;" hidden="false" collective="false" import="true" targetId="af39-5234-a8fd-a216" type="selectionEntry"/>
         <entryLink id="5d85-5f0c-f000-a9c6" name="&gt;[Judge Hero]" hidden="false" collective="false" import="true" targetId="d4b8-6141-6269-f49c" type="selectionEntry"/>
+        <entryLink id="eaef-143e-9938-8ea0" name="&lt; Judge Standard equipment and options &gt;" hidden="false" collective="false" import="true" targetId="e7c0-03b9-e00c-6b8b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Credits" typeId="Credits" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="97c4-fb7b-cb3a-d330" name="Psi-Judge" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="97c4-fb7b-cb3a-d330" name="Psi-Judge" publicationId="58d6-eaa3-c92f-a34a" page="45" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="1f96-6130-75eb-d66e" name="Psi-Judge" hidden="false" typeId="6175-c29b-2daa-5fa4" typeName="&lt;0 Psi Model">
           <characteristics>
@@ -63,21 +56,15 @@
         <categoryLink id="8054-0a2d-5fdb-c188" name="[Psi Judge Hero]" hidden="false" targetId="29e4-b539-238c-00ae" primary="false"/>
         <categoryLink id="efd1-8845-c43d-9977" name="[Psi Judge]" hidden="false" targetId="1eb2-89a1-9adb-1329" primary="false"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="931c-a1d1-ebca-23c3" name="1 &lt; Options &gt;" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="8a75-c687-0848-4b12" name="&lt; Judge Standard Equipment &gt;" hidden="false" collective="false" import="true" targetId="af39-5234-a8fd-a216" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="6206-8156-a6b5-450c" name="&gt;[Psi Judge Herol]" hidden="false" collective="false" import="true" targetId="5728-a3eb-8325-40ac" type="selectionEntry"/>
+        <entryLink id="6206-8156-a6b5-450c" name="&gt;[Psi Judge Hero]" hidden="false" collective="false" import="true" targetId="5728-a3eb-8325-40ac" type="selectionEntry"/>
+        <entryLink id="e34d-1c4e-df7c-6fd3" name="&lt; Judge Standard equipment and options &gt;" hidden="false" collective="false" import="true" targetId="e7c0-03b9-e00c-6b8b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Credits" typeId="Credits" value="175.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f8c5-04e6-b520-9347" name="Riot Judge" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="f8c5-04e6-b520-9347" name="Riot Judge" publicationId="58d6-eaa3-c92f-a34a" page="45" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="ab52-b37d-b111-ac64" name="Riot Judge" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
@@ -102,21 +89,53 @@
         <categoryLink id="27f3-e9eb-ea8a-0da2" name="New CategoryLink" hidden="false" targetId="c247-c866-3c19-ef70" primary="true"/>
         <categoryLink id="f3f7-b0f2-1976-6c81" name="[Riot Judge]" hidden="false" targetId="5a3c-8ece-7cc4-3215" primary="false"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="f20f-ba37-818f-d521" name="1 &lt; Options &gt;" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="a2c5-59a4-0617-daec" name="&lt; Judge Standard Equipment &gt;" hidden="false" collective="false" import="true" targetId="af39-5234-a8fd-a216" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="2d40-8e12-1ca1-a3b5" name="&gt;[Judge Hero]" hidden="false" collective="false" import="true" targetId="d4b8-6141-6269-f49c" type="selectionEntry"/>
+        <entryLink id="c5cb-231c-11fe-da9e" name="&lt; Judge Standard equipment and options &gt;" hidden="false" collective="false" import="true" targetId="e7c0-03b9-e00c-6b8b" type="selectionEntryGroup">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="5286-0166-90f0-3a10" name="&lt; Riot Gear &gt;" hidden="true" collective="false" import="true" defaultSelectionEntryId="fb61-2902-61ac-e133">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5a3c-8ece-7cc4-3215" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d646-ebdf-4586-17c1" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="fb61-2902-61ac-e133" name="Riot Foam" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b0c-51cd-cc40-2bd8" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name=" Credits" typeId="Credits" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="3ac1-e6c0-dbeb-d59a" name="Riot Shield" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2310-6093-894d-eccd" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="a8df-b0d1-57b1-4884" name="Riot Shield" publicationId="58d6-eaa3-c92f-a34a" page="103" hidden="false">
+                      <description>The Riot Shield grants a model a single Parry. The Riot Shield may be used with other armour.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name=" Credits" typeId="Credits" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Credits" typeId="Credits" value="190.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e249-8971-3c28-5034" name="Rookie Judge" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="e249-8971-3c28-5034" name="Rookie Judge" publicationId="58d6-eaa3-c92f-a34a" page="46" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="0e84-caad-397b-e782" name="Rookie Judge" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
@@ -135,13 +154,9 @@
         <categoryLink id="66bf-92ed-20ba-5842" name="New CategoryLink" hidden="false" targetId="453a-509d-5f60-19d4" primary="true"/>
         <categoryLink id="d8b3-9339-3ddb-310f" name="[Rookie Judge]" hidden="false" targetId="487f-f347-b8e0-df4b" primary="false"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="92a4-9f82-e239-04ba" name="1 &lt; Options &gt;" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="e310-b035-11e6-c00f" name="&lt; Judge Standard Equipment &gt;" hidden="false" collective="false" import="true" targetId="af39-5234-a8fd-a216" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1851-3c9e-7193-5f67" name="&lt; Judge Standard equipment and options &gt;" hidden="false" collective="false" import="true" targetId="e7c0-03b9-e00c-6b8b" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" Credits" typeId="Credits" value="75.0"/>
       </costs>

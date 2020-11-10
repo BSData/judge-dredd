@@ -8,7 +8,7 @@
     <entryLink id="bf37-0100-b671-93c6" name="Pa Angel" hidden="false" collective="false" import="true" targetId="59ba-711d-ea75-9244" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="59ba-711d-ea75-9244" name="Pa Angel" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="59ba-711d-ea75-9244" name="Pa Angel" publicationId="58d6-eaa3-c92f-a34a" page="76" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f85c-8461-b936-be50" type="max"/>
       </constraints>
@@ -5081,7 +5081,7 @@ Judges may never use this Psi Talent.</characteristic>
         <cost name=" Credits" typeId="Credits" value="205.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4378-d341-8b99-fa96" name="Link Angel" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="4378-d341-8b99-fa96" name="Link Angel" publicationId="58d6-eaa3-c92f-a34a" page="76" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcb9-ebc1-63b7-7261" type="max"/>
       </constraints>
@@ -10241,7 +10241,7 @@ Judges may never use this Psi Talent.</characteristic>
         <cost name=" Credits" typeId="Credits" value="195.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6be4-230b-dec8-63c9" name="Junior Angel" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="6be4-230b-dec8-63c9" name="Junior Angel" publicationId="58d6-eaa3-c92f-a34a" page="76" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c37e-0ac8-3f59-a79c" type="max"/>
       </constraints>
@@ -10418,7 +10418,7 @@ Judges may never use this Psi Talent.</characteristic>
         <cost name=" Credits" typeId="Credits" value="165.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="96f0-4711-da4f-a783" name="Fink Angel" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="96f0-4711-da4f-a783" name="Fink Angel" publicationId="58d6-eaa3-c92f-a34a" page="77" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da30-a4ae-a85f-f395" type="max"/>
       </constraints>
@@ -10699,7 +10699,7 @@ Judges may never use this Psi Talent.</characteristic>
         <cost name=" Credits" typeId="Credits" value="285.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b8b5-384b-219c-98b2" name="Mean Machine Angel" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="b8b5-384b-219c-98b2" name="Mean Machine Angel" publicationId="58d6-eaa3-c92f-a34a" page="77" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81a5-1a6f-6da0-1337" type="max"/>
       </constraints>

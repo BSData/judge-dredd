@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1970-6ae0-db0b-35fc" name="The Citi-Def (MP2014)" revision="1" battleScribeVersion="2.03" authorName="Vescarea" authorContact="" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1970-6ae0-db0b-35fc" name="The Citi-Def (MP2014)" revision="1" battleScribeVersion="2.03" authorName="Vescarea" authorContact="" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="64a4-d4d6-0cd0-6cda" name="Citi-Def Medtech" hidden="false" collective="false" import="true" targetId="5da1-6483-84df-0848" type="selectionEntry"/>
     <entryLink id="3dee-f1fd-bb1f-50d1" name="Citi-Def Officer" hidden="false" collective="false" import="true" targetId="3426-03ad-9d6d-b796" type="selectionEntry"/>
@@ -7,7 +7,7 @@
     <entryLink id="7701-23b6-aaab-ab90" name="Jaeger Squad Commando" hidden="false" collective="false" import="true" targetId="1cd1-b1bf-775a-ebd4" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="3426-03ad-9d6d-b796" name="Citi-Def Officer" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="3426-03ad-9d6d-b796" name="Citi-Def Officer" publicationId="58d6-eaa3-c92f-a34a" page="51" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="8780-94df-127d-b3fa" name="Citi-Def Officer" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
@@ -46,7 +46,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="546f-84ba-807d-4d8e" type="min"/>
           </constraints>
           <profiles>
-            <profile id="4008-e53d-58f0-e071" name="Shell Jacket" hidden="false" typeId="c941-e5bc-0796-536b" typeName="Armour">
+            <profile id="4008-e53d-58f0-e071" name="Shell Jacket" hidden="false" typeId="c941-e5bc-0796-536b" typeName="&lt;2 Armour">
               <characteristics>
                 <characteristic name="Save" typeId="0dc2-16f5-65da-00c6">+5</characteristic>
               </characteristics>
@@ -118,7 +118,7 @@
         <cost name=" Credits" typeId="Credits" value="95.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5da1-6483-84df-0848" name="Citi-Def Medtech" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="5da1-6483-84df-0848" name="Citi-Def Medtech" publicationId="58d6-eaa3-c92f-a34a" page="51" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="e56e-2264-46bb-4106" name="Citi-Def Medtech" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
@@ -184,7 +184,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="902a-0f30-5f34-157a" type="min"/>
           </constraints>
           <profiles>
-            <profile id="bc30-ac80-e8d9-0e6c" name="Pad Armour" hidden="false" typeId="c941-e5bc-0796-536b" typeName="Armour">
+            <profile id="bc30-ac80-e8d9-0e6c" name="Pad Armour" hidden="false" typeId="c941-e5bc-0796-536b" typeName="&lt;2 Armour">
               <characteristics>
                 <characteristic name="Save" typeId="0dc2-16f5-65da-00c6">+4</characteristic>
               </characteristics>
@@ -214,7 +214,7 @@
         <cost name=" Credits" typeId="Credits" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d758-4e6e-1985-675c" name="Citi-Def Soldier" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="d758-4e6e-1985-675c" name="Citi-Def Soldier" publicationId="58d6-eaa3-c92f-a34a" page="52" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="e41a-d5f8-ebc3-1c26" name="Citi-Def Soldier" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
@@ -247,7 +247,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dac6-80c7-a8e4-70f3" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7699-3013-3e36-bc2f" name="Shell Jacket" hidden="false" typeId="c941-e5bc-0796-536b" typeName="Armour">
+            <profile id="7699-3013-3e36-bc2f" name="Shell Jacket" hidden="false" typeId="c941-e5bc-0796-536b" typeName="&lt;2 Armour">
               <characteristics>
                 <characteristic name="Save" typeId="0dc2-16f5-65da-00c6">+5</characteristic>
               </characteristics>
@@ -282,7 +282,7 @@
         <cost name=" Credits" typeId="Credits" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1cd1-b1bf-775a-ebd4" name="Jaeger Squad Commando" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="1cd1-b1bf-775a-ebd4" name="Jaeger Squad Commando" publicationId="58d6-eaa3-c92f-a34a" page="52" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="9a6d-b92e-c3e2-e625" name="Jaeger Squad Commando" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
@@ -317,7 +317,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bbc-11a5-13ae-1bfa" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e190-166f-5873-1ffb" name="Shell Jacket" hidden="false" typeId="c941-e5bc-0796-536b" typeName="Armour">
+            <profile id="e190-166f-5873-1ffb" name="Shell Jacket" hidden="false" typeId="c941-e5bc-0796-536b" typeName="&lt;2 Armour">
               <characteristics>
                 <characteristic name="Save" typeId="0dc2-16f5-65da-00c6">+5</characteristic>
               </characteristics>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a7ae-cbfa-4a06-96f6" name="Cursed Earth Deaperadoes (MP2014)" revision="1" battleScribeVersion="2.03" authorName="Vescarea" authorContact="" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a7ae-cbfa-4a06-96f6" name="Cursed Earth Deaperadoes (MP2014)" revision="1" battleScribeVersion="2.03" authorName="Vescarea" authorContact="" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="3ae8-00f4-efc1-604e" name="Desperado" hidden="false" collective="false" import="true" targetId="c7f2-3e39-377a-b021" type="selectionEntry"/>
     <entryLink id="2bd7-22de-b3f8-7c51" name="Mutant" hidden="false" collective="false" import="true" targetId="411b-2edc-f94c-d23b" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="c7f2-3e39-377a-b021" name="Desperado" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="c7f2-3e39-377a-b021" name="Desperado" publicationId="58d6-eaa3-c92f-a34a" page="63" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="60f3-5317-f3cb-9071" name="Desperado" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
@@ -78,7 +78,7 @@
         <cost name=" Credits" typeId="Credits" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="411b-2edc-f94c-d23b" name="Mutant" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="411b-2edc-f94c-d23b" name="Mutant" publicationId="58d6-eaa3-c92f-a34a" page="64" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="3a2d-9dfb-8dbb-a379" name="Mutant" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <modifierGroups>
@@ -1196,7 +1196,7 @@
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
-                <condition field="selections" scope="411b-2edc-f94c-d23b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c1fb-fcee-0a93-b619" type="atLeast"/>
+                <condition field="selections" scope="411b-2edc-f94c-d23b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b9ed-834d-f259-8b26" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1207,9 +1207,14 @@
             <selectionEntryGroup id="8d2a-dc75-d4d1-be34" name="&lt; 05 Credit &gt;" hidden="true" collective="false" import="true">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="411b-2edc-f94c-d23b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c1fb-fcee-0a93-b619" type="atLeast"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="411b-2edc-f94c-d23b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a02d-0bfb-a911-105b" type="atLeast"/>
+                        <condition field="selections" scope="411b-2edc-f94c-d23b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b9ed-834d-f259-8b26" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -1485,9 +1490,14 @@
             <selectionEntryGroup id="646e-f9e0-a57e-4111" name="&lt; 10 Credit &gt;" hidden="true" collective="false" import="true">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="411b-2edc-f94c-d23b" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c1fb-fcee-0a93-b619" type="atLeast"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="411b-2edc-f94c-d23b" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a02d-0bfb-a911-105b" type="atLeast"/>
+                        <condition field="selections" scope="411b-2edc-f94c-d23b" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b9ed-834d-f259-8b26" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -1763,9 +1773,14 @@
             <selectionEntryGroup id="454c-c745-f44b-f24f" name="&lt; 20 Credit &gt;" hidden="true" collective="false" import="true">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="411b-2edc-f94c-d23b" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c1fb-fcee-0a93-b619" type="atLeast"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="411b-2edc-f94c-d23b" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a02d-0bfb-a911-105b" type="atLeast"/>
+                        <condition field="selections" scope="411b-2edc-f94c-d23b" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b9ed-834d-f259-8b26" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>

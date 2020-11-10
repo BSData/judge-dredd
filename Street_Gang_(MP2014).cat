@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e369-9f39-1125-052f" name="Street Gang (MP2014)" revision="1" battleScribeVersion="2.03" authorName="Vescarea" authorContact="" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e369-9f39-1125-052f" name="Street Gang (MP2014)" revision="1" battleScribeVersion="2.03" authorName="Vescarea" authorContact="" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="8be1-fe2d-eebf-eee4" name="Punk" hidden="false" collective="false" import="true" targetId="d9ea-b824-aa98-2c93" type="selectionEntry"/>
     <entryLink id="7b38-d2fc-9ab2-f0d7" name="Juve" hidden="false" collective="false" import="true" targetId="b740-fb23-6e90-7012" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="b740-fb23-6e90-7012" name="Juve" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="b740-fb23-6e90-7012" name="Juve" publicationId="58d6-eaa3-c92f-a34a" page="54" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="c975-752d-909f-c9c0" name="Juve" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
@@ -82,7 +82,7 @@
         <cost name=" Credits" typeId="Credits" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d9ea-b824-aa98-2c93" name="Punk" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="d9ea-b824-aa98-2c93" name="Punk" publicationId="58d6-eaa3-c92f-a34a" page="54" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="9f11-57c5-f2d3-e173" name="Punk" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>

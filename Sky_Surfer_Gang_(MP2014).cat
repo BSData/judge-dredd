@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6718-62df-fbb4-c575" name="Sky Surfer Gang (MP2014)" revision="1" battleScribeVersion="2.03" authorName="Vescarea" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6718-62df-fbb4-c575" name="Sky Surfer Gang (MP2014)" revision="1" battleScribeVersion="2.03" authorName="Vescarea" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="864f-59e4-3785-0496" name="Sky Surfer Icon" hidden="false" collective="false" import="true" targetId="94e4-be13-ce9f-a3eb" type="selectionEntry"/>
     <entryLink id="c46c-c1a0-456f-2a77" name="Sky Surfer Juve" hidden="false" collective="false" import="true" targetId="d5d8-541a-45a3-e154" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="d5d8-541a-45a3-e154" name="Sky Surfer Juve" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="d5d8-541a-45a3-e154" name="Sky Surfer Juve" publicationId="58d6-eaa3-c92f-a34a" page="72" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="b531-159a-2dea-982a" name="Sky Surfer Juve" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
@@ -57,7 +57,7 @@
         <cost name=" Credits" typeId="Credits" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="94e4-be13-ce9f-a3eb" name="Sky Surfer Icon" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="94e4-be13-ce9f-a3eb" name="Sky Surfer Icon" publicationId="58d6-eaa3-c92f-a34a" page="72" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="0524-0cf7-4691-0df2" name="Sky Surfer Icon" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>

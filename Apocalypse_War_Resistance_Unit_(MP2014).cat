@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8fd9-613c-1937-f40e" name="Apocalypse War Resistance Unit (MP2014)" revision="1" battleScribeVersion="2.03" authorName="Vescarea" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8fd9-613c-1937-f40e" name="Apocalypse War Resistance Unit (MP2014)" revision="1" battleScribeVersion="2.03" authorName="Vescarea" authorUrl="https://github.com/BSData/judge-dredd" library="false" gameSystemId="b6bc-5996-1c4c-957c" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="b8c6-c83f-ac75-9bc4" name="Citi-Def Soldier" hidden="false" collective="false" import="true" targetId="33a0-dd97-2568-1f3b" type="selectionEntry"/>
     <entryLink id="2ddc-76be-1f87-6640" name="Street Judge" hidden="false" collective="false" import="true" targetId="d4ea-74a1-292d-2f79" type="selectionEntry"/>
     <entryLink id="feef-be30-7dc3-3a80" name="Punk" hidden="false" collective="false" import="true" targetId="5253-ad10-31d9-659a" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="5253-ad10-31d9-659a" name="Punk" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="5253-ad10-31d9-659a" name="Punk" publicationId="58d6-eaa3-c92f-a34a" page="69" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="39eb-6ff2-ac2a-c906" name="Punk" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
@@ -56,7 +56,7 @@
         <cost name=" Credits" typeId="Credits" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d4ea-74a1-292d-2f79" name="Street Judge" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="d4ea-74a1-292d-2f79" name="Street Judge" publicationId="58d6-eaa3-c92f-a34a" page="69" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="f87a-5a69-d5c7-6e16" name="Street Judge" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
@@ -87,7 +87,7 @@
         <cost name=" Credits" typeId="Credits" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="33a0-dd97-2568-1f3b" name="Citi-Def Soldier" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="33a0-dd97-2568-1f3b" name="Citi-Def Soldier" publicationId="58d6-eaa3-c92f-a34a" page="69" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="fd86-13e7-393d-91f6" name="Citi-Def Soldier" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
@@ -121,7 +121,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77e9-3a72-5de2-2b51" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7ef8-cacf-a42f-4b25" name="Shell Jacket" hidden="false" typeId="c941-e5bc-0796-536b" typeName="Armour">
+            <profile id="7ef8-cacf-a42f-4b25" name="Shell Jacket" hidden="false" typeId="c941-e5bc-0796-536b" typeName="&lt;2 Armour">
               <characteristics>
                 <characteristic name="Save" typeId="0dc2-16f5-65da-00c6">+5</characteristic>
               </characteristics>
