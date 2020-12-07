@@ -5,9 +5,9 @@
     <entryLink id="2bd7-22de-b3f8-7c51" name="Mutant" hidden="false" collective="false" import="true" targetId="411b-2edc-f94c-d23b" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="c7f2-3e39-377a-b021" name="Desperado" publicationId="58d6-eaa3-c92f-a34a" page="63" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="c7f2-3e39-377a-b021" name="Desperado" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="60f3-5317-f3cb-9071" name="Desperado" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+        <profile id="60f3-5317-f3cb-9071" name="Desperado" publicationId="58d6-eaa3-c92f-a34a" page="63" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;			</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0</characteristic>
@@ -26,61 +26,70 @@
         <categoryLink id="8ae3-2b5f-27d1-8f00" name="[Min. Upg]" hidden="false" targetId="4d4f-5d8c-eed7-0803" primary="false"/>
         <categoryLink id="9503-6da6-bf3b-ed1b" name="[Psi. Min. Upg]" hidden="false" targetId="1c26-2e7c-0d62-53bf" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="0481-efcf-4bda-06f6" name="&lt; May be purchased 75 Credits of: &gt;" hidden="false" collective="false" import="true" type="upgrade">
-          <modifierGroups>
-            <modifierGroup>
-              <modifiers>
-                <modifier type="set" field="name" value="&lt; May be purchased up to 125 Credits of: &gt;">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d658-0ad9-6e15-958e" type="equalTo"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-                <modifier type="increment" field="b4ad-3f00-9141-b849" value="50.0">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d658-0ad9-6e15-958e" type="equalTo"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-            </modifierGroup>
-          </modifierGroups>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fdd-1293-3282-9c88" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6915-f44d-629f-d808" type="min"/>
-            <constraint field="Credits" scope="parent" value="75.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4ad-3f00-9141-b849" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="17a0-5d7b-3d0d-09c2" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name=" Credits" typeId="Credits" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="8531-b402-739a-93db" name="&lt; Upgrade to level 1 Hero &gt;" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="d683-c2f3-2061-9ef8" name="&lt; Level Upgrade &gt;" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="136f-66ea-94e2-2eaa" name="[Model Options]" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="158f-6e09-c040-c912" name="&lt; [May be purchased 75 Credits of:]" hidden="false" collective="false" import="true" type="upgrade">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="set" field="name" value="&lt; May be purchased up to 125 Credits of: &gt;">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d658-0ad9-6e15-958e" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="increment" field="b6aa-8c84-d86c-7f8d" value="50.0">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d658-0ad9-6e15-958e" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1c3-2a0a-d764-ee09" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84da-585c-9440-fcfb" type="min"/>
+                <constraint field="Credits" scope="parent" value="75.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6aa-8c84-d86c-7f8d" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="8b6e-6fa1-b200-d225" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="3159-397d-3485-00f1" name="&lt; [Upgrade to level 1 Hero]" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="6089-3f77-a056-fa93" name="&lt; Level Upgrade &gt;" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name=" Credits" typeId="Credits" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="411b-2edc-f94c-d23b" name="Mutant" publicationId="58d6-eaa3-c92f-a34a" page="64" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="411b-2edc-f94c-d23b" name="Mutant" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="3a2d-9dfb-8dbb-a379" name="Mutant" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+        <profile id="3a2d-9dfb-8dbb-a379" name="Mutant" publicationId="58d6-eaa3-c92f-a34a" page="64" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <modifierGroups>
             <modifierGroup>
               <comment>Move</comment>
@@ -232,52 +241,13 @@
         <categoryLink id="ef40-0b5f-acb4-09f5" name="[Psi. Min. Upg]" hidden="false" targetId="1c26-2e7c-0d62-53bf" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8f56-26f1-8e11-89a5" name="&lt; May be purchased 50 Credits of: &gt;" hidden="false" collective="false" import="true" type="upgrade">
-          <modifierGroups>
-            <modifierGroup>
-              <modifiers>
-                <modifier type="set" field="name" value="&lt; May be purchased up to 100 Credits of: &gt;">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d658-0ad9-6e15-958e" type="equalTo"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-                <modifier type="increment" field="c56e-a4e2-a971-a66c" value="50.0">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d658-0ad9-6e15-958e" type="equalTo"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-            </modifierGroup>
-          </modifierGroups>
-          <constraints>
-            <constraint field="Credits" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c56e-a4e2-a971-a66c" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d99a-ce0e-7c69-e920" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fd0-e401-2d5a-c93f" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="c6c3-f1d4-dd40-db14" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name=" Credits" typeId="Credits" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5c62-a20a-069d-2a83" name="&lt; May have up to 2 mutations &gt;" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5c62-a20a-069d-2a83" name="&lt; [May have up to 2 mutations]" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85f8-d779-546d-eea7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d27-c472-2fba-3319" type="min"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup id="5781-8e92-e394-b9a2" name="&lt; May have up to 2 mutations &gt;" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="5781-8e92-e394-b9a2" name="&lt; [May have up to 2 mutations]" hidden="false" collective="false" import="true">
               <modifierGroups>
                 <modifierGroup>
                   <modifiers>
@@ -1192,7 +1162,7 @@
             <cost name=" Credits" typeId="Credits" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b447-5139-7f97-c0bd" name="&lt; Mutant Talent &gt;" hidden="true" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b447-5139-7f97-c0bd" name="&lt; [Mutant Talent]" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2060,10 +2030,55 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4cf4-7d94-b9d3-3f40" name="&lt; Upgrade to level 1 Hero &gt;" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="d135-3ba9-14e6-bd3f" name="&lt; Level Upgrade &gt;" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup"/>
-          </entryLinks>
+        <selectionEntryGroup id="490e-79be-6c54-300b" name="[Model Options]" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="c053-dfdc-0167-71b2" name="&lt; [May be purchased 50 Credits of:]" hidden="false" collective="false" import="true" type="upgrade">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="set" field="name" value="&lt; May be purchased up to 100 Credits of: &gt;">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d658-0ad9-6e15-958e" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="increment" field="0ed4-ae16-6049-6f7f" value="50.0">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d658-0ad9-6e15-958e" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint field="Credits" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ed4-ae16-6049-6f7f" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1681-ef58-72e7-f1f4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc0d-4f88-0519-db63" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="a692-21dc-5419-31d4" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="b652-37b5-3eb7-afaa" name="&lt; [Upgrade to level 1 Hero]" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="07ba-9517-9ff5-f902" name="&lt; Level Upgrade &gt;" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>

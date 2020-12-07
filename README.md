@@ -2,7 +2,7 @@ Judge Dredd
 ===========
 
 ####Contents####
-
+* [Game][]
 * [Overview][]
 * [Links][]
 
@@ -12,8 +12,13 @@ Judge Dredd Miniatures Game by WarlordGames(2019)
 
 [Links]: #links
 
+##Game##
 
+Important notice!
+This is intended for the miniatures game "Judge Dredd Miniatures Game" and in no way replaces the need for use of the main rule book or any source books.
+All information in this game system is for those who have fully read and understood the rules.
 ##Overview##
+
 
 __What's this?__
 

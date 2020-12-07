@@ -7,9 +7,9 @@
     <entryLink id="7701-23b6-aaab-ab90" name="Jaeger Squad Commando" hidden="false" collective="false" import="true" targetId="1cd1-b1bf-775a-ebd4" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="3426-03ad-9d6d-b796" name="Citi-Def Officer" publicationId="58d6-eaa3-c92f-a34a" page="51" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="3426-03ad-9d6d-b796" name="Citi-Def Officer" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="8780-94df-127d-b3fa" name="Citi-Def Officer" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+        <profile id="8780-94df-127d-b3fa" name="Citi-Def Officer" publicationId="58d6-eaa3-c92f-a34a" page="51" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0</characteristic>
@@ -25,10 +25,10 @@
       <infoGroups>
         <infoGroup id="a89b-6d17-a021-aea8" name="CD Officer " hidden="false">
           <rules>
-            <rule id="60d2-f130-3e84-ce83" name="Rallying Cry" hidden="false">
+            <rule id="60d2-f130-3e84-ce83" name="Rallying Cry" publicationId="58d6-eaa3-c92f-a34a" page="51" hidden="false">
               <description>So long as the officer is still on the table, all failed Will to Fight checks for all friendly models may be re-rolled.</description>
             </rule>
-            <rule id="e363-8b12-e5e9-11bf" name="True Leader" hidden="false">
+            <rule id="e363-8b12-e5e9-11bf" name="True Leader" publicationId="58d6-eaa3-c92f-a34a" page="51" hidden="false">
               <description>Everyone in the Citi-Def unitlooks up to the officer, trusting him to see them through the worst fire fights. Any friendly model within 15&quot; and in line of sight of the officer may use his Will score instead of their own for any Will check, including Arrest checks.</description>
             </rule>
           </rules>
@@ -58,55 +58,59 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="71b8-e872-cf9c-ec7e" name="2 &lt; May be purchased up to 100 Credits of: &gt;" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="Credits" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a21-debc-1bf3-1387" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="a09f-3fcd-a0c1-46f8" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="5b41-67b6-3c59-6344" name="1 &lt; Base Options &gt;" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5b41-67b6-3c59-6344" name="[Options]" hidden="false" collective="false" import="true">
           <selectionEntryGroups>
-            <selectionEntryGroup id="c9ab-c00e-8ed0-7bde" name="&lt; Swap Spit Pistol with Spit gun &gt;" hidden="false" collective="false" import="true" defaultSelectionEntryId="df4a-3763-bb1a-25b0">
+            <selectionEntryGroup id="44b2-10ce-5889-2e7c" name="2 &lt; [May be purchased up to 100 Credits of:]" hidden="false" collective="false" import="true">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27c9-e367-9b35-7b08" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9184-4a03-35d3-9606" type="min"/>
+                <constraint field="Credits" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e218-47b7-603c-149a" type="max"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry id="df4a-3763-bb1a-25b0" name="Spit Pistol" hidden="false" collective="false" import="true" type="upgrade">
-                  <profiles>
-                    <profile id="ff30-f63a-0c44-50c7" name="Spit Pistol" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
-                      <characteristics>
-                        <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">18&quot;</characteristic>
-                        <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">3D</characteristic>
-                        <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">1</characteristic>
-                        <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">-1</characteristic>
-                        <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name=" Credits" typeId="Credits" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="aad1-c1d9-2b98-4e7c" name="Spit Gun" hidden="false" collective="false" import="true" type="upgrade">
-                  <profiles>
-                    <profile id="e2d2-c80d-31e3-9466" name="Spit Gun" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
-                      <characteristics>
-                        <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">20&quot;</characteristic>
-                        <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">3D</characteristic>
-                        <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">1</characteristic>
-                        <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">-2</characteristic>
-                        <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name=" Credits" typeId="Credits" value="30.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+              <entryLinks>
+                <entryLink id="ffa6-be0b-d2ed-d730" name="&lt; [Weapons, Armour and Equipment]" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="33c1-c44c-e125-b574" name="1 &lt; [Base]" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="769a-b6c7-8d27-dc48" name="&lt; Swap Spit Pistol for Spit gun &gt;" hidden="false" collective="false" import="true" defaultSelectionEntryId="73c3-1cc1-6c24-23c0">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31a3-5385-fd29-7522" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ab6-ed7d-ac45-0fd7" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="73c3-1cc1-6c24-23c0" name="Spit Pistol" hidden="false" collective="false" import="true" type="upgrade">
+                      <profiles>
+                        <profile id="55a3-6c18-607c-2287" name="Spit Pistol" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">18&quot;</characteristic>
+                            <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">3D</characteristic>
+                            <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">1</characteristic>
+                            <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">-1</characteristic>
+                            <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">-</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="637c-f58a-0fab-5ce7" name="Spit Gun" hidden="false" collective="false" import="true" type="upgrade">
+                      <profiles>
+                        <profile id="65e4-aa03-14f1-6a49" name="Spit Gun" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">20&quot;</characteristic>
+                            <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">3D</characteristic>
+                            <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">1</characteristic>
+                            <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">-2</characteristic>
+                            <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">-</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Credits" typeId="Credits" value="30.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
@@ -118,9 +122,9 @@
         <cost name=" Credits" typeId="Credits" value="95.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5da1-6483-84df-0848" name="Citi-Def Medtech" publicationId="58d6-eaa3-c92f-a34a" page="51" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="5da1-6483-84df-0848" name="Citi-Def Medtech" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="e56e-2264-46bb-4106" name="Citi-Def Medtech" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+        <profile id="e56e-2264-46bb-4106" name="Citi-Def Medtech" publicationId="58d6-eaa3-c92f-a34a" page="51" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">6&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+2</characteristic>
@@ -134,7 +138,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="cc4f-8e49-0a3b-8c42" name="Lifesaver" hidden="false">
+        <rule id="cc4f-8e49-0a3b-8c42" name="Lifesaver" publicationId="58d6-eaa3-c92f-a34a" page="51" hidden="false">
           <description>The Citi-Def Medtech is always assumed to have taken one extra Special action in its last turn when using a Medi-kit (so he will always count as having taken at least one).</description>
         </rule>
       </rules>
@@ -196,27 +200,31 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1a0d-91e7-759e-2683" name="2 &lt; May be purchased up to 50 Credits of: &gt;" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="Credits" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffd4-ff27-e61a-9228" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="4c0f-ba5a-90c0-a620" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="bb55-ecb2-0a9f-575d" name="1 &lt; Upgrade to level 1 Hero &gt;" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="1320-ea15-afaa-9202" name="&lt; Hero Leveling Ugrade &gt;" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup"/>
-          </entryLinks>
+        <selectionEntryGroup id="97c6-18a6-864b-4cd0" name="[Options]" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="a0bf-586a-f17e-6c8b" name="1 &lt; [Upgrade to level 1 Hero]" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="0c80-817a-3db0-fa3e" name="&lt; [Upgrade Minion]" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="478b-5669-0e91-49a6" name="2 &lt; [May be purchased up to 50 Credits of:]" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="Credits" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60ab-c3f5-34ba-43b6" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="cdef-dfab-200e-d9cf" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name=" Credits" typeId="Credits" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d758-4e6e-1985-675c" name="Citi-Def Soldier" publicationId="58d6-eaa3-c92f-a34a" page="52" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="d758-4e6e-1985-675c" name="Citi-Def Soldier" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="e41a-d5f8-ebc3-1c26" name="Citi-Def Soldier" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+        <profile id="e41a-d5f8-ebc3-1c26" name="Citi-Def Soldier" publicationId="58d6-eaa3-c92f-a34a" page="52" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0</characteristic>
@@ -230,7 +238,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="276d-ec58-12ac-01c4" name="Trigger Happy" hidden="false">
+        <rule id="276d-ec58-12ac-01c4" name="Trigger Happy" publicationId="58d6-eaa3-c92f-a34a" page="52" hidden="false">
           <description>Whenever a Citi-Def soldier performs a Shoot action, he must make a Will check. If this is failed, his next action must also be a Shoot action unless an enemy engages him in Close Combat before this action can be taken. If no enemy model is in sight, he will attack the closest target, be it friend, foe or an innocent bystander!
 </description>
         </rule>
@@ -259,32 +267,83 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5fb3-424e-46af-051d" name="3 &lt; May be purchased up to 50 Credits of: &gt;" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="Credits" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="366f-e678-049c-b0f3" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="0213-e295-30d8-e7f4" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="ab56-62ca-1636-cc10" name="1 &lt; Base Options &gt; " hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="5907-4e96-48ba-b493" name="&lt; Swap Spit gun for two Spit pistols and gain the Dual Shooter Talent &gt;" hidden="false" collective="false" import="true" targetId="45f6-5864-0691-d554" type="selectionEntryGroup"/>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="c421-bc83-c236-3031" name="2 &lt; Upgrade to level 1 Hero &gt;" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="b1cb-68f4-b56d-56ab" name="&lt; Hero Leveling Ugrade &gt;" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup"/>
-          </entryLinks>
+        <selectionEntryGroup id="ab56-62ca-1636-cc10" name="[Model Options]" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="14f5-0700-9bbe-a7c7" name="3 &lt; [May be purchased up to 50 Credits of:]" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="Credits" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84dc-4a57-d038-d5f6" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="5be3-eb50-4a0c-dc9f" name="&lt; [Weapons, Armour and Equipment]" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="40ed-19ee-d819-c79a" name="1 &lt; [Base]" hidden="false" collective="false" import="true" defaultSelectionEntryId="08b8-7e52-628e-1147">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbfa-2aef-d8b7-f37d" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="6583-f223-b4ae-00d5" name="Spit Pistol (x2) + Dual Shooter Talent" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="d758-4e6e-1985-675c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7cf-d032-8214-162b" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="e570-3523-ca5e-cdc3" name="Spit Pistol(s)" publicationId="58d6-eaa3-c92f-a34a" page="98" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">18&quot;</characteristic>
+                        <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">3D</characteristic>
+                        <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">1</characteristic>
+                        <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">-1</characteristic>
+                        <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Credits" typeId="Credits" value="25.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="08b8-7e52-628e-1147" name="Spit Gun" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0354-4d5c-48b1-bcc8" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="ba9c-0691-2229-c3e7" name="Spit Gun" publicationId="58d6-eaa3-c92f-a34a" page="98" hidden="false" typeId="f710-4d70-dec4-3119" typeName="&lt;3 Ranged Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6e78-9c5a-8f66-4385">20&quot;</characteristic>
+                        <characteristic name="Shooting Dice" typeId="9238-487e-59dd-aa41">3D</characteristic>
+                        <characteristic name="Damage" typeId="2d89-74ae-96b2-73c4">1</characteristic>
+                        <characteristic name="AP" typeId="e7a8-6695-e9a9-4586">-2</characteristic>
+                        <characteristic name="Special Rules" typeId="4d88-9af9-9bb8-7988">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Credits" typeId="Credits" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="6e37-2f90-a7bb-65dd" name="2 &lt; [Upgrade to level 1 Hero]" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="ed14-6704-f3c0-d082" name="&lt; [Upgrade Minion]" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name=" Credits" typeId="Credits" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1cd1-b1bf-775a-ebd4" name="Jaeger Squad Commando" publicationId="58d6-eaa3-c92f-a34a" page="52" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="1cd1-b1bf-775a-ebd4" name="Jaeger Squad Commando" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="9a6d-b92e-c3e2-e625" name="Jaeger Squad Commando" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+        <profile id="9a6d-b92e-c3e2-e625" name="Jaeger Squad Commando" publicationId="58d6-eaa3-c92f-a34a" page="52" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">6&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
@@ -298,10 +357,10 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="b4d5-bf0c-1eae-0e84" name="Going Commando" hidden="false">
+        <rule id="b4d5-bf0c-1eae-0e84" name="Going Commando" publicationId="58d6-eaa3-c92f-a34a" page="52" hidden="false">
           <description>Using a combination of sucker guns, rappelling lines and para-gliders, the Jeager Squad Commando can appear anywhere unexpected. The Commando counts as if he is equipped with a sucker gun and can also drop down a sheer surface up to 12&quot; with a single Special action.</description>
         </rule>
-        <rule id="6074-5287-a8e5-023a" name="Silent but Violent" hidden="false">
+        <rule id="6074-5287-a8e5-023a" name="Silent but Violent" publicationId="58d6-eaa3-c92f-a34a" page="52" hidden="false">
           <description>The Jeager Squad Commando has the Stealthy as a free Talent.</description>
         </rule>
       </rules>
@@ -381,7 +440,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9c7a-2c80-42c1-27ad" name="1 &lt; May be purchased up to 100 Credits of: &gt;" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9c7a-2c80-42c1-27ad" name="[May be purchased up to 100 Credits of:]" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="Credits" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2312-67ea-a9d8-bc71" type="max"/>
           </constraints>

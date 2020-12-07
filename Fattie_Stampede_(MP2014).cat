@@ -5,9 +5,9 @@
     <entryLink id="6f91-6c3a-0fe8-c285" name="Fattie" hidden="false" collective="false" import="true" targetId="6dea-d162-165c-1976" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="6dea-d162-165c-1976" name="Fattie" publicationId="58d6-eaa3-c92f-a34a" page="61" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="6dea-d162-165c-1976" name="Fattie" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="8766-26f7-7581-1a8a" name="Fattie" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+        <profile id="8766-26f7-7581-1a8a" name="Fattie" publicationId="58d6-eaa3-c92f-a34a" page="61" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">3&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">-2</characteristic>
@@ -23,15 +23,15 @@
       <infoGroups>
         <infoGroup id="1c6d-d1de-897a-6eb5" name="Fattie Rules" hidden="false">
           <rules>
-            <rule id="4755-1d56-05e3-59d2" name="Belliwheel" hidden="false">
+            <rule id="4755-1d56-05e3-59d2" name="Belliwheel" publicationId="58d6-eaa3-c92f-a34a" page="61" hidden="false">
               <description>Once a Fattie gets going, there is little that can stop him. If a Fattie takes two consecutive Move or Melee actions in the same turn, the second Move or Melee action must be made in a completely straight line, but he will move an additional D10+2”. In addition, the Fattie’s close combat attacks will ignore all Armour except against vehicles and have a Damage score equal to the Fattie’s remaining Hits. Fatties may only move in clear terrain.
 </description>
             </rule>
-            <rule id="8f0c-0e25-62fb-9da3" name="Fat!" hidden="false">
+            <rule id="8f0c-0e25-62fb-9da3" name="Fat!" publicationId="58d6-eaa3-c92f-a34a" page="61" hidden="false">
               <description>A Fattie may be purchased armour but double all costs. A Fattie may never use a Jetpack, Bat Glider, Power Board, Sucker Gun or Chameleon Suit. They are just too big! A Fattie can ride in a vehicle and will count as a single Crew or Passenger if the vehicle model has been suitably modified/ converted. Otherwise a Fattie may not ride in a vehicle unless there is a suitable place on the model for them to sit (such as the flatbed of a Sloth Cargo Hauler – and no, they may not sit on the roof!). Fatties cannot use ladders at all, and may only use elevators and grav chutes that are physically large enough for the model. Finally, Fatties are immune to knockdowns.
 </description>
             </rule>
-            <rule id="63c7-e37b-501f-6dac" name="Bacon Butty!" hidden="false">
+            <rule id="63c7-e37b-501f-6dac" name="Bacon Butty!" publicationId="58d6-eaa3-c92f-a34a" page="61" hidden="false">
               <description>If a Fattie has at least 3 Hits remaining and performs two Special actions in a turn it will stuff its face with as much food as it can, the Fattie will then regain 1 Hit. This may not be used to increase its Hits beyond its starting score.
 </description>
             </rule>
@@ -43,42 +43,46 @@
         <categoryLink id="196e-a514-c717-d7e4" name="[Min. Upg]" hidden="false" targetId="4d4f-5d8c-eed7-0803" primary="false"/>
         <categoryLink id="ab58-8673-c89e-d411" name="[Fattie]" hidden="false" targetId="b955-7000-3aae-7dea" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="7fac-cd30-6301-7f11" name="&lt; May be purchased up to 50 Credits of: &gt;" hidden="false" collective="false" import="true" type="upgrade">
-          <modifierGroups>
-            <modifierGroup>
-              <modifiers>
-                <modifier type="set" field="name" value="&lt; May be purchased up to 125 Credits of: &gt;">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
-                  </conditions>
-                </modifier>
-                <modifier type="increment" field="8bb6-af1a-e69b-9c9b" value="75.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </modifierGroup>
-          </modifierGroups>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d664-ef56-4ff9-e51e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91dd-3ed6-ccd6-76a8" type="min"/>
-            <constraint field="Credits" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bb6-af1a-e69b-9c9b" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="ea91-f1d9-15e1-e3bc" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name=" Credits" typeId="Credits" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="59ea-143c-2b10-cf29" name="&lt; Upgrade to level 1 Hero &gt;" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="4c23-63f3-92dc-61d9" name="&lt; Level Upgrade &gt;" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup"/>
-          </entryLinks>
+        <selectionEntryGroup id="dbfe-a3f3-0451-b41d" name="[Base Options]" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="b92c-2115-9ba5-83b4" name="&lt; [May be purchased up to 50 Credits of:]" hidden="false" collective="false" import="true" type="upgrade">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="set" field="name" value="&lt; May be purchased up to 125 Credits of: &gt;">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="c4d8-8ed2-f4fd-b9ce" value="75.0">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23ed-44b0-f337-8f6d" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bc4-f47e-d796-93a0" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76c8-3314-3902-7a03" type="min"/>
+                <constraint field="Credits" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4d8-8ed2-f4fd-b9ce" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="a969-9d2c-257d-b268" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="f3ce-e1f8-406b-19b5" name="&lt; [Upgrade to level 1 Hero]" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="7ff1-3c3f-81bb-c8d9" name="&lt; Level Upgrade &gt;" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -87,7 +91,7 @@
     </selectionEntry>
     <selectionEntry id="c5cd-8b71-7784-4b4e" name="Fats Fan" publicationId="58d6-eaa3-c92f-a34a" page="61" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="3c9a-4452-89bf-2b5d" name="Fats Fan" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+        <profile id="3c9a-4452-89bf-2b5d" name="Fats Fan" publicationId="58d6-eaa3-c92f-a34a" page="61" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0</characteristic>
@@ -101,7 +105,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="a8ea-6f75-fd6b-b353" name="Go, Piggy, Go!" hidden="false">
+        <rule id="a8ea-6f75-fd6b-b353" name="Go, Piggy, Go!" publicationId="58d6-eaa3-c92f-a34a" page="61" hidden="false">
           <description>If one or more Fats Fans are within 2” of a Fattie they may try to help him cross difficult terrain. If a Fattie wants to perform a Move or Melee action over difficult terrain, roll one die and add +2 for every Fats Fan within 2”. If the total is higher than 10, the Fattie may continue moving over the terrain (halving movement as normal). If the total is less, the Fattie spends the action not moving as his fans try fruitlessly to move the massive bulk.
 </description>
         </rule>
@@ -110,21 +114,25 @@
         <categoryLink id="ec70-3e13-7c47-e76d" name="New CategoryLink" hidden="false" targetId="453a-509d-5f60-19d4" primary="true"/>
         <categoryLink id="c37f-0e27-40a2-b5a1" name="[Fats Fan]" hidden="false" targetId="8f42-5c8d-4a7f-d19c" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="40bb-2dca-4ab6-6413" name="&lt; May be purchased up to 25 Credits of: &gt;" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bfb-fde8-bc1a-6ae4" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1957-9219-6334-6b36" type="min"/>
-            <constraint field="Credits" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="094d-b336-fcd7-5a32" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="6a6a-0b49-9179-708c" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name=" Credits" typeId="Credits" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ea6a-d57d-1091-b1e5" name="[Base Options]" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="1c8c-5a00-f1fe-3ae6" name="&lt; [May be purchased up to 25 Credits of:]" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b17d-6714-b673-06df" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b6c-16df-20aa-47fb" type="min"/>
+                <constraint field="Credits" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c49d-e51b-0532-8c8c" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="8f53-2744-a539-88ff" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name=" Credits" typeId="Credits" value="20.0"/>
       </costs>

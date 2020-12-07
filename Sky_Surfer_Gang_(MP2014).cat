@@ -5,9 +5,9 @@
     <entryLink id="c46c-c1a0-456f-2a77" name="Sky Surfer Juve" hidden="false" collective="false" import="true" targetId="d5d8-541a-45a3-e154" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="d5d8-541a-45a3-e154" name="Sky Surfer Juve" publicationId="58d6-eaa3-c92f-a34a" page="72" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="d5d8-541a-45a3-e154" name="Sky Surfer Juve" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="b531-159a-2dea-982a" name="Sky Surfer Juve" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+        <profile id="b531-159a-2dea-982a" name="Sky Surfer Juve" publicationId="58d6-eaa3-c92f-a34a" page="72" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
@@ -25,19 +25,6 @@
         <categoryLink id="a6dd-ec4a-b33b-7c18" name="[Sky Surfer Juve]" hidden="false" targetId="b3ba-38a2-298e-4b77" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="768d-f265-fe2c-50d6" name="&lt; May be purchased up to 25 Credits of: &gt;" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7050-d84b-55ff-d52f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15f4-2983-6764-8316" type="max"/>
-            <constraint field="Credits" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5b05-e794-9fa1-3496" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="88f4-e749-fae9-12a3" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name=" Credits" typeId="Credits" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="03a8-7b09-f44c-9784" name="Power Board" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2348-c784-d215-47fa" type="max"/>
@@ -53,13 +40,32 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8538-db60-90a3-5169" name="[Model Options]" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="8e9c-14ff-f9d8-9d40" name="&lt; [May be purchased up to 25 Credits of:]" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9147-7199-fcb0-0d66" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9ef-8418-96f6-09c4" type="max"/>
+                <constraint field="Credits" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9ccd-9244-d461-3b1a" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="f421-4167-ab01-e1ce" name="&lt; [Weapons, Armour and Equipment]" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name=" Credits" typeId="Credits" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="94e4-be13-ce9f-a3eb" name="Sky Surfer Icon" publicationId="58d6-eaa3-c92f-a34a" page="72" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="94e4-be13-ce9f-a3eb" name="Sky Surfer Icon" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="0524-0cf7-4691-0df2" name="Sky Surfer Icon" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+        <profile id="0524-0cf7-4691-0df2" name="Sky Surfer Icon" publicationId="58d6-eaa3-c92f-a34a" page="72" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
@@ -78,19 +84,6 @@
         <categoryLink id="26ef-38fb-6e84-45b6" name="[Hero]" hidden="false" targetId="190b-65e3-d23a-1371" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="855b-4df5-625e-36b2" name="&lt; May be purchased up to 50 Credits of: &gt;" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5915-ba06-36cd-9bd7" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54e5-3904-1a5c-af6c" type="max"/>
-            <constraint field="Credits" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="91bc-bf9b-3b5d-0ccd" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="67c6-f221-622f-5fbf" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name=" Credits" typeId="Credits" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="a84b-3e0d-04bd-fd43" name="Power Board" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c448-3ea0-e18d-b4c2" type="max"/>
@@ -106,6 +99,25 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="befa-53fd-8ebc-983a" name="[Model Options]" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="157d-6a77-daea-f16e" name="&lt; [May be purchased up to 50 Credits of:]" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15f4-ebec-8922-70ad" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a834-05ac-107f-abba" type="max"/>
+                <constraint field="Credits" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4088-612c-c86f-e6fa" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="5a9b-2f33-a598-b062" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="09b7-497e-99cb-1ef0" name="&gt;[Hero]" hidden="false" collective="false" import="true" targetId="6dc9-6556-f642-6c0e" type="selectionEntry"/>
       </entryLinks>

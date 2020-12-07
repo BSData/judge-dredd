@@ -6,9 +6,9 @@
     <entryLink id="feef-be30-7dc3-3a80" name="Punk" hidden="false" collective="false" import="true" targetId="5253-ad10-31d9-659a" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="5253-ad10-31d9-659a" name="Punk" publicationId="58d6-eaa3-c92f-a34a" page="69" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="5253-ad10-31d9-659a" name="Punk" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="39eb-6ff2-ac2a-c906" name="Punk" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+        <profile id="39eb-6ff2-ac2a-c906" name="Punk" publicationId="58d6-eaa3-c92f-a34a" page="69" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0</characteristic>
@@ -43,22 +43,26 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c217-de45-d8f0-1e77" name="&lt; Upgrade to level 1 Hero &gt;" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="a411-a60a-90eb-df63" name="[Model Options]" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="61bb-8dc8-149a-2be7" name="&lt; [Upgrade to level 1 Hero]" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="bc6e-0734-04bc-ebed" name="&lt; Hero Leveling &gt;" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="c489-9626-f4cd-7def" name="&lt; Hero Leveling &gt;" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup"/>
+            <entryLink id="9839-fb1d-b40a-a573" name="&lt; Scavenged Weapon Options &gt;" hidden="false" collective="false" import="true" targetId="de37-9a67-a070-a5b9" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="043a-f213-63c0-6481" name="&lt; Scavenged Weapon Options &gt;" hidden="false" collective="false" import="true" targetId="de37-9a67-a070-a5b9" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name=" Credits" typeId="Credits" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d4ea-74a1-292d-2f79" name="Street Judge" publicationId="58d6-eaa3-c92f-a34a" page="69" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="d4ea-74a1-292d-2f79" name="Street Judge" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="f87a-5a69-d5c7-6e16" name="Street Judge" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+        <profile id="f87a-5a69-d5c7-6e16" name="Street Judge" publicationId="58d6-eaa3-c92f-a34a" page="69" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
@@ -77,19 +81,24 @@
         <categoryLink id="e3af-5c2b-6da2-00c8" name="[Street Judge]" hidden="false" targetId="d2f1-0d15-d5f7-fff9" primary="false"/>
         <categoryLink id="68da-862e-3450-a0e1" name="[Apoc. War Res. Unit]" hidden="false" targetId="406b-849c-5580-1696" primary="false"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6b9f-ec09-9f22-ccab" name="[Model Options]" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="bb47-da79-4e0d-466f" name="&lt; [Judge Equipment and Options]" hidden="false" collective="false" import="true" targetId="e7c0-03b9-e00c-6b8b" type="selectionEntryGroup"/>
+            <entryLink id="0bdf-9186-42b0-6bae" name="&lt; Scavenged Weapon Options &gt;" hidden="false" collective="false" import="true" targetId="de37-9a67-a070-a5b9" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="7667-fa09-e2c1-7a30" name="&lt; Judge Standard Equipment &gt;" hidden="false" collective="false" import="true" targetId="af39-5234-a8fd-a216" type="selectionEntry"/>
         <entryLink id="6977-f354-f803-8eea" name="&gt;[Judge Hero]" hidden="false" collective="false" import="true" targetId="d4b8-6141-6269-f49c" type="selectionEntry"/>
-        <entryLink id="8f0b-6b78-4483-93b6" name="&lt; Judge Equipment Options &gt; " hidden="false" collective="false" import="true" targetId="4b73-80a3-6e74-78dc" type="selectionEntryGroup"/>
-        <entryLink id="c2d2-ddcf-2dd0-a0c0" name="&lt; Scavenged Weapon Options &gt;" hidden="false" collective="false" import="true" targetId="de37-9a67-a070-a5b9" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Credits" typeId="Credits" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="33a0-dd97-2568-1f3b" name="Citi-Def Soldier" publicationId="58d6-eaa3-c92f-a34a" page="69" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="33a0-dd97-2568-1f3b" name="Citi-Def Soldier" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="fd86-13e7-393d-91f6" name="Citi-Def Soldier" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+        <profile id="fd86-13e7-393d-91f6" name="Citi-Def Soldier" publicationId="58d6-eaa3-c92f-a34a" page="69" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0</characteristic>
@@ -103,7 +112,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="757e-8d84-b6e2-0f64" name="Trigger Happy" hidden="false">
+        <rule id="757e-8d84-b6e2-0f64" name="Trigger Happy" publicationId="58d6-eaa3-c92f-a34a" page="69" hidden="false">
           <description>Whenever a Citi-Def soldier performs a Shoot action, he must make a Will check. If this is failed, his next action must also be a Shoot action unless an enemy engages him in Close Combat before this action can be taken. If no enemy model is in sight, he will attack the closest target, be it friend, foe or an innocent bystander!
 </description>
         </rule>
@@ -153,15 +162,19 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4972-027e-f471-8051" name="&lt; Upgrade to level 1 Hero &gt;" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="f4cf-8fa1-f41a-cbbf" name="[Model Options]" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="ee46-37ad-49ab-8e89" name="&lt; [Upgrade to level 1 Hero]" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="a375-4c73-2f22-06dc" name="&lt; Level Upgrade &gt;" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="1c72-44a4-f2c2-08a9" name="&lt; Level Upgrade &gt;" hidden="false" collective="false" import="true" targetId="cbb2-26f6-741b-8b9c" type="selectionEntryGroup"/>
+            <entryLink id="da2b-f8e7-049f-b797" name="&lt; Scavenged Weapon Options &gt;" hidden="false" collective="false" import="true" targetId="de37-9a67-a070-a5b9" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="e618-0171-580a-0c41" name="&lt; Scavenged Weapon Options &gt;" hidden="false" collective="false" import="true" targetId="de37-9a67-a070-a5b9" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name=" Credits" typeId="Credits" value="70.0"/>
       </costs>

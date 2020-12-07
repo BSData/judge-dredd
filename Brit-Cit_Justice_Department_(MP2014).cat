@@ -7,9 +7,9 @@
     <entryLink id="e2f1-1416-0fa8-0aa9" name="Para Squad Judge" hidden="false" collective="false" import="true" targetId="a0af-3ec3-a182-66cc" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="5dfb-d38e-4d13-70d5" name="Beat Judge" publicationId="58d6-eaa3-c92f-a34a" page="48" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="5dfb-d38e-4d13-70d5" name="Beat Judge" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="4881-1361-9610-c954" name="Beat Judge" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+        <profile id="4881-1361-9610-c954" name="Beat Judge" publicationId="58d6-eaa3-c92f-a34a" page="48" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
@@ -29,15 +29,15 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="f6fc-c297-7552-15dd" name="&gt;[Judge Hero]" hidden="false" collective="false" import="true" targetId="d4b8-6141-6269-f49c" type="selectionEntry"/>
-        <entryLink id="305c-4480-1f64-0e5c" name="&lt; Brit-Cit Judge Standard Equipment &gt;" hidden="false" collective="false" import="true" targetId="8cf2-2182-02e1-c7ea" type="selectionEntry"/>
+        <entryLink id="305c-4480-1f64-0e5c" name="&lt; [Brit-Cit Judge Standard Equipment]" hidden="false" collective="false" import="true" targetId="8cf2-2182-02e1-c7ea" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Credits" typeId="Credits" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a0af-3ec3-a182-66cc" name="Para Squad Judge" publicationId="58d6-eaa3-c92f-a34a" page="48" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="a0af-3ec3-a182-66cc" name="Para Squad Judge" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="eaf8-34de-0cd0-6ec9" name="Para Squad Judge" hidden="false" typeId="6175-c29b-2daa-5fa4" typeName="&lt;0 Psi Model">
+        <profile id="eaf8-34de-0cd0-6ec9" name="Para Squad Judge" publicationId="58d6-eaa3-c92f-a34a" page="48" hidden="false" typeId="6175-c29b-2daa-5fa4" typeName="&lt;0 Psi Model">
           <characteristics>
             <characteristic name="Move" typeId="da22-dc43-c4b1-e93b">5&quot;	</characteristic>
             <characteristic name="Agility" typeId="913c-3b85-1f70-b8db">+1</characteristic>
@@ -64,9 +64,9 @@
         <cost name=" Credits" typeId="Credits" value="165.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1c8f-6597-5a78-9c79" name="Detective Judge" publicationId="58d6-eaa3-c92f-a34a" page="48" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="1c8f-6597-5a78-9c79" name="Detective Judge" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="fca6-0ec4-d880-5e88" name="Detective Judge" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+        <profile id="fca6-0ec4-d880-5e88" name="Detective Judge" publicationId="58d6-eaa3-c92f-a34a" page="48" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
@@ -91,7 +91,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15f0-43dc-329c-e3dc" type="max"/>
           </constraints>
           <profiles>
-            <profile id="619d-cf77-d79c-16c0" name="&gt;PC 101 Handgun" hidden="false" typeId="1899-64b0-9042-43ea" typeName="&lt;4 PC 101 Handgun">
+            <profile id="619d-cf77-d79c-16c0" name="&gt;PC 101 Handgun" publicationId="58d6-eaa3-c92f-a34a" page="105" hidden="false" typeId="1899-64b0-9042-43ea" typeName="&lt;4 PC 101 Handgun">
               <characteristics>
                 <characteristic name="Range" typeId="1b30-1d83-549d-68a5">18&quot;	</characteristic>
                 <characteristic name="Shooting Dice" typeId="1844-b223-e220-9d08">-</characteristic>
@@ -100,7 +100,7 @@
                 <characteristic name="Special Rules" typeId="c535-f99c-6c31-28c1">-</characteristic>
               </characteristics>
             </profile>
-            <profile id="c4dd-cbb1-cf67-83e0" name="AP" hidden="false" typeId="1899-64b0-9042-43ea" typeName="&lt;4 PC 101 Handgun">
+            <profile id="c4dd-cbb1-cf67-83e0" name="AP" publicationId="58d6-eaa3-c92f-a34a" page="105" hidden="false" typeId="1899-64b0-9042-43ea" typeName="&lt;4 PC 101 Handgun">
               <characteristics>
                 <characteristic name="Range" typeId="1b30-1d83-549d-68a5">-</characteristic>
                 <characteristic name="Shooting Dice" typeId="1844-b223-e220-9d08">1D</characteristic>
@@ -109,7 +109,7 @@
                 <characteristic name="Special Rules" typeId="c535-f99c-6c31-28c1">-</characteristic>
               </characteristics>
             </profile>
-            <profile id="46e0-6c04-ab8a-1410" name="Standard Execution" hidden="false" typeId="1899-64b0-9042-43ea" typeName="&lt;4 PC 101 Handgun">
+            <profile id="46e0-6c04-ab8a-1410" name="Standard Execution" publicationId="58d6-eaa3-c92f-a34a" page="105" hidden="false" typeId="1899-64b0-9042-43ea" typeName="&lt;4 PC 101 Handgun">
               <characteristics>
                 <characteristic name="Range" typeId="1b30-1d83-549d-68a5">-</characteristic>
                 <characteristic name="Shooting Dice" typeId="1844-b223-e220-9d08">3D</characteristic>
@@ -123,7 +123,7 @@
             <cost name=" Credits" typeId="Credits" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="856f-f2ea-38d5-289f" name="Armoured Trench Coat" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="856f-f2ea-38d5-289f" name="Armoured Trench Coat" publicationId="58d6-eaa3-c92f-a34a" page="105" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="199b-5bdf-908d-c9e6" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bab-6e7d-67fa-2347" type="max"/>
@@ -140,9 +140,9 @@
         <cost name=" Credits" typeId="Credits" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1c8e-8bcd-0c8d-a58e" name="Plod Bot " publicationId="58d6-eaa3-c92f-a34a" page="49" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="1c8e-8bcd-0c8d-a58e" name="Plod Bot " page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="6abc-c03a-6a3d-04e0" name="Plod Bot " hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+        <profile id="6abc-c03a-6a3d-04e0" name="Plod Bot " publicationId="58d6-eaa3-c92f-a34a" page="49" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+0</characteristic>
@@ -156,7 +156,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="ae63-1103-acee-49e9" name="Telescopic Arms" hidden="false">
+        <rule id="ae63-1103-acee-49e9" name="Telescopic Arms" publicationId="58d6-eaa3-c92f-a34a" page="49" hidden="false">
           <description>The plod bot can make close combat attacks against a target up to 6” away with a Melee action but cannot benefit from charging if it does so. At the end of this close combat, the two models are not required to take Melee actions again, and the plod bot is not moved closer to a pushed back enemy. The target may leave close combat in its turn without any penalties for fleeing.
 </description>
         </rule>
@@ -166,13 +166,13 @@
         <categoryLink id="8607-305f-5272-da45" name="[Plod Bot]" hidden="false" targetId="b0bd-fb7a-6d65-acf0" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="29d7-8d84-4b32-2fe7" name="Truncheon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="29d7-8d84-4b32-2fe7" name="Truncheon (DayStick)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f59c-8b34-f71e-82a4" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="546b-8f42-b09b-a92b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="708d-96cf-9bca-6bfb" name="Truncheon" hidden="false" typeId="80d2-e41e-4294-6fca" typeName="&lt;2 Close Combat Weapon">
+            <profile id="708d-96cf-9bca-6bfb" name="Truncheon (DayStick)" publicationId="58d6-eaa3-c92f-a34a" page="105" hidden="false" typeId="80d2-e41e-4294-6fca" typeName="&lt;2 Close Combat Weapon">
               <characteristics>
                 <characteristic name="Damage" typeId="d7ee-8740-c2fc-b939">1</characteristic>
                 <characteristic name="AP" typeId="8b7a-b403-bfd7-0446">0</characteristic>

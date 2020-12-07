@@ -29,21 +29,20 @@
         <categoryLink id="9183-1e96-5e82-74a9" name="[Assassin]" hidden="false" targetId="6b68-6fe0-34b2-920b" primary="false"/>
         <categoryLink id="a3fd-335f-aaad-da69" name="[Hero]" hidden="false" targetId="190b-65e3-d23a-1371" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="0066-d65e-e193-53da" name="&lt; May be purchased up to 150 Credits of: &gt;" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf00-5629-0eba-8de5" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebc4-3999-08ba-bd7c" type="max"/>
-            <constraint field="Credits" scope="parent" value="150.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="91d5-5585-d31c-ce26" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="dec0-03a5-a5ee-af37" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name=" Credits" typeId="Credits" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6fa2-a672-db30-6dbc" name="[Model Options]" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="e7e3-636f-1edb-32b9" name="&lt; [May be purchased up to 150 Credits of:]" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="Credits" scope="parent" value="150.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9743-76a4-ca11-1e79" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="dd91-fc8a-8d81-8902" name="&lt; [Weapons, Armour and Equipment]" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="117e-cb09-3a28-352c" name="&gt;[Hero]" hidden="false" collective="false" import="true" targetId="6dc9-6556-f642-6c0e" type="selectionEntry"/>
       </entryLinks>
@@ -167,21 +166,25 @@
       <categoryLinks>
         <categoryLink id="fc89-5f27-872f-41e7" name="2&lt; Inf. Minion" hidden="false" targetId="453a-509d-5f60-19d4" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="18e8-49d0-8ba1-8a03" name="&lt; May be purchased up to 100 Credits of: &gt;" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c82c-526c-bdf0-94b4" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6925-bddf-e453-8519" type="max"/>
-            <constraint field="Credits" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6bd4-519a-8355-903c" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="64b4-704a-2444-ad9b" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name=" Credits" typeId="Credits" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d76b-a3ef-30fb-2a89" name="[Model Options]" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="10b9-b099-748e-8133" name="&lt; [May be purchased up to 100 Credits of:]" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d2e-f775-abcc-cb23" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7487-6ca3-9303-ebee" type="max"/>
+                <constraint field="Credits" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c5a9-2c45-ccfd-0e61" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="ae4b-3788-d088-b9db" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name=" Credits" typeId="Credits" value="70.0"/>
       </costs>
@@ -206,21 +209,25 @@
         <categoryLink id="fcff-1de4-efe6-e9dc" name="[Gangster]" hidden="false" targetId="674d-31ce-fd37-1772" primary="false"/>
         <categoryLink id="c695-9c07-67fc-51b9" name="[Hero]" hidden="false" targetId="190b-65e3-d23a-1371" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="aa0b-d8ec-fa61-4799" name="&lt; May be purchased up to 200 Credits of: &gt;" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20b4-9393-be52-918a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b23-effd-3495-4a6c" type="max"/>
-            <constraint field="Credits" scope="parent" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aaf4-478e-8896-69f6" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="8fe5-4b98-ea8e-5842" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name=" Credits" typeId="Credits" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="74e6-7e40-2101-b589" name="[Model Options]" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="9721-758b-cf9e-0196" name="&lt; [May be purchased up to 200 Credits of:]" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e70-26c3-bb84-ab25" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e178-8cf7-9567-9239" type="max"/>
+                <constraint field="Credits" scope="parent" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="13e5-9eab-0852-9340" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="28f7-1c3e-3f6d-5c9f" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="a6b2-5276-644e-5722" name="&gt;[Hero]" hidden="false" collective="false" import="true" targetId="6dc9-6556-f642-6c0e" type="selectionEntry"/>
       </entryLinks>
@@ -247,21 +254,25 @@
         <categoryLink id="afa9-b294-fe16-16f4" name="New CategoryLink" hidden="false" targetId="453a-509d-5f60-19d4" primary="true"/>
         <categoryLink id="cc14-e605-60d1-ef0f" name="[Punk]" hidden="false" targetId="8c5f-b845-d880-c7bb" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="446a-1049-02d9-6afd" name="&lt; May be purchased up to 75 Credits of &gt;" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3742-6d7c-393b-ba58" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7860-a778-f40a-52b4" type="min"/>
-            <constraint field="Credits" scope="parent" value="75.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4404-0579-c152-a8be" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="481f-633c-61a8-99e7" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name=" Credits" typeId="Credits" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5d7c-7492-535a-7fd5" name="[Model Options]" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="8f33-e1be-181a-e575" name="&lt; [May be purchased up to 75 Credits of:]" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b65e-29bb-0dab-bfae" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c771-b7f3-8150-2cc8" type="min"/>
+                <constraint field="Credits" scope="parent" value="75.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="505e-5360-c420-4677" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="18cf-379b-662c-275a" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name=" Credits" typeId="Credits" value="20.0"/>
       </costs>
@@ -298,7 +309,7 @@
         <categoryLink id="a76a-92b7-eafa-fa07" name="New CategoryLink" hidden="false" targetId="c247-c866-3c19-ef70" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="fb9e-dfd8-606d-e75c" name="&lt; May be purchased up to 200 Credits of: &gt;" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fb9e-dfd8-606d-e75c" name="&lt; [May be purchased up to 200 Credits of:]" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="deca-9340-ba0f-baff" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="560b-ac92-563f-37c5" type="max"/>

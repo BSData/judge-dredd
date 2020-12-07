@@ -9,13 +9,13 @@
     <entryLink id="b4e1-7a2f-cca6-6dd3" name="Lv01 Lone Vigilante" hidden="false" collective="false" import="true" targetId="2dde-cca3-0336-7f8f" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="2dde-cca3-0336-7f8f" name="Lv01 Lone Vigilante" publicationId="58d6-eaa3-c92f-a34a" page="74" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="2dde-cca3-0336-7f8f" name="Lv01 Lone Vigilante" page="" hidden="false" collective="false" import="true" type="model">
       <comment>Lv01</comment>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e43-fef4-37a6-88b1" type="max"/>
       </constraints>
       <profiles>
-        <profile id="3597-11a7-e26b-b4dc" name="Lone Vigilante" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+        <profile id="3597-11a7-e26b-b4dc" name="Lone Vigilante" publicationId="58d6-eaa3-c92f-a34a" page="74" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;	</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
@@ -33,20 +33,24 @@
         <categoryLink id="2b04-0f0a-4073-2022" name="New CategoryLink" hidden="false" targetId="c247-c866-3c19-ef70" primary="true"/>
         <categoryLink id="2398-ed5c-c369-bf42" name="[Lone Vigilante]" hidden="false" targetId="2d5d-7c33-1c4d-6482" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="9862-e7f2-a402-9d85" name="&lt; May be purchased any amount Credits of &gt;" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9852-de07-00d5-d525" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf9d-9780-dc2c-54c3" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="6574-6411-ec91-7711" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name=" Credits" typeId="Credits" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f9a2-92f0-adb3-a81d" name="[Model Options]" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="92f6-bbeb-763b-95d6" name="&lt; [May be purchased any amount Credits of:]" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5710-1c5c-9030-e776" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3244-70bd-6083-b50c" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="c986-ced8-e21b-23da" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="34a9-73bb-34e0-8e08" name="&gt;[Hero]" hidden="false" collective="false" import="true" targetId="6dc9-6556-f642-6c0e" type="selectionEntry"/>
       </entryLinks>
@@ -54,13 +58,13 @@
         <cost name=" Credits" typeId="Credits" value="125.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b8c1-9260-e300-343f" name="Lv02 Lone Vigilante" publicationId="58d6-eaa3-c92f-a34a" page="74" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="b8c1-9260-e300-343f" name="Lv02 Lone Vigilante" page="" hidden="false" collective="false" import="true" type="model">
       <comment>Lv02</comment>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="725d-d866-e26c-5a39" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d3ff-9604-d0f1-054e" name="Lone Vigilante" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+        <profile id="d3ff-9604-d0f1-054e" name="Lone Vigilante" publicationId="58d6-eaa3-c92f-a34a" page="74" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;	</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
@@ -78,20 +82,24 @@
         <categoryLink id="9d6e-9527-c522-d61a" name="New CategoryLink" hidden="false" targetId="c247-c866-3c19-ef70" primary="true"/>
         <categoryLink id="df8b-e351-ca9b-5e79" name="[Lone Vigilante02]" hidden="false" targetId="b6e5-c623-6b27-9331" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="f07d-db4b-84d1-2589" name="&lt; May be purchased any amount Credits of &gt;" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="716b-89c2-12cd-9174" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1175-1199-c5a9-0cbc" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="732a-a262-22e7-f3be" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name=" Credits" typeId="Credits" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="dda8-dbcb-f679-bd67" name="[Model Options]" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="1734-6b8e-8848-362d" name="&lt; [May be purchased any amount Credits of:]" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="476f-33fe-3259-1edd" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4222-d9c4-aa22-17f3" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="4781-1cc5-0c9b-abb5" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="4e25-0d24-0ecc-9d69" name="&gt;[Hero]" hidden="false" collective="false" import="true" targetId="6dc9-6556-f642-6c0e" type="selectionEntry"/>
       </entryLinks>
@@ -99,13 +107,13 @@
         <cost name=" Credits" typeId="Credits" value="175.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="49d4-4b4e-ea0c-de3e" name="Lv03 Lone Vigilante" publicationId="58d6-eaa3-c92f-a34a" page="74" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="49d4-4b4e-ea0c-de3e" name="Lv03 Lone Vigilante" page="" hidden="false" collective="false" import="true" type="model">
       <comment>Lv03</comment>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84aa-a506-f7ae-645c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="f307-35ad-e2aa-1634" name="Lone Vigilante" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
+        <profile id="f307-35ad-e2aa-1634" name="Lone Vigilante" publicationId="58d6-eaa3-c92f-a34a" page="74" hidden="false" typeId="700b-2a32-b272-400c" typeName="&lt;0 Model">
           <characteristics>
             <characteristic name="Move" typeId="247a-4650-f3d4-51bf">5&quot;	</characteristic>
             <characteristic name="Agility" typeId="b5bb-3f9d-8535-788e">+1</characteristic>
@@ -123,20 +131,24 @@
         <categoryLink id="ac0a-7666-ea80-30ee" name="New CategoryLink" hidden="false" targetId="c247-c866-3c19-ef70" primary="true"/>
         <categoryLink id="be64-75da-700c-f30c" name="[Lone Vigilante03]" hidden="false" targetId="e0e1-1150-9b25-e002" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="9870-3253-5e42-0ac9" name="&lt; May be purchased any amount Credits of &gt;" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bf1-b289-236d-15f7" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2282-9358-ba78-d3d2" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="93c2-20d2-1f7e-ab75" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name=" Credits" typeId="Credits" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2c85-8e95-35d8-fb78" name="[Model Options]" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="273a-ad0b-45a0-b941" name="&lt; [May be purchased any amount Credits of:]" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a59-ddd7-4ea9-ea97" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da09-61b9-6eb8-5e74" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="38d9-a212-0104-35d0" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="e121-50e3-f6d9-31e6" name="&gt;[Hero]" hidden="false" collective="false" import="true" targetId="6dc9-6556-f642-6c0e" type="selectionEntry"/>
       </entryLinks>
@@ -144,13 +156,13 @@
         <cost name=" Credits" typeId="Credits" value="225.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="33a6-6d01-0a9f-bdaa" name="Lv01 Psi Lone Vigilante" publicationId="58d6-eaa3-c92f-a34a" page="74" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="33a6-6d01-0a9f-bdaa" name="Lv01 Psi Lone Vigilante" page="" hidden="false" collective="false" import="true" type="model">
       <comment>Lv01</comment>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c303-2201-e1df-7c81" type="max"/>
       </constraints>
       <profiles>
-        <profile id="810d-e242-4958-aef4" name="Lone Vigilante" hidden="false" typeId="6175-c29b-2daa-5fa4" typeName="&lt;0 Psi Model">
+        <profile id="810d-e242-4958-aef4" name="Lone Vigilante" publicationId="58d6-eaa3-c92f-a34a" page="74" hidden="false" typeId="6175-c29b-2daa-5fa4" typeName="&lt;0 Psi Model">
           <characteristics>
             <characteristic name="Move" typeId="da22-dc43-c4b1-e93b">5&quot;	</characteristic>
             <characteristic name="Agility" typeId="913c-3b85-1f70-b8db">+1</characteristic>
@@ -169,20 +181,24 @@
         <categoryLink id="3572-8cc6-630b-2256" name="New CategoryLink" hidden="false" targetId="c247-c866-3c19-ef70" primary="true"/>
         <categoryLink id="c1a9-3c1e-15b6-6962" name="[Lone Vigilante]" hidden="false" targetId="2d5d-7c33-1c4d-6482" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="481f-844f-252a-181b" name="&lt; May be purchased any amount  Credits of &gt;" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e167-eb19-d217-d6cb" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7530-74a2-7a1d-de1e" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="6ba2-7fbd-1d0f-9296" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name=" Credits" typeId="Credits" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f1d7-ce34-eddc-ead5" name="[Model Options]" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="2a53-0089-e415-0401" name="&lt; [May be purchased any amount  Credits of:]" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4732-7d91-3707-a263" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bf9-07da-ed44-30fc" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="5f5a-8dd5-474b-f772" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="55b8-f97c-3a9d-6695" name="&gt;[Psi Hero]" hidden="false" collective="false" import="true" targetId="1aad-7469-2632-4897" type="selectionEntry"/>
       </entryLinks>
@@ -190,13 +206,13 @@
         <cost name=" Credits" typeId="Credits" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3827-796b-878e-4e2e" name="Lv02 Psi Lone Vigilante" publicationId="58d6-eaa3-c92f-a34a" page="74" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="3827-796b-878e-4e2e" name="Lv02 Psi Lone Vigilante" page="" hidden="false" collective="false" import="true" type="model">
       <comment>Lv02</comment>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffec-a2e1-7afe-57c3" type="max"/>
       </constraints>
       <profiles>
-        <profile id="aeac-fe17-9cd4-40a2" name="Lone Vigilante" hidden="false" typeId="6175-c29b-2daa-5fa4" typeName="&lt;0 Psi Model">
+        <profile id="aeac-fe17-9cd4-40a2" name="Lone Vigilante" publicationId="58d6-eaa3-c92f-a34a" page="74" hidden="false" typeId="6175-c29b-2daa-5fa4" typeName="&lt;0 Psi Model">
           <characteristics>
             <characteristic name="Move" typeId="da22-dc43-c4b1-e93b">5&quot;	</characteristic>
             <characteristic name="Agility" typeId="913c-3b85-1f70-b8db">+1</characteristic>
@@ -215,20 +231,24 @@
         <categoryLink id="e0c3-8970-1ba9-3784" name="New CategoryLink" hidden="false" targetId="c247-c866-3c19-ef70" primary="true"/>
         <categoryLink id="8e83-36cb-a487-747b" name="[Lone Vigilante02]" hidden="false" targetId="b6e5-c623-6b27-9331" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="9657-63f6-3398-a4db" name="&lt; May be purchased any amount Credits of &gt;" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9077-35f4-2c3a-7166" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c07-87b1-c3e6-0e7a" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="6a57-a163-000c-ca5b" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name=" Credits" typeId="Credits" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7c18-4edb-59e8-9da9" name="[Model Options]" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="06c4-5979-dc27-a925" name="&lt; [May be purchased any amount Credits of:]" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4392-4360-c9f9-a3aa" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="def8-4628-320a-d01a" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="24ba-94ef-419c-48c9" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="2d52-e798-a884-a4a5" name="&gt;[Psi Hero]" hidden="false" collective="false" import="true" targetId="1aad-7469-2632-4897" type="selectionEntry"/>
       </entryLinks>
@@ -236,13 +256,13 @@
         <cost name=" Credits" typeId="Credits" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c0a4-a78b-6528-6e47" name="Lv03 Psi Lone Vigilante" publicationId="58d6-eaa3-c92f-a34a" page="74" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="c0a4-a78b-6528-6e47" name="Lv03 Psi Lone Vigilante" page="" hidden="false" collective="false" import="true" type="model">
       <comment>Lv03</comment>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f75a-8a5b-9937-157e" type="max"/>
       </constraints>
       <profiles>
-        <profile id="98af-94d5-06fe-cf14" name="Lone Vigilante" hidden="false" typeId="6175-c29b-2daa-5fa4" typeName="&lt;0 Psi Model">
+        <profile id="98af-94d5-06fe-cf14" name="Lone Vigilante" publicationId="58d6-eaa3-c92f-a34a" page="74" hidden="false" typeId="6175-c29b-2daa-5fa4" typeName="&lt;0 Psi Model">
           <characteristics>
             <characteristic name="Move" typeId="da22-dc43-c4b1-e93b">5&quot;	</characteristic>
             <characteristic name="Agility" typeId="913c-3b85-1f70-b8db">+1</characteristic>
@@ -261,20 +281,24 @@
         <categoryLink id="ae89-649e-e977-c91c" name="New CategoryLink" hidden="false" targetId="c247-c866-3c19-ef70" primary="true"/>
         <categoryLink id="eeb9-00d2-43ae-0cf5" name="[Lone Vigilante03]" hidden="false" targetId="e0e1-1150-9b25-e002" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="0c36-1785-c237-11ed" name="&lt; May be purchased any amount Credits of &gt;" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2235-8c00-dbed-e9fc" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="635d-d967-65df-5ba2" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="b120-a5c0-05ce-ab8c" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name=" Credits" typeId="Credits" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="315b-4734-a18c-479f" name="[Model Options]" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="3708-4843-10c0-cc5d" name="&lt; [May be purchased any amount Credits of:]" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30a1-ed92-686a-6044" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f237-4327-a313-99a3" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="355c-de37-c366-fca1" name="&lt; Weapons, Armour and Equipment &gt;" hidden="false" collective="false" import="true" targetId="9c7b-1fe8-9efa-1ada" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Credits" typeId="Credits" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="8b70-8034-5896-362c" name="&gt;[Psi Hero]" hidden="false" collective="false" import="true" targetId="1aad-7469-2632-4897" type="selectionEntry"/>
       </entryLinks>
