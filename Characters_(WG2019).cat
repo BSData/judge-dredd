@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="253b-3365-0b92-fd59" name="Characters (WG2019)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="253b-3365-0b92-fd59" name="Characters (WG2019)" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="afe4-eb98-0adf-362c" name="Judge Dredd" hidden="false" collective="false" import="true" targetId="7482-f5d7-e427-e70d" type="selectionEntry"/>
     <entryLink id="6551-7146-97c8-bd68" name="Psi-Judge Anderson" hidden="false" collective="false" import="true" targetId="25b2-9ebb-01b5-6a36" type="selectionEntry"/>
@@ -12,6 +12,13 @@
     <entryLink id="0675-5841-99c3-dc39" name="Homer Blint" hidden="false" collective="false" import="true" targetId="d42f-e853-4088-1fdc" type="selectionEntry"/>
     <entryLink id="4e42-e7a5-8c1a-da15" name="Dick Porker" hidden="false" collective="false" import="true" targetId="e0e3-0f0d-969d-3030" type="selectionEntry"/>
     <entryLink id="2330-4b8c-1428-ba63" name="Nero Narcos" hidden="false" collective="false" import="true" targetId="5b68-fd10-c1b8-f6c2" type="selectionEntry"/>
+    <entryLink id="d5f0-ee56-087a-6982" name="Blache Tatum" hidden="false" collective="false" import="true" targetId="6e38-e064-f9d6-3b17" type="selectionEntry"/>
+    <entryLink id="392c-7bbb-6b8a-740d" name="Devlin Waugh" hidden="false" collective="false" import="true" targetId="a07c-54f3-eff5-67e6" type="selectionEntry"/>
+    <entryLink id="c304-68a2-87fc-c505" name="Rico Dredd" hidden="false" collective="false" import="true" targetId="4be1-db4a-cdf1-5997" type="selectionEntry"/>
+    <entryLink id="49c9-47db-d552-93f5" name="Stan Lee" hidden="false" collective="false" import="true" targetId="2f8f-dc0e-71d0-c11a" type="selectionEntry"/>
+    <entryLink id="dae8-fb14-5161-7865" name="Dirty Frank" hidden="false" collective="false" import="true" targetId="3e85-846e-cd42-f431" type="selectionEntry"/>
+    <entryLink id="3f57-146d-c33a-1b3a" name="Jack Point" hidden="false" collective="false" import="true" targetId="7ed7-c7a9-7dce-b129" type="selectionEntry"/>
+    <entryLink id="7f02-cfe5-f5a9-737d" name="Aimee Nixon" hidden="false" collective="false" import="true" targetId="0d0e-828a-edf0-af64" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="7482-f5d7-e427-e70d" name="Judge Dredd" hidden="false" collective="false" import="true" type="model">
@@ -106,35 +113,9 @@ This skill allows Dredd to shoot an Aimed Fire only weapon and perform another s
             <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5008-03a9-a9a3-1612" name="Lawgiver Mk2 Pistol" page="66" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="aefa-a722-f7b4-6732" name="Lawgiver Mk2 Pistol" publicationId="23e2-8cf2-260a-a7be" page="66" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
-              <characteristics>
-                <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
-                <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
-                <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
-                <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
-                <characteristic name="Power" typeId="8fc6-55c1-1604-402e">4</characteristic>
-                <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Armour Piercing, Special Rounds, Stun Pulse</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoGroups>
-            <infoGroup id="7163-b31a-ba48-883f" name="Lawgiver Mk2" hidden="false">
-              <infoLinks>
-                <infoLink id="79ca-ac9b-fa9b-fd61" name="Stun Pulse" hidden="false" targetId="d49d-bd04-1c80-c408" type="rule"/>
-                <infoLink id="5c6e-556d-00c3-16cd" name="Special Rounds" hidden="false" targetId="dd58-ed58-d5a9-2fee" type="rule"/>
-                <infoLink id="4e2e-3aec-492a-fa8b" name="Armour Piercing" hidden="false" targetId="4758-9c20-7c6d-ccce" type="rule"/>
-              </infoLinks>
-            </infoGroup>
-          </infoGroups>
-          <costs>
-            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="eecc-e2fc-1b41-59e4" name="Judges Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="eecc-e2fc-1b41-59e4" name="Dredd&apos;s Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="b68b-ba14-2296-f303">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8d2d-f209-8ed2-0758" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a39d-e79d-8ed2-57bd" type="min"/>
@@ -205,6 +186,168 @@ This skill allows Dredd to shoot an Aimed Fire only weapon and perform another s
               </infoLinks>
               <costs>
                 <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b68b-ba14-2296-f303" name="Lawgiver Mk2" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="c405-75f0-bb80-37f3" name="Lawgiver Mk2 Pistol" publicationId="23e2-8cf2-260a-a7be" page="66" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                  <characteristics>
+                    <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                    <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                    <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                    <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                    <characteristic name="Power" typeId="8fc6-55c1-1604-402e">4</characteristic>
+                    <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Armour Piercing, Special Rounds, Stun Pulse</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoGroups>
+                <infoGroup id="d131-7b8d-0087-0747" name="Lawgiver Mk2" hidden="false">
+                  <infoLinks>
+                    <infoLink id="a40a-1afe-5081-b0bc" name="Stun Pulse" hidden="false" targetId="d49d-bd04-1c80-c408" type="rule"/>
+                    <infoLink id="ef56-9adb-0b05-2d8c" name="Special Rounds" hidden="false" targetId="dd58-ed58-d5a9-2fee" type="rule"/>
+                    <infoLink id="2163-a9b9-c96a-dee7" name="Armour Piercing" hidden="false" targetId="4758-9c20-7c6d-ccce" type="rule"/>
+                  </infoLinks>
+                </infoGroup>
+              </infoGroups>
+              <costs>
+                <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2a67-a7db-ba79-4387" name="Lawmaster - Choose 1" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f22f-9eef-3716-ed93" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83d2-2659-ca27-2098" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2bb3-f34f-47ee-83b1" name="Mk1 Lawmaster with Cyclops Laser" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="7535-238b-720a-85ce" name="Mk1 Lawmaster with Cyclops Laser" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+                  <characteristics>
+                    <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">14&quot;</characteristic>
+                    <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">3</characteristic>
+                    <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">4</characteristic>
+                    <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">2</characteristic>
+                    <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">5</characteristic>
+                    <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">4</characteristic>
+                    <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">A.I., 2 Passangers, Vehicle, Wilko Judge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="2f2b-3674-9ab2-e9d6" name="Cyclops Laser" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="c4ea-fb33-c0df-c887" name="Cyclops Laser" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">20&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">40&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">5</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Laser</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="90c1-6093-9f5a-70ce" name="Mk3 Lawmaster with Bike Cannons" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="ee81-f048-fb9b-09cc" name="Mk3 Lawmaster with Bike Cannons" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+                  <characteristics>
+                    <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">14&quot;</characteristic>
+                    <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">3</characteristic>
+                    <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">4</characteristic>
+                    <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">2</characteristic>
+                    <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">5</characteristic>
+                    <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">4</characteristic>
+                    <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">A.I., 2 Passangers, Vehicle, Wilko Judge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="f07b-9787-ec7b-da57" name="Bike Cannons" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="d87c-4912-5d4c-58fd" name="Bike Cannons" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">16&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+2</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">32&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">+1</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">5</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Blast (2&quot;)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="22f6-dfa2-7c70-0156" name="Mk2 Lawmaster with Cyclops Laser and Bike Cannons" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="f9b6-a834-a1a6-09b2" name="Mk2 Lawmaster with Cyclops Laser and Bike Cannons" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+                  <characteristics>
+                    <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">12&quot;</characteristic>
+                    <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">3</characteristic>
+                    <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">4</characteristic>
+                    <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">2</characteristic>
+                    <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">5</characteristic>
+                    <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">4</characteristic>
+                    <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">A.I., 2 Passangers, Vehicle, Wilko Judge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="f20a-8e90-fc84-eb70" name="Cyclops Laser" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="c272-2bdb-046d-b40b" name="Cyclops Laser" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">20&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">40&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">5</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Laser</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="19b7-ffcc-9ea3-59fe" name="Bike Cannons" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="b393-f26a-b68c-a13e" name="Bike Cannons" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">16&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+2</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">32&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">+1</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">5</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Blast (2&quot;)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="9.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -291,9 +434,13 @@ This skill allows Dredd to shoot an Aimed Fire only weapon and perform another s
             <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8e89-cb40-ce1d-45d2" name="Lawgiver Mk2 Pistol" page="66" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8e89-cb40-ce1d-45d2" name="Lawgiver Mk2" page="66" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01f6-3d09-5868-319d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bc7-c9a6-8633-f55d" type="min"/>
+          </constraints>
           <profiles>
-            <profile id="e231-e00e-16f4-fbe0" name="Lawgiver Mk2 Pistol" publicationId="23e2-8cf2-260a-a7be" page="66" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+            <profile id="f625-dab4-0027-d7b2" name="Lawgiver Mk2 Pistol" publicationId="23e2-8cf2-260a-a7be" page="66" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
               <characteristics>
                 <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
                 <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
@@ -304,15 +451,11 @@ This skill allows Dredd to shoot an Aimed Fire only weapon and perform another s
               </characteristics>
             </profile>
           </profiles>
-          <infoGroups>
-            <infoGroup id="f1a8-daf6-9c13-ab00" name="Lawgiver Mk2" hidden="false">
-              <infoLinks>
-                <infoLink id="2fe9-3e43-bf5c-9ac0" name="Stun Pulse" hidden="false" targetId="d49d-bd04-1c80-c408" type="rule"/>
-                <infoLink id="93ee-a31d-bc43-cdcd" name="Special Rounds" hidden="false" targetId="dd58-ed58-d5a9-2fee" type="rule"/>
-                <infoLink id="2354-1800-b2bb-4bfa" name="Armour Piercing" hidden="false" targetId="4758-9c20-7c6d-ccce" type="rule"/>
-              </infoLinks>
-            </infoGroup>
-          </infoGroups>
+          <infoLinks>
+            <infoLink id="7170-27d6-052e-4926" name="Armour Piercing" hidden="false" targetId="4758-9c20-7c6d-ccce" type="rule"/>
+            <infoLink id="9898-bb17-e10f-e3f5" name="Special Rounds" hidden="false" targetId="dd58-ed58-d5a9-2fee" type="rule"/>
+            <infoLink id="4889-e8b8-1021-0557" name="Stun Pulse" hidden="false" targetId="d49d-bd04-1c80-c408" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
           </costs>
@@ -906,6 +1049,9 @@ He will attack the closest model regardless of faction from now on until he is i
 Cannot harm robots or vehicles.</description>
             </rule>
           </rules>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -1120,10 +1266,457 @@ When Dick rolls for his Wall of Flub! Charge distance roll 3D6 instead of 2D6.</
           <infoLinks>
             <infoLink id="91c8-a933-214f-5673" name="Special Rounds" hidden="false" targetId="dd58-ed58-d5a9-2fee" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="19.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6e38-e064-f9d6-3b17" name="Blache Tatum" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="384d-8595-3a61-4a1c" name="Blache Tatum" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">5&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">3</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">3</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">2</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">3</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">4</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Gunfighter</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5de3-9e91-7d2b-e3ca" name="Gunfighter" hidden="false" targetId="cf10-e6f2-897d-aaad" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8b54-e685-4afe-9360" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
+        <categoryLink id="5d06-c20f-8c25-8440" name="[Cool 4]" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="eafc-2106-f4fe-6a0e" name="Pistol" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ff8-284b-a5bc-52ec" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9f2-2490-3d10-6699" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="752f-ce48-8dc0-da5f" name="Pistol" publicationId="23e2-8cf2-260a-a7be" page="41" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+              <characteristics>
+                <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                <characteristic name="Power" typeId="8fc6-55c1-1604-402e">3</characteristic>
+                <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a07c-54f3-eff5-67e6" name="Devlin Waugh" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2a66-3142-e688-492d" name="Devlin Waugh" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">3</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">4</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">2</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">4</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">5</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Brawler, Kwem-Kwong, Vampire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="863c-54e7-6d8e-1e3d" name="Devlin Rules" hidden="false">
+          <rules>
+            <rule id="d260-66b1-7a81-bf5d" name="Kwem-Kwong" hidden="false">
+              <description>His fists are basic close combat weapons (and may be used both at once with the two-weapon fighting rules on p27 of the JDMG) but with a +2 modifier.</description>
+            </rule>
+            <rule id="2407-7c56-4c01-338e" name="Vampire" hidden="false">
+              <description>Every time Devlin Waugh is given an Injury or Stun marker, roll a Combat dice. On a result of [ARMOUR], the marker is instantly discarded.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="642c-1c6b-d832-e3bc" name="Brawler" hidden="false" targetId="cff2-8dcb-5e21-c8c4" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="45cc-1300-dc0e-dbee" name="New CategoryLink" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
+        <categoryLink id="5f9f-8caf-2ab2-0a68" name="New CategoryLink" hidden="false" targetId="bbde-2ef6-d4a2-25e2" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="33c6-fc2a-e1f0-2bb6" name="Laser Pistol" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95e9-fcbd-67de-8219" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="480a-0176-f771-aa27" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3f42-8bfa-d5fb-1e73" name="Laser Pistol" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+              <characteristics>
+                <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                <characteristic name="Power" typeId="8fc6-55c1-1604-402e">5</characteristic>
+                <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Laser</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="17.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4be1-db4a-cdf1-5997" name="Rico Dredd" publicationId="23e2-8cf2-260a-a7be" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="485b-b315-ba33-e204" name="Rico Dredd" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">5</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">5</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">4</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">5</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">5</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Brawler, Cyber-Conversion, Gunfighter</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="b1cc-8c26-569d-98a4" name="Rico Rules" hidden="false">
+          <rules>
+            <rule id="05c3-56cf-2031-e748" name="Cyber-Conversion" hidden="false">
+              <description>Every time Rico Dredd is given an Injury or Stun marker, roll a Combat dice. On the result of [SPECIAL], the marker is instantly discarded.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="fbf1-5ff8-6de6-5994" name="Brawler" hidden="false" targetId="cff2-8dcb-5e21-c8c4" type="rule"/>
+            <infoLink id="e00b-7825-c7e9-33e0" name="Gunfighter" hidden="false" targetId="cf10-e6f2-897d-aaad" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="5ccd-d944-f43e-c5ab" name="New CategoryLink" hidden="false" targetId="bbde-2ef6-d4a2-25e2" primary="true"/>
+        <categoryLink id="72e0-84d4-2756-bffa" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e90e-10d0-fa47-188c" name="Pistol" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d51a-c133-2c30-0839" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa60-5967-a33e-9ee3" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="ff97-c8be-ac6a-2ad2" name="Pistol" publicationId="23e2-8cf2-260a-a7be" page="41" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+              <characteristics>
+                <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                <characteristic name="Power" typeId="8fc6-55c1-1604-402e">3</characteristic>
+                <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2f8f-dc0e-71d0-c11a" name="Stan Lee" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="02a1-c884-cb77-884a" name="Stan Lee" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">4</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">6</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">6</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">4</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">5</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Brawler, Indestructable, Preternatural Dodge, Martial Arts Master</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="07b5-988d-9190-13d1" name="Stan Lee Rules" hidden="false">
+          <rules>
+            <rule id="493b-292b-d5b4-8bb7" name="Indestructible" hidden="false">
+              <description>Stan Lee suffers no stat losses for Injury or Stun results that he suffers. The only way to defeat him is to incapacitate or subdue him.</description>
+            </rule>
+            <rule id="37a8-c2d3-e717-c2e4" name="Martial Arts Master" hidden="false">
+              <description>Stan Lee can choose to use the Knockback and/or Stun special rules with each attack, but is not required to do so.</description>
+            </rule>
+            <rule id="c2c2-75a4-c6e3-6ba5" name="Preternatural Dodge" hidden="false"/>
+          </rules>
+          <infoLinks>
+            <infoLink id="5ea3-113d-b8b7-58a9" name="Brawler" hidden="false" targetId="cff2-8dcb-5e21-c8c4" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="cc7a-cfe1-79e7-97bb" name="New CategoryLink" hidden="false" targetId="bbde-2ef6-d4a2-25e2" primary="true"/>
+        <categoryLink id="902a-555d-ce10-df06" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="944a-6f74-82f4-a2cc" name="Deathfists" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8acd-5818-62c9-dff6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6982-af91-590f-88cb" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="f31e-236e-a862-4387" name="Deathfists" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+              <characteristics>
+                <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
+                <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+3</characteristic>
+                <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="28.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3e85-846e-cd42-f431" name="Dirty Frank" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="c339-ae26-feb6-a91c" name="Dirty Frank" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">3</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">4</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">3</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">3</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">4</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Gunfighter, Brawler, Let&apos;s Ride, Wally Squad, &quot;Dirty Frank is not mad. Dirty Frank is just more imaginative than most, that&apos;s all.&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="4b94-07d3-c8a7-7c5c" name="Dirty Frank Rules" hidden="false">
+          <rules>
+            <rule id="f48d-7322-e259-ec38" name="&quot;Dirty Frank is not mad. Dirty Frank is just more imaginative than most, that&apos;s all.&quot;" hidden="false">
+              <description>Once per game, when your opponent plays a Big Meg card you may ignore the results of that card and it is immediately discarded.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="ba2f-f5c6-ce5a-5c95" name="Gunfighter" hidden="false" targetId="cf10-e6f2-897d-aaad" type="rule"/>
+            <infoLink id="d081-b8c0-7126-0b73" name="Brawler" hidden="false" targetId="cff2-8dcb-5e21-c8c4" type="rule"/>
+            <infoLink id="af69-45ca-6993-1e1e" name="Let&apos;s Ride!" hidden="false" targetId="e2e3-8613-b985-2a16" type="rule"/>
+            <infoLink id="9fdd-e4c9-cd52-92df" name="Wally Squad" hidden="false" targetId="b6b6-c3b6-3ecb-69ea" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="2ca9-434c-a7d1-6578" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
+        <categoryLink id="ce12-b201-eed0-9c6e" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6d0f-e3e3-52bd-8991" name="Heavy Pistol" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a29-144c-9bcb-6152" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a4f-d1dc-008d-0d0a" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="1cd9-676f-8cf4-9773" name="Heavy Pistol" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+              <characteristics>
+                <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+2</characteristic>
+                <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                <characteristic name="Power" typeId="8fc6-55c1-1604-402e">3</characteristic>
+                <characteristic name="Special Rules" typeId="6150-dda2-d656-9797"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7ed7-c7a9-7dce-b129" name="Jack Point" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f834-9bbb-9ceb-2056" name="Jack Point" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+          <characteristics>
+            <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">6&quot;</characteristic>
+            <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">4</characteristic>
+            <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">3</characteristic>
+            <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">3</characteristic>
+            <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">3</characteristic>
+            <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">4</characteristic>
+            <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Gunfighter, Brawler, Hidden Weapons, Wally Squad, The Simping Detective</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="5c22-cb92-242f-428a" name="Jack Point Rules" hidden="false">
+          <rules>
+            <rule id="366b-74c6-1594-aba4" name="Hidden Weapons" hidden="false">
+              <description>Jack has the use of one Hi-Ex or Stumm Gas grenade during the game. No Armoury Card required. (p52-53 JDMG)</description>
+            </rule>
+            <rule id="0a34-bcb3-95d9-0f2c" name="The Simping Detective" hidden="false">
+              <description>You may reposition Jack by up to 8&quot; in any direction after all models have deployed. He may not be placed closer than 6&quot; to an enemy model.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="1fd6-3bd6-0e0e-60ab" name="Brawler" hidden="false" targetId="cff2-8dcb-5e21-c8c4" type="rule"/>
+            <infoLink id="f1dc-0539-9ac9-c439" name="Gunfighter" hidden="false" targetId="cf10-e6f2-897d-aaad" type="rule"/>
+            <infoLink id="0b80-649f-e1fa-8001" name="Wally Squad" hidden="false" targetId="b6b6-c3b6-3ecb-69ea" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="fcd1-5063-d153-d70e" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
+        <categoryLink id="de00-1902-3960-471e" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9562-08b4-027d-77e4" name="Toxin Shoe Blades" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a05f-77ee-1888-8fd2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98b6-3169-4e2e-07a0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d01b-acdc-314e-52bc" name="Toxin Shoe Blades" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+              <characteristics>
+                <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
+                <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+2</characteristic>
+                <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">Toxin</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5c7c-7565-769b-a58a" name="Colt Revolver" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65c9-90ff-5734-6ee6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaa8-7e2e-d8c2-5a47" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a8b1-dd7f-6694-fa85" name="Colt Revolver" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+              <characteristics>
+                <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                <characteristic name="Power" typeId="8fc6-55c1-1604-402e">2</characteristic>
+                <characteristic name="Special Rules" typeId="6150-dda2-d656-9797"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="17.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0d0e-828a-edf0-af64" name="Aimee Nixon" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="cf32-de06-90f6-38d3" name="Aimee Nixon" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">4</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">3</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">3</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">4</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">4</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Gunfighter, Brawler, Born Survivor, Wally Squad, Enceladus</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="839c-e964-7f6a-4d1c" name="Aimee Nixon Rules" hidden="false">
+          <rules>
+            <rule id="c57d-03e8-09b9-a56c" name="Born Survivor" hidden="false">
+              <description>Aimee will suffer no stat loss for one injury or stun result she is suffering.</description>
+            </rule>
+            <rule id="6f68-d401-32ac-3ec2" name="Enceladus" hidden="false">
+              <description>Aimee is always assumed to have a Respirator (see Respirator Armory card), either carried or surgically implanted.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="84fb-e139-380b-e63e" name="Gunfighter" hidden="false" targetId="cf10-e6f2-897d-aaad" type="rule"/>
+            <infoLink id="c437-10ea-0b2a-2dfa" name="Brawler" hidden="false" targetId="cff2-8dcb-5e21-c8c4" type="rule"/>
+            <infoLink id="8daa-b18d-37c9-4235" name="Wally Squad" hidden="false" targetId="b6b6-c3b6-3ecb-69ea" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="09d5-0d25-2c97-833b" name="&lt;Characters" hidden="false" targetId="7072-7f05-1d2c-1263" primary="false"/>
+        <categoryLink id="7efb-26ed-da3a-bd2f" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a68b-7207-48ec-4486" name="Browning Industries Machine Pistol" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8114-8381-6263-a523" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99fa-a3a4-f3cd-a0d9" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="2a62-6844-c21f-ff4e" name="Browning Industries Machine Pistol" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+              <characteristics>
+                <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">2+</characteristic>
+                <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                <characteristic name="Power" typeId="8fc6-55c1-1604-402e">3</characteristic>
+                <characteristic name="Special Rules" typeId="6150-dda2-d656-9797"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="55b3-a4a4-0541-f0c0" name="Cybernetic Arm" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86ec-070c-39ea-9ac7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b378-ae93-aef4-7d55" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0563-1607-fb73-252c" name="Cybernetic Arm" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+              <characteristics>
+                <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
+                <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+2</characteristic>
+                <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="17.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

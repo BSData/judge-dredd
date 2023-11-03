@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="ae68-bf10-140a-0058" name="Judge Dredd Miniatures Game (WG2019)" revision="5" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="ae68-bf10-140a-0058" name="Judge Dredd Miniatures Game (WG2019)" revision="4" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="23e2-8cf2-260a-a7be" name="JDMG (2019)"/>
+    <publication id="4353-a3c6-7b4d-0185" name="BG (2023)"/>
   </publications>
   <costTypes>
-    <costType id="c427-d435-2985-7283" name=" Notoriety" defaultCostLimit="-1.0"/>
+    <costType id="c427-d435-2985-7283" name=" Notoriety" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="bbb4-d231-609d-67bc" name="[2] Ranged Weapon/s">
@@ -154,7 +155,7 @@
     </forceEntry>
   </forceEntries>
   <entryLinks>
-    <entryLink id="9642-28e9-3c43-699b" name="Rules" hidden="false" collective="false" import="true" targetId="ee1b-113b-fa65-828c" type="selectionEntry">
+    <entryLink id="9642-28e9-3c43-699b" name="&lt;Rules" hidden="false" collective="false" import="true" targetId="ee1b-113b-fa65-828c" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="e466-394b-2a79-3679" name="New CategoryLink" hidden="false" targetId="134c-6f7e-a1a4-f310" primary="true"/>
       </categoryLinks>
@@ -190,7 +191,7 @@
     </selectionEntry>
     <selectionEntry id="9b81-b750-548d-9341" name="&lt;Vehicles" hidden="false" collective="false" import="true" type="upgrade">
       <entryLinks>
-        <entryLink id="7090-ad88-c4f7-c73f" name="&lt;[Vehicles]" hidden="false" collective="false" import="true" targetId="0f78-393c-9575-767c" type="selectionEntryGroup"/>
+        <entryLink id="7090-ad88-c4f7-c73f" name="&gt;[Vehicles]" hidden="false" collective="false" import="true" targetId="0f78-393c-9575-767c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
@@ -1427,6 +1428,131 @@
             <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="1.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="ea8c-0e19-ff94-4c0b" name="Lawmaster" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc81-44cc-74d3-c42e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d9de-cde3-9c3b-40c7" name="Lawmaster" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+              <characteristics>
+                <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">14&quot;</characteristic>
+                <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">3</characteristic>
+                <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">4</characteristic>
+                <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">2</characteristic>
+                <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">5</characteristic>
+                <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">4</characteristic>
+                <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">A.I., 2 Passengers, Vehicle, Wilko Judge</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="0706-1a33-fd2c-9a13" name="A.I." hidden="false">
+              <description>Unlike most vehicles, the Lawmaster generates its own Action chip just like any other model. However, despite its Cool of 4, it only ever generates a normal Action chip and not a Star chip.</description>
+            </rule>
+            <rule id="872f-ad85-3ee4-065b" name="2 Passengers" hidden="false">
+              <description>Only Judges and SJS Judges of all ranks and specialities, including the Mechanismo Mk1 Auxiliary Judges, may ride as passengers on a Lawmaster bike.</description>
+            </rule>
+            <rule id="bd0d-ec30-a667-ec2b" name="Vehicle" hidden="false">
+              <description>The Justice Department’s Lawmaster bike is no simple mount – it is such a capable, self‐driving and heavily armed machine that it is actually treated as a separate model in its own right and follows all the rules for vehicles as detailed beginning on p30 JDMG.</description>
+            </rule>
+            <rule id="b2f8-48bd-492b-5bf7" name="Wilko Judge" hidden="false">
+              <description>Only a Judge (of any rank or speciality), Mechanismo Mk1 Auxiliary Judge or SJS Judge model may board a Lawmaster. An opponent cannot use the ‘Knock Knock’ rule to board a Lawmaster. Additionally, when selecting models for your faction you cannot select a Lawmaster unless you also have a Judge to ride it.</description>
+            </rule>
+          </rules>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="61fd-5ea3-be6b-f88b" name="Mk and Weapons" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f858-aeae-090d-10b4" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e76-a25b-c8bf-b7b7" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="d0bc-79f7-ca4f-1767" name="Mk1 Lawmaster with Cyclops Laser" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="daef-4df7-a133-e924" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="4823-bd40-cea8-1ea1" name="Cyclops Laser" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">20&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">40&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">5</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Laser</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="5518-e3f6-62ac-73e4" name="Laser" hidden="false" targetId="40c1-f0e4-f19b-eb43" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="fe30-f734-daa3-60d9" name="Mk2 Lawmaster with Cyclops Laser and Bike Cannons" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="01e8-36ca-e8c1-3355" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="c80a-ec97-fe2d-e1c2" name="Cyclops Laser" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">20&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">40&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">5</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Laser</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="34f5-5a64-dea9-3a12" name="Bike Cannons" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">16&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+2</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">32&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">+1</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">5</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Blast(2&quot;)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="1d73-42ba-3af1-f346" name="Blast(X&quot;)" hidden="false" targetId="0a79-b0ce-a34b-0548" type="rule"/>
+                    <infoLink id="d772-048a-0943-7f1c" name="Laser" hidden="false" targetId="40c1-f0e4-f19b-eb43" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="9.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="1044-2563-5f42-996b" name="Mk3 with Bike Cannons" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fcc7-7bf2-bac8-2b15" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="d544-6146-685b-709f" name="Bike Cannons" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">16&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+2</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">32&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">+1</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">5</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Blast(2&quot;)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="ecff-7759-8fc9-cddc" name="Blast(X&quot;)" hidden="false" targetId="0a79-b0ce-a34b-0548" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="4.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="0f78-393c-9575-767c" name="&gt;[Vehicles]" hidden="false" collective="false" import="true">
@@ -1917,6 +2043,9 @@ Pisto&apos;sl Power (Can only target one opponent)
     <rule id="b9b8-76a5-6e04-51f8" name="Passengers" hidden="false">
       <description>A model may spend a single action to board a vehicle with space.
 A model may spend a single action to disembark a vehicle, the model is placed within 1&quot; of the vehicle.</description>
+    </rule>
+    <rule id="b6b6-c3b6-3ecb-69ea" name="Wally Squad" hidden="false">
+      <description>When using a Wally Squad Judge in a Justice Department faction, add the Wally Squad card to your Big Meg hand in addition to your normal allotment of cards. Only one Wally Squad card may be held despite the number of Wally Squad Judges deployed.</description>
     </rule>
   </sharedRules>
 </gameSystem>
