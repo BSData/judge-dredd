@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="253b-3365-0b92-fd59" name="Characters (WG2019)" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="253b-3365-0b92-fd59" name="Characters (WG2019)" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="afe4-eb98-0adf-362c" name="Judge Dredd" hidden="false" collective="false" import="true" targetId="7482-f5d7-e427-e70d" type="selectionEntry"/>
     <entryLink id="6551-7146-97c8-bd68" name="Psi-Judge Anderson" hidden="false" collective="false" import="true" targetId="25b2-9ebb-01b5-6a36" type="selectionEntry"/>
@@ -353,6 +353,9 @@ This skill allows Dredd to shoot an Aimed Fire only weapon and perform another s
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6369-be3c-8dde-fdae" name="[Lawmaster]" hidden="false" collective="false" import="true" targetId="aa8f-1337-09ee-9ca1" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="35.0"/>
       </costs>
@@ -461,6 +464,9 @@ This skill allows Dredd to shoot an Aimed Fire only weapon and perform another s
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="9633-b5f7-8baf-bb88" name="[Lawmaster]" hidden="false" collective="false" import="true" targetId="aa8f-1337-09ee-9ca1" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="25.0"/>
       </costs>
@@ -692,15 +698,60 @@ Stumm Gas weapons have no effect on this model.</description>
         <categoryLink id="445b-b24a-1898-c7fe" name="&lt;Inmate Judges" hidden="false" targetId="146a-0b0a-94f9-e02c" primary="false"/>
         <categoryLink id="9510-a6c2-0898-2ed0" name="New CategoryLink" hidden="false" targetId="bbde-2ef6-d4a2-25e2" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="093c-c39a-3a83-d0f6" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="2bbe-8383-18a9-5101">
+      <selectionEntries>
+        <selectionEntry id="af3b-7f1f-70dc-8bce" name="Boot Knife" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="378e-bf4b-bfc2-965e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38eb-9aee-03fa-4ab3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b06-fa54-6b68-86ef" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="6a87-c2c1-2834-af10" name="Boot Knife" publicationId="23e2-8cf2-260a-a7be" page="68" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+              <characteristics>
+                <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
+                <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+1</characteristic>
+                <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">Throw</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e81d-dd2d-366d-93c3" name="Throw" hidden="false" targetId="5255-df17-8c9a-15cd" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f0df-b399-78ea-7068" name="Day Stick" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2241-7922-848a-8823" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="308d-a521-9ad9-f703" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="8f03-3bf1-cfc3-7e74" name="Day Stick" publicationId="23e2-8cf2-260a-a7be" page="68" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+              <characteristics>
+                <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
+                <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+1</characteristic>
+                <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">Stun</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e21a-0796-c10e-7666" name="Stun" hidden="false" targetId="36d1-a245-27da-bc68" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bb97-9e53-3ea6-7a15" name="Grice&apos;s Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="3678-8210-f3c5-3616">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ad3e-58fa-baca-85ed" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0e5e-6d34-2719-c470" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="2bbe-8383-18a9-5101" name="M2000 Widowmaker" page="" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4261-bcfb-0173-4806" name="M2000 Widowmaker" page="" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="6a92-6593-bb3c-1e56" name="M2000 Stumm Gas" publicationId="23e2-8cf2-260a-a7be" page="68" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                <profile id="073d-828c-2027-07e6" name="M2000 Stumm Gas" publicationId="23e2-8cf2-260a-a7be" page="68" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
                   <characteristics>
                     <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">6&quot;</characteristic>
                     <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">0</characteristic>
@@ -710,7 +761,7 @@ Stumm Gas weapons have no effect on this model.</description>
                     <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Aimed Fire Only, Blast(4&quot;), Gas, Stun</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="f50c-eb2f-5376-8846" name="M2000 Frag" publicationId="23e2-8cf2-260a-a7be" page="68" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                <profile id="7a65-732f-49ef-1cbc" name="M2000 Frag" publicationId="23e2-8cf2-260a-a7be" page="68" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
                   <characteristics>
                     <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">6&quot;</characteristic>
                     <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">0</characteristic>
@@ -720,7 +771,7 @@ Stumm Gas weapons have no effect on this model.</description>
                     <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Aimed Fire only, Blast(3&quot;)</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="d7bd-cf30-d0ff-3475" name="M2000 Widowmaker" publicationId="23e2-8cf2-260a-a7be" page="68" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                <profile id="85cc-da15-ba2e-f6d9" name="M2000 Widowmaker" publicationId="23e2-8cf2-260a-a7be" page="68" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
                   <characteristics>
                     <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">12&quot;</characteristic>
                     <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+3</characteristic>
@@ -732,38 +783,58 @@ Stumm Gas weapons have no effect on this model.</description>
                 </profile>
               </profiles>
               <infoGroups>
-                <infoGroup id="e0f3-6c40-1101-aede" name="M2000" hidden="false">
+                <infoGroup id="3507-5289-6704-f98f" name="M2000" hidden="false">
                   <infoLinks>
-                    <infoLink id="29aa-5a58-729b-e690" name="Gas" hidden="false" targetId="2c77-fddc-a4a3-d41b" type="rule"/>
-                    <infoLink id="f1ab-a366-41a0-0d2b" name="Stun" hidden="false" targetId="36d1-a245-27da-bc68" type="rule"/>
-                    <infoLink id="d1bc-70c5-70d4-fd99" name="Blast(X&quot;)" hidden="false" targetId="0a79-b0ce-a34b-0548" type="rule"/>
-                    <infoLink id="6b39-2448-f8a1-7ffa" name="Aimed Fire Only" hidden="false" targetId="5e2e-0e83-a900-1de7" type="rule"/>
+                    <infoLink id="c0f4-6d73-a34c-fe7e" name="Gas" hidden="false" targetId="2c77-fddc-a4a3-d41b" type="rule"/>
+                    <infoLink id="a679-a43f-9cad-05cc" name="Stun" hidden="false" targetId="36d1-a245-27da-bc68" type="rule"/>
+                    <infoLink id="d794-6a90-3404-1e43" name="Blast(X&quot;)" hidden="false" targetId="0a79-b0ce-a34b-0548" type="rule"/>
+                    <infoLink id="84f4-1384-de7c-07f2" name="Aimed Fire Only" hidden="false" targetId="5e2e-0e83-a900-1de7" type="rule"/>
                   </infoLinks>
                 </infoGroup>
               </infoGroups>
               <costs>
-                <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+                <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="6.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a38c-b136-a1b7-d4fe" name="Flamethrower" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="662a-2638-1e55-7df1" name="Lawrod Mk5" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="38d3-48e6-43cc-eff1" name="Flamethrower" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                <profile id="0f65-eaba-d56b-85c3" name="Lawrod Mk5" publicationId="23e2-8cf2-260a-a7be" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
                   <characteristics>
                     <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">12&quot;</characteristic>
-                    <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+4</characteristic>
-                    <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">18&quot;</characteristic>
-                    <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">+1</characteristic>
+                    <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">0</characteristic>
+                    <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">36&quot;</characteristic>
+                    <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
                     <characteristic name="Power" typeId="8fc6-55c1-1604-402e">4</characteristic>
-                    <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Aimed Fire only, Blast (3&quot;), Incendiary</characteristic>
+                    <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Long Barrel</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="59b2-a441-3fce-c5dd" name="Long Barrel" hidden="false" targetId="f22c-2612-d386-22ec" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3678-8210-f3c5-3616" name="Lawgiver Mk2" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="4c27-adc9-6564-8db9" name="Lawgiver Mk2 Pistol" publicationId="23e2-8cf2-260a-a7be" page="66" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                  <characteristics>
+                    <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                    <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                    <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                    <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                    <characteristic name="Power" typeId="8fc6-55c1-1604-402e">4</characteristic>
+                    <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Armour Piercing, Special Rounds, Stun Pulse</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoGroups>
-                <infoGroup id="30b5-79fa-9dc5-2026" name="Flamethrower Rules" hidden="false">
+                <infoGroup id="499e-96b1-4fff-888b" name="Lawgiver Mk2" hidden="false">
                   <infoLinks>
-                    <infoLink id="acfc-70cc-e498-4a83" name="Aimed Fire Only" hidden="false" targetId="5e2e-0e83-a900-1de7" type="rule"/>
-                    <infoLink id="c898-821a-225e-7072" name="Blast(X&quot;)" hidden="false" targetId="0a79-b0ce-a34b-0548" type="rule"/>
-                    <infoLink id="9ae7-fb17-8185-8bff" name="Incendiary" hidden="false" targetId="47ad-acae-c609-ddc1" type="rule"/>
+                    <infoLink id="135e-3552-25f9-6ff8" name="Stun Pulse" hidden="false" targetId="d49d-bd04-1c80-c408" type="rule"/>
+                    <infoLink id="69db-3cf0-79b0-94b5" name="Special Rounds" hidden="false" targetId="dd58-ed58-d5a9-2fee" type="rule"/>
+                    <infoLink id="cf30-37c3-d6f8-70c1" name="Armour Piercing" hidden="false" targetId="4758-9c20-7c6d-ccce" type="rule"/>
                   </infoLinks>
                 </infoGroup>
               </infoGroups>
@@ -774,6 +845,9 @@ Stumm Gas weapons have no effect on this model.</description>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5ede-f63e-53a4-a3e1" name="[Lawmaster]" hidden="false" collective="false" import="true" targetId="aa8f-1337-09ee-9ca1" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="20.0"/>
       </costs>
