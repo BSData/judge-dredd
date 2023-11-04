@@ -89,6 +89,7 @@
     <categoryEntry id="297e-ed7b-a238-301c" name="[Cool 3]" hidden="false"/>
     <categoryEntry id="a11f-f32a-24ce-80e4" name="[Cool 2]" hidden="false"/>
     <categoryEntry id="3671-e139-0e9b-f450" name="[Cool 1]" hidden="false"/>
+    <categoryEntry id="d6a9-f25f-b354-17f2" name="&lt;Wally Squad" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="1a15-0379-f38f-fc7f" name="Large Force 50+" publicationId="23e2-8cf2-260a-a7be" hidden="false">
@@ -206,6 +207,7 @@
             <modifier type="set" field="hidden" value="true">
               <conditions>
                 <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5353-6b41-5981-6150" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d6a9-f25f-b354-17f2" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -867,6 +869,11 @@
             <modifier type="set" field="ac6f-34e5-198a-1cef" value="1.0">
               <conditions>
                 <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5353-6b41-5981-6150" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="ac6f-34e5-198a-1cef" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d6a9-f25f-b354-17f2" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1902,6 +1909,9 @@
           <entryLinks>
             <entryLink id="2790-c49a-cbb9-45e4" name="[Lawmaster Weapons" hidden="false" collective="false" import="true" targetId="759f-e645-6e4f-17de" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
