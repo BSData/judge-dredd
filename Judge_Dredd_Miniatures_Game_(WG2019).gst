@@ -855,6 +855,35 @@
                     <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
                   </costs>
                 </selectionEntry>
+                <selectionEntry id="0596-c571-402b-eba4" name="Flamer" publicationId="4353-a3c6-7b4d-0185" page="23" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="primary-category" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9cfd-c39e-c906-9440" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <profiles>
+                    <profile id="c8d7-431a-57a2-4f37" name="Flamer" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                      <characteristics>
+                        <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">6&quot;</characteristic>
+                        <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+3</characteristic>
+                        <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">10&quot;</characteristic>
+                        <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">+0</characteristic>
+                        <characteristic name="Power" typeId="8fc6-55c1-1604-402e">6</characteristic>
+                        <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Blast (2&quot;), Heavy Weapon, Incendiary</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="eb20-6cd7-e219-9b6e" name="Blast(X&quot;)" hidden="false" targetId="0a79-b0ce-a34b-0548" type="rule"/>
+                    <infoLink id="c2d4-f787-fee2-0a08" name="Heavy Weapon" hidden="false" targetId="c107-0557-c264-e217" type="rule"/>
+                    <infoLink id="5b41-3190-0e84-2d7c" name="Incendiary" hidden="false" targetId="47ad-acae-c609-ddc1" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="4.0"/>
+                  </costs>
+                </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>

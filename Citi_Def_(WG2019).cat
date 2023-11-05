@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e02f-48ed-79b7-c069" name="Citi-Def (WG2019)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e02f-48ed-79b7-c069" name="Citi-Def (WG2019)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="2832-4750-b416-c0dd" name="Citi-Def Sniper" hidden="false" collective="false" import="true" targetId="3a4d-7b29-909d-f229" type="selectionEntry"/>
     <entryLink id="b3f3-21d0-de94-b11c" name="Citi-Def Auxiliary" hidden="false" collective="false" import="true" targetId="84ba-e5c6-d15a-d9c6" type="selectionEntry"/>
     <entryLink id="5f99-b5c7-8375-b7f3" name="Citi-Def Trooper" hidden="false" collective="false" import="true" targetId="c368-4f60-c279-072b" type="selectionEntry"/>
     <entryLink id="1df9-4a83-0244-a698" name="Citi-Def Squad Leader" hidden="false" collective="false" import="true" targetId="9e88-fdcb-353c-f5b8" type="selectionEntry"/>
+    <entryLink id="99e8-66da-9e6b-8ec1" name="Citi-Def Med Tech" hidden="false" collective="false" import="true" targetId="f87a-8897-0ad5-421c" type="selectionEntry"/>
+    <entryLink id="3e51-447a-0220-e217" name="Citi-Def Weapon Emplacement" hidden="false" collective="false" import="true" targetId="f5b2-e968-463a-6551" type="selectionEntry"/>
+    <entryLink id="5e7b-5308-8eaf-1011" name="Jaeger Squad Commando" hidden="false" collective="false" import="true" targetId="5d1d-975c-cc7c-62d6" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="9e88-fdcb-353c-f5b8" name="Citi-Def Squad Leader" hidden="false" collective="false" import="true" type="model">
@@ -149,6 +152,242 @@
       </infoLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f87a-8897-0ad5-421c" name="Citi-Def Med Tech" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c92c-2def-171d-b262" name="Citi-Def Med Tech" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">2</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">2</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">2</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">2</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">2</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">First Aid</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e534-9164-2a0f-6e93" name="First Aid" publicationId="4353-a3c6-7b4d-0185" page="32" hidden="false">
+          <description>A Med Tech can use the Hunker Down double-action to attemp to remove Injury or Stun markers from a single friendly model within 1&quot;, even if that model is incapacitated. Roll a Resist test using the injured model&apos;s starting Resist stat. 
+If any [ARMOUR] results are rolled, remove one Injury or Stun marker.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="9b77-77f7-9935-273c" name="&lt;Citi-Def" hidden="false" targetId="9cfd-c39e-c906-9440" primary="false"/>
+        <categoryLink id="cb32-d48c-a553-1811" name="New CategoryLink" hidden="false" targetId="a11f-f32a-24ce-80e4" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a86a-05cd-2020-2dfe" name="Pistol" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d213-368f-f8d0-6a8f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fc8-b760-a7aa-80d0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="aa74-ac31-b194-5229" name="Pistol" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+              <characteristics>
+                <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                <characteristic name="Power" typeId="8fc6-55c1-1604-402e">3</characteristic>
+                <characteristic name="Special Rules" typeId="6150-dda2-d656-9797"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="a12e-57bf-94c6-414f" name="&gt;Body Armour" hidden="false" collective="false" import="true" targetId="6fa9-704c-28bc-a54f" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f5b2-e968-463a-6551" name="Citi-Def Weapon Emplacement" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d186-6e77-55f3-7029" name="Citi-Def Weapon Emplacement" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+          <characteristics>
+            <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">0&quot;</characteristic>
+            <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">3</characteristic>
+            <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">1</characteristic>
+            <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">0</characteristic>
+            <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">5</characteristic>
+            <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">2</characteristic>
+            <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Hard to Move</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="24f3-87e4-5286-f5c1" name="Hard to Move" publicationId="4353-a3c6-7b4d-0185" page="33" hidden="false">
+          <description>Once deplayed, weapon emplacements are extremely difficult to move. Ordinarily, this model is never moved, but by using a Sprint double-action is can be moved D6&quot;.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="75ae-f809-10e8-bac7" name="&lt;Citi-Def" hidden="false" targetId="9cfd-c39e-c906-9440" primary="false"/>
+        <categoryLink id="6e77-e9f8-5cae-4f11" name="New CategoryLink" hidden="false" targetId="297e-ed7b-a238-301c" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="42d9-6ab5-6027-736d" name="Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3981-5a93-428d-73b0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cd1-6ea4-ad90-edfd" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="649a-cd97-75ff-15af" name="Laser Cannon" publicationId="4353-a3c6-7b4d-0185" page="24" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="1cf7-3f61-bfe8-3462" name="Laser Cannon" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                  <characteristics>
+                    <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">25&quot;</characteristic>
+                    <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                    <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">50&quot;</characteristic>
+                    <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                    <characteristic name="Power" typeId="8fc6-55c1-1604-402e">6</characteristic>
+                    <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Heavy Weapon, Laser</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="3120-54b2-0a7d-bfa8" name="Heavy Weapon" hidden="false" targetId="c107-0557-c264-e217" type="rule"/>
+                <infoLink id="1bbb-2888-673d-dcd6" name="Laser" hidden="false" targetId="40c1-f0e4-f19b-eb43" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="e97b-06df-6780-5d69" name="Missile Defence Laser" publicationId="4353-a3c6-7b4d-0185" page="24" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="1657-d247-d5fd-7270" name="Missile Defence Laser" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                  <characteristics>
+                    <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">35&quot;</characteristic>
+                    <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                    <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">70&quot;</characteristic>
+                    <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">+2</characteristic>
+                    <characteristic name="Power" typeId="8fc6-55c1-1604-402e">4</characteristic>
+                    <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Heavy Weapon, Laser</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="abf3-54c7-6442-022c" name="Heavy Weapon" hidden="false" targetId="c107-0557-c264-e217" type="rule"/>
+                <infoLink id="f294-7088-bdd8-43c3" name="Laser" hidden="false" targetId="40c1-f0e4-f19b-eb43" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="cc62-a703-bb79-6a42" name="Sonic Cannon" publicationId="4353-a3c6-7b4d-0185" page="34" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="49cb-ecf7-2111-9817" name="Sonic Cannon" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                  <characteristics>
+                    <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">15&quot;</characteristic>
+                    <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+2</characteristic>
+                    <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">30&quot;</characteristic>
+                    <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">+2</characteristic>
+                    <characteristic name="Power" typeId="8fc6-55c1-1604-402e">2</characteristic>
+                    <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Blast (5&quot;), Heavy Weapon, Piercing, Sonic</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="85fd-4c60-6864-3caa" name="Sonic" publicationId="4353-a3c6-7b4d-0185" page="24" hidden="false">
+                  <description>The non-lethal Stun special rule is always used with the sonic cannon.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="c53c-cf17-de0f-3727" name="Blast(X&quot;)" hidden="false" targetId="0a79-b0ce-a34b-0548" type="rule"/>
+                <infoLink id="296d-699e-fd78-52a1" name="Heavy Weapon" hidden="false" targetId="c107-0557-c264-e217" type="rule"/>
+                <infoLink id="6533-179c-87d4-67fa" name="Piercing" hidden="false" targetId="3b97-6a4a-235f-ac9e" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="fb2f-9b6d-a048-11a6" name="Spit Cannon" publicationId="4353-a3c6-7b4d-0185" page="24" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="4b23-0d08-9c20-89ea" name="Spit Cannon" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                  <characteristics>
+                    <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">16&quot;</characteristic>
+                    <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+2</characteristic>
+                    <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">48&quot;</characteristic>
+                    <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">+1</characteristic>
+                    <characteristic name="Power" typeId="8fc6-55c1-1604-402e">4</characteristic>
+                    <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Fearsome Rate of Fire, Heavy Weapon</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="e735-b743-445c-561c" name="Fearsome Rate of Fire" publicationId="4353-a3c6-7b4d-0185" page="24" hidden="false">
+                  <description>When performing an Aimed Fire double-action, the model can make up to three separate ranged attacks. However, it does not receive the Aimed Fire bonus to Shoot or Power if it does.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="9c9d-1ea0-0e1e-5698" name="Heavy Weapon" hidden="false" targetId="c107-0557-c264-e217" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5d1d-975c-cc7c-62d6" name="Jaeger Squad Commando" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="682c-569d-4a3b-990f" name="Jaeger Squad Commando" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">4</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">3</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">2</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">3</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">4</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">I Can Make It!, Sucker Guns</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="818c-7649-bb77-7bc8" name="&lt;Citi-Def" hidden="false" targetId="9cfd-c39e-c906-9440" primary="false"/>
+        <categoryLink id="40c4-2906-c564-7ee1" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ce79-4ef3-af96-7d49" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="48ce-adb0-809a-9898">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3379-fa6e-5763-c870" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e72-06f0-761e-d8ec" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="48ce-adb0-809a-9898" name="Spit Carbine" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="47cb-e324-1cc1-87a6" name="Spit Carbine" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                  <characteristics>
+                    <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">12&quot;</characteristic>
+                    <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+3</characteristic>
+                    <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">24&quot;</characteristic>
+                    <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                    <characteristic name="Power" typeId="8fc6-55c1-1604-402e">2</characteristic>
+                    <characteristic name="Special Rules" typeId="6150-dda2-d656-9797"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="63d2-29ae-a0ef-c3c6" name="Auto Stump" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="886b-a437-1e4f-dec3" name="Auto Stump" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                  <characteristics>
+                    <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">10&quot;</characteristic>
+                    <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+2</characteristic>
+                    <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">18&quot;</characteristic>
+                    <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                    <characteristic name="Power" typeId="8fc6-55c1-1604-402e">4/2</characteristic>
+                    <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Knockback, May fire 2 Snapshots in a single activation, Power 4 at short range, Power 2 at long range.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="2f29-6881-7d0a-087e" name="Knockback" hidden="false" targetId="09c2-49fa-9b41-5372" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="14.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
