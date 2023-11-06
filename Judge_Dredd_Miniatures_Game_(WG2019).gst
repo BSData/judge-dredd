@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="ae68-bf10-140a-0058" name="Judge Dredd Miniatures Game (WG2019)" revision="4" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="ae68-bf10-140a-0058" name="Judge Dredd Miniatures Game (WG2019)" revision="6" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="23e2-8cf2-260a-a7be" name="JDMG (2019)"/>
-    <publication id="4353-a3c6-7b4d-0185" name="BG (2023)"/>
+    <publication id="4353-a3c6-7b4d-0185" name="BW (2023)"/>
   </publications>
   <costTypes>
     <costType id="c427-d435-2985-7283" name=" Notoriety" defaultCostLimit="-1.0" hidden="false"/>
@@ -90,6 +90,8 @@
     <categoryEntry id="a11f-f32a-24ce-80e4" name="[Cool 2]" hidden="false"/>
     <categoryEntry id="3671-e139-0e9b-f450" name="[Cool 1]" hidden="false"/>
     <categoryEntry id="d6a9-f25f-b354-17f2" name="&lt;Wally Squad" hidden="false"/>
+    <categoryEntry id="1e20-31f3-d17c-d52e" name="&lt;City Blocks" hidden="false"/>
+    <categoryEntry id="27d5-0dde-e7da-898a" name="&lt;Kleggs" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="1a15-0379-f38f-fc7f" name="Large Force 50+" publicationId="23e2-8cf2-260a-a7be" hidden="false">

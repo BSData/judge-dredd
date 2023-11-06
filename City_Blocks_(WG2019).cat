@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="2071-d66c-8ac0-d401" name="City Blocks (WG2019)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="11d2-9d2b-e1ba-6404" name="Block Champion" hidden="false" collective="false" import="true" targetId="45c5-897c-7b65-ba57" type="selectionEntry"/>
+    <entryLink id="1ad1-5fc5-7e45-35f9" name="Resident Mob" hidden="false" collective="false" import="true" targetId="af87-1b8b-47b1-c868" type="selectionEntry"/>
+    <entryLink id="cfa7-7764-0195-357b" name="Lone Superhero" hidden="false" collective="false" import="true" targetId="b405-4af9-74fd-2cae" type="selectionEntry"/>
+    <entryLink id="3f7d-68c8-0b5b-c2b5" name="Robodog" hidden="false" collective="false" import="true" targetId="b7af-83eb-a9bd-843b" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="45c5-897c-7b65-ba57" name="Block Champion" publicationId="4353-a3c6-7b4d-0185" page="34" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1bbc-905e-795d-fdda" name="Block Champion" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+          <characteristics>
+            <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">6&quot;</characteristic>
+            <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">2</characteristic>
+            <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">4</characteristic>
+            <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">2</characteristic>
+            <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">4</characteristic>
+            <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">4</characteristic>
+            <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Rally Blockers, True Inspiration</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0fa9-3f61-b9dd-14a7" name="Rally Blockers" hidden="false">
+          <description>At the start of the turn, the block Champion may combine any Resident Mob models within 12&quot; into a new or existing Resident Mob Pack. In addition, the Block Champion can convert any Average Citizens (JGMG p91) into Resident Mob  models and then combine them into a new or existing Pack.</description>
+        </rule>
+        <rule id="32b8-3b67-1502-8e7a" name="True Inspiration" hidden="false">
+          <description>Any Resident Mob Pack within 6&quot; of the Block Champion can re-roll any Combat dice roll it makes.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="edce-c8a9-2f14-8361" name="&lt;City Blocks" hidden="false" targetId="1e20-31f3-d17c-d52e" primary="false"/>
+        <categoryLink id="c6a9-419f-e025-97c9" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c3af-4028-6822-90f8" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="8110-79e4-00b8-5109">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2c3-0e80-3a38-bac6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb5f-4428-b9b1-9274" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8110-79e4-00b8-5109" name="Baseball Bat" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="b0a9-4bfd-2e16-1afe" name="Baseball Bat" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
+                    <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+2</characteristic>
+                    <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">Stun</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9eae-ef10-8fea-d618" name="Two Knives" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="58de-60c9-735c-2f2d" name="Knife" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
+                    <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+1</characteristic>
+                    <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">Throw</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="fc2a-8f8e-74f4-7912" name="Throw" hidden="false" targetId="5255-df17-8c9a-15cd" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f904-5864-672b-6ed0" name="Two Spit Pistols" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="cc3a-b7dd-59d4-8ce0" name="Spit Pistol" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+                  <characteristics>
+                    <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                    <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+2</characteristic>
+                    <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                    <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">-1</characteristic>
+                    <characteristic name="Power" typeId="8fc6-55c1-1604-402e">2</characteristic>
+                    <characteristic name="Special Rules" typeId="6150-dda2-d656-9797"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="af87-1b8b-47b1-c868" name="Resident Mob" publicationId="4353-a3c6-7b4d-0185" page="35" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="affb-7be5-10fb-7535" name="Resident Mob" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">5&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">1</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">1</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">1</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">1</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">1</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Improvisation, Pack (6+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="677d-f10e-bfd5-0e59" name="Improvisation" publicationId="4353-a3c6-7b4d-0185" page="35" hidden="false">
+          <description>Every turn, one model in every 10 (or part of) within a Resident Mob Pack can use one of the following weapons: Chain, Hand Bomb (Incendiary, Hi-Ex or Smoke), Hand Cannon, Laz Saw, Sawn-off Stump Gun, or Spit Pistol.</description>
+        </rule>
+        <rule id="a05e-b7ba-c6b1-3ec5" name="Pack (6+)" publicationId="4353-a3c6-7b4d-0185" page="35" hidden="false">
+          <description>Resident Mobs can be of any size - limited only by the amount of Notoriety spent on them! However, they must contain at least six models. They follow the Pack rules detailed on page 19 of the Judge Dredd Miniatures Game. If the Pack drops to fewer than five models it immediately becomes subject to the Apt to Panic and Fear the Law rules on page 91 of the Judge Dredd Miniatures Game.</description>
+        </rule>
+      </rules>
+      <selectionEntries>
+        <selectionEntry id="4004-60a8-7e55-29bb" name="Number of Residents" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="378d-d114-7d89-acd7" type="min"/>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd52-05c4-a4d9-ac5e" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="77d9-fdd0-1da1-2b9e" name="Saucepans, clubs, Tri-D screens and assorted junk" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="643a-aa5d-b0c9-78e0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb5f-f2d7-744b-8c09" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="c2bd-108a-a0e4-91ba" name="Saucepans, clubs, Tri-D screens and assorted junk" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+              <characteristics>
+                <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
+                <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+1</characteristic>
+                <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b405-4af9-74fd-2cae" name="Lone Superhero" publicationId="4353-a3c6-7b4d-0185" page="38" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1697-0ae6-a7ba-13f3" name="Lone Superhero" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">16&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">2</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">2</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">4</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">4</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">4</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Saving the Day, Soar Like a Rocket, Victory Together!</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6b8c-4f32-699e-f727" name="Saving the Day" publicationId="4353-a3c6-7b4d-0185" page="28" hidden="false">
+          <description>All friendly models within 18&quot; of the Line Superhero ignore the Apt to Panic and Fear the Law special rules if they possess them.</description>
+        </rule>
+        <rule id="824f-177e-7c08-7702" name="Victory Together!" publicationId="4353-a3c6-7b4d-0185" page="38" hidden="false">
+          <description>If the Lone Superhero performs a double-action to give a rousing speech, roll 2D6. That many Average Citizens (see p91 JGMG) may be immediately placed within 6&quot; of the Lone Superhero.</description>
+        </rule>
+        <rule id="1405-4337-c793-14be" name="Soar Like a Rocket" publicationId="4353-a3c6-7b4d-0185" page="38" hidden="false">
+          <description>The Lone Superhero uses the Grav trait during movement only.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="caca-246f-9041-1510" name="&lt;City Blocks" hidden="false" targetId="1e20-31f3-d17c-d52e" primary="false"/>
+        <categoryLink id="9b0a-62fa-0040-e453" name="[Cool 4]" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4df8-b7c1-451e-42bb" name="Culinary Laser" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f54e-339c-fc4a-869b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f115-fe98-3dda-7cac" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="7ede-827a-0b67-10ab" name="Culinary Laser" publicationId="23e2-8cf2-260a-a7be" page="46" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+              <characteristics>
+                <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
+                <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+1</characteristic>
+                <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">Concealed, Piercing</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2b8a-f73d-2ff7-80b9" name="Concealed" hidden="false" targetId="13b0-e8da-848e-a589" type="rule"/>
+            <infoLink id="161b-7789-c562-5779" name="Piercing" hidden="false" targetId="3b97-6a4a-235f-ac9e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b618-2425-b1c7-0ebe" name="Laser Pistol" publicationId="23e2-8cf2-260a-a7be" page="41" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c216-4fb7-dd90-b71b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c2c-c251-8e49-2269" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="f731-645d-00de-d966" name="Laser Pistol" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+              <characteristics>
+                <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                <characteristic name="Power" typeId="8fc6-55c1-1604-402e">5</characteristic>
+                <characteristic name="Special Rules" typeId="6150-dda2-d656-9797">Laser</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="809b-49ff-31f5-1622" name="Laser" hidden="false" targetId="40c1-f0e4-f19b-eb43" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b7af-83eb-a9bd-843b" name="Robodogs (3)" publicationId="4353-a3c6-7b4d-0185" page="38-39" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="a8ff-929b-e33b-cfda" name="Robodog" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">6&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">0</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">4</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">2</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">4</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">2</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Loyal Doggo, Pack (3), Robot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4ab6-82e0-dd97-73c5" name="Loyal Doggo" publicationId="4353-a3c6-7b4d-0185" page="39" hidden="false">
+          <description>A Robodog Pack may be deployed within 1&quot; of another friendly model. This friendly model is owner of the Robodogs, to whom they will be fantastically loyal. So long as a Robodog is within 1&quot; of its owner, roll a Combat dice when any ranged attack is made against the owner. If [ARMOUR] is rolled, the attack must be made against the Robodog instead. In addition, if a Robodog Pack is within 1&quot; of its owner and a close combat attack is made against them, the Robodogs will defend their owner to the death! Immediately move the Robodog Pack into contact with the attacker. The close combat attack must be made against a Robodog.</description>
+        </rule>
+        <rule id="266a-8376-debd-6a74" name="Pack (3)" hidden="false">
+          <description>Robodogs follow the rules detailed on page 19 of the Judge Dredd Miniatures Game rule book.</description>
+        </rule>
+        <rule id="79e6-17c7-62eb-5c8c" name="Robodog" hidden="false"/>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="175a-6660-b37d-9bee" name="&lt;City Blocks" hidden="false" targetId="1e20-31f3-d17c-d52e" primary="false"/>
+        <categoryLink id="a817-4114-7346-25e4" name="New CategoryLink" hidden="false" targetId="a11f-f32a-24ce-80e4" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f6fe-cc68-2af2-00de" name="Very Sharp Teeth" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d92-c840-1577-2070" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a5f-33be-847c-0d92" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="d6f1-6d1b-6648-c787" name="Very Sharp Teeth" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+              <characteristics>
+                <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
+                <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+1</characteristic>
+                <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">Concealed, Piercing</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3c90-7785-36ab-158b" name="Concealed" hidden="false" targetId="13b0-e8da-848e-a589" type="rule"/>
+            <infoLink id="81c4-95a2-905d-9c72" name="Piercing" hidden="false" targetId="3b97-6a4a-235f-ac9e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3b3e-3c8c-df65-e648" name="Futsie" publicationId="4353-a3c6-7b4d-0185" page="39" hidden="false" collective="false" import="true" type="model">
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

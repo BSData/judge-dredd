@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="253b-3365-0b92-fd59" name="Characters (WG2019)" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="253b-3365-0b92-fd59" name="Characters (WG2019)" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="afe4-eb98-0adf-362c" name="Judge Dredd" hidden="false" collective="false" import="true" targetId="7482-f5d7-e427-e70d" type="selectionEntry"/>
     <entryLink id="6551-7146-97c8-bd68" name="Psi-Judge Anderson" hidden="false" collective="false" import="true" targetId="25b2-9ebb-01b5-6a36" type="selectionEntry"/>
@@ -20,6 +20,7 @@
     <entryLink id="3f57-146d-c33a-1b3a" name="Jack Point" hidden="false" collective="false" import="true" targetId="7ed7-c7a9-7dce-b129" type="selectionEntry"/>
     <entryLink id="7f02-cfe5-f5a9-737d" name="Aimee Nixon" hidden="false" collective="false" import="true" targetId="0d0e-828a-edf0-af64" type="selectionEntry"/>
     <entryLink id="778d-c7b1-73a1-a598" name="Judge Giant" hidden="false" collective="false" import="true" targetId="b05d-e310-2ba6-2bb0" type="selectionEntry"/>
+    <entryLink id="e19e-f4fd-034a-a405" name="Fats Hambo" hidden="false" collective="false" import="true" targetId="159e-1b94-6fdc-f7a1" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="7482-f5d7-e427-e70d" name="Judge Dredd" hidden="false" collective="false" import="true" type="model">
@@ -1758,6 +1759,83 @@ When Dick rolls for his Wall of Flub! Charge distance roll 3D6 instead of 2D6.</
       </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="23.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="159e-1b94-6fdc-f7a1" name="Fats Hambo" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="69f5-1fca-8eef-0e99" name="Fats Hambo" hidden="false" typeId="1ad0-6f7a-89c2-56c0" typeName="[4] Mount">
+          <characteristics>
+            <characteristic name="Move" typeId="f8e7-0c5a-630a-6072">3&quot;</characteristic>
+            <characteristic name="Shoot" typeId="cf37-0e8c-2b04-e94e">3</characteristic>
+            <characteristic name="Fight" typeId="9bbe-2745-8a35-94ab">4</characteristic>
+            <characteristic name="Evade" typeId="8a4d-9660-2e2d-760c">1</characteristic>
+            <characteristic name="Resist" typeId="5895-12a6-bdef-a0b4">6</characteristic>
+            <characteristic name="Cool" typeId="e971-e0b1-c42c-0f04">4</characteristic>
+            <characteristic name="Special Rules" typeId="c7e1-0b5d-d4d9-8634">Don&apos;t Push It, Just Eat It!, Wall of Flub!</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="16c5-a10c-2db1-f2f5" name="Don&apos;t Push It!" publicationId="4353-a3c6-7b4d-0185" page="36" hidden="false">
+          <description>When performing an Aimed Fire double-action, Fats Hambo can make up to three separate ranged attacks. However, he does not receive the Aimed Fire bonus to Shoot or Power if he does so.</description>
+        </rule>
+        <rule id="a070-4f0f-fc83-76cb" name="Wall of Flub!" publicationId="23e2-8cf2-260a-a7be" page="106" hidden="false">
+          <description>Fats Hambo follows the rules on page 106 of the Judge Dredd Miniatures Game rule book.</description>
+        </rule>
+        <rule id="0891-34d8-808f-dc74" name="Just Eat It!" publicationId="4353-a3c6-7b4d-0185" page="36" hidden="false">
+          <description>Fats Hambo can use a Hunker Down double-action to remove Injury or Stun markers from himself. Roll a Resist test. For each [ARMOUR] result one Injury or Stun marker may be removed. Fats Hambo cannot do this if he is incapacitated or subdued.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="3d5d-c243-80a7-c32e" name="&lt;Fatties" hidden="false" targetId="073f-0aee-8d5c-0765" primary="false"/>
+        <categoryLink id="5e00-1445-832a-ace2" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="80fa-8d81-8302-cd24" name="Hand Cannon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af03-201c-e380-93c9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b185-d421-d339-4354" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="7fba-1cdb-a615-6170" name="Hand Cannon" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+              <characteristics>
+                <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8&quot;</characteristic>
+                <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                <characteristic name="Power" typeId="8fc6-55c1-1604-402e">4</characteristic>
+                <characteristic name="Special Rules" typeId="6150-dda2-d656-9797"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4199-1c37-9b78-d121" name="Pizza Cutter" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cff3-f93c-e8f2-6f4c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93d9-6998-60b5-d644" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="1be1-c0bd-d443-ccff" name="Pizza Cutter" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+              <characteristics>
+                <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">1&quot;</characteristic>
+                <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+2</characteristic>
+                <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">Rending</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7699-2b4a-fa3c-8564" name="Rending" hidden="false" targetId="6c9a-2c96-b40c-99c6" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="26.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
