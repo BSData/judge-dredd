@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8da1-29f1-903c-e35e" name="Fatties (WG2019)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8da1-29f1-903c-e35e" name="Fatties (WG2019)" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="19bf-9d62-a8ce-3a9b" name="Contender" hidden="false" collective="false" import="true" targetId="ddef-4757-e92d-2b22" type="selectionEntry"/>
     <entryLink id="246d-568e-2e5e-efd3" name="Fattie" hidden="false" collective="false" import="true" targetId="2094-7ce1-c6d1-03bc" type="selectionEntry"/>
     <entryLink id="c912-fcf1-0148-073c" name="Prime Porker" hidden="false" collective="false" import="true" targetId="3752-824a-b880-9ae2" type="selectionEntry"/>
+    <entryLink id="2647-8085-30b3-7060" name="Flabfighter" hidden="false" collective="false" import="true" targetId="e144-dc7c-e304-0f42" type="selectionEntry"/>
+    <entryLink id="2c12-dc28-8d2d-f555" name="Fattie Battering Ram" hidden="false" collective="false" import="true" targetId="ce51-12c0-0620-e6ee" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="3752-824a-b880-9ae2" name="Prime Porker" hidden="false" collective="false" import="true" type="model">
@@ -74,6 +76,113 @@
       </entryLinks>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e144-dc7c-e304-0f42" name="Flabfighter" publicationId="4353-a3c6-7b4d-0185" page="37" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7418-c945-68b6-16e9" name="Flabfighter" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">3&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">1</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">5</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">0</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">6</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">4</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Professional Butcher, Wall of Flub!</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2f67-a874-3e1d-707b" name="Professional Butcher" publicationId="4353-a3c6-7b4d-0185" page="37" hidden="false">
+          <description>If a flabflighter incapacitates an enemy during a Fight action, it may immediately perform another, free Fight action. If this incapacitates another enemy, the flabfighter may perform another free Fight action, and so on until it fails to incapacitate an enemy or there are no more enemies close enough to fight!</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="39f8-ef91-cc6a-24a7" name="Wall of Flub" hidden="false" targetId="e899-38cb-91ab-c28a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2933-416b-d78f-1788" name="&lt;Fatties" hidden="false" targetId="073f-0aee-8d5c-0765" primary="false"/>
+        <categoryLink id="ea4a-cb26-312a-c47a" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="83fa-20e1-b63e-3c56" name="Gladitorial Chains and Spikes" publicationId="4353-a3c6-7b4d-0185" page="37" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aa4-0e4d-5ae7-5316" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73cd-91e9-bd8e-49d9" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="2985-fd0b-8cc5-9438" name="Gladitorial Chains and Spikes" hidden="false" typeId="8364-8962-cf49-2248" typeName="[3] Close Combat Weapon/s">
+              <characteristics>
+                <characteristic name="Range" typeId="bf65-aadc-346d-c3eb">2&quot;</characteristic>
+                <characteristic name="Modifier" typeId="a678-5e0c-738b-f771">+3</characteristic>
+                <characteristic name="Special Rules" typeId="bb54-254f-6c80-2469">Piercing, Rending</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="da2f-4c67-f77a-f7a4" name="Piercing" hidden="false" targetId="3b97-6a4a-235f-ac9e" type="rule"/>
+            <infoLink id="a94e-7909-ea73-9429" name="Rending" hidden="false" targetId="6c9a-2c96-b40c-99c6" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="22.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce51-12c0-0620-e6ee" name="Fattie Battering Ram" publicationId="4353-a3c6-7b4d-0185" page="37" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="360d-3256-8174-1dba" name="Fattie Battering Ram" hidden="false" typeId="a6e3-cdc0-1b71-2e5d" typeName="[1] Model">
+          <characteristics>
+            <characteristic name="Move" typeId="0a83-d3be-bc14-c04b">3&quot;</characteristic>
+            <characteristic name="Shoot" typeId="8de2-68d3-f0ee-02f0">1</characteristic>
+            <characteristic name="Fight" typeId="c0e3-f4e1-8744-e805">4</characteristic>
+            <characteristic name="Evade" typeId="2dde-74b6-a414-836d">0</characteristic>
+            <characteristic name="Resist" typeId="1ba5-0dfe-80d2-af1a">7</characteristic>
+            <characteristic name="Cool" typeId="4a73-c022-6ea7-27ce">3</characteristic>
+            <characteristic name="Special Rules" typeId="a488-1615-8c9e-2b73">Rolling Thunder, Wall of Flub!</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="9930-35e7-cb33-27cd" name="Fattie Battering Ram" publicationId="4353-a3c6-7b4d-0185" page="37" hidden="false">
+          <description>If a fiendly Resident Mob Pack is within 1&quot; of a Fattie Battering Ram model when it makes a Charge move, its move distance will be 2D6+6&quot;.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="c25a-1386-5026-a53e" name="Wall of Flub!" hidden="false" targetId="e899-38cb-91ab-c28a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7e63-d130-02cd-4f5c" name="&lt;Fatties" hidden="false" targetId="073f-0aee-8d5c-0765" primary="false"/>
+        <categoryLink id="ec6a-65f4-4040-cce7" name="[Cool 4]" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c3d2-ef91-6d3e-5cce" name="Two Hand Cannons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5575-d038-5b0c-981e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="926e-03b8-1200-8b31" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="66dc-b5de-0b68-a20b" name="Two Hand Cannons" publicationId="23e2-8cf2-260a-a7be" page="41" hidden="false" typeId="bbb4-d231-609d-67bc" typeName="[2] Ranged Weapon/s">
+              <characteristics>
+                <characteristic name="Short Range" typeId="9f6c-12c7-f2ec-d28a">8?</characteristic>
+                <characteristic name="Short Range Modifier" typeId="a6f0-43d7-8b5d-c394">+1</characteristic>
+                <characteristic name="Long Range" typeId="326e-8548-0cc4-57f3">16&quot;</characteristic>
+                <characteristic name="Long Range Modifier" typeId="6b37-0d47-3011-d3f3">0</characteristic>
+                <characteristic name="Power" typeId="8fc6-55c1-1604-402e">4</characteristic>
+                <characteristic name="Special Rules" typeId="6150-dda2-d656-9797"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="16.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
