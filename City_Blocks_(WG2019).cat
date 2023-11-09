@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2071-d66c-8ac0-d401" name="City Blocks (WG2019)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2071-d66c-8ac0-d401" name="City Blocks (WG2019)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="11d2-9d2b-e1ba-6404" name="Block Champion" hidden="false" collective="false" import="true" targetId="45c5-897c-7b65-ba57" type="selectionEntry"/>
     <entryLink id="1ad1-5fc5-7e45-35f9" name="Resident Mob" hidden="false" collective="false" import="true" targetId="af87-1b8b-47b1-c868" type="selectionEntry"/>
@@ -30,8 +30,8 @@
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="edce-c8a9-2f14-8361" name="&lt;City Blocks" hidden="false" targetId="1e20-31f3-d17c-d52e" primary="false"/>
         <categoryLink id="c6a9-419f-e025-97c9" name="New CategoryLink" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
+        <categoryLink id="671b-e59b-b515-c90c" name="&lt;City Blocks" hidden="false" targetId="1e20-31f3-d17c-d52e" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c3af-4028-6822-90f8" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="8110-79e4-00b8-5109">
@@ -117,6 +117,9 @@
           <description>Resident Mobs can be of any size - limited only by the amount of Notoriety spent on them! However, they must contain at least six models. They follow the Pack rules detailed on page 19 of the Judge Dredd Miniatures Game. If the Pack drops to fewer than five models it immediately becomes subject to the Apt to Panic and Fear the Law rules on page 91 of the Judge Dredd Miniatures Game.</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="36b7-35ad-863f-8605" name="&lt;City Blocks" hidden="false" targetId="1e20-31f3-d17c-d52e" primary="false"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4004-60a8-7e55-29bb" name="Number of Residents" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -176,8 +179,8 @@
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="caca-246f-9041-1510" name="&lt;City Blocks" hidden="false" targetId="1e20-31f3-d17c-d52e" primary="false"/>
         <categoryLink id="9b0a-62fa-0040-e453" name="[Cool 4]" hidden="false" targetId="1257-e7a3-4b18-49bc" primary="true"/>
+        <categoryLink id="5dfc-c991-0fc6-f2ae" name="&lt;City Blocks" hidden="false" targetId="1e20-31f3-d17c-d52e" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4df8-b7c1-451e-42bb" name="Culinary Laser" hidden="false" collective="false" import="true" type="upgrade">
@@ -255,8 +258,8 @@
         <rule id="79e6-17c7-62eb-5c8c" name="Robodog" hidden="false"/>
       </rules>
       <categoryLinks>
-        <categoryLink id="175a-6660-b37d-9bee" name="&lt;City Blocks" hidden="false" targetId="1e20-31f3-d17c-d52e" primary="false"/>
         <categoryLink id="a817-4114-7346-25e4" name="New CategoryLink" hidden="false" targetId="a11f-f32a-24ce-80e4" primary="true"/>
+        <categoryLink id="17fe-2b31-9c4b-3e28" name="&lt;City Blocks" hidden="false" targetId="1e20-31f3-d17c-d52e" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f6fe-cc68-2af2-00de" name="Very Sharp Teeth" hidden="false" collective="false" import="true" type="upgrade">
@@ -284,11 +287,6 @@
       </selectionEntries>
       <costs>
         <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="15.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3b3e-3c8c-df65-e648" name="Futsie" publicationId="4353-a3c6-7b4d-0185" page="39" hidden="false" collective="false" import="true" type="model">
-      <costs>
-        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
