@@ -9,10 +9,10 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - uses: BSData/check-datafiles@v3
+    - uses: BSData/check-datafiles@v4
       id: check
 
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: artifact
         path: ${{ steps.check.outputs.staging-path }}
