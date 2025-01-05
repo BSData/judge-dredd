@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e02f-48ed-79b7-c069" name="Citi-Def (WG2019)" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e02f-48ed-79b7-c069" name="Citi-Def (WG2019)" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="ae68-bf10-140a-0058" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="2832-4750-b416-c0dd" name="Citi-Def Sniper" hidden="false" collective="false" import="true" targetId="3a4d-7b29-909d-f229" type="selectionEntry"/>
     <entryLink id="b3f3-21d0-de94-b11c" name="Citi-Def Auxiliary" hidden="false" collective="false" import="true" targetId="84ba-e5c6-d15a-d9c6" type="selectionEntry"/>
@@ -45,7 +45,7 @@
         <entryLink id="e8dd-84af-904b-92c3" name="&lt;[mounts]" hidden="false" collective="false" import="true" targetId="acf4-d154-6dd7-28a4" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="13.0"/>
+        <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3a4d-7b29-909d-f229" name="Citi-Def Sniper" hidden="false" collective="false" import="true" type="model">
