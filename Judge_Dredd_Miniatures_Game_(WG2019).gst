@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="ae68-bf10-140a-0058" name="Judge Dredd Miniatures Game (WG2019)" revision="8" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="ae68-bf10-140a-0058" name="Judge Dredd Miniatures Game (WG2019)" revision="9" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="23e2-8cf2-260a-a7be" name="JDMG (2019)"/>
     <publication id="4353-a3c6-7b4d-0185" name="BW (2023)"/>
@@ -540,7 +540,7 @@
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="3.0"/>
+                    <cost name=" Notoriety" typeId="c427-d435-2985-7283" value="5.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="63aa-2c8a-4b63-2100" name="Dual Sawn-off Stump Gun" hidden="true" collective="false" import="true" type="upgrade">
